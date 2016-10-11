@@ -166,72 +166,32 @@ top: 1930px ;
 }
 
 #logofooter img{
-
-width: 30%;
+    width: 30%;
 }
 
 
 
 #logofooter h3{
-
-
-font-size: 9px;
-margin-top: 93px;
+    font-size: 9px;
+    margin-top: 93px;
 }
-
-
-
-#listadentro{
-
-position: absolute;
-}
-
 
 #listadentro h2{
-
-font-size: 12px;
-margin-top: -120px;
-margin-left: 114px;
-
-
+    font-size: 12px;
 }
-
 
 #listadentro ul{
-
-font-size: 10px;
-margin-left: 110px;
-width: 100px;
-
+    font-size: 10px;
 }
 
-
-#listaafuera{
-
-position: absolute;
-font-size: 8px;
-line-height: 13px;
-margin-top: -99px;
-margin-left: 247px;
-
-
+#right{
+    background-color: red;
 }
 
-
-  #right{
- background-color: red;
-      }
-
-
-#left{
-
-}
 
   #menuboot{
- display: block;
+    display: block;
   }
-
-
 
 }
 
@@ -267,30 +227,29 @@ and (min-width : 1224px) {
 }
 
 
-#listaafuera{
-margin-top: -211px;margin-left: 835px;z-index: 5;}
-
-
 #listaafuera ul{
-  list-style:none;font-family:'Museo 500 Regular';color: #fff;font-size: 20px;line-height: 30px;
+  list-style:none;
+    font-family:'Museo 500 Regular';
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-#listadentro{
-margin-top: -233px;margin-left: 335px;z-index: 91;
-}
 
-
-#listadentro h2{
-  font-family:'Museo 500 Regular';font-size:25px;color: #A59965;
+#listadentro h1{
+  font-family:'Museo 500 Regular';
+    font-size:25px;
+    color: #A59965;
 }
 
 
 #listadentro ul{
-  list-style:none;font-family:'Museo 500 Regular';color: #000;font-size: 20px;line-height: 40px;
+  list-style:none;
+    font-family:'Museo 500 Regular';
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
 }
-
-
-
 
 #logofooter{
   background-color: #fff;margin-top: -259px;margin-left: 99px;height: 265px;width: 670px;z-index: 91;
@@ -305,7 +264,10 @@ margin-top: -233px;margin-left: 335px;z-index: 91;
 color: #A59965;font-size: 15px;margin-top: 40px;
 }
 
-
+.fondo-blanco {
+    background-color: #ffffff;
+    color: #A59965;
+}
 
 
 #sube_imagen img{
@@ -328,6 +290,30 @@ margin-left: 30px;
 }
 
 
+footer {
+    background-image: url('../images/trama3.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+footer {
+    height: 500px;
+    position: relative;
+    margin-top: -150px;
+    z-index: -10;
+    margin-bottom: 0px;
+}
+
+footer > .row {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 
 #susten h1{
   font-family:'Museo 500 Regular';font-weight:normal;font-size:60px;text-align: center;color: #A59965;
@@ -347,27 +333,10 @@ margin-left: 30px;
 }
 
 
-
-.accordian2oculto{
-  display: none;
-}
-
-
-
-#acordeonoculto{
-  display: none;
-}
-
 #cuadradoblanco{
  visibility: visible; animation-name: zoomIn;
   
 }
-
-#portfoliooculto{
-display: none;
-}
-
-
 
   #botonrojo2 h2{
     
