@@ -13,7 +13,6 @@
 <div id="milogo"> 
     <a href="index">
     <img src="images/logo.png"  ></a>
-
 </div>
 
 <div class="overlay-navigation">
@@ -113,19 +112,19 @@
               <li><i class="fa fa-phone"></i></li>
               <li> <i class="fa fa-map-marker"></i></li>
               <li><i class="fa fa-envelope"> </i></li>
-              
                <li>|</li>
-               
-      
+               <li>
+                   <div class="open-overlay">
+                       <span class="bar-top"></span>
+                       <span class="bar-middle"></span>
+                       <span class="bar-bottom"></span>
+                   </div>
+               </li>
+
             </ul> 
        </div>
 
 
-<div class="open-overlay">
-              
-   <span class="bar-top"></span> 
-   <span class="bar-middle"></span>
-   <span class="bar-bottom"></span> </div>
 </section>
 
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 

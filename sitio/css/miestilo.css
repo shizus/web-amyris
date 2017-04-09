@@ -1,100 +1,114 @@
 @font-face {
-font-family: 'Museo 500 Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Museo 500 Regular'), url('../Museo500-Regular.woff') format('woff');
+    font-family: 'Museo 500 Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo 500 Regular'), url('../Museo500-Regular.woff') format('woff');
+}
+
+/* Reglas generales */
+
+#lista_arriba ul{
+    list-style:none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 20px;
+    display: inline-flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 2%;
+    right: 5%;
 }
 
 #milogo img{
-position: absolute;z-index: 44;
+    position: absolute;z-index: 44;
 }
 
 
- .contenedor {
-      position: relative;
-      height: 100px;
-      background: #000033;
-      width:500px;
-      overflow: hidden;
-    }
+.contenedor {
+    position: relative;
+    height: 100px;
+    background: #000033;
+    width:500px;
+    overflow: hidden;
+}
 
-    #slideIzq,#slideDer, #fadeIzq, #fadeDer {
-      position: absolute;
-      height: 50px;
-      background:#ffffcc;
-    }
+#slideIzq,#slideDer, #fadeIzq, #fadeDer {
+    position: absolute;
+    height: 50px;
+    background:#ffffcc;
+}
 
-    #slideIzq,#fadeIzq{
-      left: 0;
-    }
-    #slideDer,#fadeDer{
-      right:0;
-    }
+#slideIzq,#fadeIzq{
+    left: 0;
+}
+#slideDer,#fadeDer{
+    right:0;
+}
 
 
 
-#menu1{    
-background-image: url(../menu/menu11.png);
-background-repeat: no-repeat;
-background-size: 100% 100%;
+#menu1{
+    background-image: url(../menu/menu11.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
 div #menu1,#menu2,#menu3,#menu4,#menu5{
-  height: 100%;
+    height: 100%;
 }
 
 #sublista1 {
 
     margin-top: 140%;
-line-height: 20px:;
+    line-height: 20px;
     margin-left: 6%;
 }
 
 #sublista1 a{
-  font-family: 'Museo 500 Regular';
-  color: #fff;
+    font-family: 'Museo 500 Regular';
+    color: #fff;
 
     font-size: 18px;
- 
+
 }
 
 #rayita{
-      color: #fff;
+    color: #fff;
     font-size: 20px;
     position: absolute;
     margin-top: 110%;
     margin-left: 4%;
 }
 
-  #menu2{
-   background-image: url(../menu/menu22.png);
-  background-repeat: no-repeat;
-background-size: 100% 100%;
+#menu2{
+    background-image: url(../menu/menu22.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-  #menu3{
-   background-image: url(../menu/menu33.png);
-  background-repeat: no-repeat;
-background-size: 100% 100%;
-}
-
-
-  #menu4{
-   background-image: url(../menu/menu44.png);
-  background-repeat: no-repeat;
-background-size: 100% 100%;
+#menu3{
+    background-image: url(../menu/menu33.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
- #menu5{
-   background-image: url(../menu/menu55.png);
-  background-repeat: no-repeat;
-background-size: 100% 100%;
+#menu4{
+    background-image: url(../menu/menu44.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#menu5{
+    background-image: url(../menu/menu55.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #botonesarriba .nube{
-margin-left: 50%;
+    margin-left: 50%;
     position: absolute;
     z-index: 222;
     width: 4%;
@@ -103,27 +117,19 @@ margin-left: 50%;
 }
 
 #botonesarriba .cruz{
-margin-left: 50%;
+    margin-left: 50%;
     position: absolute;
     z-index: 111;
-  width: 4%;
-}
-
-
-#lista_arriba ul{
-  list-style:none;color: #fff;font-size: 20px;line-height: 40px;letter-spacing: 20px;
-      display: inline-flex;position: absolute;z-index: 2;    position: absolute;
-    margin-top: 2%;
-    margin-left: 81%;
+    width: 4%;
 }
 
 #trama img{
-  visibility: visible; animation-name: zoomIn;
+    visibility: visible; animation-name: zoomIn;
 
 }
 
 #trama{
-width: 1000px;
+    width: 1000px;
     height: 850px;
     margin-top: 25%;
     margin-left: 13%;
@@ -132,8 +138,8 @@ width: 1000px;
 
 
 #botonrojo{
-  visibility: visible; animation-name: fadeInDownBig;
-  
+    visibility: visible; animation-name: fadeInDownBig;
+
     background-image: url(../images/botonrojo.png);
     z-index: 99;
     margin-left: 50%;
@@ -149,13 +155,13 @@ width: 1000px;
 
 
 #botonrojo img{
-width: 120%;margin-left: -9px;margin-top: -14px;
+    width: 120%;margin-left: -9px;margin-top: -14px;
 
 }
 
 
 #botonrojo2{
-  visibility: visible; animation-name: fadeInUpBig;
+    visibility: visible; animation-name: fadeInUpBig;
 }
 
 #botonrojo h3{
@@ -163,12 +169,12 @@ width: 120%;margin-left: -9px;margin-top: -14px;
     color: red;
     width: 451px;
     margin-left: -538%;
- 
+
 }
 
 
 #botonrojo2 h2{
-     font-size: 50px;
+    font-size: 50px;
     color: #A59965;
     width: 750px;
     margin-left: auto;
@@ -181,30 +187,30 @@ width: 120%;margin-left: -9px;margin-top: -14px;
 
 
 .primero{
-animation-delay:0.3s;
+    animation-delay:0.3s;
 }
 
 
 .segundo{
-animation-delay:0.6s;
+    animation-delay:0.6s;
 }
 
 
 .tercero{
-animation-delay:0.9s;
+    animation-delay:0.9s;
 }
 
 .cuarto{
-animation-delay:0.11s;
+    animation-delay:0.11s;
 }
 
 .quinto{
-animation-delay:0.15s;
+    animation-delay:0.15s;
 }
 
 
 img.nube{
-      position: absolute;
+    position: absolute;
     width: 11%;
     margin-top: 110px;
     margin-left: -20px;
@@ -215,17 +221,17 @@ img.nube{
     font-family: 'Museo 500 Regular';
     font-weight: normal;
 
-  }
+}
 
 .mask h4 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
 
-  }
+}
 
 
-  img.img-responsive {
-    height: 383px; 
+img.img-responsive {
+    height: 383px;
 }
 
 figcaption.mask h4 {
@@ -272,12 +278,12 @@ figcaption.mask {
     position: absolute;
     width: 100%;
     text-align: left;
-    
+
     -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 
 .portfolio-item:hover figcaption.mask {
@@ -333,12 +339,12 @@ ul.external {
     position: absolute;
     right: 0;
     top: -47px;
-    
+
     -webkit-transition: all 0.4s ease 0s;
-       -moz-transition: all 0.4s ease 0s;
-        -ms-transition: all 0.4s ease 0s;
-         -o-transition: all 0.4s ease 0s;
-            transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 
 ul.external li {
@@ -350,12 +356,12 @@ ul.external li a {
     color: #818181;
     display: block;
     padding: 10px 18px 13px;
-    
+
     -webkit-transition: all 0.5s ease 0s;
-       -moz-transition: all 0.5s ease 0s;
-        -ms-transition: all 0.5s ease 0s;
-         -o-transition: all 0.5s ease 0s;
-            transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 
 ul.external li a:hover {
@@ -391,7 +397,7 @@ ul.external li a:hover {
 
 
 .primero_cuadrado {
-  
+
     margin-top: auto;
     margin-left: auto;
     height: 195px;
@@ -402,13 +408,13 @@ ul.external li a:hover {
     visibility: visible;
     animation-name: zoomIn;
     animation-delay: 0.3s;
-  }
+}
 
-  .segundo_cuadrado {
+.segundo_cuadrado {
     animation-delay: 0.6s;
-  }
+}
 
-  .primero_cuadrado h4 {
+.primero_cuadrado h4 {
     font-size: 25px;
     text-align: center;
     padding: 17px;
@@ -420,33 +426,33 @@ ul.external li a:hover {
 }
 
 #fotolaboratorio{
-  visibility: visible; animation-name: zoomIn;
+    visibility: visible; animation-name: zoomIn;
 }
 
 #fotolaboratorio img{
-  width: 100%;margin-left: auto;margin-top: -5%;
+    width: 100%;margin-left: auto;margin-top: -5%;
 }
 
 
 
 
 .accordian2 .primero{
-visibility: visible;width: 260px;  animation-name: slideInUp;
+    visibility: visible;width: 260px;  animation-name: slideInUp;
 }
 
 
 .accordian2 .primero .image_title2 a{
-font-family:'Museo 500 Regular';font-weight:normal;
+    font-family:'Museo 500 Regular';font-weight:normal;
 }
 
 
 .accordian2 .tercero{
-visibility: visible;width: 260px;  animation-name: slideInUp;
+    visibility: visible;width: 260px;  animation-name: slideInUp;
 }
 
 
 .accordian2 .tercero .image_title2 a{
-font-family:'Museo 500 Regular';font-weight:normal;
+    font-family:'Museo 500 Regular';font-weight:normal;
 }
 
 
@@ -456,7 +462,7 @@ font-family:'Museo 500 Regular';font-weight:normal;
 
 
 .accordian2 {
-width: 720px;
+    width: 720px;
     height: 425px;
     position: relative;
     overflow: hidden;
@@ -464,56 +470,56 @@ width: 720px;
     margin: -120px;
     margin-left: auto;
     margin-right: auto;
-   /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
+    /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+   -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
 }
 
 /*A small hack to prevent flickering on some browsers*/
 .accordian2 ul {
-  width: 2000px;
-  /*This will give ample space to the last item to move
-  instead of falling down/flickering during hovers.*/
+    width: 2000px;
+    /*This will give ample space to the last item to move
+    instead of falling down/flickering during hovers.*/
 }
 
 .accordian2 li {
-  position: relative;
-  display: block;
-  width: 315px;
-  float: left;
+    position: relative;
+    display: block;
+    width: 315px;
+    float: left;
 
-  /*border-left: 1px solid #888;
-  
-  /*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  */
+    /*border-left: 1px solid #888;
 
-  /*Transitions to give animation effect*/
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  /*If you hover on the images now you should be able to 
-  see the basic accordian*/
+    /*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    */
+
+    /*Transitions to give animation effect*/
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /*If you hover on the images now you should be able to
+    see the basic accordian*/
 }
 
 /*Reduce with of un-hovered elements este reduce los de al lado */
 .accordian2 ul:hover li {width: 40px;}
 
 .accordian2 ul:hover li a{
-  left: -80px;
+    left: -80px;
 
 
 }
 
 
 /*Lets apply hover effects now*/
-/*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/ 
+/*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/
 .accordian2 ul li:hover {width: 640px;}
 
 
 .accordian2 li img {
-  display: block;
+    display: block;
 }
 
 
@@ -523,37 +529,37 @@ width: 720px;
 .image_title2 {
 
 
-  writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
 
-    word-wrap: break-word; 
-  /*background: rgba(0, 0, 0, 0.5);  */
-  position: absolute;
-  left: 0; bottom: 0; 
-  width: 640px; 
+    word-wrap: break-word;
+    /*background: rgba(0, 0, 0, 0.5);  */
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 640px;
 
 }
 .image_title2 a {
 
 
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 50px;
-  position: relative;
-  left: -580px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 50px;
+    position: relative;
+    left: -580px;
+    padding-top: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 
 
 }
@@ -561,50 +567,50 @@ width: 720px;
 
 .caja1{
 
- /* background: rgba(0, 0, 0, 0.5);   */
-  background: rgba(255, 255, 255, 0.59);
-  position: absolute;
-  left: 14; 
-  top:0px;
-  bottom: 0; 
-  width: 92px; 
+    /* background: rgba(0, 0, 0, 0.5);   */
+    background: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    left: 14px;
+    top:0px;
+    bottom: 0;
+    width: 92px;
 }
 
 .caja2{
 
- /* background: rgba(0, 0, 0, 0.5);   */
-  background: rgba(255, 255, 255, 0.59);
-  position: absolute;
-  left: 14; 
-  top:0px;
-  bottom: 0; 
-  width: 92px; 
+    /* background: rgba(0, 0, 0, 0.5);   */
+    background: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    left: 14px;
+    top:0px;
+    bottom: 0;
+    width: 92px;
 }
 
 
 .caja1:hover{
-  background: rgba(255, 255, 255, 0.59);
-  width: 640px;
+    background: rgba(255, 255, 255, 0.59);
+    width: 640px;
 }
 
 .caja2:hover{
-  background: rgba(255, 255, 255, 0.59);
-  width: 640px;
+    background: rgba(255, 255, 255, 0.59);
+    width: 640px;
 
 }
 
 
 
 .boton_isla_abajo1{
-margin-left: -135%;
-  z-index: 0;
+    margin-left: -135%;
+    z-index: 0;
 
 }
 
 
 .boton_isla_abajo2{
-margin-left: 777%;
-  z-index: 0;
+    margin-left: 777%;
+    z-index: 0;
 
 }
 
@@ -612,51 +618,51 @@ margin-left: 777%;
 
 
 .caja1:hover .boton_isla_abajo1{
-  
+
     margin-top: 342px;
-  position: absolute;
-  margin-left: 11px;
-  z-index: 0;
-  width: 9%;
+    position: absolute;
+    margin-left: 11px;
+    z-index: 0;
+    width: 9%;
 }
 
 
 .caja2:hover .boton_isla_abajo2{
-  
+
     margin-top: 342px;
-  position: absolute;
-  margin-left: 11px;
-  z-index: 0;
-  width: 9%;
+    position: absolute;
+    margin-left: 11px;
+    z-index: 0;
+    width: 9%;
 }
 
-  #contacto{
-    
-      background-color: #A59965;
-      position: absolute;
-      z-index: -1;
-      margin-left: 46%;
-    
-      height: 40px;
-      margin-top: 4270px;
-      color: #fff;
-      font-size: 22px;
-      padding: 6px 40px;
-     
+#contacto{
+
+    background-color: #A59965;
+    position: absolute;
+    z-index: -1;
+    margin-left: 46%;
+
+    height: 40px;
+    margin-top: 4270px;
+    color: #fff;
+    font-size: 22px;
+    padding: 6px 40px;
+
 }
 
 #contacto span{
-  color: #fff;
+    color: #fff;
 }
 
 #contacto:hover{
-  background-color: #fff;
+    background-color: #fff;
 
 }
 
 #contacto:hover span{
 
-  color: #A59965;
+    color: #A59965;
 }
 
 
@@ -671,134 +677,134 @@ margin-left: 777%;
     bottom: 20px;
     right: 20px;
     z-index: 2;
-  }
+}
 
-  #titulo1 {
-  visibility: visible;
-  animation-name: slideInDown;
-  font-family:'Museo 500 Regular';
-  position: absolute;
-  font-weight:normal;
-  font-size:70px;
-  width: 734px;
-  margin-top: -11%;
-  margin-left: 22%;
+#titulo1 {
+    visibility: visible;
+    animation-name: slideInDown;
+    font-family:'Museo 500 Regular';
+    position: absolute;
+    font-weight:normal;
+    font-size:70px;
+    width: 734px;
+    margin-top: -11%;
+    margin-left: 22%;
 }
 
 #titulo2 {
-  visibility: visible;
-  animation-name: slideInDown;
-  font-family:'Museo 500 Regular';
-  position: absolute;
-  font-weight:normal;
-  margin-top: -4%;
-  margin-left: 23%; 
-  font-weight: normal;
-  font-size: 100px;
-  width: 734px;
+    visibility: visible;
+    animation-name: slideInDown;
+    font-family:'Museo 500 Regular';
+    position: absolute;
+    font-weight:normal;
+    margin-top: -4%;
+    margin-left: 23%;
+    font-weight: normal;
+    font-size: 100px;
+    width: 734px;
 }
 
 #titulo3{
-   visibility: visible;
-   animation-name: slideInDown;
-   font-family:'Museo 500 Regular';
-   position: absolute;
-   text-align: right;
-   margin-left: 16%;
-   margin-top: 9%;
-   font-weight:normal;
-   font-size:60px;
-   width: 430px;
+    visibility: visible;
+    animation-name: slideInDown;
+    font-family:'Museo 500 Regular';
+    position: absolute;
+    text-align: right;
+    margin-left: 16%;
+    margin-top: 9%;
+    font-weight:normal;
+    font-size:60px;
+    width: 430px;
 }
 
 #titulo4{
-  visibility: visible;
-  animation-name: slideInDown;
-  font-family:'Museo 500 Regular';
-  position: absolute;
-  margin-left: 53%;
-  margin-top: 9%;
-  font-weight:normal;
-  font-size:60px;
-  width: 430px;
-  text-align: left;
+    visibility: visible;
+    animation-name: slideInDown;
+    font-family:'Museo 500 Regular';
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 9%;
+    font-weight:normal;
+    font-size:60px;
+    width: 430px;
+    text-align: left;
 }
 
 #titulo5{
-   visibility: visible;
-   animation-name: slideInDown;
-   font-family:'Museo 500 Regular';
-   position: absolute;
-   width: 790px;
-   margin-left: 17%;
-   margin-top: 10%;
-   font-weight:normal;
-   font-size: 35px;
-   width: 834px;
+    visibility: visible;
+    animation-name: slideInDown;
+    font-family:'Museo 500 Regular';
+    position: absolute;
+    width: 790px;
+    margin-left: 17%;
+    margin-top: 10%;
+    font-weight:normal;
+    font-size: 35px;
+    width: 834px;
 }
 
 
 #titulo6{
-  visibility: visible;
-  animation-name: slideInDown;
-  font-family:'Museo 500 Regular';
-  position: absolute;
-  width: 790px;
-  margin-left: 17%;
-  margin-top: 10%;
-  font-weight:normal;
-  font-size: 35px;
-  width: 834px;
+    visibility: visible;
+    animation-name: slideInDown;
+    font-family:'Museo 500 Regular';
+    position: absolute;
+    width: 790px;
+    margin-left: 17%;
+    margin-top: 10%;
+    font-weight:normal;
+    font-size: 35px;
+    width: 834px;
 }
 
 
 .accordian {
-  width: 890px;
-  height: 425px;
-  overflow: hidden;
-  z-index: 2;
-  /*Time for some styling*/
-   margin: auto;
-   margin-left: auto;
-   margin-top: -2%;
-   /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
+    width: 890px;
+    height: 425px;
+    overflow: hidden;
+    z-index: 2;
+    /*Time for some styling*/
+    margin: auto;
+    margin-left: auto;
+    margin-top: -2%;
+    /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+   -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
 }
 
 /*A small hack to prevent flickering on some browsers*/
 .accordian ul {
-  width: 2000px;
-  /*This will give ample space to the last item to move
-  instead of falling down/flickering during hovers.*/
+    width: 2000px;
+    /*This will give ample space to the last item to move
+    instead of falling down/flickering during hovers.*/
 }
 
 .accordian li {
-  position: relative;
-  display: block;
-  width: 210px;
-  float: left;
+    position: relative;
+    display: block;
+    width: 210px;
+    float: left;
 
-  /*border-left: 1px solid #888;
-  
-  /*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  */
+    /*border-left: 1px solid #888;
 
-  /*Transitions to give animation effect*/
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  /*If you hover on the images now you should be able to 
-  see the basic accordian*/
+    /*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    */
+
+    /*Transitions to give animation effect*/
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /*If you hover on the images now you should be able to
+    see the basic accordian*/
 }
 
 /*Reduce with of un-hovered elements este reduce los de al lado */
 .accordian ul:hover li {width: 40px;}
 
 .accordian ul:hover li a{
-  left: -80px;
+    left: -80px;
 }
 
 
@@ -806,12 +812,12 @@ margin-left: 777%;
 
 
 /*Lets apply hover effects now*/
-/*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/ 
+/*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/
 .accordian ul li:hover {width: 640px;}
 
 
 .accordian li img {
-  display: block;
+    display: block;
 }
 
 
@@ -821,37 +827,37 @@ margin-left: 777%;
 .image_title {
 
 
-  writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
 
-    word-wrap: break-word; 
-  /*background: rgba(0, 0, 0, 0.5); */
-  position: absolute;
-  left: 0; bottom: 0; 
-  width: 640px; 
+    word-wrap: break-word;
+    /*background: rgba(0, 0, 0, 0.5); */
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 640px;
 
 }
 .image_title .texto1_isla1 {
 
 
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 70px;
-  position: relative;
-  left: -465px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 70px;
+    position: relative;
+    left: -465px;
+    padding-top: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 
 
 }
@@ -859,38 +865,38 @@ margin-left: 777%;
 .image_title .texto2_isla1 {
 
 
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-  width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: 650px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 22px;
+    position: relative;
+    width: 380px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    writing-mode: horizontal-tb;
+    margin-right: 650px;
 
 
 
 }
 
 .accordian ul:hover .image_title .texto2_isla1 {
-margin-right: 100px;
-top: -180px;
-line-height: 27px;
-  transition: all 0.5s;
+    margin-right: 100px;
+    top: -180px;
+    line-height: 27px;
+    transition: all 0.5s;
 
 
 
@@ -904,25 +910,25 @@ line-height: 27px;
 .image_title .texto1_isla2 {
 
 
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 70px;
-  position: relative;
-  left: -465px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 70px;
+    position: relative;
+    left: -465px;
+    padding-top: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 
 
 }
@@ -930,37 +936,37 @@ line-height: 27px;
 .image_title .texto2_isla2 {
 
 
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: -200px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 22px;
+    position: relative;
+    width: 380px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    writing-mode: horizontal-tb;
+    margin-right: -200px;
 
 
 
 }
 .accordian ul:hover .image_title .texto2_isla2 {
-margin-right: 100px;
-top: -180px;
-line-height: 27px;
-  transition: all 0.5s;
+    margin-right: 100px;
+    top: -180px;
+    line-height: 27px;
+    transition: all 0.5s;
 }
 
 /* ---------------------------------------------------------*/
@@ -969,25 +975,25 @@ line-height: 27px;
 .image_title .texto1_isla3 {
 
 
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 70px;
-  position: relative;
-  left: -465px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 70px;
+    position: relative;
+    left: -465px;
+    padding-top: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 
 
 }
@@ -995,28 +1001,28 @@ line-height: 27px;
 .image_title .texto2_isla3 {
 
 
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: -200px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 22px;
+    position: relative;
+    width: 380px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    writing-mode: horizontal-tb;
+    margin-right: -200px;
 
 
 
@@ -1026,25 +1032,25 @@ width: 380px;
 .image_title .texto1_isla4 {
 
 
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 70px;
-  position: relative;
-  left: -465px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 70px;
+    position: relative;
+    left: -465px;
+    padding-top: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
 
 
 }
@@ -1052,28 +1058,28 @@ width: 380px;
 .image_title .texto2_isla4 {
 
 
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-  width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: -200px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    font-size: 22px;
+    position: relative;
+    width: 380px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    writing-mode: horizontal-tb;
+    margin-right: -200px;
 
 
 
@@ -1082,17 +1088,17 @@ width: 380px;
 
 
 .accordian ul:hover .image_title .texto2_isla3 {
-margin-right: 100px;
-top: -150px;
-line-height: 27px;
-  transition: all 0.5s;
+    margin-right: 100px;
+    top: -150px;
+    line-height: 27px;
+    transition: all 0.5s;
 }
 
 
 
 
 #service{
- 
+
     height: 500px;
     margin-top: -4%;
     position: relative;
@@ -1100,95 +1106,95 @@ line-height: 27px;
 }
 
 
-  #imagentrama{
-      width: 100%;
+#imagentrama{
+    width: 100%;
     height: 950px;
-  }
+}
 
-  #textorojo{
+#textorojo{
     position: relative;
     margin-top: -5%;
 }
 
 #textorojo2{
-   position: relative;
-   margin-top: -104%;
+    position: relative;
+    margin-top: -104%;
 }
 
 #textorojo3{
-   position: relative; margin-top: -57%;
+    position: relative; margin-top: -57%;
 }
 
 
-  #islas{
+#islas{
     margin-top: 86%;
-  }
+}
 
 #islas1{
-  position: relative;
-  margin-top: -45%;
+    position: relative;
+    margin-top: -45%;
 }
 
 
 #lista1{
-  margin-left: 35px;
+    margin-left: 35px;
     width: 403px;
-  top:16px;
-  border: 1px solid;
-  border-color: #A59965; 
-  height: 383px;
+    top:16px;
+    border: 1px solid;
+    border-color: #A59965;
+    height: 383px;
 }
 #mascara1{
-  padding: 40px;
+    padding: 40px;
 }
 
 #mascara1 p{
-  font-size: 21px;
-  text-align: center;
-  color: #A2946B;
-  line-height: 25px;
-  font-family: 'Museo 500 Regular'; 
-  font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    color: #A2946B;
+    line-height: 25px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
 }
 
 #lista2{
-   width: 403px;
-   top:16px;
-   border: 1px solid;
-   border-color: #A59965;
-   margin-left: -4px;
-     height: 383px;
+    width: 403px;
+    top:16px;
+    border: 1px solid;
+    border-color: #A59965;
+    margin-left: -4px;
+    height: 383px;
 }
 
 #mascara2{
-  padding: 14px;
+    padding: 14px;
 }
 
 #mascara2 h4{
-  padding: 10px;
-  margin-left: -4%;
-  margin-top: -7%;
+    padding: 10px;
+    margin-left: -4%;
+    margin-top: -7%;
 }
 
 #mascara2 p{
-  font-size: 21px;
-  text-align: center;
-  color: #A2946B;
-  line-height: 25px;
-  font-family: 'Museo 500 Regular'; 
-  font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    color: #A2946B;
+    line-height: 25px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
 }
 
 #lista3{
-  width: 268px;
-  border: 1px solid;
-  border-color: #A59965;
-  margin-left: 34px;
-     height: 383px;
+    width: 268px;
+    border: 1px solid;
+    border-color: #A59965;
+    margin-left: 34px;
+    height: 383px;
 }
 
 #mascara3{
-  padding: 0px;
+    padding: 0px;
 }
 
 #mascara3 h3{
@@ -1199,70 +1205,70 @@ line-height: 27px;
 }
 
 #mascara3 p{
-  font-size: 21px;
-  text-align: center;
-  color: #A2946B;
-  line-height: 25px;
-  font-family: 'Museo 500 Regular';
-  font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    color: #A2946B;
+    line-height: 25px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
 }
 
 
 #lista4{
-  width: 268px ;
-  border: 1px solid;
-  border-color: #A59965;
-  margin-left: -2px;
-     height: 383px;
+    width: 268px ;
+    border: 1px solid;
+    border-color: #A59965;
+    margin-left: -2px;
+    height: 383px;
 }
 
 #mascara4{
-  padding: 16px;
+    padding: 16px;
 }
 
 #mascara4 p{
-  font-size: 21px;
-  text-align: center;
-  color: #A2946B;
-  line-height: 25px;
-  font-family: 'Museo 500 Regular'; 
-  font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    color: #A2946B;
+    line-height: 25px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
 }
 
 
 #lista5{
-   width: 268px;
-   border: 1px solid;
-   border-color: #A59965;
-   margin-left: -2px;
-      height: 383px;
+    width: 268px;
+    border: 1px solid;
+    border-color: #A59965;
+    margin-left: -2px;
+    height: 383px;
 }
 
 #mascara5{
-  padding: 16px;
+    padding: 16px;
 }
 
 #mascara5 p{
-  font-size: 21px;
-  text-align: center;
-  color: #A2946B;
-  line-height: 25px;
-  font-family: 'Museo 500 Regular';
-  font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    color: #A2946B;
+    line-height: 25px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
 }
 
 
-  #cuadrado1{
+#cuadrado1{
     position: relative;
-  }
+}
 
-  #fotolaboratorio{
+#fotolaboratorio{
     margin-top: 0%;visibility: visible;animation-name: zoomIn;
     position: relative; z-index: -1;
-  }
+}
 
 
-   #sustentitulo h1 {
+#sustentitulo h1 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-size: 60px;
@@ -1279,43 +1285,43 @@ line-height: 27px;
     line-height: 32px;
     margin-left: 10%;
     width: 528px;
-  }
+}
 
 
 
-   #ultimafoto img{
+#ultimafoto img{
     width: 100%;
-   }
+}
 #conteinersustenta{
-  margin-top: 10%;
+    margin-top: 10%;
 
 }
 
 #columnaultimafoto{
-  margin-top: -52%;
-  position: relative;
+    margin-top: -52%;
+    position: relative;
 }
 
 #sustentitulo img{
-width: 14%;
-margin-top: 7%;
-margin-left: 10%;
+    width: 14%;
+    margin-top: 7%;
+    margin-left: 10%;
 }
 
-  #footer img{
+#footer img{
     width: 100%;
     height: 490px;
     margin-top: -10%;
-  }
+}
 
 
-    #footer_quienes img{
+#footer_quienes img{
     width: 100%;
 
-  }
+}
 
-    #logofooter h3 {
-     color: #A59965;
+#logofooter h3 {
+    color: #A59965;
     font-size: 17px;
     margin-top: 8%;
     margin-left: 0%;
@@ -1325,10 +1331,10 @@ margin-left: 10%;
     font-family: 'Museo 500 Regular';
     font-size: 25px;
     color: #A59965;
-        margin-top: 3%;
+    margin-top: 3%;
     margin-left: 2%;
-  }
-  #listadentro ul {
+}
+#listadentro ul {
     list-style: none;
     font-family: 'Museo 500 Regular';
     color: #000;
@@ -1345,183 +1351,176 @@ margin-left: 10%;
     color: #fff !important;
     font-size: 20px;
     line-height: 30px;
-        margin-top: 13%;
+    margin-top: 13%;
     margin-left: 23%;
     font-weight: bold;
-  }
+}
 
-    #logofooter{
-   background: #fff;
-   height: 300px;
-   position: relative;
-   margin-top: -31%;
-   margin-left: 10%;  
-  }
+#logofooter{
+    background: #fff;
+    height: 300px;
+    position: relative;
+    margin-top: -31%;
+    margin-left: 10%;
+}
 
-  #logofooterimagen{
- width: 40%;
-  }
+#logofooterimagen{
+    width: 40%;
+}
 
-  #listadentro{
+#listadentro{
     position: relative;
     margin-top: -35%;
     margin-left: 42%;
-  }
+}
 
-  #listaafuera{
+#listaafuera{
     height: 300px;
     position: relative;
     margin-top: -30%;
     margin-left: 65%;
-  }
+}
 
 
 #listaafuera ul li{
-  color: #fff;
+    color: #fff;
 }
 
 
-    #portada img{
-        width: 100%;
-    }
+#portada img{
+    width: 100%;
+}
 
 .titulo1_quienes {
-font-weight:normal;font-size:22px;color:#FFF;text-align: center;width: 540px;margin-top: -33%;margin-left: auto;margin-right: auto;
+    font-weight:normal;font-size:22px;color:#FFF;text-align: center;width: 540px;margin-top: -33%;margin-left: auto;margin-right: auto;
 }
 
 .titulo2_quienes{
-    font-family:'Museo 500 Regular';font-weight:normal;font-size:50px;margin-left:auto;margin-right: auto; color: #fff; margin-top: 0%; 
+    font-family:'Museo 500 Regular';font-weight:normal;font-size:50px;margin-left:auto;margin-right: auto; color: #fff; margin-top: 0%;
 }
 
 
 
 @media (min-width: 1900px) {
 
-#botonesarriba .nube {
-    margin-left: 50%;
-    position: absolute;
-    z-index: 222;
-    width: 4%;
-    margin-top: 0%;
+    #botonesarriba .nube {
+        margin-left: 50%;
+        position: absolute;
+        z-index: 222;
+        width: 4%;
+        margin-top: 0%;
 
-}
-
-
-#titulo1 {
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    position: absolute;
-    font-weight: normal;
-    font-size: 105px;
-    width: 734px;
-    margin-top: -11%;
-    margin-left: 30%;
-    /* margin-right: auto; */
     }
 
-#titulo2 {
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    position: absolute;
-    font-weight: normal;
-    margin-top: 0%;
-    margin-left: 29%;
-    font-weight: normal;
-    font-size: 150px;
-    width: 734px;
-  }
 
-  #titulo3 {
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    position: absolute;
-    text-align: right;
-    margin-left: 25%;
-    margin-top: 14%;
-    font-weight: normal;
-    font-size: 60px;
-    width: 430px;
-  }
+    #titulo1 {
+        visibility: visible;
+        animation-name: slideInDown;
+        font-family: 'Museo 500 Regular';
+        position: absolute;
+        font-weight: normal;
+        font-size: 105px;
+        width: 734px;
+        margin-top: -11%;
+        margin-left: 30%;
+        /* margin-right: auto; */
+    }
 
-  #titulo4 {
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    position: absolute;
-    margin-left: 53%;
-    margin-top: 14%;
-    font-weight: normal;
-    font-size: 60px;
-    width: 430px;
-    text-align: left;
-}
+    #titulo2 {
+        visibility: visible;
+        animation-name: slideInDown;
+        font-family: 'Museo 500 Regular';
+        position: absolute;
+        font-weight: normal;
+        margin-top: 0%;
+        margin-left: 29%;
+        font-weight: normal;
+        font-size: 150px;
+        width: 734px;
+    }
 
-#islas1 {
-    position: relative;
-    margin-top: -85%;
+    #titulo3 {
+        visibility: visible;
+        animation-name: slideInDown;
+        font-family: 'Museo 500 Regular';
+        position: absolute;
+        text-align: right;
+        margin-left: 25%;
+        margin-top: 14%;
+        font-weight: normal;
+        font-size: 60px;
+        width: 430px;
+    }
+
+    #titulo4 {
+        visibility: visible;
+        animation-name: slideInDown;
+        font-family: 'Museo 500 Regular';
+        position: absolute;
+        margin-left: 53%;
+        margin-top: 14%;
+        font-weight: normal;
+        font-size: 60px;
+        width: 430px;
+        text-align: left;
+    }
+
+    #islas1 {
+        position: relative;
+        margin-top: -85%;
     }
 
     #footer img {
-    width: 100%;
-    height: 490px;
-    margin-top: -7%;
-}
+        width: 100%;
+        height: 490px;
+        margin-top: -7%;
+    }
 
-#footer {
-    background-color: #2E2E2E;
-    padding: 0px 0;
-    color: #fff;
-    margin-top: -7%;
+    #footer {
+        background-color: #2E2E2E;
+        padding: 0px 0;
+        color: #fff;
+        margin-top: -7%;
     }
 
     #titulo5 {
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    position: absolute;
-    width: 790px;
-    margin-left: 31%;
-    margin-top: 10%;
-    font-weight: normal;
-    font-size: 35px;
-    width: 834px;
-  }
+        visibility: visible;
+        animation-name: slideInDown;
+        font-family: 'Museo 500 Regular';
+        position: absolute;
+        width: 790px;
+        margin-left: 31%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 35px;
+        width: 834px;
+    }
 
-  #titulo6 {
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    position: absolute;
-    width: 790px;
-    margin-left: 30%;
-    margin-top: 10%;
-    font-weight: normal;
-    font-size: 35px;
-    width: 834px;
-  }
+    #titulo6 {
+        visibility: visible;
+        animation-name: slideInDown;
+        font-family: 'Museo 500 Regular';
+        position: absolute;
+        width: 790px;
+        margin-left: 30%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 35px;
+        width: 834px;
+    }
 
 
-#milogo img{
-  position: absolute;
-    z-index: 44;
-    margin-left: 20%;
+    #milogo img{
+        position: absolute;
+        z-index: 44;
+        margin-left: 2em;
+    }
+
+
+    #portfolio{
+        position: relative;
+        margin-left: -3%;
+    }
+
 }
-
-#lista_arriba ul{
-  list-style:none;color: #fff;font-size: 20px;line-height: 40px;letter-spacing: 20px;
-      display: inline-flex;position: absolute;z-index: 2;    position: absolute;
-    margin-top: 2%;
-    margin-left: 75%;
-}
-
-
-#portfolio{
-      position: relative;
-    margin-left: -3%;
-}
-
-  }
 
