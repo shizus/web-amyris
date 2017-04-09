@@ -1,26 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-<title>AMYRIS-Fragancias</title>
 
+<?php 
+session_start();
+require 'requirelanguage.php';
+require 'header.php';
 
-   <link href="template5/css/animate.min.css" rel="stylesheet">
+?>
+<?php  require 'menu.php';?>
 
-    <link href="template5/css/main.css" rel="stylesheet">
- <link href="css/animate.css" rel="stylesheet">
-
-
-
-
-    <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
-
-   <link rel="stylesheet" href="css/style_video.css"> 
- <link href="css/style.css" rel="stylesheet">
-
- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
- <!-- 1. Link to jQuery (1.8 or later), -->
-<script src="js/jquery.min.js"></script> <!-- 33 KB -->
 
 
 <style>
@@ -40,596 +26,43 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 }
 
 
-
-
-
-  #contacto{
-    
-      background-color: #A59965;
-      position: absolute;
-      z-index: 90;
-      margin-left: 500px;
-    
-      height: 40px;
-      margin-top: 2575px;
-      color: #fff;
-      font-size: 22px;
-      padding: 6px 40px;
-     
-}
-
-
-  #botonrojo_fragancias{
-    
-      background-color: blue;
-      background-image: url(images/botonrojo.png);
-      z-index: 99;
-      margin-left: 565px;
-       width: 50px;
-      height: 104px;
-      margin-top: 130px;
-      color: #fff;
-      font-size: 22px;
-     padding: 45px 0px 0px 10px;
-     
-}
-
-  #botonrojo_fragancias h3{
-    
- 
-    font-size: 25px;
-    color: red;
-    width: 325px;
-    margin-left: -113px;
-    margin-top: 75px;
-
-
-
-     
-}
-
-
-
-  #botonrojo2_fragancias h2{
-    
- 
-    font-size: 38px;
-    color: #A59965;
-    width: 755px;
-    margin-left: 185px;
-    margin-top: 140px;
-    font-family:'Museo 500 Regular';
-    font-weight:normal;
- 
-    text-align: center;"
-
-
-
-     
-}
-
-
-#crumble_fragancias h3{
-    
- 
-    font-size: 25px;
-    color: #A59965;
-    font-family:'Museo 500 Regular';
-    font-weight:normal;
- 
-    }
-
-
-
-
-
-
-
-
-  #trama{
-        
-            width: 70%;
-       /*     height: 720px; 
-           
-            background-image: url(trama2.jpg);
-            background-repeat:repeat; */
-             margin-top: 370px; 
-             margin-left:120px;
-            position: absolute;
-}
-
-
-
-
-
-  #menu1{
-    
-            width: 280px;
-               height: 720px;
-           background-image: url(menu/menu11.png);
-            background-repeat: no-repeat;
-            margin-top: -750px;  
-                 z-index: 33;
-            margin-left: 0px;
-            position: absolute;
-       
-     
-}
-
-
-
-
-  #menu2{
-        
-       width: 280px;
-            height: 720px;
-            margin-top: -750px; 
-                z-index: 3;
-             background-image: url(menu/menu22.png);
-              background-repeat: no-repeat;
-            margin-left:270px;
-            position: absolute;
-}
-
-
-  #menu3{
-        
-       width: 280px;
-            height: 720px;
-            margin-top: -750px; 
-                background-image: url(menu/menu33.png);
-                 background-repeat: no-repeat;
-            margin-left: 542px;
-                   z-index: 3;
-            position: absolute;
-}
-
-  #menu4{
-        
-            width: 280px;
-            height: 720px;
-            margin-top: -750px; 
-             z-index: 3;
-            margin-left:814px;
-            background-image: url(menu/menu44.png);
-             background-repeat: no-repeat;
-            position: absolute;
-                  
-}
-
-  #menu5{
-        
-            width: 280px;
-            height: 720px;
-             margin-top: -750px; 
-                z-index: 33;
-            background-image: url(menu/menu55.png);
-             background-repeat: no-repeat;
-            margin-left: 1090px;
-            position: absolute;
-                
-}
-
-
- .cuerpo {
-                transition:1s all;
-            }
-            .cuerpo img{
-                width:100%;
-                height:inherit;
-                object-fit: cover;
-                box-shadow: 0 0 20px #000;
-                border:2px solid #333;
-            }
-            .opacity{
-                -webkit-filter: opacity(100%);
-            }
-
-            .opacity:hover{
-                -webkit-filter: opacity(0.8);}
-
-
-#show-me {
-        visibility: hidden;
-        opacity: 0.0;
-        position: relative;
-        margin-left: 111px;
-      }
-
-      #show-me2 {
-        visibility: hidden;
-        opacity: 0.0;
-    
-        position: relative;
-        margin-left:111px;
-      }
-
-
-    #show-me3 {
-        visibility: hidden;
-        opacity: 0.0;
-    
-        position: relative;
-        margin-left:111px;
-      }
-
-
-    #show-me4 {
-        visibility: hidden;
-        opacity: 0.0;
-    
-        position: relative;
-        margin-left:111px;
-      }
-
-
-    #show-me5 {
-        visibility: hidden;
-        opacity: 0.0;
-    
-        position: relative;
-        margin-left:111px;
-      }
-
-
-
-
-      button  {
-    border: none;
-    background: #3a7999;
-    color: #f2f2f2;
-    padding: 10px;
-    font-size: 18px;
-
-    position: relative;
-    box-sizing: border-box;
-    transition: all 500ms ease; 
-  }
-  
-  button:hover {
-    background: rgba(0,0,0,0);
-    color: #3a7999;
-    box-shadow: inset 0 0 0 3px #3a7999;
-  }
-  
-  
-  </style>
-
-
-<style>
-
-
-.titulo1{animation-delay:0.3s;
-}
-
-.titulo2{animation-delay:0.5s;
-}
-
-.titulo3{animation-delay:0.7s;
-}
-
-
-  .primero{
-
-animation-delay:0.3s;
-
-}
-.segundo{
-
-animation-delay:0.6s;
-
-}
-
-
-.tercero{
-
-animation-delay:0.9s;
-
-}
-
-.cuarto{
-
-animation-delay:0.11s;
-
-}
-
-
-
-  .primero_cuadrado_fragancias{
-    width: 445px;
-    margin-left: 370px;
-    height: 70px;
-background-color: #e0dbdb;
-border:1px solid #e1e6e9;
-position: relative;
-margin-top: -500px;
-z-index: 3;
-
-animation-delay:0.3s;
-
-}
-
-
- .segundo_cuadrado_fragancias{
-    width: 820px;
-    margin-left: 180px;
-    height: 110px;
-background-color: rgba(245, 245, 245, 0.77);
-border:1px solid #e1e6e9;
-position: relative;
-margin-top: -141px;
-z-index: 3;
-position: absolute;
-
-animation-delay:0.3s;
-
-}
-
-
-
-
-  .primero_cuadrado_fragancias h4{
-font-size: 50px;
-text-align: center;
-
-animation-delay:0.3s;
-color: #fff;
-
-}
-
-
-  .segundo_cuadrado_fragancias h4{
-font-size: 50px;
-text-align: center;
-
-animation-delay:0.3s;
-color: #fff;
-
-}
-
-
-
-
-
-.segundo_cuadrado{
-
-animation-delay:0.6s;
-
-}
-
-
-
-
-#wrapper {
-    width:100%;
-    overflow:hidden;
-    white-space:nowrap;
-}
-#left, #right {
-    display:inline-block;
-    width: 20%;
-}
-#left {
-    background:red;
-}
-#right {
-    background:yellow;
-}
-
-
-
-
 </style>
 
 
 
-<link href="template5/css/bootstrap.min.css" rel="stylesheet">
-<link href="template5/css/animate.min.css" rel="stylesheet">
-<link href="template5/css/prettyPhoto.css" rel="stylesheet">
-<link href="template5/css/main.css" rel="stylesheet">
-<link href="template5/css/responsive.css" rel="stylesheet">
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-             <!--      <script src="js/jquery.min.js"></script>     problematicoo 33 KB -->   
-
-
-<script>
-
-
-setTimeout(function () {
-    $('.primero').show()}, 3500
-);
-</script>
-
-
-
-</head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</head>
 <body>
 
-<!--<
-<button id="left"  style="position: absolute;z-index: 99;margin-top: 10px;margin-left: 574px;"><i class="fa fa-times" ></i></button>
-button id="right" style="position: absolute;z-index: 99;margin-top: 10px;margin-left: 574px;"><i class="fa fa-cloud"></i></button> -->
-<img src="images/40.png" id="right" style="position: absolute;z-index: 99;margin-top: 0px;margin-left: 675px;width: 4%;">
-<img src="images/41.png" id="left" style="position: absolute;z-index: 90;margin-top: 0px;margin-left: 675px;width: 4%;">
 
-
-
-<!--
-<button id="rayas" style="position: absolute;z-index: 99;margin-top: 50px;margin-left: 1180px;"><i class="fa fa-bars" ></i></button>
--->
-
-
+  <script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){   
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    });
+  });
+</script><!-- start-smoth-scrolling -->
 
 
 
 
-<div id="menu1">
+<div id="portada" >
+     <img src="img/slider/29.jpg" >
+</div>      
 
-    <div id="show-me" style="width: 250px;top: 140px;">
-    <img src="images/nube.png">
-    <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;margin-right: 150px;">AMYRIS</h1>
-    <p style="font-size: 20px;color:#fff;">_____</p>
-      <ul style="list-style:none;font-family:'Museo 500 Regular';color: #fff;font-size: 18px;line-height: 45px;margin-top: 40px;">
-             <a href="quienes-somos"> <li style="color: #fff;">&iquest;QUI&Eacute;NES SOMOS?</li></a>
-              <a href="quienes-somos"><li style="color: #fff;">VALORES</li></a>
-             <a href="quienes-somos"> <li style="color: #fff;">&iquest;POR QU&Eacute; AMYRIS?</li></a>
-            
+<div class="col-md-12 col-sm-6 col-xs-12 text-center ">
+            <h4 class="animation animated-item-1 titulo1_fragancia"><?php echo $texto1f ?></h4>
 
-            </ul> 
-                
-        </div>
-   
-</div>
-
-<div id="menu2" >
-    <div id="show-me2" style="width: 250px;top: 140px;">
-    <img src="images/nube.png">
-    <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;margin-right: 190px;">FRAGANCIAS</h1>
-      <p style="font-size: 20px;color:#fff;">_____</p>
-      <ul style="list-style:none;font-family:'Museo 500 Regular';color: #fff;font-size: 18px;line-height: 45px;margin-top: 40px;">
-            <a href="fragancias">  <li style="color: #fff;">FRAGANCIA FINAS</li></a>
-             <a href="fragancias"> <li style="color: #fff;">CUIDADO PERSONAL</li></a>
-            <a href="fragancias">  <li style="color: #fff;">HOGAR Y LIMPIEZA</li></a>
-            
-
-            </ul> 
-                
-        </div>
-</div>
-
-<div id="menu3">
-    <div id="show-me3" style="width: 250px;top: 140px;">
-    <img src="images/nube.png">
-    <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;margin-right: 190px;">EXPERTISE</h1>
-     <p style="font-size: 20px;color:#fff;">_____</p>
-      <ul style="list-style:none;font-family:'Museo 500 Regular';color: #fff;font-size: 18px;line-height: 45px;margin-top: 40px;">
-               <a href="expertise"> <li style="color: #fff;">DESARROLLO Y CREACI&Oacute;N</li> </a>
-              <a href="expertise">  <li style="color: #fff;">INFRAESTRUCTURA</li> </a>
-              <a href="expertise">  <li style="color: #fff;">CONTROL DE CALIDAD</li> </a>
-             <a href="expertise">    <li style="color: #fff;">COMERCIO EXTERIOR</li> </a>
-            
-
-            </ul> 
-                
-        </div>
-</div>
-<div id="menu4">
-      <div id="show-me4" style="width: 250px;top: 140px;">
-    <img src="images/nube.png">
-    <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;margin-right: 190px;">SUSTENTABILIDAD</h1>
-      <p style="font-size: 20px;color:#fff;">_____</p>
-      <ul style="list-style:none;font-family:'Museo 500 Regular';color: #fff;font-size: 18px;line-height: 45px;margin-top: 40px;">
-                <a href="sustentabilidad">       <li style="color: #fff;">PROTECCI&Oacute;N</li> </a>
-         <a href="sustentabilidad">     <li style="color: #fff;">EFICIENCIA</li> </a>
-         <a href="sustentabilidad">     <li style="color: #fff;">VALORES</li></a>
-               
-            
-
-            </ul> 
-                
-        </div>
-</div>
-<div id="menu5">
-      <div id="show-me5" style="width: 250px;top: 140px;">
-    <img src="images/nube.png">
-    <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;margin-right: 190px;">INNOVACIONES</h1>
-    <p style="font-size: 20px;color:#fff;">_____</p>
-      <ul style="list-style:none;font-family:'Museo 500 Regular'; color: #fff;font-size: 19px;line-height: 45px;margin-top: 40px;">
-            <a href="innovaciones">      <li style="color: #fff;">DEPARTAMENTO DE IDEAS</li> </a>
-            <a href="innovaciones">     <li style="color: #fff;">DESARROLLO E INNOVACI&Oacute;N</li> </a>
-           <a href="innovaciones">      <li style="color: #fff;">INVESTIGACI&Oacute;N</li> </a>
-       
-            
-
-            </ul> 
-                
-        </div>
-</div>
-
-
-  <a href="index"><img src="images/logo.png" style="position: absolute;z-index: 44;"></a>
-
-      <ul style="list-style:none;color: #fff;font-size: 20px;line-height: 40px;letter-spacing: 20px;
-      display: inline-flex;position: absolute;z-index: 2;margin-left: 1080px;margin-top: 50px;">
-             <li><i class="fa fa-phone"></i></li>
-              <li> <i class="fa fa-map-marker"></i></li>
-              <li><i class="fa fa-envelope"> </i></li>
-              
-               <li>|</li>
-               <li><i class="fa fa-bars"id="rayas" ></i></li>
-      
-            </ul> 
+            <h1 class="animation animated-item-2 titulo2_fragancia" ><?php echo $texto2f ?></h1>
+                 <div class="arrow text-center" style="    position: relative; margin-top: 10%;"><a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a></div>
+                               
+ </div>
 
 
 
-
-<section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-          
-            <div class="carousel-inner">
-
-
-
-
-
-
-                <div class="item active" style="background-image: url(template5/images/slider/28.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-12">
-                                <div class="carousel-content">
-                                <h4 class="animation animated-item-1 titulo1" style="font-weight:normal;font-size:22px;COLOR:#FFF;text-align: center;margin-left: 270px;text-align: right;width: 540px;">EL VALOR DE EXPLORAR EMOCIONES</h4>
-
-
-                                      <h1 class="animation animated-item-2 titulo2" style="font-family:'Museo 500 Regular';font-weight:normal;font-size:50px; text-align: right;margin-right: 160px;margin-top: 50px; ">Brindando la m&aacute;s alta calidad</h1>
-                                    
-                                  
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                  <!--  <img src="images/slider/img1.png" class="img-responsive"> -->
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div><!--/.item-->
-
-        </div><!--/.carousel-->
-  
-    </section><!--/#main-slider-->
-
-
-
-
-<div id="intro">
-    <div class="container">
-        <div class="row">
 
 
 
 <style>
-  /*Now the styles*/
-* {
-  margin: 0; 
-  padding: 0;
-}
 
 
 
@@ -1099,63 +532,135 @@ margin-left: 400px;
 </style>
 
 
+<div class="banner-bottom" id="banner-bottom"></div>
 
-
-<div id="crumble_fragancias">
-  <h3>Fragancias / Fragancias Finas / Cuidado Personal / Hogar y limpieza</h3>
-
+<div id="crumble_fragancia">
+  <h3><?php echo $texto3f ?></h3>
 </div>
 
 
 
+<div  class="col-md-12 col-sm-6 col-xs-12"> 
+    <div id="botonrojo_quienes">
+        <img src="images/nube.png" >
+    </div>
+</div>
 
+<div  class="col-md-12 col-sm-6 col-xs-12" id="textoquienes"> 
 
-
-
-<div id="botonrojo_fragancias" >
-<img src="images/nube.png" style="width: 70px;margin-top: -26px;margin-left: -21px;">
-  <h3>AMYRIS ES DESCUBRIR</h3>
+    <h3><?php echo $texto35f ?></h3>
 </div>
 
 
-
-
-<div id="botonrojo2_fragancias" class="wow fadeInUpBig animated " style="visibility: visible; animation-name: fadeInUpBig;">
-<h2>DESPERTAMOS AQUELLOS SENTIDOS QUE PERMITEN EXPERIMENTAR EL DISFRUTE</h2>
+<div id="botonrojo2_fragancia" class="col-md-12 col-sm-6 col-xs-12 wow fadeInUpBig animated " >
+        <h2><?php echo $texto4f ?></h2>
 
 </div>
 
 
+<style>
+  #fragantit img {
+    width: 100%;
+    margin-top: 10%;
+  }
 
-<div id="contacto">
- <a href="contacto"> <span>Contacto</span></a>
-</div>
+  .primero_cuadrado_fragancias{
+    text-align: center;
+        width: 445px;
+        margin-left: 30%;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #e1e6e9;
+    z-index: 3;
+  
+    margin-top: -50%;
+    animation-delay: 0.3s;
 
+  }
 
+  .primero_cuadrado_fragancias h4 {
+    font-size: 55px;
+    text-align: center;
+    animation-delay: 0.3s;
+    color: #fff;
+  
+  font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #000;
+  }
 
+</style>
 
-<div>
-  <img src="images/07.jpg" style="width: 70%;margin-top: 180px;margin-left: 180px;">
-</div>
+<section id="fragan">
+         <div id="fragantit" >
+                    <div class="container">
+                        <div class="row">
+                          <img src="images/07.jpg"  >
+
+                        </div>
+                    </div>
+         </div>
+</section>                        
 
 
 <section id="cuadrado">
 
-  <div class="primero_cuadrado_fragancias">
-    <h4 style="font-family:'Museo 500 Regular';font-weight:normal;">FRAGANCIAS </h4>
+  <div class="col-md-12 col-sm-6 col-xs-12 primero_cuadrado_fragancias">
+    <h4>FRAGANCIAS </h4>
    </div>
 
 
 </section>
 
 
-<br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
- <div class="segundo_cuadrado_fragancias " >
-       
+<style>
+  .segundo_cuadrado_fragancias {
+    height: 160px;
+    background-color: rgba(255, 255, 255, 0.83);
  
-  </div>
+    margin-top: -9%;
+    z-index: 3;
+        margin-left: 12%;
+    margin-right: 12%;
+        animation-delay: 0.3s;
+  }
+
+
+  .segundo_cuadrado_fragancias h2{
+    font-size: 36px;
+    color: #D1BE89;
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    text-align: center;
+    padding: 17px;
+  }
+
+  .segundo_cuadrado_fragancias p{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;
+
+      padding: 5px 51px 5px 95px;
+    text-align: center;
+    line-height: 30px;
+}
+
+</style>
+
+ <div class="col-md-12 col-sm-6 col-xs-12"  >
+ <div class="segundo_cuadrado_fragancias">
+       
+          <h2>SISTEMA CONCEPTUAL AMYRIS</h2>
+         <p><?php echo $texto44f ?></p>
+
+     </div>
+ </div>
 
 
 <style>
@@ -1177,16 +682,16 @@ border:2px solid black;
 margin-left: 181px;
 }
 
-.info1 {
+.info11 {
 position: absolute; /*Info sobre la imagen*/
 top: 70px;
-left: 66px; /*Desplazamos a partir de la esquina superior izquierda*/
+left: 60%; /*Desplazamos a partir de la esquina superior izquierda*/
 zoom: 1;
 width: 640px;
 text-align: center;
 font-family:'Museo 500 Regular';font-weight:normal;
 color:#A59965;
-font-size: 15px;
+font-size: 16px;
 filter: alpha(opacity=0); /*Opacidad Para IE */
 opacity: 0; /*Inicialmente transparente */
 padding: 5px;
@@ -1196,6 +701,35 @@ padding: 5px;
 -webkit-transition:all ease .8s ;
 transition:all ease .8s;
 }
+
+.info1 {
+position: absolute; /*Info sobre la imagen*/
+top: 70px;
+left: -50%; /*Desplazamos a partir de la esquina superior izquierda*/
+zoom: 1;
+width: 640px;
+text-align: center;
+font-family:'Museo 500 Regular';font-weight:normal;
+color:#A59965;
+font-size: 16px;
+filter: alpha(opacity=0); /*Opacidad Para IE */
+opacity: 0; /*Inicialmente transparente */
+padding: 5px;
+
+
+-moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
+-webkit-transition:all ease .8s ;
+transition:all ease .8s;
+}
+
+
+
+.caja:hover .info11 {
+filter: alpha(opacity=80);
+opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
+}
+
+
 .caja:hover .info1 {
 filter: alpha(opacity=80);
 opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
@@ -1205,13 +739,13 @@ opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
 .info2 {
 position: absolute; /*Info sobre la imagen*/
 top: 70px;
-left: -220px; /*Desplazamos a partir de la esquina superior izquierda*/
+left: -175%; /*Desplazamos a partir de la esquina superior izquierda*/
 zoom: 1;
 width: 640px;
 text-align: center;
 font-family:'Museo 500 Regular';font-weight:normal;
 color:#A59965;
-font-size: 15px;
+font-size: 16px;
 filter: alpha(opacity=0); /*Opacidad Para IE */
 opacity: 0; /*Inicialmente transparente */
 padding: 5px;
@@ -1237,7 +771,7 @@ width: 640px;
 text-align: center;
 font-family:'Museo 500 Regular';font-weight:normal;
 color:#A59965;
-font-size: 15px;
+font-size: 16px;
 filter: alpha(opacity=0); /*Opacidad Para IE */
 opacity: 0; /*Inicialmente transparente */
 padding: 5px;
@@ -1252,50 +786,80 @@ filter: alpha(opacity=80);
 opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
 }
 
-
+#contenedorcuatro{
+      margin-left: 10%;
+    margin-right: 10%;
+}
 
 
 </style>
 
-<div class="col-md-8" style="position: relative;margin-left: 198px;margin-top: -95px;z-index: 3;">
-  <p style="text-align: center;line-height: 25px;">Desde nuestros inicios, nuestro objetivo siempre fue encontrar las soluciones sensoriales, a trav&eacute;s de la experimentaci&oacute;n de sensaciones, que nos permitan encontrar fragancias &uacute;nicas. La b&uacute;squeda, prueba y experimentaci&oacute;n constante para lograr esto nos llev&oacute; a desarrollar un sistema conceptual de trabajo desde donde nace todo, basado en tres acciones: DESCUBRIR, OLER y DISFRUTAR. &Eacute;stas son 3 acciones de
-conexi&oacute;n y percepci&oacute;n que nos permite hallar y estudiar las sensaciones buscadas y nos ayuda a obtener la
-eficiencia de nuestras fragancias, que se traducen como emociones positivas en nuestros consumidores</p>
-</div>
 
-<div>
+
+<!--<div>
   <img src="images/flecha1.png" style="position: absolute;margin-top: 100px;
   margin-left: -580px;">
 </div>
+ -->
 
-<div class="col-md-3" style="position: relative;margin-left: 198px;">
+
+<div id="sleep">
+    <div class="container">
+        <div class="row" id="contenedorcuatro">
+
+
+
+
+<div class="col-md-3">
+
+<div class="caja"><p style="text-align: right;">SENTIR</p>
+
+<span class="info11">
+<img src="images/flechaprimera.png" style="position: absolute;margin-top: -50px;margin-left: -4%;">
+LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.</span></a></div>
+</div>
+
+
+<div class="col-md-3">
 
 <div class="caja"><p style="text-align: right;">DESCUBRIR</p>
 
-<span class="info1"><img src="images/flechaiz.png" style="position: absolute;margin-top: -50px;margin-left: 80px;">LOS AROMAS CONQUISTAN LA NARIZ, DISPARANDO DESDE DISTINTAS SENSACIONES HASTA RECUERDOS, POR ESO SIEMPRE TOMAMOS EL DESAF&Iacute;O DE ENCONTRAR ESA FRAGANCIA IDEAL QUE RESPONDA MEJOR A LAS CARACTER&Iacute;STICAS PISCOL&Oacute;GICAS DEL CONSUMIDOR Y SU FACULTAD SENSORIAL</span></a></div>
+<span class="info1"><img src="images/flechasegunda.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y
+COMPRENDER LOS SENTIDOS Y EMOCIONES. </span></a></div>
+</div>
+
+
+
+<div class="col-md-3" >
+<div class="caja"><p style="text-align: center;">OLER</p>
+<span class="info2"><img src="images/flechatercera.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD.
+PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.</span></a></div>
 </div>
 
 
 <div class="col-md-3" >
-<div class="caja"><p style="text-align: center;">OLER</p><span class="info2"><img src="images/flechace.png" style="position: absolute;margin-top: -50px;margin-left: 80px;">NUESTRO SENTIDO DEL OLFATO ES M&Aacute;S SENSIBLE QUE CUALQUIER OTRO, SIENDO CAPAZ DE MODIFICAR NUESTRO COMPARTAMIENTO Y NUESTRO &Aacute;NIMO. POR ELLO NOS ENCONTRAMOS SIEMPRE A LA VANGUARDIA SOBRE MATERIAS PRIMAS, COMBINANDO M&Aacute;S DE 3000 PARA BUSCAR ESA FRAGANCIA &Uacute;NICA Y PERFECTA.</span></a></div>
+<div class="caja"><p style="text-align: left;">DISFRUTAR</p>
+<span class="info3"><img src="images/flechacuartaaa.png" style="position: absolute;margin-top: -50px;margin-left: -8%;">ENCONTRAR LA FRAGANCIA ADECUADA GENERA ALEGRÍA Y EMOCIÓN. EN AMYRIS TE INVITAMOS A DISFRUTAR ESE MOMENTO CON PRODUCTOS
+DE LA MÁS ALTA CALIDAD.</span></a></div>
 </div>
 
 
-<div class="col-md-3" >
-<div class="caja"><p style="text-align: left;">DISFRUTAR</p><span class="info3"><img src="images/flechade.png" style="position: absolute;margin-top: -50px;margin-left: 80px;">ES SABIDO QUE LOS AROMAS SIEMPRE NOS RECUERDAN UN MOMENTO ESPECIAL QUE PUEDE CONVERTISE EN ALGO PLACENTERO. POR ESO BUSCAMOS QUE NUESTRAS FRAGANCIAS INVITEN A LA DISTENCI&Oacute;N, A ESE MOMENTO DE DELEITE QUE PERMITE LA SATISFACCI&Oacute;N DEL DISFRUTE. BUSCAMOS SONREIR</span></a></div>
-</div>
+        </div>
+    </div>
+</div>        
+
 
 
 
 <div class="col-md-8" style="position: relative;margin-left: 198px;margin-top: 170px;z-index: 3;">
-  <p style="text-align: center;line-height: 25px;">A trav&eacute;s de esta experiencia sensorial, conseguimos fabricar la fragancia apropiada para cada producto, que lograr&aacute; que el consumidor tenga identificaci&oacute;n, dejando un sello personal. Para ello, contamos con perfumistas de gran experiencia y trayectoria totalmente capacitados, adem&aacute;s de trabajar con la &uacute;ltima
-tecnolog&iacute;a especializada del rubro y siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosm&eacute;tica, higiene personal y productos de limpieza.</p>
+  <p style="text-align: center;line-height: 25px;font-family: 'Futura'; font-size: 19px; font-weight: 500;">Contamos con personal de desarrollo y marketing en constante capacitación e investigación para estar siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosmética, fraganciasfinas, higiene personal, productos para el hogar y productos de limpieza</p>
 </div>
 
 <div class="col-md-8" style="position: relative;margin-left: 198px;margin-top: 40px;z-index: 3;">
-  <p style="text-align: center;line-height: 25px;">En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un arte, como un desafío &uacute;nico, por ello realizamos estrictos controles de estabilidad y trabajamos con un preciso cronograma
-de tiempos. Gracias a esto, somos un proveedor destacado entre empresas relevantes y trabajamos en conjunto con varias marcas l&iacute;deres.</p>
+  <p style="text-align: center;line-height: 25px;font-family: 'Futura'; font-size: 19px;font-weight: 500;">En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad; Trabajamos con un preciso cronograma de tiempos. </p>
 </div>
+
+
 
 
 <style>
@@ -1426,306 +990,517 @@ ul.external li a:hover {
 
 
 
+<style>
+  #portfolio{
+    margin-top: 40%;
+  }
+
+  /* 
+
+
+   5 columns grid for 'md' and 'lg' screens
+
+   @tatygrassini
+
+
+*/
+
+@media (min-width: 992px) {
+  .col-md-1-5 { width: 20%; }
+  .col-md-2-5 { width: 40%; }
+  .col-md-3-5 { width: 60%; }
+  .col-md-4-5 { width: 80%; }
+  .col-md-5-5 { width: 100%; }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1-5 { width: 20%; }
+  .col-lg-2-5 { width: 40%; }
+  .col-lg-3-5 { width: 60%; }
+  .col-lg-4-5 { width: 80%; }
+  .col-lg-5-5 { width: 100%; }
+}
+
+/* Demo only, no need for this */
+
+.show-grid [class^=col-] span,
+.container-fluid .show-grid [class^=col-] {
+  display: block;
+
+  padding-bottom: 10px;
+
+}
+
+[class^=col-] {
+  margin-bottom: 30px;
+}
+
+
+.spancinco{
+     color: #fff;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 30px;
+        top: -270px;
+        position: relative;
+    text-align: left;
+    left: 11px ;
+    line-height:30px;
+
+}
+
+
+.spancincop1 {
+  text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    top: -112px;
+    color: #fff;
+    left: 10px;
+}
+
+
+
+.spancincop2 {
+  text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+      top: -169px;
+    color: #fff;
+    left: 15px;
+}
+
+
+
+.spancincop3 {
+  text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+     top: -139px;
+    color: #fff;
+    left: 13px;
+}
+
+
+
+.spancincop4 {
+  text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+ top: -79px;
+    color: #fff;
+    left: 13px;
+}
+
+
+
+.spancincop5 {
+  text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    top: -112px;
+    color: #fff;
+    left: 10px;
+}
+
+
+
+
+}
+</style>
 
 <!-- portfolio section -->
-      <section id="portfolio">
-        <div class="container">
-          <div class="row">
-          
-          
 
-            <ul class="project-wrapper2 ">
 
-          
-              
-              <li class="portfolio-item2" id="isla1">
-                <img src="images/islap1chica.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry." style="height: 345px;">
-                <figcaption class="mask">
-                  <h3 style="font-family:'Museo 500 Regular';font-weight:normal;">Fragancias Finas</h3>    
-                 <p style="position: absolute;margin-top: 145px;font-size: 15px;">VER MAS</p>
-                </figcaption>
-                    
-              </li>
+  <script type="text/javascript">
 
-       
-              
-              <li class="portfolio-item2 " id="isla2">
-                <img src="images/islap3chica.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. "  style="height: 345px;">
-                <figcaption class="mask">
-                  <h3 style="font-family:'Museo 500 Regular';font-weight:normal;">Cuidado Personal</h3> 
-                  
-                <p style="position: absolute;margin-top: 145px;font-size: 15px;">VER MAS</p>
-                </figcaption>
-                   <div class="texto2"><h2>hola imagen 2</h2></div>
-              
-              </li>
-              
-              <li class="portfolio-item2" id="isla3">
-                <img src="images/islap2.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. "  style="height: 345px;">
-                <figcaption class="mask">
-                  <h3 style="font-family:'Museo 500 Regular';font-weight:normal;">Hogar y Limpieza</h3>   
-               <p style="position: absolute;margin-top: 145px;font-size: 15px;">VER MAS</p>
-                </figcaption>
-                  <div class="texto3"><h2>hola imagen 3</h2></div>
-              </li>
-            </ul>
-      
-          </div>
-        </div>
+
+$(document).ready(function () {
+    $(".spancincop1").hover(function () { // on hover
+    $("#texto_spancinco_1").css("display", "block");
+
+        $("#box1").css("margin-top", "-20%");
+    },function() {//on mouseout
+            $("#box1").css("margin-top", "-37%");
+               $("#texto_spancinco_1").css("display", "none");
+            
+  });
+});
+
+
+
+$(document).ready(function () {
+    $(".spancincop2").hover(function () { // on hover
+    $("#texto_spancinco_2").css("display", "block");
+
+        $("#box1").css("margin-top", "-20%");
+    },function() {//on mouseout
+            $("#box1").css("margin-top", "-37%");
+               $("#texto_spancinco_2").css("display", "none");
+            
+  });
+});
+
+
+
+$(document).ready(function () {
+    $(".spancincop3").hover(function () { // on hover
+    $("#texto_spancinco_3").css("display", "block");
+
+        $("#box1").css("margin-top", "-20%");
+    },function() {//on mouseout
+            $("#box1").css("margin-top", "-37%");
+               $("#texto_spancinco_3").css("display", "none");
+            
+  });
+});
+
+
+
+$(document).ready(function () {
+    $(".spancincop4").hover(function () { // on hover
+    $("#texto_spancinco_4").css("display", "block");
+
+        $("#box1").css("margin-top", "-20%");
+    },function() {//on mouseout
+            $("#box1").css("margin-top", "-37%");
+               $("#texto_spancinco_4").css("display", "none");
+            
+  });
+});
+
+
+
+$(document).ready(function () {
+    $(".spancincop5").hover(function () { // on hover
+    $("#texto_spancinco_5").css("display", "block");
+
+
+        $("#box1").css("margin-top", "-20%");
+    //    $('#box1').animate({
+      //                          'margin-top':'-20%'
+       //              },1500);
+
+
+    },function() {//on mouseout
+            $("#box1").css("margin-top", "-37%");
+               $("#texto_spancinco_5").css("display", "none");
+            
+  });
+});
+
+</script>
+
+<div id="cincocuadrados" style="top: 100px;position: relative;">
+    <div class="row show-grid">
+    
    
-   
-       
+        <div class="col-sm-6 col-md-4-5 col-lg-1-5">
+        <img src="images/fraga1.jpg" style="width: 120%; margin-left: -7%;    height: 300px;">
+        <span class="spancinco">FRAGANCIAS FINAS</span>
+        <p class="spancincop1">Ver mas</p>
 
-        
-      </section>
-      <!-- end portfolio section -->
-
-
-
-      <div class="sube_imagen_text1"> <h2 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: left;margin-left:45px;color:#e25656;margin-top: -380px;">FRAGANCIAS FINAS</h2><br><h3 style=";margin-top: -360px;color: #fff;width: 800px;margin-left: 180px;text-align: justify; font-size: 13px;">Esta categor&iacute;a de fragancias se componen de Parfum, Eau de Parfum, Eau de Toilette, Eau de Cologne y Body Splash.En Amyris ofrecemos una amplia variedad de esencias femeninas, masculinas, infantiles, teens y bebe. En todos nuestros productos encontrar&aacute; esa fragancia especial buscada y por sobretodo una persistencia y duraci&oacute;n que hace de nuestros perfumes una sensaci&oacute;n &uacute;nica<br><br>Adem&aacute;s desarrollamos fragancias a medida de cada cliente, mediante proyectos particulares orientados a obtener la mejor calidad de producto y una fragancia duradera. Para ello, trabajamos mucho en conjunto con cada cliente, ofreciendo recomendaciones de fabricaci&oacute;n, an&aacute;lisis y auditor&iacute;a del producto terminado, controles de trazabilidad y estabilidad, estricto control de calidad en todas las etapas principalmente en la etapa funcional para verificar la fragancia y saber luego c&oacute;mo poder extender el vencimiento en caso que no se haya usado todo el contenido del envase.</h3>
+        </div>
+        <div class="col-sm-6 col-md-5-5 col-lg-1-5">
+         <img src="images/fraga2.jpg"  style="width: 113%;    height: 300px;">
+         <span class="spancinco">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</span>
+          <p  class="spancincop2">Ver mas</p>
+        </div>
+        <div class="col-sm-6 col-md-3-5 col-lg-1-5">
+         <img src="images/fraga3.jpg" style="width: 113%;    height: 300px;">
+         <span class="spancinco">CUIDADO DEL HOGAR Y AMBIENTALES</span>
+          <p  class="spancincop3">Ver mas</p>
+        </div>
+        <div class="col-sm-6 col-md-2-5 col-lg-1-5">
+         <img src="images/fraga4.jpg" style="width: 113%;    height: 300px;">
+         <span class="spancinco">LIMPIEZA</span>
+          <p  class="spancincop4">Ver mas</p>
+        </div>
+        <div class="col-sm-6 col-md-4-5 col-lg-1-5">
+         <img src="images/fraga5.jpg" style="width: 113%;    height: 300px;">
+         <span class="spancinco">COSMÉTICA AUTOMOTOR </span>
+         <p  class="spancincop5">Ver mas</p>
         </div>
 
-   <div class="sube_imagen_text2"> <h2 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: left;margin-left:45px;color:#e25656;margin-top: -380px;">CUIDADO PERSONAL</h2><br><h3 style=";margin-top: -360px;color: #fff;width: 800px;margin-left: 180px;text-align: justify; font-size: 13px;">Esta categor&iacute;a de fragancias se aplican en productos tales como jabones l&iacute;quidos y de tocador, exfoliantes, desodorantes, antitranspirantes, shampoo, espumas y sales de baño, cremas, talcos, tinturas, suavizantes, productos depilatorios entre tantos otros.<br><br>Para generar las fragancias que acompañan los productos del cuidado personal, en Amyris buscamos siempre conocer c&oacute;mo son los diferentes comportamientos en las diversas culturas, para poder ofrecer los aromas justos y acordes para cada una de ellas. Buscamos que cada consumidor tenga un disfrute al momento de percibir los aromas. Para ello viajamos, investigamos, tenemos un ojo curioso para observar, nos inspiramos en las sociedades y estamos siempre a la vanguardia de las tendencias y novedades del mundo.</h3>
-        </div>
+<img id="box1" src="images/trama6.jpg" style="    width: 100%;position: relative; margin-top: -37%; z-index: -1;">
+
+
+<div class="container"  id="texto_spancinco_1" style="display: none;height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
+      <div class="row">
+            <div  class="col-sm-12">
+                      <h1 style="
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 16%;
+    line-height: 35px;
+    color: #DA504B;;
+    ">FRAGANCIAS FINAS</h1>
+
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">En AMYRIS buscamos ofrecerle al cliente la más alta calidad de la fragancia creada,
+                      incentivándolo a innovar, brindándole actualización sobre las tendencias a nivel mundial.</p>
+                      <br>
+                      <p style=" text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Podemos ofrecer Eau de Perfum, Eau de Toillete, Colonias, fragancias femeninas, masculinas,
+                      para adolecentes, niños y bebes</p>
+
+            </div> 
+            <div  class="col-sm-12" style="text-align: center;">
+                <img src="images/58b.jpg">
+            </div>         
+      </div>
+</div>   
+
+
+<div class="container"  id="texto_spancinco_2" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
+      <div class="row">
+            <div  class="col-sm-12">
+                      <h1  style="
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 16%;
+    line-height: 35px;
+    color: #DA504B;;
+    ">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</h1>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Asumimos el compromiso de ofrecerle al consumidor productos que al momento de percibir los
+                      aromas pueda disfrutar</p><br>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">En esta categoría ofrecemos fragancias para jabones líquidos, productos de tocador,
+                      exfoliantes, shampoo, faciales, espumas, sales de baño, cremas, talcos y tinturas.</p>
+            </div>          
+
+            <div  class="col-sm-12" style="text-align: center;">
+                <img src="images/58b.jpg">
+            </div>  
+
+
+      </div>
+</div>  
 
 
 
+<div class="container"  id="texto_spancinco_3" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
+      <div class="row">
+            <div  class="col-sm-12">
+                      <h1  style="
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 16%;
+    line-height: 35px;
+    color: #DA504B;;
+    ">CUIDADO DEL HOGAR Y AMBIENTALES</h1>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">El hogar está estrechamente relacionado con una sensación de seguridad, confort, pertenencia
+                      y calma. </p><br>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Ofrecemos productos para desodorantes ambientales, desodorantes textiles, velas aromáticas,
+                        ambientadores y difusores.</p>
+            </div> 
+            <div  class="col-sm-12" style="text-align: center;">
+                <img src="images/58b.jpg">
+            </div>           
+      </div>
+</div>  
 
-<section id="porque" style="margin-bottom: 650px;">
-
-</section>
 
 
+<div class="container"  id="texto_spancinco_4" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
+      <div class="row">
+            <div  class="col-sm-12">
+                      <h1  style="
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 16%;
+    line-height: 35px;
+    color: #DA504B;;
+    ">LIMPIEZA</h1>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Buscamos que el bienestar generado por este tipo de fragancias remita a la pureza, a esa
+                        tranquilidad que se genera al percibir estar en un hogar limpio.</p><br>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Esta clase de fragancias aplican a productos tales como limpiadores para piso, limpiadores en
+                      crema, lavandinas, detergentes, suavizantes, productos quita mancha y apresto.</p>
+              </div>     
+              <div  class="col-sm-12" style="text-align: center;">
+                <img src="images/58b.jpg">
+            </div>       
+      </div>
+</div>  
 
-<section id="susten">
- <div style="visibility: visible; animation-name: zoomIn;">
+<div class="container"  id="texto_spancinco_5" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
+      <div class="row">
+            <div  class="col-sm-12">
+                      <h1  style="
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 16%;
+    line-height: 35px;
+    color: #DA504B;;
+    ">COSMÉTICA AUTOMOTOR</h1>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Momentos como la compra de tu primer auto o cambiarlo por otro más grande generan alegría
+y felicidad. Ofrecemos fragancias que le recuerden ese momento.</p><br>
+                      <p style="
+     text-align: left;
+    line-height: 25px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+      margin-left: 16%;
+    width: 720px;
+    ">Lo asesoramos sobre la fragancia adecuada dejando un aroma de alta persistencia</p>
+            </div> 
 
-    <img src="images/19.jpg" style="width: 100%;margin-left: 2px;margin-top: -480px;position: relative;">
+            <div  class="col-sm-12" style="text-align: center;">
+                <img src="images/58b.jpg">
+            </div>          
+      </div>
+</div>  
+
 
 
 </div>
 
+</div>
+
+
+
+</div>
+
+           
+
+
+                 
+
+
+<section id="hombregorra" style="position: relative; margin-top: 15%;"> 
+
+  <div class="container" style="visibility: visible; animation-name: zoomIn;">
+     <img src="images/05.jpg" style="width: 100%;">
+ </div>
+
+
+
  <div class="col-md-5" style="margin-top: -765px;margin-left: 35px;">
-         <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:60px;text-align: center;color: #fff;">EXPERTISE</h1>
-            <p style="text-align: left;color: #fff;font-size: 21px;line-height: 28px;">NUESTRA PREMISA ES CUIDAR NUESTRO PLANETA Y A NUESTRO STAFF EN TODOS LOS PROCESOS INVOLUCRADOS EN LA CREACION Y EL DESARROLLO DE NUESTRAS FRAGANCIAS
-            </p>
+         <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:60px;text-align: center;color: #fff;margin-left: 20%;margin-top: 50%;">EXPERTISE</h1>
+            <p style="text-align: left;
+    color: #fff;
+    font-size: 21px;
+    line-height: 28px;
+    margin-left: 30%;
+    width: 601px;">CONTAMOS CON TECNOLOGÍA DE ÚLTIMA GENERACIÓN Y TRABAJAMOS CON TÉCNICAS VERIFICADAS Y RIGUROSAS NORMAS INTERNAS QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES.     </p>
              
                 
 </div>  
 
-
-
-
- <img src="images/trama3.jpg" id="trama3"  >
-
-
-
-<div  class="col-md-5 " style="background-color: #fff;margin-top: -265px;margin-left: 99px;height: 265px;width: 670px;z-index: 91;">
-  <img src="images/logofooter.png" style="width: 200px;margin-top: 50px;">
-  <h3 style="color: #A59965;font-size: 15px;margin-top: 40px;">2016 - Todos los derechos reservados // Web Design ODM Brandig</h3>
-</div>
-
-
- <div class="col-md-4 " style="margin-top: -225px;margin-left: 835px;z-index: 91;">
-     
-            <ul style="list-style:none;font-family:'Museo 500 Regular';color: #fff;font-size: 20px;line-height: 30px;">
-              <a href="index"> <li style="color: #fff;">AMYRIS</li></a>
-                <a href="fragancias"> <li style="color: #fff;">FRAGANCIAS</li></a>
-               <a href="expertise"> <li style="color: #fff;">EXPERTISE</li></a>
-              <a href="sustentabilidad"> <li style="color: #fff;">SUSTENTABILIDAD</li></a>
-               <a href="innovaciones"> <li style="color: #fff;">INNOVACIONES</li></a>
-               <a href="contacto"> <li style="color: #fff;">CONTACTO</li></a>
-            </ul> 
-                
-</div>  
-
-
-
- <div class="col-md-4 " style="margin-top: -245px;margin-left: 335px;z-index: 91;">
-          <h2  style="font-family:'Museo 500 Regular';font-size:25px;color: #A59965;">AMYRIS S.A</h1>
-            <ul style="list-style:none;font-family:'Museo 500 Regular';color: #000;font-size: 20px;line-height: 40px;">
-            <li> <i class="fa fa-map-marker">  Curapaligue 6510, Munro(1605)<br>pcia de BSAS</i></li>
-              <li><i class="fa fa-envelope"> ventas@amiry.com.ar</i></li>
-              <li><i class="fa fa-phone"> 5197-1918</i></li>
-       
-            </ul> 
-                
-</div>  
-
-
-
-
-
 </section>
 
 
+<div id="prefooter" >
 
-
-
-
-</body>
-
-
-
-    <script>
-
-
-// boton flor 
-
-$( "#right" ).click(function() {
-
-$('#show-me').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '100px'}, 2000);
-
-
-
-$('#show-me2').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-
-$('#show-me3').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-$('#show-me4').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-$('#show-me5').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-
-$("#contacto").show();
-$( "#contacto" ).animate({ "margin-top": "-700px" } ,1000);
-   
-$( "#menu1" ).animate({ "margin-top": "-10px" } ,500);
-$( "#menu2" ).animate({ "margin-top": "-10px" } ,700);
-$( "#menu3" ).animate({ "margin-top": "-10px" } ,900);
-$( "#menu4" ).animate({ "margin-top": "-10px" } ,1100);
-$( "#menu5" ).animate({ "margin-top": "-10px" } ,1300);
-
-  $('#right').hide();
-  $('#left').show();
-
-//$("body").css("overflow", "hidden");
+  <?php  require 'footer.php';?>
   
-});
+</div>
 
 
- 
-
-$( "#rayas" ).click(function() {
-
-$('#show-me').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '100px'}, 2000);
-
-
-
-$('#show-me2').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-
-$('#show-me3').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-$('#show-me4').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-$('#show-me5').css('visibility', 'visible')
-.animate({opacity: 1.0, right: '95px'}, 2000);
-
-
-   
-$( "#menu1" ).animate({ "margin-top": "-10px" } ,500);
-
-
-$("#contacto").show();
-$( "#contacto" ).animate({ "margin-top": "-1020px" } ,1000);
-
-
-$( "#menu2" ).animate({ "margin-top": "-10px" } ,700);
-$( "#menu3" ).animate({ "margin-top": "-10px" } ,900);
-$( "#menu4" ).animate({ "margin-top": "-10px" } ,1100);
-$( "#menu5" ).animate({ "margin-top": "-10px" } ,1300);
-
-  $('#right').hide();
-  $('#rayas').hide();
-  
-  $('#left').show();
- // $("body").css("overflow", "hidden");
-  
-});
-
-
-
-
-/*      botn para cerrar el menu*/
-
-$( "#left" ).click(function(){
-
-
-$( "#menu1" ).animate({ "margin-top": "-770px" } ,1300);
-$( "#menu2" ).animate({ "margin-top": "-770px" } ,1100);
-$( "#menu3" ).animate({ "margin-top": "-770px" } ,900);
-$( "#menu4" ).animate({ "margin-top": "-770px" } ,700);
-$( "#menu5" ).animate({ "margin-top": "-770px" } ,500);
-
-
-$( "#contacto" ).animate({ "margin-top": "2564px" } ,1000);
-$("#contacto").hide();
-
-
-
-$('#show-me').css('visibility', 'hidden')
-.animate({opacity: 0.0, right: '-100px'}, "slow");
-
-$('#show-me2').css('visibility', 'hidden')
-.animate({opacity: 0.0, right: '-100px'}, "slow");
-
-$('#show-me3').css('visibility', 'hidden')
-.animate({opacity: 0.0, right: '-100px'}, "slow");
-
-$('#show-me4').css('visibility', 'hidden')
-.animate({opacity: 0.0, right: '-100px'}, "slow");
-
-$('#show-me5').css('visibility', 'hidden')
-.animate({opacity: 0.0, right: '-100px'}, "slow");
-
-
-
-   $('#right').show();
-   $('#myCarousel').show();
-   $('#rayas').show();
-   
-   $('#left').hide();
-$("body").css("overflow", "auto");
-
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    <script src="template5/js/bootstrap.min.js"></script>
-    <script src="template5/js/jquery.prettyPhoto.js"></script>
-    <script src="template5/js/jquery.isotope.min.js"></script>
-    <script src="template5/js/main.js"></script>
-    <script src="template5/js/wow.min.js"></script>
 
 </body>
 </html>
