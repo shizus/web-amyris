@@ -1,0 +1,77 @@
+.titulo1_fragancia {
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFF;
+    text-align: center;
+    width: 540px;
+    margin-top: -33%;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    .titulo2_fragancia {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 0%;
+    width: 900px;
+}
+
+#crumble_fragancia h3 {
+    font-size: 28px;
+    color: #A59965;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    margin-left:0%;
+}
+
+#botonrojo2_fragancia h2 {
+    font-size: 46px;
+    color: #D1BE89;
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    text-align: center;
+    }
+
+
+
+
+  #fragantit img {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .primero_cuadrado_fragancias{
+    text-align: center;
+        width: 445px;
+        margin-left: 30%;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #e1e6e9;
+    z-index: 3;
+  
+    margin-top: -60%;
+    animation-delay: 0.3s;
+
+  }
+
+  .primero_cuadrado_fragancias h4 {
+    font-size: 55px;
+    text-align: center;
+    animation-delay: 0.3s;
+    color: #fff;
+  
+  font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #000;
+  }
+
+
+

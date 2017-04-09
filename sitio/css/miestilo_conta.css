@@ -1,0 +1,192 @@
+#columna_cont{
+    position: relative;
+    margin-top: -11%;
+
+}
+
+  #crumble_contacto h3 {
+    font-size: 25px;
+    color: #A59965;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    margin-left: 10%;
+  }
+
+
+     #botonrojo2_fragancias h4{  
+ font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    /* width: 574px; */
+    margin-left: 13%;
+    text-align: center;
+    margin-right: 13%;
+  }
+
+  #info h1 {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #A59965;
+    font-size: 46px;
+  }
+
+  #columna12_conta{
+    position: relative;
+    margin-top: 8%;
+  }
+
+  .primero_cuadrado_contacto {
+    width: 570px;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.77);
+    border: 1px solid #e1e6e9;
+    position: relative;
+    margin-left: auto;
+    z-index: 3;
+    margin-top: -8%;
+    margin-right: auto;
+  }
+
+
+.primero_cuadrado_contacto h2 {
+    font-weight: normal;
+    color: #A59965;
+    font-size: 26px;
+    text-align: center;
+    padding: 25px;
+    animation-delay: 0.3s;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+
+  }
+
+  .primero_cuadrado_contacto p {
+    text-align: center;
+    margin-left: 9px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color:#000;
+  }
+
+.segundo_cuadrado_contacto p{
+font-family: 'Futura';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+
+ #formulariocontacto h1 {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #A59965;
+    font-size: 42px;
+    width: 663px;
+    text-align: left;
+    margin-left: 10%;
+
+  }
+
+  #formulariocontacto input {
+    width: 600px;
+    height: 40px;
+    background-color: rgba(232, 222, 195, 0.62);
+    border-color: #E8DEC3;
+    border: 0px;
+    padding: 0px 115px;
+    margin-left: -45px;
+  }
+
+  #formulariocontacto .mensaje {
+    width: 600px;
+    height: 105px;
+    background-color: rgba(232, 222, 195, 0.62);
+    border-color: #E8DEC3;
+    border: 0px;
+    padding: 0px 115px;
+    margin-left: -45px;
+}
+
+#formulariocontacto .submit{
+      width: 229px;
+    background: #DA504B;
+    padding: 1px 16px;
+    margin-left: 52%;
+    color: #fff;
+}
+
+#fototachos{
+    position: relative;
+    z-index: -5;
+    top: -111px;
+}
+
+
+#fototachos img{
+    width: 100%;
+}
+
+#columna6conta{
+    height: 100px;    text-align: right;
+}
+
+
+#fotocontacto{
+height: 100px;
+}
+
+
+#columna6conta img{
+    width: 95%; height: 500px;
+}
+
+#formulariocontacto{
+    height: 100px;
+    margin-left: 45%;
+    margin-top: -8%;
+}
+
+#campos{
+    position: relative;margin-top: -6%;
+}
+
+  #su2_cont h1 {
+ font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin-left: 14%;
+    width: 800px;
+    margin-top: -80%;
+}
+#su2_cont p {
+    text-align: left;
+    color: #fff;
+    font-size: 21px;
+    line-height: 28px;
+        margin-left: 27%;
+    width: 671px;
+    }
+
+#su2_cont img{
+    width: 8%;
+    position: relative;
+    margin-left: 27%;
+    margin-top: 8%;
+    }
+
+#susten_conta{
+    position: relative;margin-top: 48%;
+}
+
+#su1 img{
+    width: 100%;
+}
+
+#prefooter_cont{
+ position: relative;    z-index: -11;
+ margin-top: 10%;
+}

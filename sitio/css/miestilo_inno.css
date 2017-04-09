@@ -1,0 +1,440 @@
+    .titulo1_inno{
+      font-weight: normal;
+    font-size: 22px;
+    color: #FFF;
+
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: -30%;
+    width: 540px;
+}
+.titulo2_inno{
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 53px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    color: #fff;
+}
+
+
+#columna12inno{
+    margin-top: -23%
+    text-align: center;
+}
+
+
+  #botonrojo_inno h3 {
+    font-size: 25px;
+    color: red;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+  }
+
+  #botonrojo2_inno h2 {
+    font-size: 38px;
+    color: #A59965;
+    width: 900px;
+        margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    text-align: center;
+  }
+  
+
+  #botonrojo_inno{
+     text-align:center;
+  }
+
+#botonrojo_inno{
+  width: 70px;
+  margin-top: -26px;
+  margin-left: -21px;
+    }
+
+#frasco{
+    position: relative;
+    margin-top: 20%;
+}
+
+#frasco img{
+    
+    width: 100%;
+}
+
+
+.primero_cuadrado_inno h4{
+      font-size: 50px;
+    text-align: center;
+    animation-delay: 0.3s;
+    color: rgb(154, 144, 144);
+}
+
+.primero_cuadrado_inno {
+     width: 445px;
+    margin-left: 14%;
+    height: 70px;
+    background-color: rgba(245, 245, 245, 0.75);
+    border: 1px solid #e1e6e9;
+    position: relative;
+    margin-top: -27%;
+    z-index: 3;
+    animation-delay: 0.3s;
+
+    }
+
+    #columna_inno{
+position: relative;
+    margin-top: 14%;
+    width: 750px;
+    margin-left: 41%;
+
+    }
+
+    #columna_inno {
+padding: 72px 44px;
+    background-color: #D1BE87;
+   font-family: 'Futura';
+   color:rgba(0, 0, 0, 0.71) ;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;
+       height: 300px;
+  }
+
+  #columna_inno h2 {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+    margin-top: -3%;
+  }
+
+  #columna_inno p {
+  line-height: 30px;
+}
+
+
+
+#telescopio{
+position: relative;top: 150px;
+}
+
+#telescopio img{
+    width: 100%;
+}
+
+.cuadrado_inno {
+ 
+    margin-top: -57%;
+margin-left: 11% ;
+margin-right :11%;
+    height: 220px;
+    background-color:rgba(255, 255, 255, 0.88) ;
+    border: 1px solid #e1e6e9;
+    position: relative;
+    z-index: 3;
+    visibility: visible;
+    animation-name: zoomIn;
+    animation-delay: 0.3s;
+  }
+
+  .cuadrado_inno p {
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+    animation-delay: 0.3s;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #DA504B;
+}
+
+
+.cuadrado_inno h4 {
+    font-size: 50px;
+    text-align: center;
+    color: #D1BE87;
+    animation-delay: 0.3s;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+
+    }
+
+    .cuadrado_inno_id {
+width: 533px;
+    /* margin-top: -21%; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 118px;
+    background-color: rgba(245, 245, 245, 0.91);
+    border: 1px solid #e1e6e9;
+    /* position: relative; */
+    z-index: 3;
+    animation-delay: 0.3s;
+
+  }
+
+  .cuadrado_inno_id h4 {
+   font-size: 91px;
+    margin-top: 6px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.72);
+    opacity: 0.6;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+  }
+
+  .cuadrado_inno_id2 {
+    /* width: 1100px; */
+    /* margin-left: 45px; */
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top:2%;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.84) ;
+    position: relative;
+    z-index: 3;
+    animation-delay: 0.3s;
+  }
+
+  .cuadrado_inno_id2 h4 {
+    font-size: 32px;
+    padding-top: 20px;
+    text-align: center;
+    color: #D1BE87;
+    opacity: 0.6;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+}
+
+
+.cuadrado_inno_id2 p {
+      font-family: 'Futura';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 34px;
+    padding: 0px 51px;
+}
+
+.cuadrado_inno_id3 {
+    margin-left: 6%;
+    margin-right: 6%;
+    /* width: 1100px; */
+    margin-top: 7%;
+    border: 1px solid #e1e6e9;
+    position: relative;
+    z-index: 3;
+    background-color: #D1BE87;
+    height: 190px;
+}
+
+.cuadrado_inno_id3 h4 {
+    font-size: 22px;
+    margin-top: 35px;
+    text-align: center;
+    color: red;
+    opacity: 0.6;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+  }
+
+  .cuadrado_inno_id3 p {
+    font-size: 22px;
+    margin-left: 60px;
+    line-height: 30px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #fff;
+
+  }
+
+
+  .cuadrado_inno_id4 {
+    margin-left: 45px;
+    width: 1100px;
+    margin-top: 55px;
+    border: 1px solid #D1BE87;
+    position: absolute;
+    z-index: 3;
+    height: 610px;
+    background-color: rgba(255, 255, 255, 0.26);
+  }
+
+  #cuain1{
+    text-align: center;
+    position: relative;    
+    margin-top: -10%;
+  }
+
+
+  #cuain2{
+    text-align: center;
+  }
+
+  #cuain3{
+    text-align: center;
+  }
+
+   #contenedortrescolumnas .columna1 h2{
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    color: red;
+  }
+
+    #contenedortrescolumnas .columna2 h2{
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    color: red;
+  }
+
+
+  #contenedortrescolumnas .columna3 h2{
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    color: red;
+  }
+
+    #contenedortrescolumnas .columna1 p{
+    font-family: 'Futura';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+        width: 282px;
+        text-align: center;
+        margin:0 auto;
+}
+
+
+    #contenedortrescolumnas .columna2 p{
+    font-family: 'Futura';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+        width: 382px;
+        text-align: center;
+                margin:0 auto;
+}
+
+    #contenedortrescolumnas .columna3 p{
+    font-family: 'Futura';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+        width: 282px;
+        text-align: center;
+                margin:0 auto;
+}
+
+#contenedortrescolumnas h3{
+    font-size: 22px;
+    margin-left: 60px;
+    line-height: 30px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Museo 500 Regular';
+    font-weight: bold;
+    color: #D1BE87;
+}
+
+
+#contenedortrescolumnas .container{
+    background: rgba(255, 255, 255, 0.83) ; 
+    border: 1px solid #D1BE87;    
+    position: relative;
+    margin-top: 42%;height: 650px;
+}
+
+
+#contenedortrescolumnas .container .columna12{
+    text-align: center;
+}
+
+
+#portfolio_expertise{
+    position: relative;
+    top: -62px;
+    z-index: -1;
+}
+
+#imagenportfolio1_inno img{
+    width: 100%;
+
+    height: 375px;
+}
+
+#imagenportfolio2_inno img{
+   width: 100%; 
+   height: 375px;"
+}
+
+#imagenportfolio3_inno img{
+ width: 100%;
+ height: 375px;
+}
+
+
+#trama33 img{
+    width: 100%;
+    position: relative;
+    margin-top: -32%;
+    z-index: -2;
+}
+
+
+.contacinno{
+     position: relative;
+    margin-top: 10%;
+}
+
+.contacinno .container img{
+  
+  width: 100%;
+}
+
+ #su2 h1 {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+        margin-right: 47%;
+
+  }
+
+  #su2 p {
+    text-align: left;
+    color: #fff;
+    font-size: 21px;
+    line-height: 28px;
+    width: 600px;
+    margin-left: 14%;
+
+  }
+
+
+  #su2{
+    position: relative;
+    margin-top: -34%;
+  }
+
+#su2 img{
+    width: 5%;margin-left: 14%;margin-top: 2%;
+}
+
+#prefooter{
+    position: relative;
+    z-index: -11;
+}

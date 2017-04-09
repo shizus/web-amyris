@@ -1,0 +1,421 @@
+#titulo2_expertise {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 0%;
+    width: 800px;
+  }
+
+ #textoquienes h3 {
+    font-size: 25px;
+    color: #DA504B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    text-align: center;
+  }
+
+  #crumble_expertise h3 {
+    font-size: 28px;
+    color: #A59965;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    margin-left: 0%;
+  }
+
+  #textoexpertise {
+    font-size: 25px;
+    color: #DA504B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    text-align: center;
+}
+
+#botonrojo2_expertise h2 {
+    font-size: 46px;
+    color: #D1BE89;
+    width: 938px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    text-align: center;
+  }
+
+  #botonrojo_fragancias img{
+    width: 70px;margin-top: -26px;margin-left: -21px;
+  }
+
+    .primero_cuadrado_expertise {
+      width: 532px;
+    margin-left: 11%;
+    height: 124px;
+    background-color: #fff;
+ 
+    position: relative;
+    margin-top: -340px;
+    z-index: 3;
+    animation-delay: 0.3s;
+  }
+
+  .primero_cuadrado_expertise h4 {
+     font-size: 90px;
+    text-align: center;
+    animation-delay: 0.3s;
+    color: #000;
+    padding: 7px;
+    font-family:'Museo 500 Regular';font-weight:normal;
+}
+
+#columnas{
+    position: relative;margin-top: 30%;
+}
+
+#linearojaexpertise {
+ background: #DA4655;
+    height: 7px;
+    width: 42%;
+    position: relative;
+    top: -233px;
+    left: 756px;
+    z-index: 1;
+}
+
+#columnaseis1{
+    position: relative;margin-left: 40px;margin-top: -18%;
+}
+
+
+#columnaseis1 h1{
+    font-family:'Museo 500 Regular';font-weight:normal;color:#A59965;font-size: 60px;width: 500px;
+    padding: 0px 60px;
+}
+
+#textoe1{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;padding-left: 70px;
+}
+
+#textoe11{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;padding-left: 70px;
+}
+
+#textoe2{
+font-family:'Museo 500 Regular';
+font-weight:normal;
+color:#A59965;
+font-size: 20px;
+line-height: 35px;
+padding-left: 70px;
+width: 600px;
+}
+
+#columnaseis2{
+    position: relative;margin-top: -240px;width: 450px;margin-left: 2%;
+}
+
+#textoe3{
+     background-color: #A59965;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    color: #fff;
+    padding: 35px;
+    width: 136%;
+    height: 230px;
+    padding: 49px;
+}
+
+#textoe4{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;width: 530px;
+}
+
+
+#textoe5{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;width: 500px;
+}
+
+.segundo_cuadrado_expertise {
+    width: 440px;
+    margin-left: 30%;
+    height: 75px;
+    background-color: #fff;
+    border: 1px solid #e1e6e9;
+    position: relative;
+    margin-top: 50%;
+    z-index: 3;
+    position: absolute;
+    animation-delay: 0.3s;
+  }
+
+  .segundo_cuadrado_expertise h4 {
+    font-size: 40px;
+    text-align: center;
+    animation-delay: 0.3s;
+  color: #A59965;
+}
+
+.segundo_cuadrado_expertise h4{
+    font-family:'Museo 500 Regular';font-weight:normal;
+}
+
+
+#tramaexpertise img{
+    width: 100%;position: relative;margin-top: 10%;
+}
+
+#textotrama1{
+     position: relative;margin-top: -30%;
+}
+
+
+#textotrama1 p{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;   
+     padding: 0% 7% 7%;text-align: center;
+}
+
+#imagenportfolio1 img{
+    width: 112%; 
+    margin-left: -4%;
+    height: 335px;
+}
+
+
+#imagenportfolio2 img{
+    width: 112%; 
+    margin-left: -4%;
+    height: 335px;
+}
+
+
+#imagenportfolio3 img{
+    width: 112%; 
+    margin-left: -4%;
+    height: 335px;
+}
+
+
+
+#imagenportfolio4 img{
+  width: 112%;
+  margin-left: -4%;
+  height: 335px;
+}
+
+
+#imagenportfolio5 img{
+    width: 112%; 
+    margin-left: -4%;
+    height: 335px;
+}
+
+
+#imagenportfolio6 img{
+    width: 112%; 
+    margin-left: -4%;
+    height: 335px;
+}
+
+
+#tramadebajoportfolio{
+    position: relative;
+    top: -190px;z-index: -1
+}
+
+#tramadebajoportfolio img{
+
+width: 100%;
+}
+
+
+#titulocontrol{
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    font-size:60px;
+    text-align: center;
+    color: #A59965;
+    margin-left: 0%;
+    margin-top: -12%;
+}
+
+
+#columnacontrol4{
+     position: relative;
+    margin-top: -8%;
+    width: 450px;
+    margin-left: 11%;
+}
+
+#columnacontrol4 p{
+     background-color:#A59965;
+     font-family:'Museo 500 Regular';
+     font-weight:normal;
+     font-size: 19px;
+     line-height: 35px;
+     color:#fff;
+     padding: 35px;
+}
+
+#columnacontrol4 h1{
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    font-size:30px;
+    text-align: center;
+    color: #A59965;
+    margin-left: 0%;
+}
+
+
+#columnacontrol5 {
+position: relative;margin-left: 4%;
+    margin-top: 4%;
+}
+
+#columnacontrol5 .p0{
+color:#A59965;font-size: 18px;
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;
+  
+}
+
+
+#columnacontrol5 .p1{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;
+    
+}
+
+#columnacontrol5 .p2{
+    font-family: 'Futura';
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;
+  
+}
+
+#columnacontrol5 .p3{
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    color:#A59965;
+    font-size: 18px;
+    font-size: 31px;
+    line-height: 34px;
+}
+
+
+
+#mapa .imagen1{
+width: 100%;
+}
+
+#mapa .imagen2{
+    position: relative;
+    margin-top: -38%;
+    width: 23%;
+    margin-left: 40%;
+}
+
+
+#floresamarillas h1{
+font-family:'Museo 500 Regular';
+font-weight:normal;
+font-size:60px;
+text-align: center;
+color: #fff;
+margin-top: -60%;
+margin-left: 0%;
+}
+
+
+#floresamarillas .textop1{
+    font-family: 'Futura';
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 978px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+#floresamarillas .textop2{
+     font-family: 'Futura';
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 678px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+#fotofinal{
+position: relative;margin-top:8%;
+}
+
+#fotofinal .contenedorfloresamarillas {
+     visibility: visible; animation-name: zoomIn;
+}
+
+
+#fotofinal .contenedorfloresamarillas {
+width: 100%;
+}
+
+#susten6{
+     margin-top: -50%;margin-left: 35px;
+}
+
+#susten6 h1{
+    font-family:'Museo 500 Regular';
+    font-weight:normal;
+    font-size:60px;
+    text-align: center;
+    color: #fff;
+    margin-left: 0%;
+}
+
+
+#susten6 .textopsusten1 {
+    text-align: left;
+    color: #fff;
+    font-size: 21px;
+    line-height: 28px;
+    margin-left: 21%;
+    width: 457px;
+}
+
+#susten6 img {
+   width: 8%;
+    position: relative;
+    margin-left: 21%;
+    margin-top: 10%;
+    }
