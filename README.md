@@ -50,4 +50,42 @@ Estamos agregando el README.md al paquete
 Luego, si hacemos git status vamos a ver que no nos aparece más como marcado el archivo que modificamos, porque ya lo
 commiteamos.
 
-Probemos con git UI (yo nunca lo usé)
+Probemos con git UI. Funciona igual:
+- Primero pasamos lo que queremos commitear a staged to commit
+- Luego escribimos un comentario para el commit.
+
+##Pusheando
+
+Pushear comparte los cambios commiteados con nuestro equipo.
+
+Primero debemos asegurarnos de no tener cambios pendientes de borrar o commitear, porque sino los cambios te acompañan
+al otro branch.
+
+Una vez que nos aseguramos que no hay nada que nos vaya a seguir, vamos a pasar al branch master.
+
+> git checkout master
+
+vamos a traer los cambios del branch al master
+
+> git merge <nombre del branch>
+
+Listo, ahora vamos a ver que los cambios vinieron con nosotros, *por elección nuestra*
+
+En el medio, parados en el master, podemos modificar lo que nos parezca necesario antes de compartir con el equipo. 
+*Pero no se aconseja,* en general hay que trabajar en el branch.
+
+Ahora estamos por subir cambios para que los vean todos, pero antes tenemos que asegurarnos de que no se hicieron
+cambios al proyecto mientras que estuviamos trabajando.
+
+Para eso hacemos
+
+> git pull
+
+Si no hubo cambios, ya estamos listos para subir.
+
+> git push
+
+Nos pide usuario y contraseña y lo subimos sin problema.
+
+Si hubo cambios el git pull va a mezclar lo que hicieron mis compañeros con lo que hice yo, en ese caso estoy 
+obligado a probar la web otra vez para asegurarme de que no se rompió nada.
