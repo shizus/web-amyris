@@ -46,8 +46,8 @@ End Fixed Navigation
                     <div>
 
                         <div class="image_title">
-                            <a class="texto1_isla1" href="#"><?php echo $sentir1 ?></a>
-                            <a class="texto2_isla1 wow slideInUp animated " href="#"><?php echo $sentir2 ?></a>
+                            <a class="titulo-isla" href="#"><?php echo $sentir1 ?></a>
+                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $sentir2 ?></a>
                         </div>
                     </div>
                 </li>
@@ -55,8 +55,8 @@ End Fixed Navigation
                 <li class="wow slideInUp animated segundo descubrir isla-item col-md-3">
                     <div>
                         <div class="image_title">
-                            <a class="texto1_isla2" href="#"><?php echo $descubrir1 ?></a>
-                            <a class="texto2_isla2 wow slideInUp animated " href="#"><?php echo $descubrir2 ?></a>
+                            <a class="titulo-isla" href="#"><?php echo $descubrir1 ?></a>
+                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $descubrir2 ?></a>
                         </div>
                     </div>
                 </li>
@@ -65,8 +65,8 @@ End Fixed Navigation
                 <li class="wow slideInUp animated tercero crear isla-item col-md-3">
                     <div>
                         <div class="image_title">
-                            <a class="texto1_isla3" href="#"><?php echo $crear1 ?></a>
-                            <a class="texto2_isla3 wow slideInUp animated " href="#"><?php echo $crear2 ?></a>
+                            <a class="titulo-isla" href="#"><?php echo $crear1 ?></a>
+                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $crear2 ?></a>
                         </div>
                     </div>
                 </li>
@@ -74,8 +74,8 @@ End Fixed Navigation
                 <li class="wow slideInUp animated cuarto disfrutar isla-item col-md-3">
                     <div>
                         <div class="image_title">
-                            <a class="texto1_isla2" href="#"><?php echo $disfrutar1 ?></a>
-                            <a class="texto2_isla2 wow slideInUp animated " href="#"><?php echo $disfrutar2 ?></a>
+                            <a class="titulo-isla" href="#"><?php echo $disfrutar1 ?></a>
+                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $disfrutar2 ?></a>
                         </div>
                     </div>
                 </li>

@@ -860,7 +860,7 @@ ul.external li a:hover {
     width: 640px;
 
 }
-.image_title .texto1_isla1 {
+.titulo-isla {
 
 
     -webkit-transform: rotate(-180deg);
@@ -886,7 +886,7 @@ ul.external li a:hover {
 
 }
 
-.image_title .texto2_isla1 {
+.image_title .texto-isla {
 
 
     -webkit-transform: rotate(90deg);
@@ -916,7 +916,7 @@ ul.external li a:hover {
 
 }
 
-.accordian ul:hover .image_title .texto2_isla1 {
+.accordian ul:hover .image_title .texto-isla {
     margin-right: 100px;
     top: -180px;
     line-height: 27px;
@@ -925,197 +925,6 @@ ul.external li a:hover {
 
 
 }
-
-
-
-/* -----------------------------------------------------------*/
-
-
-.image_title .texto1_isla2 {
-
-
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-
-    font-size: 70px;
-    position: relative;
-    left: -465px;
-    padding-top: 20px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-
-
-}
-
-.image_title .texto2_isla2 {
-
-
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-
-    font-size: 22px;
-    position: relative;
-    width: 380px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-family:'Museo 500 Regular';
-    font-weight:normal;
-    writing-mode: horizontal-tb;
-    margin-right: -200px;
-
-
-
-}
-.accordian ul:hover .image_title .texto2_isla2 {
-    margin-right: 100px;
-    top: -180px;
-    line-height: 27px;
-    transition: all 0.5s;
-}
-
-/* ---------------------------------------------------------*/
-
-
-.image_title .texto1_isla3 {
-
-
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-
-    font-size: 70px;
-    position: relative;
-    left: -465px;
-    padding-top: 20px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-
-
-}
-
-.image_title .texto2_isla3 {
-
-
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-
-    font-size: 22px;
-    position: relative;
-    width: 380px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-family:'Museo 500 Regular';
-    font-weight:normal;
-    writing-mode: horizontal-tb;
-    margin-right: -200px;
-
-
-
-}
-
-
-.image_title .texto1_isla4 {
-
-
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-
-    font-size: 70px;
-    position: relative;
-    left: -465px;
-    padding-top: 20px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-
-
-}
-
-.image_title .texto2_isla4 {
-
-
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-
-    font-size: 22px;
-    position: relative;
-    width: 380px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-family:'Museo 500 Regular';
-    font-weight:normal;
-    writing-mode: horizontal-tb;
-    margin-right: -200px;
-
-}
-
-
-
-.accordian ul:hover .image_title .texto2_isla3 {
-    margin-right: 100px;
-    top: -150px;
-    line-height: 27px;
-    transition: all 0.5s;
-}
-
 
 
 
