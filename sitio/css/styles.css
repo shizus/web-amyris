@@ -888,7 +888,6 @@ ul.external li a:hover {
 
 .image_title .texto-isla {
 
-
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -905,15 +904,12 @@ ul.external li a:hover {
     position: relative;
     width: 380px;
     display: block;
-    color: #fff;
+    color: transparent;
     text-decoration: none;
     font-family:'Museo 500 Regular';
     font-weight:normal;
     writing-mode: horizontal-tb;
     margin-right: 650px;
-
-
-
 }
 
 .accordian ul:hover .image_title .texto-isla {
@@ -921,9 +917,7 @@ ul.external li a:hover {
     top: -180px;
     line-height: 27px;
     transition: all 0.5s;
-
-
-
+    color: #fff;
 }
 
 

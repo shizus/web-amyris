@@ -47,7 +47,7 @@ End Fixed Navigation
 
                         <div class="image_title">
                             <a class="titulo-isla" href="#"><?php echo $sentir1 ?></a>
-                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $sentir2 ?></a>
+                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $sentir2 ?></a>
                         </div>
                     </div>
                 </li>
@@ -56,7 +56,7 @@ End Fixed Navigation
                     <div>
                         <div class="image_title">
                             <a class="titulo-isla" href="#"><?php echo $descubrir1 ?></a>
-                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $descubrir2 ?></a>
+                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $descubrir2 ?></a>
                         </div>
                     </div>
                 </li>
@@ -66,7 +66,7 @@ End Fixed Navigation
                     <div>
                         <div class="image_title">
                             <a class="titulo-isla" href="#"><?php echo $crear1 ?></a>
-                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $crear2 ?></a>
+                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $crear2 ?></a>
                         </div>
                     </div>
                 </li>
@@ -75,7 +75,7 @@ End Fixed Navigation
                     <div>
                         <div class="image_title">
                             <a class="titulo-isla" href="#"><?php echo $disfrutar1 ?></a>
-                            <a class="texto-isla wow slideInUp animated " href="#"><?php echo $disfrutar2 ?></a>
+                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $disfrutar2 ?></a>
                         </div>
                     </div>
                 </li>
