@@ -27,32 +27,32 @@
 		<!-- Fontawesome Icon font -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<!-- bootstrap.min -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/lib/jquery.fancybox.css">
 		<!-- bootstrap.min -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/lib/bootstrap.min.css">
 		<!-- bootstrap.min -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/lib/owl.carousel.css">
 		<!-- bootstrap.min -->
-        <link rel="stylesheet" href="css/slit-slider.css">
+        <link rel="stylesheet" href="css/lib/slit-slider.css">
 		<!-- bootstrap.min -->
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/lib/animate.css">
 		<!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/main.css">
 	
     	<!-- Main Stylesheet pages -->
 
-		<link rel="stylesheet" href="css/miestilo.css">
-        <link rel="stylesheet" href="css/miestilo_quienes.css">
-        <link rel="stylesheet" href="css/miestilo_fragancia.css">
-        <link rel="stylesheet" href="css/miestilo_expertise.css">
-         <link rel="stylesheet" href="css/miestilo_susten.css">
-         <link rel="stylesheet" href="css/miestilo_inno.css">
-         <link rel="stylesheet" href="css/miestilo_conta.css">
+		<link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/quienes.css">
+        <link rel="stylesheet" href="css/fragancia.css">
+        <link rel="stylesheet" href="css/expertise.css">
+         <link rel="stylesheet" href="css/sustentabilidad.css">
+         <link rel="stylesheet" href="css/innovacion.css">
+         <link rel="stylesheet" href="css/contacto.css">
 
 
 
 
-		<link rel="stylesheet" href="css/fullmenu.css">
+		<link rel="stylesheet" href="css/lib/fullmenu.css">
 
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 

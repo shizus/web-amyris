@@ -7,6 +7,13 @@
 
 /* Reglas generales */
 
+#logo {
+    position: absolute;
+    top: 4em;
+    left: 6em;
+    z-index: 40;
+}
+
 #lista_arriba ul{
     list-style:none;
     color: #fff;
@@ -17,10 +24,6 @@
     z-index: 2;
     margin-top: 2%;
     right: 5%;
-}
-
-#milogo img{
-    position: absolute;z-index: 44;
 }
 
 
@@ -201,11 +204,11 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 .cuarto{
-    animation-delay:0.11s;
+    animation-delay:1.1s;
 }
 
 .quinto{
-    animation-delay:0.15s;
+    animation-delay:1.5s;
 }
 
 
@@ -231,7 +234,7 @@ img.nube{
 
 
 img.img-responsive {
-    height: 383px;
+    min-height: 100%;
 }
 
 figcaption.mask h4 {
@@ -1507,13 +1510,6 @@ ul.external li a:hover {
         font-weight: normal;
         font-size: 35px;
         width: 834px;
-    }
-
-
-    #milogo img{
-        position: absolute;
-        z-index: 44;
-        margin-left: 2em;
     }
 
 

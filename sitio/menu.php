@@ -10,7 +10,7 @@
 </div>
 
 
-<div id="milogo"> 
+<div id="logo">
     <a href="index">
     <img src="images/logo.png"  ></a>
 </div>
