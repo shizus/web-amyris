@@ -7,6 +7,10 @@
 
 /* Reglas generales */
 
+html, body {
+    overflow-x: hidden;
+}
+
 #logo {
     position: absolute;
     top: 4em;
@@ -216,19 +220,19 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     height: 422px;
 }
 .sentir {
-    background: url('/img/isla1.jpg') no-repeat;
+    background: url('../img/isla1.jpg') no-repeat;
 }
 
 .descubrir {
-    background: url('/img/isla2.jpg') no-repeat;
+    background: url('../img/isla2.jpg') no-repeat;
 }
 
 .crear {
-    background: url('/img/isla3.jpg') no-repeat;
+    background: url('../img/isla3.jpg') no-repeat;
 }
 
 .disfrutar {
-    background: url('/img/isla4.jpg') no-repeat;
+    background: url('../img/isla4.jpg') no-repeat;
 }
 
 img.nube{
