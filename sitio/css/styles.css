@@ -18,10 +18,11 @@ html, body {
     z-index: 40;
 }
 
+
 #lista_arriba ul{
     list-style:none;
     color: #fff;
-    font-size: 20px;
+    font-size: 2em;
     letter-spacing: 20px;
     display: inline-flex;
     position: absolute;

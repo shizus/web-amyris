@@ -114,11 +114,7 @@
               <li><i class="fa fa-envelope"> </i></li>
                <li>|</li>
                <li>
-                   <div class="open-overlay">
-                       <span class="bar-top"></span>
-                       <span class="bar-middle"></span>
-                       <span class="bar-bottom"></span>
-                   </div>
+                  <i class="fa fa-bars"></i>
                </li>
 
             </ul> 
