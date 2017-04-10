@@ -886,6 +886,10 @@ ul.external li a:hover {
 
 }
 
+.image_title a:hover {
+    color: #fff;
+}
+
 .image_title .texto-isla {
 
     -webkit-transform: rotate(90deg);
@@ -914,10 +918,13 @@ ul.external li a:hover {
 
 .accordian ul:hover .image_title .texto-isla {
     margin-right: 100px;
-    top: -180px;
+    top: -80px;
     line-height: 27px;
     transition: all 0.5s;
     color: #fff;
+}
+.accordian ul:hover .image_title .titulo-isla {
+    left: -65px;
 }
 
 
