@@ -395,11 +395,11 @@ $textoin21="&iquest;NECESITA HACER ALGUNA CONSULTA O COMENTARIO? ESCR&Iacute;BAN
 
 $textoc1="EL VALOR DE ESTAR COMUNICADOS";
 $textoc2="Generamos v&iacute;nculos duraderos y confiables";
-$textoc3="&iquest;D&oacute;nde estamos? / Haganos su consulta";
+$textoc3="&iquest;D&oacute;nde estamos? / H&aacute;ganos su consulta";
 $textoc4="En Amyris, nos interesa conocer las necesidades y la opini&oacute;n de cada cliente. Queremos que se involucre en cada detalle del proceso de creaci&oacute;n y fabricaci&oacute;n, para que podamos as&iacute;, atender a cualquier sugerencia.";
-$textoc5="DONDE ESTAMOS";
-$textoc6="Planta de Producci&oacute; y Oficina de Ventas";
-$textoc7="HÁGANOS SU CONSULTA";
+$textoc5="D&Oacute;NDE ESTAMOS";
+$textoc6="Planta de Producci&oacute;n y Oficina de Ventas";
+$textoc7="H&Aacute;GANOS SU CONSULTA";
 $textoc8="NOMBRE Y APELLIDO";
 $textoc9="EMAIL";
 $textoc10="TEL&Eacute;FONO";
