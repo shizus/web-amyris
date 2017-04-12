@@ -124,34 +124,29 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 <div id="fototachos" >
-<img class="tachos" src="images/cont-3.jpg" >
+  <img class="tachos" src="images/cont-3.jpg" >
 </div>
 
 
 <div  class="col-md-12 col-sm-6 col-xs-12" id="fotocontacto" >
+  <div class="container">
+  <div  class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
+      <img src="images/cont-4.jpg">
+  </div>
 
+  <div  class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
 
-
-
-<div  class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
-    <img src="images/cont-4.jpg">
-</div>
-
-<div  class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
-
-      <h1 ><?php echo $textoc7 ?>  </h1><br>
-    <div id="campos" >
-      <input type="text" id="texto0" placeholder='<?php echo $textoc8 ?> '></input><br><br>
-      <input type="text" id="texto1" placeholder='<?php echo $textoc9 ?> '></input><br><br>
-      <input type="text" id="texto2" placeholder='<?php echo $textoc10 ?>'></input><br><br>
-      <input type="text" id="texto3" placeholder='<?php echo $textoc11 ?> '></input><br><br>
-      <input type="text" id="texto4" placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
-      <input type="submit" class ="submit" value='<?php echo $textoc13 ?> '  > </input>
-     </div>
-</div>
-
-
-
+        <h1 ><?php echo $textoc7 ?>  </h1><br>
+      <div id="campos" >
+        <input type="text" id="texto0" placeholder='<?php echo $textoc8 ?> '></input><br><br>
+        <input type="text" id="texto1" placeholder='<?php echo $textoc9 ?> '></input><br><br>
+        <input type="text" id="texto2" placeholder='<?php echo $textoc10 ?>'></input><br><br>
+        <input type="text" id="texto3" placeholder='<?php echo $textoc11 ?> '></input><br><br>
+        <input type="text" id="texto4" placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
+        <input type="submit" class ="submit" value='<?php echo $textoc13 ?> '  > </input>
+      </div>
+  </div>
+  </div>
 </div>
 
 
@@ -159,31 +154,22 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 <section id="susten_conta" >
- <div id="su1" >
-      <div class="container">
-         <img src="images/78.jpg"  >
-      </div>
-</div>
+  <div id="su1" >
+        <div class="container">
+           <img src="images/78.jpg"  >
+        </div>
+  </div>
 
- <div  id="su2_cont" class="col-md-6" >
-         <h1 > <?php echo $textoc14 ?> </h1>
-         <p > <?php echo $textoc15 ?> </p>
-     <img src="images/42.png" > 
-</div>  
-
-
-<div id="prefooter_cont" >
-
-  <?php  require 'footer.php';?>
-  
-</div>
+  <div  id="su2_cont" class="col-md-6" >
+           <h1 > <?php echo $textoc14 ?> </h1>
+           <p > <?php echo $textoc15 ?> </p>
+       <img src="images/42.png" > 
+  </div>  
 
 
-
-
-
-
-
+  <div id="prefooter_cont" >
+    <?php  require 'footer.php';?>    
+  </div>
 </section>
 
 

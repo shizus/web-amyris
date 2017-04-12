@@ -1,4 +1,4 @@
-#columna_cont{
+f#columna_cont{
     position: relative;
     margin-top: -11%;
 
@@ -80,8 +80,8 @@ font-family: 'Futura';
 
  #formulariocontacto h1 {
     font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    color: #A59965;
+    font-weight: bold;
+    color: #D1BE87;
     font-size: 42px;
     width: 663px;
     text-align: left;
@@ -90,12 +90,14 @@ font-family: 'Futura';
   }
 
   #formulariocontacto input {
+    font-family: 'Futura';
+    font-size: 18px;
     width: 600px;
     height: 40px;
     background-color: rgba(232, 222, 195, 0.62);
     border-color: #E8DEC3;
     border: 0px;
-    padding: 0px 115px;
+    padding: 0px 80px;
     margin-left: -45px;
   }
 
@@ -105,7 +107,7 @@ font-family: 'Futura';
     background-color: rgba(232, 222, 195, 0.62);
     border-color: #E8DEC3;
     border: 0px;
-    padding: 0px 115px;
+    padding: 0px 80px;
     margin-left: -45px;
 }
 
@@ -113,7 +115,7 @@ font-family: 'Futura';
       width: 229px;
     background: #DA504B;
     padding: 1px 16px;
-    margin-left: 52%;
+    margin-left: 60%;
     color: #fff;
 }
 
@@ -139,13 +141,13 @@ height: 100px;
 
 
 #columna6conta img{
-    width: 95%; height: 500px;
+    width: 99%; height: 500px;
 }
 
 #formulariocontacto{
     height: 100px;
-    margin-left: 45%;
-    margin-top: -8%;
+    margin-left: 48%;
+    margin-top: -10%;
 }
 
 #campos{
