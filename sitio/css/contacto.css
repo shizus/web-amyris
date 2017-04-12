@@ -1,7 +1,11 @@
-f#columna_cont{
+#columna_cont{
     position: relative;
     margin-top: -11%;
+}
 
+div#arrow { 
+    position: relative;
+    margin-top: 10%;
 }
 
   #crumble_contacto h3 {

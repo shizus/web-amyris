@@ -54,19 +54,17 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 </script>
 
 <div id="portada" >
-   
      <img src="img/slider/88.jpg" >
+</div>   
 
- 
-   <div class="col-md-12 col-sm-6 col-xs-12 text-center " id="columna_cont" >
- 
-               <div class="arrow text-center" ><a class="scroll" href="#banner-bottom">
-               <img alt="" src="images/scroll.png"  style="width: 6%;" /></a>
-               </div>
-</div>
-</div>  
-
-
+<div class="col-md-12 col-sm-6 col-xs-12 text-center" id="columna_cont" >
+            <h4 class="animation animated-item-1 titulo1_susten"><?php echo $textoc1 ?></h4>
+            <h1 class="animation animated-item-2 titulo2_susten" ><?php echo $textoc2 ?></h1>
+            <div class="arrow text-center" style="position: relative; margin-top: 10%;">
+              <a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a>
+            </div>
+                               
+ </div>
 
 <div id="crumble_contacto">
   <h3> <?php echo $textoc3 ?></h3>
