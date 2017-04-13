@@ -254,7 +254,7 @@ CON EL CONSUMIDOR A TRAVÉS DE UN SELLO PERSONAL.";
 
 
 $textos1="EL VALOR DE LA CONFIANZA";
-$textos2="CUIDAMOS DE NUESTROS PROCESOS Y DE NUESTRA GENTE";
+$textos2="garantizando el cuidado de nuestros procesos";
 $textos3="Valores / ";
 $textos33=" Enfoque Sustentable /";
 $textos333=" C&oacute;mo Operamos";
@@ -279,7 +279,7 @@ $textos9="ENFOQUE SUSTENTABLE";
 $textos10="Nuestro compromiso está en garantizar el cuidado y la
 reducción del impacto ambiental en todos los procesos. ";
 
-$textos11="CONTROLAMOS RESPONSABLEMENTE TODOS LOS PROCESOS.";
+$textos11="CONTROLAMOS<br>RESPONSABLEMENTE<br>TODOS LOS PROCESOS.";
 $textos12="Conocemos en detalle los ingredientes y la procedencia de
 nuestras materias primas: nos abastecemos y trabajamos con
 ellos de manera responsable, previniendo de esta manera

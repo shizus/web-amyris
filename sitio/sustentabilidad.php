@@ -109,13 +109,10 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 
-
-
-
 <div id="imagenrosa" >
        <div class="container">
 
-          <img src="images/67.jpg">
+          <img src="images/67b.jpg">
 
           </div>
 </div>
@@ -143,20 +140,21 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 </div>
 
+<div  id="linearojasus"></div>
 <div class="col-md-4" id="esquinaderechas">
   <p class="ezquinaderecha1" ><?php echo $textos11 ?></p><br>
-<p class="ezquinaderecha2" > <?php echo $textos12 ?></p><br>
-<p class="ezquinaderecha3" > <?php echo $textos13 ?></p><br>
-<p class="ezquinaderecha4" ><?php echo $textos14 ?> </p>
-
+  <p class="ezquinaderecha2" > <?php echo $textos12 ?></p><br>
+  <p class="ezquinaderecha3" > <?php echo $textos13 ?></p><br>
+  <p class="ezquinaderecha4" ><?php echo $textos14 ?> </p>
 </div>
-
+<div  id="linearojasusinferior"></div>
 </section>
 
 
 
 
 <section id="susten">
+  
  <div class=" cuarto" >
 
     <img src="images/44.jpg" style="width: 100%;margin-top: 5%;">
