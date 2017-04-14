@@ -170,8 +170,8 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
  <div class="col-md-12 " id="columnadocesusten" >
          <h1 ><?php echo $textos16 ?> </h1>
-        
-                   
+		 <br><br>
+         <img id="corchete" src="images/corchete.png" >
 </div>  
 
 
@@ -199,7 +199,6 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
         <div class="col-md-3"  id="sustencolumna3" style="">
           <img src="images/susten.png" >
-
         </div>
 
 
