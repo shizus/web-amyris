@@ -183,26 +183,26 @@ font-size: 27px;line-height: 35px;
 
 
 .segundo_cuadrado_sus {
-       width: 680px;
-    margin-left: 25%;
+    width: 750px;
+    margin-left: 22.5%;
     /* margin-right: auto; */
-    height: 100px;
-    background-color: #fff;
-
-
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.75);
     position: relative;
-    margin-top: -48%;
+    margin-top: -30%;
     z-index: 3;
     position: relative;
     animation-delay: 0.3s;
   }
 
 .segundo_cuadrado_sus h4 {
-    font-size: 70px;
+    font-size: 75px;
     text-align: center;
+	padding-top: 10px;
     animation-delay: 0.3s;
     color: #000;
     font-family:'Museo 500 Regular';font-weight:normal;
+	opacity: 1;
   }
 
   #susten .cuarto{
@@ -212,12 +212,12 @@ font-size: 27px;line-height: 35px;
 
   #columnadocesusten{
     height: 170px;
-    width: 750px;
-    margin-top: -80px;
-    margin-left: 25%;
+    width: 800px;
+    margin-top: -125px;
+    margin-left: 21%;
     background-color: #D1BE89;
-    margin-right: 25%;
-    padding: 20px;
+    padding: 25px;
+	opacity: 0.95;
   }
 
   #columnadocesusten h1{
@@ -233,14 +233,14 @@ font-size: 27px;line-height: 35px;
     margin-top: 6%;
     border: solid;
     border-width: 2px; 
-     border-color: #D1BE89;
-      background: rgba(255, 255, 255, 0.72);
-      height: 500px;
+    border-color: #D1BE89;
+    background: rgba(255, 255, 255, 0.9);
+    height: 550px;
+	padding-left: 5%;
 }
 
-
 #porque .porquecolumna4 h1{
-    font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: right;color:red;
+    font-family:'Museo 500 Regular';font-weight:normal;font-size:30px;text-align: right;color:#da504b;margin-bottom:10px;
 }
 
 #textcols1{
@@ -249,7 +249,7 @@ font-size: 27px;line-height: 35px;
      color: rgba(0, 0, 0, 0.68);
      line-height: 28px;
      text-align: right;
-     width: 283px;margin-left: 75px;
+     margin-left: 75px;
 }
 
 #textcols2{
@@ -258,26 +258,20 @@ font-size: 27px;line-height: 35px;
     color: rgba(0, 0, 0, 0.68);
     line-height: 28px;
     font-family:'Futura';
-    width: 330px;
     margin-left: 8%;
 }
 
 #sustencolumna3 img{
-    margin-top: 20px;margin-left: 22px;
+    margin-top: 30%;
 }
 
 #sustencolumna4 {
-margin-left: 0%;  margin-top: -4%;
+	margin-top: -4%;
 }
 
 
 #sustencolumna4 h1{
-    font-family:'Futura';
-    font-size: 28px;
-    color: rgba(0, 0, 0, 0.68);
-    line-height: 28px;
-    text-align: left;
-    color:red;
+	font-family:'Museo 500 Regular';font-weight:normal;font-size:30px;text-align: left;color:#da504b;margin-bottom:10px;
 }
 
 

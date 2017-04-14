@@ -157,7 +157,7 @@ src: local('Futura'), url('futurastd.woff') format('woff');
   
  <div class=" cuarto" >
 
-    <img src="images/44.jpg" style="width: 100%;margin-top: 5%;">
+    <img src="images/44b.jpg" style="width: 100%;margin-top: 5%;">
 
 
 </div>
@@ -183,8 +183,10 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
           <div class="col-md-4 porquecolumna4">
           <br>
+		  <br>
                  <h1> <?php echo $textos17 ?></h1>
                   <p  id="textcols1"> <?php echo $textos18 ?> </p>
+				  <br>
 
 
                      <h1> <?php echo $textos19 ?></h1>
