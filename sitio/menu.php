@@ -121,7 +121,7 @@
                 </li>
                 <li>
                     <a>
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-phone" data-toggle="modal" data-target="#telefono-modal"></i>
                     </a>
                 </li>
                 <li>
@@ -181,6 +181,41 @@
                     </div>
 
                 </form>
+            </div>
+
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+
+<!-- Modal Teléfono-->
+<div class="modal right fade" id="telefono-modal" tabindex="-1" role="dialog" aria-labelledby="telefono-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            <div class="modal-header">
+                <h4 class="modal-title">Queremos escucharte</h4>
+            </div>
+
+            <div class="modal-body">
+                <p>¿Tenés una consulta?</p>
+                <p>¿Tenés una sugerencia?</p>
+                <p>¿Querés contarnos acerca de tu idea?</p>
+                <br>
+                <p>
+                    Nos interesa conocer las necesidades y la opinión de cada cliente, por eso siempre estamos acompañando
+                    cada proyecto, ayudándolos a crecer día a día.
+                </p>
+                <br>
+                <p>
+                    ¡Llamanos!
+                </p>
+                <br>
+                <a href="tel:(54 11) 5197-1918">(54 11) 5197-1918</a><br>
+                <a href="tel:(54 11) 5197-1920">(54 11) 5197-1920</a><br>
+                <a href="tel:(54 11) 5197-1932">(54 11) 5197-1932</a><br>
             </div>
 
         </div><!-- modal-content -->

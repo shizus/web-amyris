@@ -74,7 +74,7 @@ nav.floating img {
 .modal.right .modal-dialog {
     position: fixed;
     margin: auto;
-    width: 420px;
+    width: 520px;
     height: 100%;
     -webkit-transform: translate3d(0%, 0, 0);
     -ms-transform: translate3d(0%, 0, 0);
@@ -139,7 +139,9 @@ nav.floating img {
 .modal-content .btn {
     color: #DACA9E;
 }
-
+.modal-content {
+    font-size: 1.4em;
+}
 .modal input,
 .modal textarea {
     background-color: #DACA9E;
