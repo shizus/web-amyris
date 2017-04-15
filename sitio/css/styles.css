@@ -17,6 +17,10 @@ a {
     color: #ffffff;
 }
 
+.float-right {
+    float: right;
+}
+
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
     color: #ffffff;
@@ -70,7 +74,7 @@ nav.floating img {
 .modal.right .modal-dialog {
     position: fixed;
     margin: auto;
-    width: 320px;
+    width: 420px;
     height: 100%;
     -webkit-transform: translate3d(0%, 0, 0);
     -ms-transform: translate3d(0%, 0, 0);
@@ -119,11 +123,62 @@ nav.floating img {
 .modal-content {
     border-radius: 0;
     border: none;
+    background-color: #D1BE87;
+    padding: 1em 2em;
+}
+
+.modal-content,
+.modal-content .close,
+.modal-content h1,
+.modal-content h2,
+.modal-content h3,
+.modal-content h4 {
+    color: #ffffff;
+}
+
+.modal-content .btn {
+    color: #DACA9E;
+}
+
+.modal input,
+.modal textarea {
+    background-color: #DACA9E;
+    border: #ffffff solid 1px;
+    font-size: 1.4em;
+}
+
+.modal input.form-control::-webkit-input-placeholder,
+.modal textarea.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+}
+.modal input.form-control:-moz-placeholder,
+.modal textarea.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+    opacity:  1;
+}
+.modal input.form-control::-moz-placeholder,
+.modal textarea.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffffff;
+    opacity:  1;
+}
+.modal input.form-control:-ms-input-placeholder,
+.modal textarea.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #ffffff;
+}
+
+.modal {
+    font-family: "Museo 500 Regular";
 }
 
 .modal-header {
-    border-bottom-color: #EEEEEE;
-    background-color: #FAFAFA;
+    border-bottom-color: transparent;
+    background-color: transparent;
+    border: 0;
+}
+
+h4.modal-title {
+    font-family: "Museo 500 Regular";
+    font-size: 2em;
 }
 /* Final de menu y modals*/
 .contenedor {

@@ -151,31 +151,33 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
 
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="contacto-modal">¿Queres conocernos? Dejanos tus datos</h4>
+                <h4 class="modal-title">¿Queres conocernos?</h4>
+                <h4 class="modal-title"">Dejanos tus datos</h4>
             </div>
 
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre*">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre*">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email*">
+                        <input type="email" class="form-control" name="email" placeholder="Email*">
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono*">
+                        <input type="tel" class="form-control" name="telefono" placeholder="Teléfono*">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="empresa" placeholder="Empresa*">
+                        <input type="text" class="form-control" name="empresa" placeholder="Empresa*">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="3" id="mensaje" placeholder="Mensaje*"></textarea>
+                        <textarea class="form-control" rows="3" name="mensaje" placeholder="Mensaje*"></textarea>
                     </div>
                     <div class="form-group">
                         <label>* Datos Obligatorios</label>
-                        <button type="submit" class="btn btn-default">Enviar</button>
+                        <button type="submit" class="btn btn-default float-right">Enviar</button>
                     </div>
 
                 </form>
