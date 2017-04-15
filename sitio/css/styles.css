@@ -9,28 +9,55 @@
 
 html, body {
     overflow-x: hidden;
+    font-family: "Museo 500 Regular";
 }
 
-#logo {
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav li.left-division:after {
+    content:"";
+    background: #ffffff;
     position: absolute;
-    top: 4em;
-    left: 6em;
-    z-index: 40;
+    bottom: 25%;
+    left: 0;
+    height: 50%;
+    width: 1px;
+}
+.navbar-brand img {
+    margin-top: -25%;
 }
 
-
-#lista_arriba ul{
-    list-style:none;
-    color: #fff;
-    font-size: 2em;
-    letter-spacing: 20px;
-    display: inline-flex;
-    position: absolute;
-    z-index: 2;
-    margin-top: 2%;
-    right: 5%;
+.navbar-normal {
+    background: transparent;
+    border: none;
+    top: 2em;
+    font-size: 1.8em;
 }
 
+.navbar-normal .navbar-nav>li>a,
+nav.floating .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+nav.floating {
+    background-color: #D1BE87;
+    top: 0;
+    border: 0;
+    font-size: 1.7em;
+}
+
+nav.floating img {
+    height: 50px;
+}
 
 .contenedor {
     position: relative;

@@ -92,50 +92,9 @@ End Fixed Navigation
      ======================================= -->
 
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        /*    $(document).ready(function() {
-         $('#btnslide').click(function() {
-         $("#slideIzq").animate({
-         width:"toggle"
-         },2000);
-         $("#slideDer").animate({
-         right: parseInt($("#slideDer").css("right"))== 0 ?"-="+$("#slideDer").outerWidth() : 0
-         },2000);
-         });
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
-
-         $('#btnfade').click(function() {
-         $("#fadeIzq").animate({
-         width:"toggle",
-         opacity:"toggle"
-         },2000);
-         $("#fadeDer").animate({
-         right: parseInt($("#fadeDer").css("right"))== 0 ?"-="+$("#fadeDer").outerWidth() : 0,
-         opacity: parseInt($("#fadeDer").css("opacity")) == 1 ? 0 : 1
-         },2000);
-         });
-
-         }); */
-    </script>
-    <!--
-        <button id="btnslide">ver Slide</button>
-      <div class="contenedor" >
-
-        <div id="slideIzq">Efecto slide izquierdo modificando la propiedad width</div>
-      </div>
-      <div class="contenedor" >
-        <div id="slideDer">Efecto slide derecho modificando la propiedad right</div>
-      </div>
-        <button id="btnfade">ver Fade</button>
-      <div class="contenedor" >
-        <div id="fadeIzq">Efecto fade izquierdo modificando la propiedad width</div>
-      </div>
-      <div class="contenedor" >
-        <div id="fadeDer">Ejemplo fade derecho modificando la propiedad right</div>
-      </div>
-
-     -->
+    <script type="text/javascript" src="js/menu.js"></script>
 
     <div id="service">
         <div class="container">
