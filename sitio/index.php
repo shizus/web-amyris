@@ -259,7 +259,7 @@ End Fixed Navigation
                                 <div class="caja1">
                                     <img src="images/40.png" class="boton_isla_abajo1"></div>
                                 <a href="#">
-                                    <img src="img/expertise.jpg"/>
+                                    <img src="img/expertise.jpg" width="640px" height="426px"/>
                                 </a>
                             </div>
                         </li>
@@ -272,7 +272,7 @@ End Fixed Navigation
                                 </div>
                                 <div class="caja2"><img src="images/40.png" class="boton_isla_abajo2"></div>
                                 <a href="#">
-                                    <img src="img/isla5.jpg"/>
+                                    <img src="img/isla5.jpg" width="640px" height="426px"/>
 
                                 </a>
                             </div>
