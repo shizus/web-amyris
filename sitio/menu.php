@@ -130,7 +130,7 @@
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a data-toggle="modal" data-target="#contacto-modal">
                         <i class="fa fa-envelope"> </i>
                     </a>
                 </li>
@@ -143,6 +143,47 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+
+
+
+<!-- Modal Contacto-->
+<div class="modal right fade" id="contacto-modal" tabindex="-1" role="dialog" aria-labelledby="contacto-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="contacto-modal">¿Queres conocernos? Dejanos tus datos</h4>
+            </div>
+
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre*">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email*">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="empresa" placeholder="Empresa*">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" id="mensaje" placeholder="Mensaje*"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>* Datos Obligatorios</label>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
 
 <!--<section class="main-menu">-->
 <!---->
