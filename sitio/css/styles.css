@@ -182,6 +182,19 @@ h4.modal-title {
     font-family: "Museo 500 Regular";
     font-size: 2em;
 }
+
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+.map-container {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
 /* Final de menu y modals*/
 .contenedor {
     position: relative;

@@ -109,7 +109,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logo.png"  ></a>
+            <a class="navbar-brand" href="/"><img src="images/logo.png"  ></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -120,17 +120,17 @@
                     <a href="#">ES</a>
                 </li>
                 <li>
-                    <a>
-                        <i class="fa fa-phone" data-toggle="modal" data-target="#telefono-modal"></i>
+                    <a href="#" data-toggle="modal" data-target="#telefono-modal">
+                        <i class="fa fa-phone"></i>
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="#" data-toggle="modal" data-target="#ubicacion-modal" onclick="refreshMap()">
                         <i class="fa fa-map-marker"></i>
                     </a>
                 </li>
                 <li>
-                    <a data-toggle="modal" data-target="#contacto-modal">
+                    <a href="#" data-toggle="modal" data-target="#contacto-modal">
                         <i class="fa fa-envelope"> </i>
                     </a>
                 </li>
@@ -222,28 +222,32 @@
     </div><!-- modal-dialog -->
 </div><!-- modal -->
 
-<!--<section class="main-menu">-->
-<!---->
-<!--       <div id="lista_arriba" class="follow-scroll">-->
-<!--             <ul>-->
-<!--                 <li>-->
-<!--                     <span>-->
-<!--                         <a href="#">EN</a>|<a href="#">ES</a>-->
-<!--                     </span>-->
-<!--                 </li>-->
-<!--                 <li><i class="fa fa-phone"></i></li>-->
-<!--                 <li> <i class="fa fa-map-marker"></i></li>-->
-<!--                 <li><i class="fa fa-envelope"> </i></li>-->
-<!--                 <li class="menu-separator"><p>|</p></li>-->
-<!--               <li>-->
-<!--                  <i class="fa fa-bars"></i>-->
-<!--               </li>-->
-<!---->
-<!--            </ul>-->
-<!--       </div>-->
-<!---->
-<!---->
-<!--</section>-->
+<!-- Modal Ubicación-->
+<div class="modal right fade" id="ubicacion-modal" tabindex="-1" role="dialog" aria-labelledby="ubicacion-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            <div class="modal-header">
+                <h4 class="modal-title">¿Dónde estamos?</h4>
+            </div>
+
+            <div class="modal-body">
+                <p>Nuestra Planta de Producción y Oficina de Ventas se encuentra en Cajaraville 2902 y/o
+                    Curapaligüe 6510, Munro (1605, Provincia de Buenos Aires)
+                </p>
+                <br>
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+
+            </div>
+
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
 
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
 <script>

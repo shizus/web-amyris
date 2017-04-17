@@ -328,7 +328,9 @@ End Fixed Navigation
     <!-- jquery.fancybox.pack -->
     <script src="js/jquery.fancybox.pack.js"></script>
     <!-- Google Map API -->
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyhHMjogLdqX4qOItPagUypToqDY_17pE&callback=initMap">
+    </script>
     <!-- Owl Carousel -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- jquery easing -->
