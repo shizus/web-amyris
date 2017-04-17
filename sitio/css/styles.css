@@ -1309,16 +1309,16 @@ ul.external li a:hover {
     margin-left: 10%;
 }
 
-#footer img{
-    width: 100%;
-    height: 490px;
-    margin-top: -10%;
-}
-
 
 #footer_quienes img{
     width: 100%;
 
+}
+
+.fondo-blanco {
+    background-color: #ffffff;
+    margin-top: -10px;
+    padding-top: 50px;
 }
 
 #logofooter h3 {
@@ -1328,63 +1328,33 @@ ul.external li a:hover {
     margin-left: 0%;
 
 }
-#listadentro h2 {
-    font-family: 'Museo 500 Regular';
+footer i {
     font-size: 25px;
     color: #A59965;
-    margin-top: 3%;
-    margin-left: 2%;
 }
-#listadentro ul {
-    list-style: none;
-    font-family: 'Museo 500 Regular';
+
+.letra-negra {
     color: #000;
-    font-size: 20px;
-    line-height: 40px;
-    margin-top: 4%;
-    margin-left: -5%;
 }
 
 
-#listaafuera ul {
+#lista-afuera ul {
     list-style: none;
     font-family: 'Museo 500 Regular';
-    color: #fff !important;
+    color: #fff;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 13%;
-    margin-left: 23%;
     font-weight: bold;
+    padding-top: 50px;
 }
 
-#logofooter{
-    background: #fff;
-    height: 300px;
-    position: relative;
-    margin-top: -31%;
-    margin-left: 10%;
+.row.dato-footer {
+    margin-bottom: 1em;
 }
 
-#logofooterimagen{
-    width: 40%;
-}
-
-#listadentro{
-    position: relative;
-    margin-top: -35%;
-    margin-left: 42%;
-}
-
-#listaafuera{
-    height: 300px;
-    position: relative;
-    margin-top: -30%;
-    margin-left: 65%;
-}
-
-
-#listaafuera ul li{
-    color: #fff;
+#logo-footer{
+    width: 100%;
+    height: auto;
 }
 
 

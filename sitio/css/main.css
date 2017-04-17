@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5, h6,
     color: #252525;
 }
 
+footer h1,footer h2,footer h3,footer h4,footer h5,footer h6 {
+    font-family: 'Museo 500 Regular';
+    color: #252525;
+}
+
 main > section {
     padding: 70px 0;
 }
@@ -411,7 +416,8 @@ h1.navbar-brand {
 ==============================================================*/
 
 #footer {
-    background-color: #2E2E2E;
+    background-image: url('../img/trama5.jpg');
+    background-size: cover;
     padding: 0px 0;
     color: #fff;
     margin-top: -10%;
