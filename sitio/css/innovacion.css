@@ -221,12 +221,12 @@ h3.textoinno1  {
 
 .cuadrado_inno_id2 h4 {
     font-size: 32px;
-    padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
     color: #D1BE87;
     opacity: 0.6;
     font-family: 'Museo 500 Regular';
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .cuadrado_inno_id2 p {
@@ -246,24 +246,22 @@ h3.textoinno1  {
     position: relative;
     z-index: 3;
     background-color: #D1BE87;
-    height: 190px;
+    height: 160px;
 }
 
 .cuadrado_inno_id3 h4 {
     font-size: 22px;
     margin-top: 35px;
     text-align: center;
-    color: red;
-    opacity: 0.6;
+    color: #d9504b;
     font-family: 'Museo 500 Regular';
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .cuadrado_inno_id3 p {
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 60px;
     line-height: 30px;
-    margin-top: 35px;
     text-align: center;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
@@ -299,30 +297,30 @@ h3.textoinno1  {
 #contenedortrescolumnas .columna1 h2 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
-    color: red;
+    color: #d9504b;
 }
 
 #contenedortrescolumnas .columna2 h2 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
-    color: red;
+    color: #d9504b;
 }
 
 #contenedortrescolumnas .columna3 h2 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
-    color: red;
+    color: #d9504b;
 }
 
 #contenedortrescolumnas .columna1 p {
     font-family: 'Futura';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 34px;
     width: 282px;
@@ -332,7 +330,7 @@ h3.textoinno1  {
 
 #contenedortrescolumnas .columna2 p {
     font-family: 'Futura';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 34px;
     width: 382px;
@@ -342,12 +340,13 @@ h3.textoinno1  {
 
 #contenedortrescolumnas .columna3 p {
     font-family: 'Futura';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 34px;
     width: 282px;
     text-align: center;
     margin: 0 auto;
+	margin-top: -25px;
 }
 
 #contenedortrescolumnas h3 {
@@ -376,23 +375,23 @@ h3.textoinno1  {
 #portfolio_expertise {
     position: relative;
     top: -62px;
+	left: -15px;
     z-index: -1;
 }
 
 #imagenportfolio1_inno img {
-    width: 100%;
-
+    width: 108%;
     height: 375px;
 }
 
 #imagenportfolio2_inno img {
-    width: 100%;
+    width: 108%;
     height: 375px;
 "
 }
 
 #imagenportfolio3_inno img {
-    width: 100%;
+    width: 108%;
     height: 375px;
 }
 
