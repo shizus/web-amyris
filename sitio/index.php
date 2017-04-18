@@ -96,6 +96,11 @@ End Fixed Navigation
 
     <script type="text/javascript" src="js/menu.js"></script>
 
+    <!-- video -->
+    <script type="text/javascript" src="js/video-background/videobackground.js"></script>
+    <link rel="stylesheet" href="js/video-background/videobackground.css">
+    <script type="text/javascript" src="js/video.js"></script>
+
     <div id="service">
         <div class="container">
             <div class="row">

@@ -1,3 +1,5 @@
+<div  id="video-slide"></div>
+
 <section id="home-slider">
     <div id="slider" class="sl-slider-wrapper">
 
@@ -5,18 +7,19 @@
 
             <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 
-                <div class="bg-img bg-img-1"></div>
-
                 <div class="slide-caption">
                     <div class="caption-content">
-                        <h2 class="wow slideInDown animated primero " id="titulo1" ><?php echo $bienvenidos ?></h2>
-                        <h2 class="wow slideInDown animated primero " id="titulo2"><?php echo $amyris ?></h2>
+                        <h2 class="wow slideInDown animated primero centered" id="titulo1" ><?php echo $bienvenidos ?></h2>
+                        <h2 class="wow slideInDown animated primero centered" id="titulo2"><?php echo $amyris ?></h2>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-2">
+                                <h2 class="wow slideInDown animated segundo slider1-slogan" id="titulo3"><?php echo $creamos1 ?></h2>
+                            </div>
+                            <div class="col-md-4">
+                                <h2 class="wow slideInDown animated tercero slider1-slogan" id="titulo4" ><?php echo $creamos2 ?></h2>
+                            </div>
 
-                        <h2 class="wow slideInDown animated segundo" id="titulo3"><?php echo $creamos1 ?></h2>
-
-                        <h2 class="wow slideInDown animated tercero" id="titulo4" ><?php echo $creamos2 ?></h2>
-
-
+                        </div>
                     </div>
                 </div>
 
