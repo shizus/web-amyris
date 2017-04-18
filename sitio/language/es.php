@@ -48,8 +48,8 @@ $bienvenidos="BIENVENIDOS A";
 $creamos1="CREAMOS FRAGANCIAS";
 $creamos2="CREAMOS SENSACIONES";
 
-$fabricamos="Fabricamos frafancias que conectan con la sensibilidad del consumidor" ;
-$logramos="Logramos generar v&iacute;nculos concretando la imaginaci&oacute;n olfativa";
+$fabricamos="Creamos fragancias que transmiten emociones y conectan con la sensibilidad del consumidor";
+$logramos="Brindamos excelencia para concretar la imaginación olfativa";
 
 
 $crear1="crear";

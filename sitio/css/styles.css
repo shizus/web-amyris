@@ -924,19 +924,13 @@ ul.external li a:hover {
     text-align: left;
 }
 
-#titulo5{
-    visibility: visible;
-    animation-name: slideInDown;
-    font-family:'Museo 500 Regular';
-    position: absolute;
-    width: 790px;
-    margin-left: 17%;
-    margin-top: 10%;
-    font-weight:normal;
-    font-size: 35px;
-    width: 834px;
+.slide-titulo {
+    font-family: 'Museo 500 Regular';
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4em;
+    width: 80%;
 }
-
 
 #titulo6{
     visibility: visible;
@@ -1452,19 +1446,6 @@ footer i {
         padding: 0px 0;
         color: #fff;
         margin-top: -7%;
-    }
-
-    #titulo5 {
-        visibility: visible;
-        animation-name: slideInDown;
-        font-family: 'Museo 500 Regular';
-        position: absolute;
-        width: 790px;
-        margin-left: 31%;
-        margin-top: 10%;
-        font-weight: normal;
-        font-size: 35px;
-        width: 834px;
     }
 
     #titulo6 {

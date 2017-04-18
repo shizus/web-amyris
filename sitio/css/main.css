@@ -316,7 +316,6 @@ h1.navbar-brand {
     font-size: 52px;
     font-weight: 400;
     margin-bottom: 25px;
-    text-transform: uppercase;
 }
 
 .caption-content > span {
@@ -626,7 +625,7 @@ h1.navbar-brand {
     }
 
     .parallax {
-        background-position: centet tip !important;
+        background-position: center top !important;
     }
 
     .sec-title h2 {
