@@ -401,25 +401,44 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     max-height: 41em;
 }
 
-.isla-background {
-    background-size: 105%;
-    background-repeat: no-repeat;
-}
-
 .sentir {
-    background-image: url('../img/isla1.jpg');
+    background: /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)
+            ), url('../img/isla1.jpg');
 }
 
 .descubrir {
-    background-image: url('../img/isla2.jpg');
+    background: /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)
+            ), url('../img/isla2.jpg');
 }
 
 .crear {
-    background-image: url('../img/isla3.jpg');
+    background: /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)
+            ), url('../img/isla3.jpg');
 }
 
 .disfrutar {
-    background-image: url('../img/isla4.jpg');
+    background: /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)
+            ), url('../img/isla4.jpg');
+}
+
+
+
+.isla-background {
+    background-size: 105% !important;
+    background-repeat: no-repeat !important;
+
 }
 
 .islas-container .panel-title {
