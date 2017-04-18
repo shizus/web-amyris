@@ -384,20 +384,60 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     background-size: cover;
     height: 422px;
 }
+
+.conceptos .content {
+    margin-top: -1.3em;
+}
+
+.panel.panel-default.sentir.isla-background {
+    max-height: 48em;
+}
+
+.container.conceptos {
+    max-width: 69em;
+}
+
+.islas-container .panel-body {
+    max-height: 41em;
+}
+
+.isla-background {
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+
 .sentir {
-    background: url('../img/isla1.jpg') no-repeat;
+    background-image: url('../img/isla1.jpg');
 }
 
 .descubrir {
-    background: url('../img/isla2.jpg') no-repeat;
+    background-image: url('../img/isla2.jpg');
 }
 
 .crear {
-    background: url('../img/isla3.jpg') no-repeat;
+    background-image: url('../img/isla3.jpg');
 }
 
 .disfrutar {
-    background: url('../img/isla4.jpg') no-repeat;
+    background-image: url('../img/isla4.jpg');
+}
+
+.islas-container .panel-title {
+    height: 1em;
+    font-size: 5em;
+    font-family: "Museo 500 Regular";
+    color: #ffffff;
+}
+
+.islas-container
+
+.islas-container .panel-group .panel+.panel,
+.islas-container > .panel.panel-default,
+.islas-container .panel.panel-default.descubrir{
+    margin-top: 0px;
+    border: none;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 img.nube{
@@ -701,10 +741,16 @@ ul.external li a:hover {
 }
 
 .panel-group .panel span {
-    margin-left: 25em;
-    margin-top: 25em;
+    margin-left: 19em;
+    margin-top: 18em;
     position: absolute;
     width: 17em;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.panel-default>.panel-heading {
+    background-color: transparent;
 }
 
 .container.conceptos {

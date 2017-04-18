@@ -36,126 +36,78 @@ End Fixed Navigation
 
     <!-- Service section -->
 
-    <div class="container conceptos">
+    <div class="container conceptos wow animated zoomIn">
         <div class="row">
-            <div class="content">
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
+            <div class="content col-md-12">
+                <div class="panel-group islas-container" id="accordion">
+                    <div class="panel panel-default sentir isla-background">
+
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <span><?php echo $isla_sentir_texto ?></span>
+                            </div>
+                        </div>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                    <?php echo $sentir1 ?>
+                                  <?php echo $isla_sentir_titulo ?>
                                 </a>
                             </h4>
 
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in">
+                    </div>
+                    <div class="panel panel-default descubrir isla-background">
+
+                        <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <span><?php echo $sentir2 ?></span>
+                               <span><?php echo $isla_descubrir_texto ?></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                    Chevrolet
+                                    <?php echo $isla_descubrir_titulo ?>
                                 </a>
                             </h4>
 
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
+                    </div>
+                    <div class="panel panel-default crear isla-background">
+
+                        <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body">
-                               <span><?php echo $sentir2 ?></span>
+                               <span><?php echo $isla_crear_texto ?></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                    Volvo
+                                  <?php echo $isla_crear_titulo ?>
                                 </a>
                             </h4>
 
                         </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
+                    </div>
+                    <div class="panel panel-default disfrutar isla-background">
+                        <div id="collapseFour" class="panel-collapse collapse">
                             <div class="panel-body">
-                               <span><?php echo $sentir2 ?></span>
+                                <span><?php echo $isla_disfrutar_texto ?></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                    Volvo
+                                    <?php echo $isla_disfrutar_titulo ?>
                                 </a>
                             </h4>
 
                         </div>
-                        <div id="collapseFour" class="panel-collapse collapse">
-                            <div class="panel-body">
-                               <span><?php echo $sentir2 ?></span>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-<div class="row">
-
-    <div class="isla-container col-md-8 col-md-offset-2 col-xs-12 text-center wow animated zoomIn" >
-
-        <div id="acordeon" class="accordian">
-            <ul class="row">
-                <li class="wow slideInUp animated primero sentir isla-item col-md-3">
-                    <div>
-
-                        <div class="image_title">
-                            <a class="titulo-isla" href="#"><?php echo $sentir1 ?></a>
-                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $sentir2 ?></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="wow slideInUp animated segundo descubrir isla-item col-md-3">
-                    <div>
-                        <div class="image_title">
-                            <a class="titulo-isla" href="#"><?php echo $descubrir1 ?></a>
-                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $descubrir2 ?></a>
-                        </div>
-                    </div>
-                </li>
-
-
-                <li class="wow slideInUp animated tercero crear isla-item col-md-3">
-                    <div>
-                        <div class="image_title">
-                            <a class="titulo-isla" href="#"><?php echo $crear1 ?></a>
-                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $crear2 ?></a>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="wow slideInUp animated cuarto disfrutar isla-item col-md-3">
-                    <div>
-                        <div class="image_title">
-                            <a class="titulo-isla" href="#"><?php echo $disfrutar1 ?></a>
-                            <a class="texto-isla wow slideInUp animated" href="#"><?php echo $disfrutar2 ?></a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-
-    </div>
-</div>
-
-
     <!--
      Section acordeon
      ======================================= -->
