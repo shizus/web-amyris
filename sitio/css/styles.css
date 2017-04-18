@@ -1321,11 +1321,14 @@ footer i {
     margin-right: auto;
 }
 
+h2.slider-size {
+    font-size: 5em;
+}
+
 #titulo1 {
     animation-name: slideInDown;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    font-size: 105px;
     width: 734px;
 }
 
@@ -1334,12 +1337,7 @@ footer i {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-weight: normal;
-    font-size: 150px;
     width: 734px;
-}
-
-h2.slider1-slogan {
-    font-size: 5em;
 }
 
 #titulo3 {

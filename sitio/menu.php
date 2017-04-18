@@ -9,96 +9,6 @@
     <img class="cruz" src="images/41.png" id="left">
 </div>
 
-
-<!---->
-<!--<div class="overlay-navigation">-->
-<!--  <nav role="navigation">-->
-<!--    <ul>-->
-<!--      <li>-->
-<!---->
-<!--      <div id="menu1">-->
-<!--      		<a href="#">--><?php //echo $amyris ?><!--</a>-->
-<!--      		<p id="rayita">_____</p>-->
-<!--		            <div id="sublista1">-->
-<!--		               <p><a   href="quienes-somos">--><?php //echo $quienes ?><!--</a></p><br>-->
-<!--		                <p><a   href="quienes-somos">--><?php //echo $valores ?><!--</a></p><br>-->
-<!--                        <p><a   href="quienes-somos">--><?php //echo $porque?><!--</a></p>-->
-<!--		            </div>-->
-<!---->
-<!--		         -->
-<!--      </div>-->
-<!---->
-<!--      </li>-->
-<!--      <li>-->
-<!--      <div id="menu2">-->
-<!---->
-<!--           <a href="#" >--><?php //echo $fragancias ?><!--</a>-->
-<!--           <p id="rayita">_____</p>-->
-<!--      			<div id="sublista1">-->
-<!--      			   <p><a   href="fragancias">--><?php //echo $fraganciasfinas ?><!--</a></p><br>-->
-<!--		           <p><a  href="fragancias">--><?php //echo $cuidadopersonal ?><!--</a></p><br>-->
-<!--               <p><a  href="fragancias">--><?php //echo $hogarylimpieza?><!--</a></p>-->
-<!--      				-->
-<!--      			</div>-->
-<!---->
-<!--      </div>-->
-<!--      </li>-->
-<!---->
-<!--      <li>-->
-<!---->
-<!--      <div id="menu3">-->
-<!--      		<a href="#">--><?php //echo $expertise ?><!--</a>-->
-<!--      			<p id="rayita">_____</p>-->
-<!--		            <div id="sublista1">-->
-<!--		                <p><a  href="expertise">--><?php //echo $desarrollo ?><!--</a></p><br>-->
-<!--		                <p><a  href="expertise">--><?php //echo $infraestructura ?><!--</a></p><br>-->
-<!--		                <p><a  href="expertise">--><?php //echo $control ?><!--</a></p><br>-->
-<!--                    <p><a  href="expertise">--><?php //echo $comercio?><!--</a></p>-->
-<!--		            </div>-->
-<!---->
-<!--		         -->
-<!--      </div>-->
-<!---->
-<!--      </li>-->
-<!--      <li>-->
-<!--      <div id="menu4">-->
-<!---->
-<!--      <a href="#" >--><?php //echo $sustentabilidad ?><!--</a>-->
-<!--      <p id="rayita">_____</p>-->
-<!--      			<div id="sublista1">-->
-<!--      			        <p><a  href="sustentabilidad">--><?php //echo $proteccion ?><!--</a></p><br>-->
-<!--		                <p><a  href="sustentabilidad">--><?php //echo $eficiencia ?><!--</a></p><br>-->
-<!--                    <p><a  href="sustentabilidad">--><?php //echo $valoresm?><!--</a></p>-->
-<!--      				-->
-<!--      			</div>-->
-<!---->
-<!--      </div>-->
-<!--      </li>-->
-<!---->
-<!--      <li>-->
-<!--      <div id="menu5" >-->
-<!---->
-<!--      <a href="#" >--><?php //echo $innovaciones ?><!--</a>-->
-<!--      <p id="rayita">_____</p>-->
-<!--      			<div id="sublista1">-->
-<!--      			        <p><a href="innovaciones">--><?php //echo $departamento ?><!--</a></p><br>-->
-<!--		                <p><a href="innovaciones">--><?php //echo $desarrollom ?><!--</a></p><br>-->
-<!--                    <p><a  href="innovaciones">--><?php //echo $investigacion?><!--</a></p>-->
-<!--      				-->
-<!--      			</div>-->
-<!---->
-<!--      </div>-->
-<!--      </li>-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--    </ul>-->
-<!--  </nav>-->
-<!--</div>-->
-
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-normal">
     <div class="container">
@@ -345,8 +255,6 @@ $('.open-overlay').click();
 
 
 });
-
-
-
-
 </script>
+
+<script type="text/javascript" src="js/menu.js"></script>

@@ -52,6 +52,7 @@
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <!-- Modernizer Script for old Browsers -->
     <script src="js/modernizr-2.6.2.min.js"></script>
 

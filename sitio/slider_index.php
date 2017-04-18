@@ -9,14 +9,14 @@
 
                 <div class="slide-caption">
                     <div class="caption-content">
-                        <h2 class="wow slideInDown animated primero centered" id="titulo1" ><?php echo $bienvenidos ?></h2>
-                        <h2 class="wow slideInDown animated primero centered" id="titulo2"><?php echo $amyris ?></h2>
+                        <h2 class="wow slideInDown animated primero centered slider-size" id="titulo1" ><?php echo $bienvenidos ?></h2>
+                        <h2 class="wow slideInDown animated primero centered slider-size" id="titulo2"><?php echo $amyris ?></h2>
                         <div class="row">
                             <div class="col-md-4 col-md-offset-2">
-                                <h2 class="wow slideInDown animated segundo slider1-slogan" id="titulo3"><?php echo $creamos1 ?></h2>
+                                <h2 class="wow slideInDown animated segundo slider-size" id="titulo3"><?php echo $creamos1 ?></h2>
                             </div>
                             <div class="col-md-4">
-                                <h2 class="wow slideInDown animated tercero slider1-slogan" id="titulo4" ><?php echo $creamos2 ?></h2>
+                                <h2 class="wow slideInDown animated tercero slider-size" id="titulo4" ><?php echo $creamos2 ?></h2>
                             </div>
 
                         </div>
