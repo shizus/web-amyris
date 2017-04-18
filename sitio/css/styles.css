@@ -462,10 +462,9 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 img.nube{
-    position: absolute;
-    width: 11%;
-    margin-top: 110px;
-    margin-left: -20px;
+    width: 52px;
+    height: auto;
+    margin-top: 2em;
 }
 
 .mask h3 {
@@ -487,11 +486,8 @@ img.img-responsive {
 
 figcaption.mask h4 {
     margin: 10px;
-    margin-top: -5px;
     color: #777;
     font-size: 27px;
-    width: 375px;
-    margin-left: -36px;
     text-align: center;
 }
 
@@ -1219,12 +1215,6 @@ ul.external li a:hover {
 
 #mascara2{
     padding: 14px;
-}
-
-#mascara2 h4{
-    padding: 10px;
-    margin-left: -4%;
-    margin-top: -7%;
 }
 
 #mascara2 p{

@@ -164,10 +164,18 @@ End Fixed Navigation
                                         <img src="images/fraga1.jpg" class="img-responsive"
                                              alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
                                         <figcaption class="mask" id="mascara1">
-                                            <h4><?php echo $fraganciasfinas2 ?></h4>     <br>
-                                            <p>Buscamos ofrecerle al cliente la mas alta calidad de la fragancia
-                                                creada. </p>
-                                            <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <h4><?php echo $fraganciasfinas2 ?></h4>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p>Buscamos ofrecerle al cliente la mas alta calidad de la fragancia
+                                                        creada. </p>
+                                                </div>
+                                                <div class="col-md-4 col-md-offset-4 text-center">
+                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                </div>
+                                            </div>
                                         </figcaption>
 
                                     </li>
@@ -175,13 +183,21 @@ End Fixed Navigation
                                     <li class="portfolio-item wow slideInUp animated segundo" id="lista2">
                                         <img src="images/islap3chicaarriba.jpg" class="img-responsive"
                                              alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+
                                         <figcaption class="mask" id="mascara2">
-                                            <h4><?php echo $cuidadopersonal2 ?></h4>
-                                            <br>
-                                            <p>Asumimos el compromiso de ofrecerle al consumidor producto que al momento
-                                                de percibir los aromas pueda disfrutar </p>
-                                            <a href="fragancias">
-                                                <img src="images/40.png" class="nube"></a>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <h4><?php echo $cuidadopersonal2 ?></h4>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p>Asumimos el compromiso de ofrecerle al consumidor producto que al momento
+                                                        de percibir los aromas pueda disfrutar. </p>
+                                                </div>
+                                                <div class="col-md-4 col-md-offset-4 text-center">
+                                                    <a href="fragancias">
+                                                        <img src="images/40.png" class="nube"></a>
+                                                </div>
+                                            </div>
                                         </figcaption>
 
                                     </li>
