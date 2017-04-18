@@ -1,6 +1,6 @@
 (function($) {
     var element = $('nav'),
-        originalY = element.offset().top;
+        originalY = 10; //element.offset().top;
 
     // Space between element and top of screen (when scrolling)
     var topMargin = 0;
