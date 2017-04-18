@@ -173,7 +173,7 @@ End Fixed Navigation
                                                         creada. </p>
                                                 </div>
                                                 <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
-                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -195,7 +195,7 @@ End Fixed Navigation
                                                 </div>
                                                 <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
                                                     <a href="fragancias">
-                                                        <img src="images/40.png" class="nube"></a>
+                                                        <img src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -216,7 +216,7 @@ End Fixed Navigation
                                                         confort, pertenencia y calma. </p>
                                                 </div>
                                                 <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
-                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -236,7 +236,7 @@ End Fixed Navigation
                                                         hogar limpio. </p>
                                                 </div>
                                                 <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
-                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -256,7 +256,7 @@ End Fixed Navigation
                                                         hogar limpio. </p>
                                                 </div>
                                                 <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
-                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </figcaption>
@@ -275,8 +275,10 @@ End Fixed Navigation
         </div>
     </div>
 
+    <!-- Isla final "Elementos importantes" -->
 
-    <div id="priemr_cuadrado">
+
+    <div id="primer_cuadrado">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="cuadrado1">
@@ -297,46 +299,58 @@ End Fixed Navigation
     </div>
 
 
-    <div class="container">
+    <!-- última isla "secciones destacadas" -->
+
+
+    <div class="container destacados wow animated zoomIn">
         <div class="row">
-            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s"
-                 style="height: 300px;">
-                <div class="accordian2">
-                    <ul>
-                        <li>
-                            <div class="wow slideInUp animated primero">
+            <div class="col-md-12">
+                <div class="panel-group islas-container col-md-12" id="accordion-inferior">
+                    <div class="panel panel-default expertise isla-background">
 
-                                <div class="image_title2">
-                                    <a href="#"><?php echo $expertise ?></a>
-                                </div>
-                                <div class="caja1">
-                                    <img src="images/40.png" class="boton_isla_abajo1"></div>
-                                <a href="#">
-                                    <img src="img/expertise.jpg" width="640px" height="426px"/>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#expertise">
+                                  <?php echo $expertise ?>
                                 </a>
+                            </h4>
+
+                        </div>
+                        <div id="expertise" class="panel-collapse collapse in hide-when-no-mouse">
+                            <div class="panel-body">
+                                <span><?php echo "Nuestro estandarte es la calidad de nuestros productos y de nuestros
+                                procedimientos. Somos estrictos en cada detalle del proceso de fabricación y entrega.
+                                Por ello trabajamso con tecnologías de última generación y con técnicas verificadas mediante
+                                prácticas eficaces." ?></span>
                             </div>
-                        </li>
+                        </div>
+
+                    </div>
+                    <div class="panel panel-default idi isla-background">
 
 
-                        <li>
-                            <div class="wow slideInUp animated tercero">
-                                <div class="image_title2">
-                                    <a href="#">I+D+I</a>
-                                </div>
-                                <div class="caja2"><img src="images/40.png" class="boton_isla_abajo2"></div>
-                                <a href="#">
-                                    <img src="img/isla5.jpg" width="640px" height="426px"/>
-
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#idi">
+                                  <?php echo "I+D+I" ?>
                                 </a>
+                            </h4>
+
+                        </div>
+                        <div id="idi" class="panel-collapse collapse in hide-when-no-mouse">
+                            <div class="panel-body">
+                                <span><?php echo "Nuestro departamenteo de innovación trabaja incansablemente 
+                                investigando para ofrecer nuevas sensaciones y propuestas, donde se evalúan constamente
+                                los procesos y se aplican a nuevas tecnologías, herramientas y tendencias que
+                                logren generar un producto diferencial" ?></span>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
-
 
     <div class="container" id="conteinersustenta">
         <div class="row">

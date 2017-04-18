@@ -435,7 +435,33 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
             ), url('../img/isla4.jpg');
 }
 
+.expertise {
+    background-image: url('../images/05.jpg');
+}
 
+.idi {
+    background-image: url('../images/63.jpg');
+}
+
+.expertise:hover {
+    background: /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(255, 255, 255, 0.6),
+                    rgba(255, 255, 255, 0.6)
+            ), url('../images/05.jpg');
+}
+
+.idi:hover {
+    background: /* top, transparent black, faked with gradient */
+            linear-gradient(
+                    rgba(255, 255, 255, 0.6),
+                    rgba(255, 255, 255, 0.6)
+            ), url('../images/63.jpg');
+}
+
+.container.destacados {
+    height: 25em;
+ }
 
 .isla-background {
     background-size: 105% !important;
@@ -449,8 +475,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     font-family: "Museo 500 Regular";
     color: #ffffff;
 }
-
-.islas-container
 
 .islas-container .panel-group .panel+.panel,
 .islas-container > .panel.panel-default,
@@ -496,6 +520,14 @@ li .hide-when-no-mouse {
 }
 
 li:hover .hide-when-no-mouse {
+    visibility: visible;
+}
+
+div.panel .hide-when-no-mouse {
+    visibility: hidden;
+}
+
+div.panel:hover .hide-when-no-mouse {
     visibility: visible;
 }
 
