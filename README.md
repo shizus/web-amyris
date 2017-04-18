@@ -54,7 +54,7 @@ Probemos con git UI. Funciona igual:
 - Primero pasamos lo que queremos commitear a staged to commit
 - Luego escribimos un comentario para el commit.
 
-##Pusheando
+## Pusheando
 
 Pushear comparte los cambios commiteados con nuestro equipo.
 
