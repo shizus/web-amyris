@@ -132,14 +132,14 @@ src: local('Futura'), url('futurastd.woff') format('woff');
     <div  id="linearojaexpertise"></div>
 
     <div class="col-md-6" id="columnaseis1" >
-    <h1 ><?php echo $textoe6 ?></h1><br><br>
+    <h1 ><?php echo $textoe6 ?></h1><br>
       <p id="textoe1"><?php echo $textoe7 ?></p><br>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>
     <p id="textoe2"><?php echo $textoe9 ?></p>
     </div>
 
     <div class="col-md-6" id="columnaseis2" >
-      <p id="textoe3" ><?php echo $textoe10 ?></p><br>
+      <p id="textoe3" ><?php echo $textoe10 ?></p><br><br><br>
     <p id="textoe4"><?php echo $textoe11 ?></p><br>
     <p id="textoe5" ><?php echo $textoe12 ?></p>
 
@@ -242,7 +242,7 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 
-
+<div  id="linearojaexpertiseinf"></div>
 <div class="col-md-4" id="columnacontrol4" >
   <p><?php echo $textoe20 ?></p><br>
 
@@ -271,8 +271,8 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 <div class="col-md-12"  id="floresamarillas">
-         <h1 ><?php echo $textoe26 ?></h1><br><br>
-            <p class="textop1" ><?php echo $textoe27 ?></p><br><br>
+         <h1 ><?php echo $textoe26 ?></h1><br>
+            <p class="textop1" ><?php echo $textoe27 ?></p><br>
               <p class="textop2"><?php echo $textoe28 ?></p>
                 
 </div> 

@@ -77,17 +77,27 @@
 }
 
 #linearojaexpertise {
- background: #DA4655;
+	background: #DA4655;
     height: 7px;
-    width: 42%;
+    width: 44%;
     position: relative;
-    top: -233px;
+    top: -253px;
     left: 756px;
     z-index: 1;
 }
 
+#linearojaexpertiseinf {
+	background: #DA4655;
+    height: 7px;
+    width: 31.4%;
+    position: relative;
+    top: -105px;
+    left: 160px;
+    z-index: 1;
+}
+
 #columnaseis1{
-    position: relative;margin-left: 40px;margin-top: -18%;
+    position: relative;margin-left: 40px;margin-top: -12%;
 }
 
 
@@ -100,38 +110,37 @@
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
-    line-height: 34px;padding-left: 70px;
+    line-height: 34px;padding-left: 60px;
 }
 
 #textoe11{
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
-    line-height: 34px;padding-left: 70px;
+    line-height: 34px;padding-left: 60px;
 }
 
 #textoe2{
-font-family:'Museo 500 Regular';
-font-weight:normal;
-color:#A59965;
-font-size: 20px;
-line-height: 35px;
-padding-left: 70px;
-width: 600px;
+	font-family:'Museo 500 Regular';
+	font-weight:normal;
+	color:#A59965;
+	font-size: 20px;
+	line-height: 35px;
+	padding-left: 60px;
+	width: 600px;
 }
 
 #columnaseis2{
-    position: relative;margin-top: -240px;width: 450px;margin-left: 2%;
+    position: relative;margin-top: -260px;width: 470px;margin-left: 2%;
 }
 
 #textoe3{
-     background-color: #A59965;
+    background-color: #A59965;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 42px;
     color: #fff;
-    padding: 35px;
     width: 136%;
     height: 230px;
     padding: 49px;
@@ -153,7 +162,7 @@ width: 600px;
 }
 
 .segundo_cuadrado_expertise {
-    width: 440px;
+    width: 520px;
     margin-left: 30%;
     height: 75px;
     background-color: #fff;
@@ -166,13 +175,10 @@ width: 600px;
   }
 
   .segundo_cuadrado_expertise h4 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     animation-delay: 0.3s;
-  color: #A59965;
-}
-
-.segundo_cuadrado_expertise h4{
+	color: #D1BE89;
     font-family:'Museo 500 Regular';font-weight:normal;
 }
 
@@ -219,21 +225,21 @@ width: 600px;
 #imagenportfolio4 img{
   width: 112%;
   margin-left: -4%;
-  height: 335px;
+
 }
 
 
 #imagenportfolio5 img{
     width: 112%; 
     margin-left: -4%;
-    height: 335px;
+
 }
 
 
 #imagenportfolio6 img{
     width: 112%; 
     margin-left: -4%;
-    height: 335px;
+
 }
 
 
@@ -251,11 +257,11 @@ width: 100%;
 #titulocontrol{
     font-family:'Museo 500 Regular';
     font-weight:normal;
-    font-size:60px;
+    font-size:70px;
     text-align: center;
-    color: #A59965;
+    color: #D1BE89;
     margin-left: 0%;
-    margin-top: -12%;
+    margin-top: -5%;
 }
 
 
@@ -267,22 +273,22 @@ width: 100%;
 }
 
 #columnacontrol4 p{
-     background-color:#A59965;
+     background-color:#D1BE89;
      font-family:'Museo 500 Regular';
      font-weight:normal;
-     font-size: 19px;
+     font-size: 20px;
      line-height: 35px;
      color:#fff;
      padding: 35px;
 }
 
 #columnacontrol4 h1{
-    font-family:'Museo 500 Regular';
+    font-family:'Futura';
     font-weight:normal;
-    font-size:30px;
+    font-size:35.5px;
     text-align: center;
     color: #A59965;
-    margin-left: 0%;
+    margin-left: -8%;
 }
 
 
@@ -334,45 +340,43 @@ width: 100%;
 
 #mapa .imagen2{
     position: relative;
-    margin-top: -38%;
+    margin-top: -33%;
     width: 23%;
-    margin-left: 40%;
+    margin-left: 38%;
 }
 
 
 #floresamarillas h1{
 font-family:'Museo 500 Regular';
 font-weight:normal;
-font-size:60px;
+font-size:70px;
 text-align: center;
 color: #fff;
-margin-top: -60%;
+margin-top: -56%;
 margin-left: 0%;
 }
 
 
 #floresamarillas .textop1{
     font-family: 'Futura';
-    font-size: 15px;
+    font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     width: 978px;
     text-align: center;
     color: #fff;
-    font-size: 16px;
     line-height: 28px;
 }
 
 
 #floresamarillas .textop2{
      font-family: 'Futura';
-    font-size: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 678px;
     text-align: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
 }
 
