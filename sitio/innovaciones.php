@@ -99,8 +99,8 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 </div>
 
-<div  class="col-md-12 col-sm-6 col-xs-12"> 
-  <h3 id="textosusten"><?php echo $textoin4 ?></h3>
+<div class="col-md-12 col-sm-6 col-xs-12"> 
+  <h3 class="textoinno1"><?php echo $textoin4 ?></h3>
 </div>
 
 
@@ -132,7 +132,7 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 
-
+<div  id="linearojainno"></div>
 <div id="columna_inno" class="col-md-4">
   <h2><?php echo $textoin7 ?></h2>
   <p><?php echo $textoin8 ?></p>

@@ -346,7 +346,7 @@ de trabajo. Esto nos permite adelantarnos y estar siempre a la vanguardia en
 ideas y propuestas otorgando originalidad a los desarrollos de los clientes";
 
 $textoin9="BUSCAMOS INNOVAR Y ";
-$textoin10="DAR ORIGINALIDAD A LAS FRAGANCIAS";
+$textoin10="DAR ORIGINALIDAD A LAS FRAGANCIAS.";
 $textoin11="DEPARTAMENTO DE IDEAS, DESARROLLO E INNOVACI&Oacute;N";
 $textoin12="En Amyris, el consumidor es la fuente de inspiración. Nuestro objetivo es que la fragancia deseada se pueda obtener con la más alta
 calidad y originalidad. Contamos con un Departamento de IDEAS, DESARROLLO E INNOVACIÓN integrado por profesionales de
