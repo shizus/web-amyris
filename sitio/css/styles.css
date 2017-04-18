@@ -308,16 +308,18 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     position: absolute;
 }
 
+#service .container {
+    background-image: url(../images/trama2.jpg);
+    background-size: cover;
+    padding: 10em 0;
+}
 
 #botonrojo{
     visibility: visible; animation-name: fadeInDownBig;
 
     background-image: url(../images/botonrojo.png);
-    z-index: 99;
-    margin-left: 50%;
     width: 50px;
     height: 104px;
-    margin-top: 44%;
     color: #fff;
     font-size: 22px;
     padding: 45px 0px 0px 10px;
@@ -398,7 +400,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 .islas-container .panel-body {
-    max-height: 41em;
+    max-height: 46em;
 }
 
 .sentir {
@@ -465,7 +467,6 @@ img.nube{
     margin-top: 110px;
     margin-left: -20px;
 }
-
 
 .mask h3 {
     font-family: 'Museo 500 Regular';
@@ -773,7 +774,7 @@ ul.external li a:hover {
 }
 
 .container.conceptos {
-    height: 40em;
+    height: 26em;
 }
 
 
@@ -1171,9 +1172,6 @@ ul.external li a:hover {
 
 
 #service{
-
-    height: 500px;
-    margin-top: -4%;
     position: relative;
     z-index: -1;
 }
@@ -1184,28 +1182,8 @@ ul.external li a:hover {
     height: 950px;
 }
 
-#textorojo{
-    position: relative;
-    margin-top: -5%;
-}
-
-#textorojo2{
-    position: relative;
-    margin-top: -104%;
-}
-
-#textorojo3{
-    position: relative; margin-top: -57%;
-}
-
-
 #islas{
-    margin-top: 86%;
-}
-
-#islas1{
-    position: relative;
-    margin-top: -45%;
+    margin-top: 1em;
 }
 
 
@@ -1496,11 +1474,6 @@ h2.slider-size {
         width: 4%;
         margin-top: 0%;
 
-    }
-
-    #islas1 {
-        position: relative;
-        margin-top: -85%;
     }
 
     #footer img {

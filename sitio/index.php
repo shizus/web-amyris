@@ -123,40 +123,32 @@ End Fixed Navigation
     <div id="service">
         <div class="container">
             <div class="row">
-
-
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="textorojo">
-                    <img src="images/trama2.jpg" id="imagentrama" class="wow zoomIn animated ">
-                </div>
-
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="textorojo2">
-
-                    <div id="botonrojo" class="wow fadeInDownBig animated primero">
+                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+                    <div id="botonrojo" class="wow fadeInDownBig animated centered">
                         <img src="images/nube.png">
                         <h3><?php echo $amyrises ?></h3>
                     </div>
                 </div>
-
-
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="textorojo3">
-
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow animated zoomIn"
+                     id="textorojo3">
                     <div id="botonrojo2" class="wow fadeInUpBig animated segundo">
                         <h2 id="textorojo"><?php echo $ofrecemosexcelencia ?></h2>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </div>
 
+    <br>
 
     <div id="islas">
         <div class="container">
             <div class="row">
 
 
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="islas1">
+                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 
 
                     <!-- portfolio section -->
