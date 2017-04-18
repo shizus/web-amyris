@@ -168,11 +168,11 @@ End Fixed Navigation
                                                 <div class="col-md-12 text-center">
                                                     <h4><?php echo $fraganciasfinas2 ?></h4>
                                                 </div>
-                                                <div class="col-md-12">
+                                                <div class="col-md-12 hide-when-no-mouse">
                                                     <p>Buscamos ofrecerle al cliente la mas alta calidad de la fragancia
                                                         creada. </p>
                                                 </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center">
+                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
                                                     <a href="fragancias"> <img src="images/40.png" class="nube"></a>
                                                 </div>
                                             </div>
@@ -189,11 +189,11 @@ End Fixed Navigation
                                                 <div class="col-md-12 text-center">
                                                     <h4><?php echo $cuidadopersonal2 ?></h4>
                                                 </div>
-                                                <div class="col-md-12">
+                                                <div class="col-md-12 hide-when-no-mouse">
                                                     <p>Asumimos el compromiso de ofrecerle al consumidor producto que al momento
                                                         de percibir los aromas pueda disfrutar. </p>
                                                 </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center">
+                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
                                                     <a href="fragancias">
                                                         <img src="images/40.png" class="nube"></a>
                                                 </div>
@@ -207,10 +207,18 @@ End Fixed Navigation
                                         <img src="images/islap1chica.jpg" class="img-responsive"
                                              alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
                                         <figcaption class="mask" id="mascara3">
-                                            <h3><?php echo $cuidadohogar ?></h3>
-                                            <p>Ofrecemos productos que estan relacionados con la sensacion de seguridad,
-                                                confort, pertenencia y calma. </p>
-                                            <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <h4><?php echo $cuidadohogar ?></h4>
+                                                </div>
+                                                <div class="col-md-12 hide-when-no-mouse">
+                                                    <p>Ofrecemos productos que estan relacionados con la sensacion de seguridad,
+                                                        confort, pertenencia y calma. </p>
+                                                </div>
+                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                </div>
+                                            </div>
                                         </figcaption>
 
                                     </li>
@@ -219,12 +227,18 @@ End Fixed Navigation
                                         <img src="images/islap3chica.jpg" class="img-responsive"
                                              alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                                         <figcaption class="mask" id="mascara4">
-                                            <h3><?php echo $limpieza ?></h3>
-
-                                            <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
-                                                hogar limpio </p>
-                                            <a href="fragancias">
-                                                <img src="images/40.png" class="nube"></a>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <h4><?php echo $limpieza ?></h4>
+                                                </div>
+                                                <div class="col-md-12 hide-when-no-mouse">
+                                                    <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
+                                                        hogar limpio. </p>
+                                                </div>
+                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                </div>
+                                            </div>
                                         </figcaption>
 
                                     </li>
@@ -233,11 +247,18 @@ End Fixed Navigation
                                         <img src="images/islap2.jpg" class="img-responsive"
                                              alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                                         <figcaption class="mask" id="mascara5">
-                                            <h3><?php echo $cosmetica ?></h3>
-                                            <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
-                                                hogar limpio </p>
-                                            <a href="fragancias">
-                                                <img src="images/40.png" class="nube"></a>
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <h4><?php echo $cosmetica ?></h4>
+                                                </div>
+                                                <div class="col-md-12 hide-when-no-mouse">
+                                                    <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
+                                                        hogar limpio. </p>
+                                                </div>
+                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                                    <a href="fragancias"> <img src="images/40.png" class="nube"></a>
+                                                </div>
+                                            </div>
                                         </figcaption>
 
                                     </li>

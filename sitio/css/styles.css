@@ -491,6 +491,14 @@ figcaption.mask h4 {
     text-align: center;
 }
 
+li .hide-when-no-mouse {
+    visibility: hidden;
+}
+
+li:hover .hide-when-no-mouse {
+    visibility: visible;
+}
+
 
 
 /*=================================================================
@@ -519,7 +527,7 @@ figcaption.mask h4 {
 
 figcaption.mask {
     background-color:rgba(255, 255, 255, 0.85) ;
-    bottom: -137px;
+    top: 75%;
     color: #fff;
     padding: 40px;
     position: absolute;
