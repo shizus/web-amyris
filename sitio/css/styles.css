@@ -284,7 +284,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 #botonesarriba .nube{
-    margin-left: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     z-index: 222;
     width: 4%;
@@ -293,7 +296,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 #botonesarriba .cruz{
-    margin-left: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     z-index: 111;
     width: 4%;
