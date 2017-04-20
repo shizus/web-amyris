@@ -46,7 +46,7 @@
                 </li>
                 <li class="left-division">
                     <a>
-                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-bars bold"></i>
                     </a>
                 </li>
             </ul>

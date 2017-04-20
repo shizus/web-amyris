@@ -27,6 +27,12 @@ $(function() {
         var $navArrows = $( '#nav-arrows' ),
             $nav = $( '#nav-dots > span' ),
             slitslider = $( '#slider' ).slitslider( {
+                // amount (%) to translate both slices - adjust as necessary
+                translateFactor : 230,
+                // maximum possible angle
+                maxAngle : 0,
+                // maximum possible scale
+                maxScale : 1,
                 onBeforeChange : function( slide, pos ) {
 
                     $nav.removeClass( 'nav-dot-current' );

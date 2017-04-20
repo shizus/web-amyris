@@ -13,10 +13,10 @@
                         <h2 class="wow slideInDown animated primero centered slider-size" id="titulo2"><?php echo $amyris ?></h2>
                         <div class="row">
                             <div class="col-md-4 col-md-offset-2">
-                                <h2 class="wow slideInDown animated segundo slider-size" id="titulo3"><?php echo $creamos1 ?></h2>
+                                <h2 class="wow slideInDown animated segundo slider-size slogan" id="titulo3"><?php echo $creamos1 ?></h2>
                             </div>
                             <div class="col-md-4">
-                                <h2 class="wow slideInDown animated tercero slider-size" id="titulo4" ><?php echo $creamos2 ?></h2>
+                                <h2 class="wow slideInDown animated tercero slider-size slogan" id="titulo4" ><?php echo $creamos2 ?></h2>
                             </div>
 
                         </div>
@@ -25,7 +25,7 @@
 
             </div>
 
-            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+            <div class="sl-slide" data-orientation="horizontal">
 
                 <div class="bg-img bg-img-2"></div>
                 <div class="slide-caption">
@@ -36,7 +36,7 @@
 
             </div>
 
-            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+            <div class="sl-slide" data-orientation="horizontal">
 
                 <div class="bg-img bg-img-3"></div>
                 <div class="slide-caption">

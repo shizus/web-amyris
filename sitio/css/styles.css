@@ -40,8 +40,10 @@ nav li.left-division:after {
     height: 50%;
     width: 1px;
 }
+
 .navbar-brand img {
     margin-top: -25%;
+    height: 130px;
 }
 
 .navbar-normal {
@@ -61,12 +63,45 @@ nav.floating {
     top: 0;
     border: 0;
     font-size: 1.7em;
+    height: 65px;
 }
 
+nav.floating .container,
+nav.floating .navbar-brand,
 nav.floating img {
-    height: 50px;
+    height: 65px;
 }
 
+nav.floating .navbar-brand {
+    margin-top: 50%;
+}
+
+nav.floating .navbar-brand img {
+    margin-top: -65px;
+}
+
+nav.floating .navbar-nav>li>a {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.floating #navbar ul.nav li {
+    height: 65px;
+    display: table;
+}
+
+/*ul.nav.navbar-nav.navbar-right {*/
+    /*height: 65px;*/
+/*}*/
+
+.fa {
+    line-height: 20px;
+}
+
+.bold {
+    font-weight: 600;
+}
 
 /* Modals */
 /*******************************
@@ -1443,6 +1478,7 @@ h2.slider-size {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     width: 734px;
+    margin-bottom: 10px;
 }
 
 #titulo2 {
@@ -1451,22 +1487,24 @@ h2.slider-size {
     font-weight: normal;
     font-weight: normal;
     width: 734px;
+    font-size: 6.5em;
+    margin-top: 0;
+}
+
+h2.slogan {
+    animation-name: slideInDown;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    width: 430px;
+    font-size: 4em;
 }
 
 #titulo3 {
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
     text-align: right;
-    font-weight: normal;
-    width: 430px;
     float: right;
 }
 
 #titulo4 {
-    animation-name: slideInDown;
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    width: 430px;
     text-align: left;
 }
 
