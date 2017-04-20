@@ -36,7 +36,7 @@ End Fixed Navigation
 
     <!-- Service section -->
 
-    <div class="container conceptos wow animated zoomIn">
+    <div class="container conceptos wow animated zoomIn hide-until-dom-ready">
         <div class="row">
             <div class="content col-md-12">
                 <div class="panel-group islas-container" id="accordion">

@@ -91,6 +91,7 @@ $(function() {
 
 $(document).ready(function(){
 
+	$('.hide-until-dom-ready').removeClass('hide-until-dom-ready');
 	/* ========================================================================= */
 	/*	Menu item highlighting
 	/* ========================================================================= */

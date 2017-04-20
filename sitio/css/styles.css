@@ -21,6 +21,10 @@ a {
     float: right;
 }
 
+.hide-until-dom-ready {
+    display: none;
+}
+
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
     color: #ffffff;

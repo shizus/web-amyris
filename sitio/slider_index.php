@@ -3,9 +3,9 @@
 <section id="home-slider">
     <div id="slider" class="sl-slider-wrapper">
 
-        <div class="sl-slider">
+        <div class="sl-slider hide-until-dom-ready">
 
-            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+            <div class="sl-slide" data-orientation="horizontal">
 
                 <div class="slide-caption">
                     <div class="caption-content">
