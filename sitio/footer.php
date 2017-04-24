@@ -9,7 +9,7 @@
                     <div class="col-md-7 letra-negra">
                         <div class="row">
                             <div class="col-md-12">
-                            <h2>AMYRIS S.A</h2>
+                            <h2>AMYRIS S.A.</h2>
                             </div>
                         </div>
                         <div class="row dato-footer">
@@ -25,7 +25,7 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <div class="col-md-11">
-                                ventas@amirys.com.ar
+                                ventas@amyris.com.ar
                             </div>
                         </div>
                         <div class="row dato-footer">
@@ -39,7 +39,8 @@
 
                     </div>
                     <div class="col-md-10 col-md-offset-1">
-                        <h6 >2016 - Todos los derechos reservados // Web Design ODM Brandig</h6>
+                        <h6 >2017 - Todos los derechos reservados //
+                            <a href="odmbranding.com" target="_blank" class="footer-link">Web Design ODM Branding</a></h6>
                     </div>
                 </div>
             </div>

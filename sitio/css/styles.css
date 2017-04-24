@@ -1363,8 +1363,9 @@ ul.external li a:hover {
     color: #5F5840;
     font-size: 21px;
     line-height: 32px;
+    font-family: Futura;
     margin-left: 10%;
-    width: 528px;
+    width: 578px;
 }
 
 
@@ -1374,8 +1375,13 @@ ul.external li a:hover {
 }
 
 #ultimafoto {
-    background-color: #ffffff;
+    border-color: #ffffff;
     padding: 15px;
+    background-image: url(../images/sustentabilidad.jpg);
+    background-size: cover;
+    height: 40em;
+    border-width: 10px;
+    border-style: solid;
 }
 
 
@@ -1384,7 +1390,7 @@ ul.external li a:hover {
 
 }
 
-#columnaultimafoto{
+ultimafoto{
     margin-top: -52%;
     position: relative;
 }
@@ -1392,7 +1398,6 @@ ul.external li a:hover {
 #sustentitulo img{
     width: 14%;
     margin-top: 7%;
-    margin-left: 10%;
 }
 
 
@@ -1405,6 +1410,10 @@ ul.external li a:hover {
     background-color: #ffffff;
     margin-top: -10px;
     padding-top: 50px;
+}
+
+a.footer-link {
+    color: inherit;
 }
 
 #logofooter h3 {

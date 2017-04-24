@@ -297,22 +297,14 @@ End Fixed Navigation
         <div class="row">
 
 
-            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
-
-
-                <div class="wow zoomIn animated cuarto" id="ultimafoto">
-                    <img src="images/sustentabilidad.jpg">
-                </div>
-
-                <div class="col-md-12 col-sm-6 col-xs-12 text-left" id="columnaultimafoto">
+            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="ultimafoto" data-wow-delay="0.9s">
                     <div id="sustentitulo" class="col-md-5 intro-pic wow slideInLeft">
                         <h1 class="animation animated-item-1"><?php echo $sustentabilidad ?></h1>
                         <p><?php echo $sustentabilidad2 ?></p>
-                        <img src="images/42.png">
+                        <p>
+                            <img src="images/42.png">
+                        </p>
                     </div>
-
-                </div>
-
             </div>
         </div>
     </div>
