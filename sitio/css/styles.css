@@ -33,7 +33,6 @@ a {
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
 }
 
 nav li.left-division:after {
@@ -323,7 +322,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     padding: 10em 0 20em 0;
 }
 
-section#portfolio {
+#portfolio {
     margin-top: -10em;
 }
 
@@ -680,7 +679,7 @@ ul.external li a:hover {
 
 
 .primero_cuadrado {
-
+    display: table;
     margin-top: auto;
     margin-left: auto;
     height: 195px;
@@ -706,6 +705,8 @@ ul.external li a:hover {
     line-height: 34px;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #fotolaboratorio{
@@ -1371,6 +1372,13 @@ ul.external li a:hover {
 #ultimafoto img{
     width: 100%;
 }
+
+#ultimafoto {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+
 #conteinersustenta{
     margin-top: 10%;
 
@@ -1422,12 +1430,20 @@ footer i {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
-    font-weight: bold;
     padding-top: 50px;
 }
 
 .row.dato-footer {
     margin-bottom: 1em;
+}
+
+.dato-footer {
+    font-size: 1.2em;
+}
+
+.dato-footer i {
+    font-size: 1.3em;
+    padding-top: 50%;
 }
 
 #logo-footer{

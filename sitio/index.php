@@ -152,8 +152,8 @@ End Fixed Navigation
 
 
                     <!-- portfolio section -->
-                    <section id="portfolio">
-                        <div class="container">
+                    <div id="portfolio">
+                        <div>
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
                                     <div class="row">
@@ -223,7 +223,7 @@ End Fixed Navigation
 
                             </div>
                         </div>
-                    </section>
+                    </div>
                     <!-- end portfolio section -->
 
 
@@ -239,10 +239,8 @@ End Fixed Navigation
                 <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="cuadrado1">
                     <section id="cuadrado">
                         <div class="wow zoomIn animated primero_cuadrado ">
-                            <div class="wow zoomIn animated segundo_cuadrado">
-                                <h4><?php echo $segundo_cuadrado1 ?><br><font
-                                            style="color: #DA504B;"><?php echo $segundo_cuadrado2 ?></font></h4>
-                            </div>
+                            <h4><?php echo $segundo_cuadrado1 ?><br><span
+                                        style="color: #DA504B;"><?php echo $segundo_cuadrado2 ?></span></h4>
                         </div>
                     </section>
                 </div>

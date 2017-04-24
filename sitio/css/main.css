@@ -58,13 +58,22 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Museo 500 Regular', sans-serif;
     color: #252525;
 }
 
 footer h1,footer h2,footer h3,footer h4,footer h5,footer h6 {
     font-family: 'Museo 500 Regular';
-    color: #252525;
+    color: #D1BE87;
+}
+
+footer h2 {
+    font-size: 1.5em;
+}
+
+footer h6 {
+    font-size: 1em;
+    font-family: 'Futura';
 }
 
 main > section {

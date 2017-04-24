@@ -1,12 +1,12 @@
 <footer id="footer">
     <div class="container">
           <div class="row">
-            <div class="col-md-7 col-md-offset-1">
+            <div class="col-md-7 col-md-offset-1 col-sm-12 col-sm-offset-0">
                 <div class="row fondo-blanco">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <img id="logo-footer" src="images/logofooter.png">
                     </div>
-                    <div class="col-md-8 letra-negra">
+                    <div class="col-md-7 letra-negra">
                         <div class="row">
                             <div class="col-md-12">
                             <h2>AMYRIS S.A</h2>
@@ -17,7 +17,7 @@
                                 <i class="fa fa-map-marker "></i>
                             </div>
                             <div class="col-md-11">
-                                Cajaraville 2902 y/o Curapaligue 6510, Munro(1605), Pcia de Bs. As.
+                                Cajaraville 2902 y/o Curapaligue 6510, Munro (1605), Pcia de Bs. As.
                             </div>
                         </div>
                         <div class="row dato-footer">
@@ -33,7 +33,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="col-md-11">
-                                5197-1918
+                                54 11 5197-1918
                             </div>
                         </div>
 
