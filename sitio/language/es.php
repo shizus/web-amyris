@@ -76,7 +76,7 @@ $contacto="Contacto";
 $contacto2="CONTACTO";
 
 $fraganciasfinas2="Fragancias Finas";
-$cuidadopersonal2="Cuidado Personal y Productos de tocador";
+$cuidadopersonal2="Cuidado Personal y <br>Productos de Tocador";
 $hogarylimpieza2="Hogar y Limpieza";
 
 $segundo_cuadrado1="AMYRIS CUBRE TODO EL PROCESO DE DESARROLLO CON LA ULTIMA TECNOLOG&Iacute;A,PROFESIONALES ALTAMENTE CAPACITADOS Y UN " ;
@@ -85,7 +85,7 @@ $segundo_cuadrado2="DEPARTAMENTO EXCLUSIVO DE IDEAS, DESARROLLO E INVESTIGACI&Oa
 
 $sustentabilidad2="NUESTRA PREMISA ES GARANTIZAR EL CUIDADO Y LA REDUCCI&Oacute;N DEL IMPACTO AMBIENTAL EN TODOS LOS PROCESOS INVOLUCRADOS EN LA CREACI&Oacute;N Y EL DESARROLLO DE NUESTRAS FRAGANCIAS  ";
 
-$cuidadohogar="Cuidado del hogar <br>y ambientales" ;
+$cuidadohogar="Cuidado del Hogar <br>y Ambientales" ;
 
 $limpieza="Limpieza" ;
 

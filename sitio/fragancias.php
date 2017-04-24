@@ -9,25 +9,6 @@ require 'header.php';
 
 
 
-<style>
-
-@font-face {
-font-family: 'Museo 500 Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Museo 500 Regular'), url('Museo500-Regular.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Futura';
-font-style: normal;
-font-weight: normal;
-src: local('Futura'), url('futurastd.woff') format('woff');
-}
-
-
-</style>
-
 
 
 <body>

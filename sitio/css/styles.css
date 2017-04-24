@@ -1,9 +1,18 @@
+
 @font-face {
     font-family: 'Museo 500 Regular';
     font-style: normal;
     font-weight: normal;
     src: local('Museo 500 Regular'), url('../Museo500-Regular.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura'), url('../futurastd.woff') format('woff');
+}
+
 
 /* Reglas generales */
 
@@ -311,7 +320,11 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 #service .container {
     background-image: url(../images/trama2.jpg);
     background-size: cover;
-    padding: 10em 0;
+    padding: 10em 0 20em 0;
+}
+
+section#portfolio {
+    margin-top: -10em;
 }
 
 #botonrojo{
@@ -326,6 +339,20 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     opacity: 0;
 }
 
+.isla-producto {
+    border-color: #bcab7b;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.producto-arriba {
+    border-bottom: none;
+}
+
+.row .isla-producto:not(:last-child) {
+    border-right: none;
+}
+
 
 
 #botonrojo img{
@@ -338,11 +365,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     visibility: visible; animation-name: fadeInUpBig;
 }
 
-#botonrojo h3{
+#service h3{
     font-size: 30px;
-    color: red;
-    width: 451px;
-    margin-left: -538%;
+    color: #da504b;
+    font-family: 'Futura';
 
 }
 
@@ -352,11 +378,15 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     color: #A59965;
     width: 750px;
     margin-left: auto;
-    margin-top: 115px;
+    margin-top: 0;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     text-align: center;
     margin-right: auto;
+}
+
+#priemr_cuadrado {
+    padding-top: 6em;
 }
 
 

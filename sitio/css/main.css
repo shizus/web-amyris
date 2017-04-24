@@ -435,14 +435,14 @@ Producto /
 
 .isla-producto > div {
     height: 100%;
-    background-color: rgba(265,265,265,0.7);
+    background-color: rgba(265,265,265,0.8);
 }
 
 .isla-producto p {
-    height: 6em;
-    font-size: 1.2em;
-    margin: 2.5em 1.5em;
-    color: #D1BE87;
+    height: 5.4em;
+    font-size: 1.4em;
+    margin: 2.5em 1.7em;
+    color: #BCAB7B;
 }
 
 .isla-producto h4 {
