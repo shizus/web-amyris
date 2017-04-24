@@ -155,114 +155,71 @@ End Fixed Navigation
                     <section id="portfolio">
                         <div class="container">
                             <div class="row">
-
-
-                                <ul class="project-wrapper wow animated fadeInUp">
-
-
-                                    <li class="portfolio-item wow slideInUp animated primero" id="lista1">
-                                        <img src="images/fraga1.jpg" class="img-responsive"
-                                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-                                        <figcaption class="mask" id="mascara1">
-                                            <div class="row">
-                                                <div class="col-md-12 text-center">
-                                                    <h4><?php echo $fraganciasfinas2 ?></h4>
-                                                </div>
-                                                <div class="col-md-12 hide-when-no-mouse">
-                                                    <p>Buscamos ofrecerle al cliente la mas alta calidad de la fragancia
-                                                        creada. </p>
-                                                </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-fragancias-finas">
+                                            <div>
+                                                <h4>
+                                                    <?php echo $fraganciasfinas2 ?>
+                                                </h4>
+                                                <p>Buscamos ofrecerle al cliente la mas alta calidad de la fragancia
+                                                    creada.</p>
+                                                <div>
                                                     <a href="fragancias"> <img src="images/40.png" class="nube"></a>
                                                 </div>
                                             </div>
-                                        </figcaption>
-
-                                    </li>
-
-                                    <li class="portfolio-item wow slideInUp animated segundo" id="lista2">
-                                        <img src="images/islap3chicaarriba.jpg" class="img-responsive"
-                                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-
-                                        <figcaption class="mask" id="mascara2">
-                                            <div class="row">
-                                                <div class="col-md-12 text-center">
-                                                    <h4><?php echo $cuidadopersonal2 ?></h4>
-                                                </div>
-                                                <div class="col-md-12 hide-when-no-mouse">
-                                                    <p>Asumimos el compromiso de ofrecerle al consumidor producto que al momento
-                                                        de percibir los aromas pueda disfrutar. </p>
-                                                </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-cuidado-personal">
+                                            <div>
+                                                <h4>
+                                                    <?php echo $cuidadopersonal2 ?>
+                                                </h4>
+                                                <p>Asumimos el compromiso de ofrecerle al consumidor producto que al momento
+                                                    de percibir los aromas pueda disfrutar.</p>
+                                                <div>
                                                     <a href="fragancias">
                                                         <img src="images/40.png" class="nube"></a>
                                                 </div>
                                             </div>
-                                        </figcaption>
-
-                                    </li>
-
-
-                                    <li class="portfolio-item wow slideInUp animated tercero" id="lista3">
-                                        <img src="images/islap1chica.jpg" class="img-responsive"
-                                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-                                        <figcaption class="mask" id="mascara3">
-                                            <div class="row">
-                                                <div class="col-md-12 text-center">
-                                                    <h4><?php echo $cuidadohogar ?></h4>
-                                                </div>
-                                                <div class="col-md-12 hide-when-no-mouse">
-                                                    <p>Ofrecemos productos que estan relacionados con la sensacion de seguridad,
-                                                        confort, pertenencia y calma. </p>
-                                                </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cuidado-hogar">
+                                            <div>
+                                                <h4>
+                                                    <?php echo $cuidadohogar ?>
+                                                </h4>
+                                                <p>Ofrecemos productos que estan relacionados con la sensacion de seguridad,
+                                                    confort, pertenencia y calma.</p>
+                                                <div>
                                                     <a href="fragancias"> <img src="images/40.png" class="nube"></a>
                                                 </div>
                                             </div>
-                                        </figcaption>
-
-                                    </li>
-
-                                    <li class="portfolio-item wow slideInUp animated cuarto" id="lista4">
-                                        <img src="images/islap3chica.jpg" class="img-responsive"
-                                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-                                        <figcaption class="mask" id="mascara4">
-                                            <div class="row">
-                                                <div class="col-md-12 text-center">
-                                                    <h4><?php echo $limpieza ?></h4>
-                                                </div>
-                                                <div class="col-md-12 hide-when-no-mouse">
-                                                    <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
-                                                        hogar limpio. </p>
-                                                </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                        </div>
+                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-limpieza">
+                                            <div>
+                                                <h4><?php echo $limpieza ?>
+                                                </h4>
+                                                <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
+                                                    hogar limpio.</p>
+                                                <div>
                                                     <a href="fragancias"> <img src="images/40.png" class="nube"></a>
                                                 </div>
                                             </div>
-                                        </figcaption>
-
-                                    </li>
-
-                                    <li class="portfolio-item wow slideInUp animated quinto" id="lista5">
-                                        <img src="images/islap2.jpg" class="img-responsive"
-                                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-                                        <figcaption class="mask" id="mascara5">
-                                            <div class="row">
-                                                <div class="col-md-12 text-center">
-                                                    <h4><?php echo $cosmetica ?></h4>
-                                                </div>
-                                                <div class="col-md-12 hide-when-no-mouse">
-                                                    <p>Buscamos que el bienestar generado remita la tranquilidad de percibir un
-                                                        hogar limpio. </p>
-                                                </div>
-                                                <div class="col-md-4 col-md-offset-4 text-center hide-when-no-mouse">
+                                        </div>
+                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cosmetica">
+                                            <div>
+                                                <h4><?php echo $cosmetica ?>
+                                                </h4>
+                                                <p>Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
+                                                con un auto nuevo.</p>
+                                                <div>
                                                     <a href="fragancias"> <img src="images/40.png" class="nube"></a>
                                                 </div>
                                             </div>
-                                        </figcaption>
-
-                                    </li>
-                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
