@@ -1678,6 +1678,9 @@ footer i {
      height: 40em;
  }
 
+.nube-scroll img {
+    width: 50px;
+}
 
 .centered {
     margin-left: auto;
