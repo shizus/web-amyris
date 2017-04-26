@@ -775,6 +775,7 @@ ul.external li a:hover {
     text-decoration:none;
     padding: 10px 430px;
     margin: -10px -430px;
+    font-family: Futura;
 }
 .panel-body {
     height:830px;
