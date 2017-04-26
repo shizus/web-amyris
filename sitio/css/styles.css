@@ -660,6 +660,13 @@ img.nube{
     margin-top: 2em;
 }
 
+.nube-scroll {
+    height: 6em;
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+}
+
 .mask h3 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
@@ -1625,13 +1632,21 @@ footer i {
     height: auto;
 }
 
-
-.subtitulo_portada{
-    font-family:'Museo 500 Regular';
-    font-weight:normal;font-size:50px;margin-left:auto;margin-right: auto; color: #fff; margin-top: 0%;
+.subtitulo_portada {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 0%;
+    width: 65%;
+    text-transform: lowercase;
 }
 
-
+.portada {
+    position: relative;
+}
 
  #portada.portada-expertise {
      background-image: url(../img/slider/56.jpg);
@@ -1653,6 +1668,12 @@ footer i {
 
  #portada.portada-fragancias {
      background-image: url(../img/slider/29.jpg);
+     background-size: cover;
+     height: 40em;
+ }
+
+ #portada.portada-contacto {
+     background-image: url(../img/slider/88.jpg);
      background-size: cover;
      height: 40em;
  }

@@ -4,34 +4,14 @@ require 'requirelanguage.php';
 require 'header.php';
 
 ?>
+
 <?php  require 'menu.php';?>
-
-
-
-<style>
-
-@font-face {
-font-family: 'Museo 500 Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Museo 500 Regular'), url('Museo500-Regular.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Futura';
-font-style: normal;
-font-weight: normal;
-src: local('Futura'), url('futurastd.woff') format('woff');
-}
-
-
-</style>
 
 
 <body>
 
 
-  <script type="text/javascript">
+<script type="text/javascript">
   jQuery(document).ready(function($) {
     $(".scroll").click(function(event){   
       event.preventDefault();
@@ -39,11 +19,6 @@ src: local('Futura'), url('futurastd.woff') format('woff');
     });
   });
 </script><!-- start-smoth-scrolling -->
-
-
-
-
-
 
 <script>
   $(document).ready(function () {
@@ -53,18 +28,11 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 </script>
 
-<div id="portada" >
-     <img src="img/slider/88.jpg" >
-</div>   
+<?php require_once 'portada.php';
 
-<div class="col-md-12 col-sm-6 col-xs-12 text-center" id="columna_cont" >
-            <h4 class="animation animated-item-1 titulo1_susten"><?php echo $textoc1 ?></h4>
-            <h1 class="animation animated-item-2 titulo2_susten" ><?php echo $textoc2 ?></h1>
-            <div class="arrow text-center" style="position: relative; margin-top: 10%;">
-              <a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a>
-            </div>
-                               
- </div>
+insertar_portada('portada-contacto', $textoc1, $textoc2);
+;?>
+
 
 <div id="crumble_contacto">
   <h3> <?php echo $textoc3 ?></h3>
