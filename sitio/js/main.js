@@ -198,3 +198,7 @@ var wow = new WOW ({
 });
 wow.init();
 
+function togglPanel(event, element) {
+	var panel = $(element).parents('.panel');
+	console.log(panel);
+}

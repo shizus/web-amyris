@@ -356,7 +356,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 #service .container {
     background-image: url(../images/trama2.jpg);
     background-size: cover;
-    padding: 10em 0;
+    padding: 10em 0 20em 0em;
 }
 
 #botonrojo{
@@ -411,7 +411,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 
 
 .segundo{
-    animation-delay:0.6s;
+    animation-delay:0.3s;
 }
 
 

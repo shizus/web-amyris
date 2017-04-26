@@ -49,7 +49,7 @@ End Fixed Navigation
                         </div>
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseOne">
                                   <?php echo $isla_sentir_titulo ?>
                                 </a>
                             </h4>
@@ -65,7 +65,7 @@ End Fixed Navigation
                         </div>
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseTwo">
                                     <?php echo $isla_descubrir_titulo ?>
                                 </a>
                             </h4>
@@ -81,7 +81,7 @@ End Fixed Navigation
                         </div>
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseThree">
                                   <?php echo $isla_crear_titulo ?>
                                 </a>
                             </h4>
@@ -96,7 +96,7 @@ End Fixed Navigation
                         </div>
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseFour">
                                     <?php echo $isla_disfrutar_titulo ?>
                                 </a>
                             </h4>
