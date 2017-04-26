@@ -58,13 +58,22 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Museo 500 Regular', sans-serif;
     color: #252525;
 }
 
 footer h1,footer h2,footer h3,footer h4,footer h5,footer h6 {
     font-family: 'Museo 500 Regular';
-    color: #252525;
+    color: #D1BE87;
+}
+
+footer h2 {
+    font-size: 1.5em;
+}
+
+footer h6 {
+    font-size: 1em;
+    font-family: 'Futura';
 }
 
 main > section {
@@ -275,8 +284,6 @@ h1.navbar-brand {
     left: 0;
 }
 
-
-
 /* Slide wrapper and slides */
 
 .sl-slide,
@@ -404,10 +411,56 @@ h1.navbar-brand {
     height: 100%;
 }
 
+/**
+Producto /
+ */
 
 
+.producto-fragancias-finas {
+    background-image: url(../images/fraga1.jpg);
+}
 
+.producto-cuidado-personal{
+    background-image: url(../images/islap3chicaarriba.jpg);
+}
 
+.producto-cuidado-hogar{
+    background-image: url(../images/islap1chica.jpg);
+}
+
+.producto-limpieza{
+    background-image: url(../images/islap3chica.jpg);
+}
+
+.producto-cosmetica{
+    background-image: url(../images/islap2.jpg);
+}
+
+.isla-producto {
+    height: 25em;
+    background-size: cover;
+    padding: 0;
+}
+
+.isla-producto > div {
+    height: 100%;
+    background-color: rgba(265,265,265,0.8);
+}
+
+.isla-producto p {
+    height: 5.4em;
+    font-size: 1.4em;
+    margin: 2.5em 1.7em;
+    color: #BCAB7B;
+}
+
+.isla-producto h4 {
+    height: 2em;
+    margin: 0 5px 5px 5px;
+    padding-top: 10px;
+    font-family: "Museo 500 Regular";
+    font-size: 1.8em;
+}
 
 
 /*============================================================

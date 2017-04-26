@@ -1,9 +1,18 @@
+
 @font-face {
     font-family: 'Museo 500 Regular';
     font-style: normal;
     font-weight: normal;
     src: local('Museo 500 Regular'), url('../Museo500-Regular.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura'), url('../futurastd.woff') format('woff');
+}
+
 
 /* Reglas generales */
 
@@ -28,7 +37,6 @@ a {
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
 }
 
 nav li.left-division:after {
@@ -356,7 +364,11 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 #service .container {
     background-image: url(../images/trama2.jpg);
     background-size: cover;
-    padding: 10em 0 20em 0em;
+    padding: 10em 0 20em 0;
+}
+
+#portfolio {
+    margin-top: -10em;
 }
 
 #botonrojo{
@@ -371,6 +383,42 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     opacity: 0;
 }
 
+.isla-producto {
+    border-color: #bcab7b;
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.producto-arriba {
+    border-bottom: none;
+}
+
+
+.producto-arriba:hover div {
+    margin-top: 0;
+    transition: all 700ms;
+}
+
+.producto-arriba div {
+    margin-top: 70%;
+    transition: all 300ms
+}
+
+.producto-abajo:hover div {
+    margin-top: 0;
+    transition: all 700ms;
+}
+
+.producto-abajo div {
+    margin-top: 19em;
+    transition: all 300ms
+}
+
+.row .isla-producto:not(:last-child) {
+    border-right: none;
+}
+
 
 
 #botonrojo img{
@@ -383,11 +431,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     visibility: visible; animation-name: fadeInUpBig;
 }
 
-#botonrojo h3{
+#service h3{
     font-size: 30px;
-    color: red;
-    width: 451px;
-    margin-left: -538%;
+    color: #da504b;
+    font-family: 'Futura';
 
 }
 
@@ -397,11 +444,15 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     color: #A59965;
     width: 750px;
     margin-left: auto;
-    margin-top: 115px;
+    margin-top: 0;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     text-align: center;
     margin-right: auto;
+}
+
+#priemr_cuadrado {
+    padding-top: 6em;
 }
 
 
@@ -695,7 +746,7 @@ ul.external li a:hover {
 
 
 .primero_cuadrado {
-
+    display: table;
     margin-top: auto;
     margin-left: auto;
     height: 195px;
@@ -721,6 +772,8 @@ ul.external li a:hover {
     line-height: 34px;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #fotolaboratorio{
@@ -789,6 +842,7 @@ ul.external li a:hover {
     text-decoration:none;
     padding: 10px 430px;
     margin: -10px -430px;
+    font-family: Futura;
 }
 .panel-body {
     height:830px;
@@ -1377,8 +1431,9 @@ ul.external li a:hover {
     color: #5F5840;
     font-size: 21px;
     line-height: 32px;
+    font-family: Futura;
     margin-left: 10%;
-    width: 528px;
+    width: 578px;
 }
 
 
@@ -1386,12 +1441,24 @@ ul.external li a:hover {
 #ultimafoto img{
     width: 100%;
 }
+
+#ultimafoto {
+    border-color: #ffffff;
+    padding: 15px;
+    background-image: url(../images/sustentabilidad.jpg);
+    background-size: cover;
+    height: 40em;
+    border-width: 10px;
+    border-style: solid;
+}
+
+
 #conteinersustenta{
     margin-top: 10%;
 
 }
 
-#columnaultimafoto{
+ultimafoto{
     margin-top: -52%;
     position: relative;
 }
@@ -1399,7 +1466,6 @@ ul.external li a:hover {
 #sustentitulo img{
     width: 14%;
     margin-top: 7%;
-    margin-left: 10%;
 }
 
 
@@ -1412,6 +1478,10 @@ ul.external li a:hover {
     background-color: #ffffff;
     margin-top: -10px;
     padding-top: 50px;
+}
+
+a.footer-link {
+    color: inherit;
 }
 
 #logofooter h3 {
@@ -1437,12 +1507,20 @@ footer i {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
-    font-weight: bold;
     padding-top: 50px;
 }
 
 .row.dato-footer {
     margin-bottom: 1em;
+}
+
+.dato-footer {
+    font-size: 1.2em;
+}
+
+.dato-footer i {
+    font-size: 1.3em;
+    padding-top: 50%;
 }
 
 #logo-footer{
@@ -1500,6 +1578,7 @@ h2.slogan {
 }
 
 #titulo3 {
+    font-family: 'Museo 500 Regular';
     text-align: right;
     float: right;
 }
