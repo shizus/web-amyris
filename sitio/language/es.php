@@ -19,6 +19,22 @@ $hogarylimpieza="HOGAR Y LIMPIEZA";
 
 
 $expertise="EXPERTISE";
+$expertise_texto="Nuestro estandarte es la calidad de nuestros productos y de nuestros procedimientos. Somos estrictos en
+cada detalle del proceso de fabricación y entrega. Por ello trabajamos con tecnología de última
+generación y con técnicas verificadas mediante prácticas eficaces.";
+
+$idi="I+D+I";
+$idi_texto="Nuestros departamento de
+innovación trabaja incansablemente
+investigando para ofrecer nuevas
+sensaciones y propuestas, donde se
+evalúan constantemente los procesos
+y se aplican a nuevas tecnologías,
+herramientas y tendencias que
+logren generar un producto
+diferencial.";
+
+
 $desarrollo="DESARROLLO Y CREACI&Oacute;N";
 $infraestructura="INFRAESTRUCTURA";
 $control="CONTROL DE CALIDAD";
