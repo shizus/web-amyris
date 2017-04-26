@@ -251,43 +251,45 @@ End Fixed Navigation
         </div>
     </div>
 
-
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s"
-                 style="height: 300px;">
-                <div class="accordian2">
-                    <ul>
-                        <li>
-                            <div class="wow slideInUp animated primero">
-
-                                <div class="image_title2">
+        <div class="row destacado-alto">
+            <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0  destacado-alto">
+                <div class="row  destacado-alto">
+                    <div class="col-md-6 col-sm-12 destacado-item destacado-izquierda destacado-alto">
+                        <div class="row destacado-contenido">
+                            <div class="col-md-8 destacado-texto-container">
+                                <div class="destacado-texto">
+                                    <p><?php echo $expertise_texto ?></p>
+                                </div>
+                                <div class="nube-contenedor">
+                                    <img class="nube" src="images/42.png">
+                                </div>
+                            </div>
+                            <div class="destacados-titulo col-md-4">
+                                <div class="rotate">
                                     <a href="#"><?php echo $expertise ?></a>
                                 </div>
-                                <div class="caja1">
-                                    <img src="images/42.png" class="boton_isla_abajo1"></div>
-                                <a href="#">
-                                    <img src="img/expertise.jpg" width="640px" height="426px"/>
-                                </a>
                             </div>
-                        </li>
-
-
-                        <li>
-                            <div class="wow slideInUp animated tercero">
-                                <div class="image_title2">
-                                    <a href="#">I+D+I</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 destacado-item destacado-derecha destacado-alto">
+                        <div class="row destacado-contenido">
+                            <div class="col-md-8 destacado-texto-container">
+                                <div class="destacado-texto">
+                                    <p><?php echo $idi_texto ?></p>
                                 </div>
-                                <div class="caja2"><img src="images/42.png" class="boton_isla_abajo2"></div>
-                                <a href="#">
-                                    <img src="img/isla5.jpg" width="640px" height="426px"/>
-
-                                </a>
+                                <div class="nube-contenedor">
+                                    <img class="nube" src="images/42.png">
+                                </div>
                             </div>
-                        </li>
-                    </ul>
+                            <div class="destacados-titulo col-md-4">
+                                <div class="rotate">
+                                    <a href="#"><?php echo $idi ?></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
