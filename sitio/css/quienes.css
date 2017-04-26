@@ -1,12 +1,23 @@
-    #portada img{
-        width: 100%;
+    #portada.portada-quienes-somos {
+        background-image: url(../img/slider/16.jpg);
+        background-size: cover;
+        height: 40em;
     }
 
-.titulo1_quienes {
-font-weight:normal;font-size:22px;color:#FFF;text-align: center;width: 540px;margin-top: -33%;margin-left: auto;margin-right: auto;
-}
 
-.titulo2_quienes{
+    .titulo_portada {
+        font-weight: normal;
+        font-size: 22px;
+        color: #FFF;
+        text-align: center;
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10em;
+        font-family: Futura;
+    }
+
+.subtitulo_portada{
     font-family:'Museo 500 Regular';font-weight:normal;font-size:50px;margin-left:auto;margin-right: auto; color: #fff; margin-top: 0%;
     text-transform: lowercase;
 }
@@ -378,10 +389,6 @@ visibility: visible; animation-name: zoomIn;
     width: 100%;    position: relative;
 }
 
-
-#susten5{
- margin-top: -57%; margin-left: 10%;   
-}
 
 #susten5 h1{
     font-family:'Museo 500 Regular';font-weight:normal;font-size:60px;text-align: center;color: #fff;margin-top: 60%;

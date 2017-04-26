@@ -25,18 +25,10 @@ require 'header.php';
 
 
 
+  <?php require_once 'portada.php';
 
-<div id="portada" >
-     <img src="img/slider/29.jpg" >
-</div>      
-
-<div class="col-md-12 col-sm-6 col-xs-12 text-center ">
-            <h4 class="animation animated-item-1 titulo1_fragancia"><?php echo $texto1f ?></h4>
-
-            <h1 class="animation animated-item-2 titulo2_fragancia" ><?php echo $texto2f ?></h1>
-                 <div class="arrow text-center" style="    position: relative; margin-top: 10%;"><a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a></div>
-                               
- </div>
+  insertar_portada('portada-fragancias', $texto1f, $texto2f);
+  ;?>
 
 
 

@@ -419,9 +419,27 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     border-right: none;
 }
 
+.row .destacado-item:not(:last-child) {
+    border-right: none;
+}
+
+.row.destacado-contenido {
+    margin-right: -16px;
+}
+
 .destacado-alto {
     height: 30em;
-    margin-top: -4em;
+}
+
+.destacado-item {
+    border-color: #bcab7b;
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.destacado-seccion {
+    margin-top: -7em;
 }
 
 .destacado-texto p {
@@ -452,12 +470,12 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 .destacado-texto-container {
-    display: none;
+    margin-left: -100%;
     transition: all 700ms;
 }
 
 .destacado-item:hover .destacado-texto-container {
-    display: inherit;
+    margin-left: 0;
     transition: all 700ms;
 }
 
@@ -468,6 +486,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 
 .nube-contenedor img.nube {
     margin-top: 0;
+}
+
+.nube-contenedor {
+    margin-left: 14px;
 }
 
 .rotate {
@@ -1604,17 +1626,36 @@ footer i {
 }
 
 
-#portada img{
-    width: 100%;
+.subtitulo_portada{
+    font-family:'Museo 500 Regular';
+    font-weight:normal;font-size:50px;margin-left:auto;margin-right: auto; color: #fff; margin-top: 0%;
 }
 
-.titulo1_quienes {
-    font-weight:normal;font-size:22px;color:#FFF;text-align: center;width: 540px;margin-top: -33%;margin-left: auto;margin-right: auto;
-}
 
-.titulo2_quienes{
-    font-family:'Museo 500 Regular';font-weight:normal;font-size:50px;margin-left:auto;margin-right: auto; color: #fff; margin-top: 0%;
-}
+
+ #portada.portada-expertise {
+     background-image: url(../img/slider/56.jpg);
+     background-size: cover;
+     height: 40em;
+ }
+
+ #portada.portada-innovaciones {
+     background-image: url(../img/slider/77.jpg);
+     background-size: cover;
+     height: 40em;
+ }
+
+ #portada.portada-sustentabilidad {
+     background-image: url(../img/slider/66.jpg);
+     background-size: cover;
+     height: 40em;
+ }
+
+ #portada.portada-fragancias {
+     background-image: url(../img/slider/29.jpg);
+     background-size: cover;
+     height: 40em;
+ }
 
 
 .centered {

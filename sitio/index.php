@@ -252,7 +252,7 @@ End Fixed Navigation
     </div>
 
     <div class="container">
-        <div class="row destacado-alto">
+        <div class="row destacado-alto destacado-seccion">
             <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0  destacado-alto">
                 <div class="row  destacado-alto">
                     <div class="col-md-6 col-sm-12 destacado-item destacado-izquierda destacado-alto">
@@ -262,7 +262,9 @@ End Fixed Navigation
                                     <p><?php echo $expertise_texto ?></p>
                                 </div>
                                 <div class="nube-contenedor">
+                                    <a href="#">
                                     <img class="nube" src="images/42.png">
+                                    </a>
                                 </div>
                             </div>
                             <div class="destacados-titulo col-md-4">
@@ -279,7 +281,9 @@ End Fixed Navigation
                                     <p><?php echo $idi_texto ?></p>
                                 </div>
                                 <div class="nube-contenedor">
-                                    <img class="nube" src="images/42.png">
+                                    <a href="#">
+                                        <img class="nube" src="images/42.png">
+                                    </a>
                                 </div>
                             </div>
                             <div class="destacados-titulo col-md-4">

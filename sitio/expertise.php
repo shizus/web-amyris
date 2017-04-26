@@ -53,21 +53,11 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 
+<?php require_once 'portada.php';
 
-<div id="portada" >
-     <img src="img/slider/56.jpg" >
-</div>   
+insertar_portada('portada-expertise', $textoe1, $textoe2);
+;?>
 
-
-
-
-<div class="col-md-12 col-sm-6 col-xs-12 text-center ">
-            <h4 class="animation animated-item-1 titulo1_quienes"><?php echo $textoe1 ?></h4>
-
-            <h1 class="animation animated-item-2" id="titulo2_expertise" ><?php echo $textoe2 ?></h1>
-              <div class="arrow text-center" style="    position: relative; margin-top: 10%;"><a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a></div>
-                               
- </div>
 
 
 

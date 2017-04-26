@@ -59,19 +59,11 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 </script><!-- start-smoth-scrolling -->
 
 
+<?php require_once 'portada.php';
 
+insertar_portada('portada-sustentabilidad', $textos1, $textos2);
+;?>
 
-<div id="portada" >
-     <img src="img/slider/66.jpg" >
-</div>   
-
-<div class="col-md-12 col-sm-6 col-xs-12 text-center" id="titulosusten" >
-            <h4 class="animation animated-item-1 titulo1_susten"><?php echo $textos1 ?></h4>
-
-            <h1 class="animation animated-item-2 titulo2_susten" ><?php echo $textos2 ?></h1>
-                 <div class="arrow text-center" style="    position: relative; margin-top: 10%;"><a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a></div>
-                               
- </div>
 
 
 <div class="banner-bottom" id="banner-bottom"></div>

@@ -23,20 +23,11 @@ require 'header.php';
 
 
 
-<div id="portada" >
-     <img src="img/slider/16.jpg" >
-</div>      
+<?php require_once 'portada.php';
 
-<div class="col-md-12 col-sm-6 col-xs-12 text-center ">
-            <h4 class="animation animated-item-1 titulo1_quienes"><?php echo $texto1 ?></h4>
+  insertar_portada('portada-quienes-somos', $texto1, $texto2);
+;?>
 
-            <h1 class="animation animated-item-2 titulo2_quienes" ><?php echo $texto2 ?></h1>
-
-            <div class="arrow text-center" style="    position: relative; margin-top: 10%;"><a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a></div>
-
-
-                               
- </div>
 
 
 
@@ -112,8 +103,6 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 
 
 </section>
-<br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="col-md-4 " id="columnaderecha" >
  <p><?php echo $texto6 ?> </p><br>

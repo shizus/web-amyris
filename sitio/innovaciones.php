@@ -58,19 +58,10 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 </script><!-- start-smoth-scrolling -->
 
 
+<?php require_once 'portada.php';
 
-
-<div id="portada" >
-     <img src="img/slider/77.jpg" >
-</div>  
-
-<div class="col-md-12 col-sm-6 col-xs-12 text-center" id="columna12inno" >
-            <h4 class="animation animated-item-1 titulo1_inno"><?php echo $textoin1 ?></h4>
-
-            <h1 class="animation animated-item-2 titulo2_inno" ><?php echo $textoin2 ?></h1>
-                 <div class="arrow text-center" style="    position: relative; margin-top: 8%;"><a class="scroll" href="#banner-bottom"><img alt="" src="images/scroll.png" /></a></div>
-                               
- </div>
+insertar_portada('portada-innovaciones', $textoin1, $textoin2);
+;?>
 
 
 
