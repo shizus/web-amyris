@@ -418,6 +418,7 @@ Producto /
 
 .producto-fragancias-finas {
     background-image: url(../images/fraga1.jpg);
+    background-position-y: -90px;
 }
 
 .producto-cuidado-personal{
@@ -444,8 +445,33 @@ Producto /
 
 .isla-producto > div {
     height: 100%;
-    background-color: rgba(265,265,265,0.8);
 }
+
+.producto-limpieza > div {
+    background-image: url(../img/transp-limpieza.png);
+    background-size: cover;
+}
+
+.producto-cuidado-hogar > div {
+    background-image: url(../img/transp-hogar.png);
+    background-size: cover;
+}
+
+.producto-cuidado-personal > div {
+    background-image: url(../img/transp-tocador.png);
+    background-size: cover;
+}
+
+.producto-fragancias-finas > div {
+    background-image: url(../img/transp-fragancias.png);
+    background-size: cover;
+}
+
+.producto-cosmetica > div {
+    background-image: url(../img/transp-automotor.png);
+    background-size: cover;
+}
+
 
 .isla-producto p {
     height: 5.4em;

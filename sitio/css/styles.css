@@ -364,7 +364,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 #service .container {
     background-image: url(../images/trama2.jpg);
     background-size: cover;
-    padding: 10em 0 20em 0;
+    padding: 12em 0 20em 0;
 }
 
 #portfolio {
@@ -372,15 +372,16 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 #botonrojo{
-    visibility: visible; animation-name: fadeInDownBig;
-
-    background-image: url(../images/botonrojo.png);
-    width: 50px;
-    height: 104px;
+    visibility: visible;
+    animation-name: fadeInDownBig;
     color: #fff;
     font-size: 22px;
-    padding: 45px 0px 0px 10px;
+    padding: 45px 10px 0px 10px;
     opacity: 0;
+}
+
+#botonrojo img {
+    width: 50px;
 }
 
 .isla-producto {
@@ -438,13 +439,33 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     overflow: hidden;
 }
 
+.destacado-idi {
+    background-image: url(../img/transp-idi.png);
+    background-size: cover;
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.destacado-expertise {
+    background-image: url(../img/transp-expertise.png);
+    background-size: cover;
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+}
+
 .destacado-seccion {
     margin-top: -7em;
 }
 
 .destacado-texto p {
     color: gray;
-    margin: 3em -2em 3em 1em;
+    margin: 3em 0em 3em 1em;
+    font-family: Futura;
+    font-size: 1.2em;
+}
+
+.destacados-titulo {
+    height: 100%;
 }
 
 .destacado-texto-container {
@@ -455,8 +476,8 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     height: 100%;
 }
 
-.destacado-contenido > div {
-    background-color: rgba(265,265,265,0.8);
+.destacado-contenido > div:first-child {
+    background-color: rgba(265,265,265,0.9);
 }
 
 .destacado-izquierda {
@@ -518,12 +539,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 
-#botonrojo img{
-    width: 120%;margin-left: -9px;margin-top: -14px;
-
-}
-
-
 #botonrojo2{
     visibility: visible; animation-name: fadeInUpBig;
 }
@@ -538,7 +553,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 
 #botonrojo2 h2{
     font-size: 50px;
-    color: #A59965;
+    color: #A2946B;
     width: 750px;
     margin-left: auto;
     margin-top: 0;
@@ -578,10 +593,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 .isla-item {
     background-size: cover;
     height: 422px;
-}
-
-.conceptos .content {
-    margin-top: -1.3em;
 }
 
 .panel.panel-default.sentir.isla-background {
@@ -1337,6 +1348,7 @@ ul.external li a:hover {
 #service{
     position: relative;
     z-index: -1;
+    margin-top: -5em;
 }
 
 

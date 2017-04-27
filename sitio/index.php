@@ -89,7 +89,7 @@ End Fixed Navigation
                                         <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-fragancias-finas">
                                             <div>
                                                 <h4>
-                                                    <?php echo $fraganciasfinas2 ?>
+                                                    <?php //echo $fraganciasfinas2 ?>
                                                 </h4>
                                                 <p>Buscamos ofrecerle al cliente la más alta calidad de la fragancia
                                                     creada.</p>
@@ -101,7 +101,7 @@ End Fixed Navigation
                                         <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-cuidado-personal">
                                             <div>
                                                 <h4>
-                                                    <?php echo $cuidadopersonal2 ?>
+                                                    <?php //echo $cuidadopersonal2 ?>
                                                 </h4>
                                                 <p>Asumimos el compromiso de ofrecerle al consumidor productos que al momento
                                                     de percibir los aromas, pueda disfrutar.</p>
@@ -116,7 +116,7 @@ End Fixed Navigation
                                         <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cuidado-hogar">
                                             <div>
                                                 <h4>
-                                                    <?php echo $cuidadohogar ?>
+                                                    <?php //echo $cuidadohogar ?>
                                                 </h4>
                                                 <p>Ofrecemos productos que están relacionados con la sensación de seguridad,
                                                     confort, pertenencia y calma.</p>
@@ -127,7 +127,7 @@ End Fixed Navigation
                                         </div>
                                         <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-limpieza">
                                             <div>
-                                                <h4><?php echo $limpieza ?>
+                                                <h4><?php //echo $limpieza ?>
                                                 </h4>
                                                 <p>Buscamos que el bienestar generado remita a la tranquilidad de percibir un
                                                     hogar limpio.</p>
@@ -138,7 +138,7 @@ End Fixed Navigation
                                         </div>
                                         <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cosmetica">
                                             <div>
-                                                <h4><?php echo $cosmetica ?>
+                                                <h4><?php //echo $cosmetica ?>
                                                 </h4>
                                                 <p>Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
                                                 con un auto nuevo.</p>
@@ -186,7 +186,7 @@ End Fixed Navigation
                 <div class="row  destacado-alto">
                     <div class="col-md-6 col-sm-12 destacado-item destacado-izquierda destacado-alto">
                         <div class="row destacado-contenido">
-                            <div class="col-md-8 destacado-texto-container">
+                            <div class="col-md-9 destacado-texto-container">
                                 <div class="destacado-texto">
                                     <p><?php echo $expertise_texto ?></p>
                                 </div>
@@ -196,16 +196,16 @@ End Fixed Navigation
                                     </a>
                                 </div>
                             </div>
-                            <div class="destacados-titulo col-md-4">
-                                <div class="rotate">
-                                    <a href="#"><?php echo $expertise ?></a>
-                                </div>
+                            <div class="destacados-titulo col-md-3 destacado-expertise">
+<!--                                <div class="rotate">-->
+<!--                                    <a href="#">--><?php //echo $expertise ?><!--</a>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 destacado-item destacado-derecha destacado-alto">
                         <div class="row destacado-contenido">
-                            <div class="col-md-8 destacado-texto-container">
+                            <div class="col-md-9 destacado-texto-container">
                                 <div class="destacado-texto">
                                     <p><?php echo $idi_texto ?></p>
                                 </div>
@@ -215,10 +215,10 @@ End Fixed Navigation
                                     </a>
                                 </div>
                             </div>
-                            <div class="destacados-titulo col-md-4">
-                                <div class="rotate">
-                                    <a href="#"><?php echo $idi ?></a>
-                                </div>
+                            <div class="destacados-titulo col-md-3 destacado-idi">
+<!--                                <div class="rotate">-->
+<!--                                    <a href="#">--><?php //echo $idi ?><!--</a>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>

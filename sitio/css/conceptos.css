@@ -3,6 +3,11 @@
     width: 960px;
 }
 
+
+.conceptos .content {
+    margin-top: -1.3em;
+}
+
 .isla-background {
     background-size: 640px 423px;
     background-repeat: no-repeat !important;
@@ -25,14 +30,14 @@
 .islas-container {
     height: 1em;
     font-size: 1.3em;
-    font-family: "Futura";
+    font-family: "Museo 500 Regular";
     color: #ffffff;
 }
 
 .islas-container h4{
     height: 1em;
     font-size: 4.7em;
-    font-family: "Museo 500 Regular";
+    font-family: "Futura";
     color: #ffffff;
 }
 
