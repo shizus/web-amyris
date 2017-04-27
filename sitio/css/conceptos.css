@@ -1,0 +1,95 @@
+.islas-container {
+    max-width: 960px;
+    width: 960px;
+}
+
+.isla-background {
+    background-size: 640px 423px;
+    background-repeat: no-repeat !important;
+    height: 432px;
+    width: 25%;
+    float: left;
+    /*transition: all 700s;*/
+}
+
+.isla-background.not-selected {
+    width: 106px !important;
+    /*transition: all 700s;*/
+}
+
+.isla-background:hover.selected {
+    width: 640px !important;
+    /*transition: all 700s;*/
+}
+
+.islas-container {
+    height: 1em;
+    font-size: 1.3em;
+    font-family: "Futura";
+    color: #ffffff;
+}
+
+.islas-container h4{
+    height: 1em;
+    font-size: 4.7em;
+    font-family: "Museo 500 Regular";
+    color: #ffffff;
+}
+
+.isla-background:hover .concepto-texto-container {
+    display: block;
+    width: 80%;
+}
+
+.concepto-titulo-container {
+    width: 20%;
+}
+
+.concepto-titulo-container h4 {
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+    margin-top: 352px;
+    margin-left: 173px;
+}
+
+.isla-background.selected h4 {
+    margin-left: 540px;
+    margin-top: 175px;
+}
+
+
+.isla-background.not-selected h4 {
+    margin-top: 336px;
+    margin-left: 40px;
+}
+
+.descubrir.selected h4 {
+    margin-top: 205px;
+}
+
+.disfrutar.selected h4 {
+    margin-top: 210px;
+}
+
+.concepto-texto-container {
+    display: none;
+}
+
+.concepto-texto {
+    margin: 2em;
+    color: #ffffff;
+}

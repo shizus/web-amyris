@@ -36,78 +36,7 @@ End Fixed Navigation
 
     <!-- Service section -->
 
-    <div class="container conceptos wow animated zoomIn hide-until-dom-ready">
-        <div class="row">
-            <div class="content col-md-12">
-                <div class="panel-group islas-container" id="accordion">
-                    <div class="panel panel-default sentir isla-background">
-
-                        <div id="collapseOne" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <span><?php echo $isla_sentir_texto ?></span>
-                            </div>
-                        </div>
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseOne">
-                                  <?php echo $isla_sentir_titulo ?>
-                                </a>
-                            </h4>
-
-                        </div>
-                    </div>
-                    <div class="panel panel-default descubrir isla-background">
-
-                        <div id="collapseTwo" class="panel-collapse collapse">
-                            <div class="panel-body">
-                               <span><?php echo $isla_descubrir_texto ?></span>
-                            </div>
-                        </div>
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseTwo">
-                                    <?php echo $isla_descubrir_titulo ?>
-                                </a>
-                            </h4>
-
-                        </div>
-                    </div>
-                    <div class="panel panel-default crear isla-background">
-
-                        <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                               <span><?php echo $isla_crear_texto ?></span>
-                            </div>
-                        </div>
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseThree">
-                                  <?php echo $isla_crear_titulo ?>
-                                </a>
-                            </h4>
-
-                        </div>
-                    </div>
-                    <div class="panel panel-default disfrutar isla-background">
-                        <div id="collapseFour" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <span><?php echo $isla_disfrutar_texto ?></span>
-                            </div>
-                        </div>
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" onclick="togglPanel(event,this)" data-parent="#accordion" href="#collapseFour">
-                                    <?php echo $isla_disfrutar_titulo ?>
-                                </a>
-                            </h4>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php require 'conceptos.php'; ?>
     <!--
      Section acordeon
      ======================================= -->
@@ -352,6 +281,7 @@ End Fixed Navigation
     <script src="js/wow.min.js"></script>
     <!-- Custom Functions -->
     <script src="js/main.js"></script>
+    <script src="js/conceptos.js"></script>
 
 
 </body>
