@@ -65,39 +65,16 @@ insertar_portada('portada-sustentabilidad', $textos1, $textos2);
 ;?>
 
 
-
-<div class="banner-bottom" id="banner-bottom"></div>
-
-
-<div id="crumble_quienes">
-  <h3><?php echo $textos3 ?>
-  <?php echo $textos33 ?>
-  <?php echo $textos333 ?></h3>
-
-</div>
+<?php
+require_once 'breadcrumbs.php';
+insertar_breadcrumbs($textos3 . $textos33 . $textos333);
+?>
 
 
-
-
-<div  class="col-md-12 col-sm-6 col-xs-12"> 
-    <div id="botonrojo_quienes">
-        <img src="images/nube.png" >
-    </div>
-</div>
-
-
-
-
-<div id="botonrojo_fragancias" >
-<img src="images/nube.png" id="imagenbotonrojo" >
-  <h3 id="textosusten"><?php echo $textos4 ?></h3>
-</div>
-
-
-<div id="botonrojo2_susten" class="col-md-12 col-sm-6 col-xs-12 wow fadeInUpBig animated " >
-        <h2><?php echo $textos5 ?></h2>
-
-</div>
+<?php
+require_once "servicio.php";
+insertar_servicio($textos4, $textos5);
+?>
 
 
 

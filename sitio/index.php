@@ -49,26 +49,10 @@ End Fixed Navigation
     <link rel="stylesheet" href="js/video-background/videobackground.css">
     <script type="text/javascript" src="js/video.js"></script>
 
-    <div id="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn">
-                    <div id="botonrojo" class="wow fadeInDownBig animated centered">
-                        <img src="images/nube.png">
-                    </div>
-                    <h3><?php echo $amyrises ?></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow animated zoomIn"
-                     id="textorojo3">
-                    <div id="botonrojo2" class="wow fadeInUpBig animated segundo">
-                        <h2 id="textorojo"><?php echo $ofrecemosexcelencia ?></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+        require_once "servicio.php";
+        insertar_servicio($amyrises, $ofrecemosexcelencia, false);
+    ?>
 
     <br>
 
@@ -232,7 +216,7 @@ End Fixed Navigation
         <div class="row">
 
 
-            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="ultimafoto" data-wow-delay="0.9s">
+            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="ultimafoto" data-wow-delay="0.2s">
                     <div id="sustentitulo" class="col-md-5 intro-pic wow slideInLeft">
                         <h1 class="animation animated-item-1"><?php echo $sustentabilidad ?></h1>
                         <p><?php echo $sustentabilidad2 ?></p>

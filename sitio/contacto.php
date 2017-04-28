@@ -34,12 +34,10 @@ insertar_portada('portada-contacto', $textoc1, $textoc2);
 ;?>
 
 
-<div id="crumble_contacto">
-  <h3> <?php echo $textoc3 ?></h3>
+<?php require_once 'breadcrumbs.php';
+insertar_breadcrumbs($textoc3);
 
-</div>
-
-
+?>
 
 <div class="banner-bottom" id="banner-bottom"></div>
 

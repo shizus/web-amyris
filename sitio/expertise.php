@@ -8,28 +8,6 @@ require 'header.php';
 
 
 
-<style>
-
-@font-face {
-font-family: 'Museo 500 Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Museo 500 Regular'), url('Museo500-Regular.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Futura';
-font-style: normal;
-font-weight: normal;
-src: local('Futura'), url('futurastd.woff') format('woff');
-}
-
-
-
-</style>
-
-
-
 
 <body>
 
@@ -61,33 +39,16 @@ insertar_portada('portada-expertise', $textoe1, $textoe2);
 
 
 
+<?php require_once 'breadcrumbs.php';
+insertar_breadcrumbs($textoe3);
 
-<div class="banner-bottom" id="banner-bottom"></div>
-<div id="crumble_expertise">
-  <h3><?php echo $textoe3 ?></h3>
-
-</div>
+?>
 
 
-
-<div  class="col-md-12 col-sm-6 col-xs-12"> 
-    <div id="botonrojo_quienes">
-        <img src="images/nube.png" >
-    </div>
-</div>
-
-
-
-<div id="botonrojo_fragancias" >
-<img src="images/nube.png" >
-  <h3 id="textoexpertise"><?php echo $textoe4 ?></h3>
-</div>
-
-
-<div id="botonrojo2_expertise" class="col-md-12 col-sm-6 col-xs-12 wow fadeInUpBig animated " >
-        <h2><?php echo $textoe5 ?></h2>
-
-</div>
+<?php
+require_once "servicio.php";
+insertar_servicio($textoe4, $textoe5);
+?>
 
 
 

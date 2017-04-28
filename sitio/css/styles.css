@@ -26,6 +26,10 @@ a {
     color: #ffffff;
 }
 
+a:focus {
+    color: #000000;
+}
+
 .float-right {
     float: right;
 }
@@ -367,6 +371,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     padding: 12em 0 20em 0;
 }
 
+#service .container.servicio-interno {
+    background-image: none;
+}
+
 #portfolio {
     margin-top: -10em;
 }
@@ -563,6 +571,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     margin-right: auto;
 }
 
+#botonrojo2 h2.servicio-interno {
+    color: #D1BE87;
+}
+
 #priemr_cuadrado {
     padding-top: 6em;
 }
@@ -649,7 +661,7 @@ img.nube{
 
 .nube-scroll {
     height: 6em;
-    bottom: 50px;
+    bottom: 0;
     position: absolute;
     width: 100%;
 }
@@ -1165,7 +1177,7 @@ ul.external li a:hover {
 .ir-arriba {
     display: none;
     padding: 20px;
-    background: #024959;
+    background: #da504b;
     font-size: 20px;
     color: #fff;
     cursor: pointer;
@@ -1536,7 +1548,7 @@ ultimafoto{
 }
 
 #sustentitulo img{
-    width: 14%;
+    width: 50px;
     margin-top: 7%;
 }
 
@@ -1693,6 +1705,15 @@ h2.slogan {
 
 #titulo4 {
     text-align: left;
+}
+
+
+#bredcrumbs-container h3 {
+    font-size: 25px;
+    color: #D1BE87;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    margin-left: 10%;
 }
 
 

@@ -505,30 +505,17 @@ margin-left: 400px;
 </style>
 
 
-<div class="banner-bottom" id="banner-bottom"></div>
 
-<div id="crumble_fragancia">
-  <h3><?php echo $texto3f ?></h3>
-</div>
+  <?php require_once 'breadcrumbs.php';
+  insertar_breadcrumbs($texto3f);
 
+  ?>
 
+  <?php
+  require_once "servicio.php";
+  insertar_servicio($texto35f, $texto4f);
+  ?>
 
-<div  class="col-md-12 col-sm-6 col-xs-12"> 
-    <div id="botonrojo_quienes">
-        <img src="images/nube.png" >
-    </div>
-</div>
-
-<div  class="col-md-12 col-sm-6 col-xs-12" id="textoquienes"> 
-
-    <h3><?php echo $texto35f ?></h3>
-</div>
-
-
-<div id="botonrojo2_fragancia" class="col-md-12 col-sm-6 col-xs-12 wow fadeInUpBig animated " >
-        <h2><?php echo $texto4f ?></h2>
-
-</div>
 
 
 <style>

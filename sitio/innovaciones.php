@@ -65,43 +65,16 @@ insertar_portada('portada-innovaciones', $textoin1, $textoin2);
 
 
 
-<div class="banner-bottom" id="banner-bottom"></div>
+<?php require_once 'breadcrumbs.php';
+insertar_breadcrumbs($textoin3);
 
-<div id="crumble_quienes">
-  <h3><?php echo $textoin3 ?></h3>
-
-</div>
+?>
 
 
-
-
-<div  class="col-md-12 col-sm-6 col-xs-12"> 
-    <div id="botonrojo_quienes">
-        <img src="images/nube.png" >
-    </div>
-</div>
-
-
-
-
-
-<div id="botonrojo_inno">
-<img src="images/nube.png" >
-
-</div>
-
-<div class="col-md-12 col-sm-6 col-xs-12"> 
-  <h3 class="textoinno1"><?php echo $textoin4 ?></h3>
-</div>
-
-
-
-
-    <div id="botonrojo2_inno" class="wow fadeInUpBig animated " >
-        <h2><?php echo $textoin5 ?></h2>
-
-    </div>
-
+<?php
+require_once "servicio.php";
+insertar_servicio($textoin4, $textoin5);
+?>
 
 
 
