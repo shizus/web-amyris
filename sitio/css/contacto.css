@@ -9,23 +9,20 @@ div#arrow {
 }
 
 
-
-
-     #botonrojo2_fragancias h4{  
- font-family: 'Futura';
+#botonrojo2_fragancias h4{  
+    font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
     line-height: 26px;
     /* width: 574px; */
-    margin-left: 13%;
     text-align: center;
-    margin-right: 13%;
+    margin: 8% 13% 8% 13%
   }
 
   #info h1 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    color: #A59965;
+    color: #D1BE87;
     font-size: 46px;
     margin: 0 0 -2% 9%;
   }
