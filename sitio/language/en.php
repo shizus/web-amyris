@@ -312,7 +312,8 @@ $textoc13="SEND";
 $textoc14="QA";
 $textoc15="IN AMYRIS, WE ARE STRICT IN EVERY DETAIL MANUFACTURING PROCESS AND DELIVERY. THIS IS ONE OF THE
 MAIN REASONS FOR WHICH COMPANIES LEADERS TRUST US.";
-
+$textoc16="Thank you for your question";
+$textoc17="We will contact you shortly";
 
 
 $holamundo="Hello World!";

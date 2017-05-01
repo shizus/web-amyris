@@ -83,6 +83,26 @@ div#arrow {
 
   }
 
+#mailEnviado h1 {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    color: #D1BE87;
+    font-size: 40px;
+    width: 663px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#mailEnviado h3 {
+    font-size: 23px;
+    color: #D1BE87;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    margin-left: 10%;
+    width: 100%;
+}
+
+
   #formulariocontacto input {
     font-family: 'Futura';
     font-size: 18px;
@@ -142,6 +162,11 @@ height: 100px;
     height: 100px;
     margin-left: 48%;
     margin-top: -10%;
+}
+
+#mailEnviado{
+    height: 100px;
+    margin-left: 48%;
 }
 
 #campos{

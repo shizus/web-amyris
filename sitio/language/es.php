@@ -425,7 +425,8 @@ $textoc13="ENVIAR";
 $textoc14="CONTROL DE CALIDAD";
 $textoc15="EN AMYRIS, SOMOS ESTRICTOS EN CADA DETALLE DEL PROCESO DE FABRICACI&oacute;N Y ENTREGA. ESTA ES UNA DE LAS
 PRINCIPALES RAZONES POR LA CUAL EMPRESAS L&iacute;DERES CONFÍAN EN NOSOTROS.";
-
+$textoc16="Gracias por su consulta";
+$textoc17="En breve nos estaremos comunicando con ud.";
 
 
 

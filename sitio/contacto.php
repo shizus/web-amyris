@@ -13,9 +13,59 @@ require 'header.php';
 
 <script type="text/javascript">
   jQuery(document).ready(function($) {
+    $("#mailEnviado").hide();
     $(".scroll").click(function(event){   
       event.preventDefault();
       $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    });
+    $("#mail").submit(function( event ) {
+        event.preventDefault();
+        var proceed = true;
+        //simple validation at client's end
+        //loop through each field and we simply change border color to red for invalid fields       
+        $("#formulariocontacto input[required=true], #formulariocontacto textarea[required=true]").each(function(){
+            $(this).css('border-color',''); 
+            if(!$.trim($(this).val())){ //if this field is empty 
+                $(this).css('border-color','red'); //change border color to red   
+                proceed = false; //set do not proceed flag
+            }
+            //check invalid email
+            var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
+            if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
+                $(this).css('border-color','red'); //change border color to red   
+                proceed = false; //set do not proceed flag              
+            }   
+        });
+       
+        if(proceed) //everything looks good! proceed...
+        {
+            //get input field values data to be sent to server
+            post_data = {
+                'name'      : $('#campos #name').val(),
+                'mail'      : $('#campos #mail').val(),
+                'company'   : $('#campos #company').val(),
+                'phone'     : $('#campos #phone').val(),
+                'msg'       : $('#campos #msg').val()
+            };
+            
+            //Ajax post data to server
+            $.post('send-mail.php', post_data, function(response){
+                if(response.type == 'error'){ //load json data from server and output message
+                    output = '<div class="alert alert-danger" role="alert">'+response.text+'</div>';
+                }else{
+                    console.log("else");
+                    output = '<div class="success">'+response.text+'</div>';
+                    //reset values in all input fields
+                    $("#formulariocontacto  input[required=true], #formulariocontacto textarea[required=true]").val('');
+                    $("#formulariocontacto").slideUp(); //hide form after success
+                    $("#mailEnviado").show();
+                }
+                $("#contactResult").hide().html(output).slideDown();
+            }, 'json');
+        }
+        //$("#formulariocontacto").hide();
+        //$("#mailEnviado").show();
+
     });
   });
 </script><!-- start-smoth-scrolling -->
@@ -92,24 +142,32 @@ insertar_breadcrumbs($textoc3);
 </div>
 
 
-<div  class="col-md-12 col-sm-6 col-xs-12" id="fotocontacto" >
+<div class="col-md-12 col-sm-6 col-xs-12" id="fotocontacto" >
   <div class="container">
-  <div  class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
-      <img src="images/cont-4.jpg">
-  </div>
+    <div class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
+        <img src="images/cont-4.jpg">
+    </div>
 
-  <div  class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
-
-        <h1 ><?php echo $textoc7 ?>  </h1><br>
-      <div id="campos" >
-        <input type="text" id="texto0" placeholder='<?php echo $textoc8 ?> '></input><br><br>
-        <input type="text" id="texto1" placeholder='<?php echo $textoc9 ?> '></input><br><br>
-        <input type="text" id="texto2" placeholder='<?php echo $textoc10 ?>'></input><br><br>
-        <input type="text" id="texto3" placeholder='<?php echo $textoc11 ?> '></input><br><br>
-        <input type="text" id="texto4" placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
-        <input type="submit" class ="submit" value='<?php echo $textoc13 ?> '  > </input>
-      </div>
-  </div>
+    <div class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
+      <form id="mail" action="">
+          <h1 ><?php echo $textoc7 ?>  </h1><br>
+          <div id="campos" >
+            <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '></input><br><br>
+            <input type="text" id="mail" required placeholder='<?php echo $textoc9 ?> '></input><br><br>
+            <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'></input><br><br>
+            <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '></input><br><br>
+            <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
+            <input type="submit" class="submit" value='<?php echo $textoc13 ?> '> </input>
+          </div>
+      </form>
+        <br>
+        <div id="contactResult"></div>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6" id="mailEnviado">
+      <br><br>
+      <h1 ><?php echo $textoc16 ?></h1>
+      <h3 ><?php echo $textoc17 ?></h3>
+    </div>
   </div>
 </div>
 
