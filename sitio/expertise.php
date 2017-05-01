@@ -32,7 +32,7 @@ require 'header.php';
 <!-- lightbox -->
 <script>
     lightbox.option({
-      'showImageNumberLabel': false
+      'albumLabel': '%1 / %2'
     })
 </script>
 

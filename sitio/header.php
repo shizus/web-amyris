@@ -37,7 +37,7 @@
 		<!-- bootstrap.min -->
         <link rel="stylesheet" href="css/lib/animate.css">
         <!-- lightbox.min -->
-        <link rel="stylesheet" href="css/lib/lightbox.min.css">
+        <link rel="stylesheet" href="css/lib/lightbox.css">
 		<!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/main.css">
 	
@@ -59,6 +59,6 @@
     <!-- Modernizer Script for old Browsers -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!-- ekko-lightbox.min -->
-    <script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox.js"></script>
 
     </head>
