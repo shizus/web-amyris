@@ -136,25 +136,25 @@ insertar_servicio($textoe4, $textoe5);
 
 <div class="row">
         <div class="row">
-            <a href="images/c1.jpg" data-lightbox="portfolio2" class="col-sm-4">
-                <img src="images/c1.jpg" class="imagenportfolio">
+            <a href="images/c1.jpg" data-lightbox="portfolio" class="col-sm-4">
+                <img src="images/c1.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
-            <a href="images/c2.jpg" data-lightbox="portfolio2" class="col-sm-4">
-                <img src="images/c2.jpg" class="imagenportfolio">
+            <a href="images/c2.jpg" data-lightbox="portfolio" class="col-sm-4">
+                <img src="images/c2.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
-            <a href="images/c3.jpg" data-lightbox="portfolio2" class="col-sm-4">
-                <img src="images/c3.jpg" class="imagenportfolio">
+            <a href="images/c3.jpg" data-lightbox="portfolio" class="col-sm-4">
+                <img src="images/c3.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
         </div>
         <div class="row">
-            <a href="images/c4.jpg" data-lightbox="portfolio2" class="col-sm-4">
-                <img src="images/c4.jpg" class="imagenportfolio">
+            <a href="images/c4.jpg" data-lightbox="portfolio" class="col-sm-4">
+                <img src="images/c4.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
-            <a href="images/c5.jpg" data-lightbox="portfolio2" class="col-sm-4">
-                <img src="images/c5.jpg" class="imagenportfolio">
+            <a href="images/c5.jpg" data-lightbox="portfolio" class="col-sm-4">
+                <img src="images/c5.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
-            <a href="images/c6.jpg" data-lightbox="portfolio2" class="col-sm-4">
-                <img src="images/c6.jpg" class="imagenportfolio">
+            <a href="images/c6.jpg" data-lightbox="portfolio" class="col-sm-4">
+                <img src="images/c6.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
         </div>
 </div>

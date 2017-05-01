@@ -200,10 +200,21 @@
      padding: 0% 7% 7%;text-align: center;
 }
 
-img.imagenportfolio{
+img.portfolio{
     width: 112%; 
     margin-left: -4%;
     height: 335px;
+}
+
+img.plus{
+    width: 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto
 }
 
 #tramadebajoportfolio{
