@@ -200,48 +200,11 @@
      padding: 0% 7% 7%;text-align: center;
 }
 
-#imagenportfolio1 img{
+img.imagenportfolio{
     width: 112%; 
     margin-left: -4%;
     height: 335px;
 }
-
-
-#imagenportfolio2 img{
-    width: 112%; 
-    margin-left: -4%;
-    height: 335px;
-}
-
-
-#imagenportfolio3 img{
-    width: 112%; 
-    margin-left: -4%;
-    height: 335px;
-}
-
-
-
-#imagenportfolio4 img{
-  width: 112%;
-  margin-left: -4%;
-
-}
-
-
-#imagenportfolio5 img{
-    width: 112%; 
-    margin-left: -4%;
-
-}
-
-
-#imagenportfolio6 img{
-    width: 112%; 
-    margin-left: -4%;
-
-}
-
 
 #tramadebajoportfolio{
     position: relative;

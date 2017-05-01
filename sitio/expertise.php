@@ -29,7 +29,12 @@ require 'header.php';
   });
 </script><!-- start-smoth-scrolling -->
 
-
+<!-- lightbox -->
+<script>
+    lightbox.option({
+      'showImageNumberLabel': false
+    })
+</script>
 
 <?php require_once 'portada.php';
 
@@ -129,54 +134,30 @@ insertar_servicio($textoe4, $textoe5);
 </div>
 
 
-
-
-
-<div id="portfolio_expertise">
-  
-  <div class="col-md-4" id="imagenportfolio1" >
- <img src="images/c1.jpg" >
-  </div>
-
-
-
-  <div class="col-md-4" id="imagenportfolio2" >
- <img src="images/c2.jpg" >
-  </div>
-
-
-
-
-  <div class="col-md-4" id="imagenportfolio3" >
- <img src="images/c3.jpg">
-  </div>
-
-
-
-
-  <div class="col-md-4" id="imagenportfolio4" >
- <img src="images/c4.jpg" >
-  </div>
-
-
-
-  <div class="col-md-4" id="imagenportfolio5" >
-<img src="images/c5.jpg" >
-  </div>
-
-
-
-  <div class="col-md-4" id="imagenportfolio6" >
- <img src="images/c6.jpg" >
-  </div>
-
-
-
+<div class="row">
+        <div class="row">
+            <a href="images/c1.jpg" data-lightbox="portfolio2" class="col-sm-4">
+                <img src="images/c1.jpg" class="imagenportfolio">
+            </a>
+            <a href="images/c2.jpg" data-lightbox="portfolio2" class="col-sm-4">
+                <img src="images/c2.jpg" class="imagenportfolio">
+            </a>
+            <a href="images/c3.jpg" data-lightbox="portfolio2" class="col-sm-4">
+                <img src="images/c3.jpg" class="imagenportfolio">
+            </a>
+        </div>
+        <div class="row">
+            <a href="images/c4.jpg" data-lightbox="portfolio2" class="col-sm-4">
+                <img src="images/c4.jpg" class="imagenportfolio">
+            </a>
+            <a href="images/c5.jpg" data-lightbox="portfolio2" class="col-sm-4">
+                <img src="images/c5.jpg" class="imagenportfolio">
+            </a>
+            <a href="images/c6.jpg" data-lightbox="portfolio2" class="col-sm-4">
+                <img src="images/c6.jpg" class="imagenportfolio">
+            </a>
+        </div>
 </div>
-
-
-
-
 
 
 <div id="tramadebajoportfolio" > 
@@ -263,9 +244,6 @@ insertar_servicio($textoe4, $textoe5);
   <?php  require 'footer.php';?>
   
 </div>
-
-
-
 
 </body>
 </html>
