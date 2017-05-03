@@ -14,17 +14,22 @@
     height: 432px;
     width: 25%;
     float: left;
+    overflow: hidden;
     /*transition: all 700s;*/
 }
 
 .isla-background.not-selected {
     width: 106px !important;
     /*transition: all 700s;*/
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
 }
 
 .isla-background:hover.selected {
     width: 640px !important;
     /*transition: all 700s;*/
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
 }
 
 .islas-container {
@@ -41,9 +46,19 @@
     color: #ffffff;
 }
 
-.isla-background:hover .concepto-texto-container {
-    display: block;
+.isla-background.selected .concepto-texto-container {
     width: 80%;
+    opacity: 1;
+    height: auto;
+}
+
+
+.concepto-texto-container {
+    height: 0;
+    overflow: hidden;
+    transition: opacity .7s ease-out;
+    transition-delay: .6s;
+    opacity: 0;
 }
 
 .concepto-titulo-container {
@@ -90,9 +105,6 @@
     margin-top: 210px;
 }
 
-.concepto-texto-container {
-    display: none;
-}
 
 .concepto-texto {
     margin: 2em;
