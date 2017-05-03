@@ -25,7 +25,7 @@
     transition: width .6s ease;
 }
 
-.isla-background:hover.selected {
+.isla-background.selected {
     width: 640px !important;
     /*transition: all 700s;*/
     -webkit-transition: width .6s ease;
@@ -49,7 +49,8 @@
 .isla-background.selected .concepto-texto-container {
     width: 80%;
     opacity: 1;
-    height: auto;
+    height: 100%;
+    float: left;
 }
 
 
@@ -59,54 +60,74 @@
     transition: opacity .7s ease-out;
     transition-delay: .6s;
     opacity: 0;
+    width: 80%;
 }
 
 .concepto-titulo-container {
-    width: 20%;
+    width: 106px;
+    height: 100%;
+    float: right;
 }
 
-.concepto-titulo-container h4 {
+/*.concepto-titulo-container h4 {*/
 
-    /* Safari */
-    -webkit-transform: rotate(-90deg);
+    /*!* Safari *!*/
+    /*-webkit-transform: rotate(-90deg);*/
 
-    /* Firefox */
-    -moz-transform: rotate(-90deg);
+    /*!* Firefox *!*/
+    /*-moz-transform: rotate(-90deg);*/
 
-    /* IE */
-    -ms-transform: rotate(-90deg);
+    /*!* IE *!*/
+    /*-ms-transform: rotate(-90deg);*/
 
-    /* Opera */
-    -o-transform: rotate(-90deg);
+    /*!* Opera *!*/
+    /*-o-transform: rotate(-90deg);*/
 
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /*!* Internet Explorer *!*/
+    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
 
-    margin-top: 352px;
-    margin-left: 173px;
-}
+    /*margin-top: 352px;*/
+    /*margin-left: 173px;*/
+/*}*/
 
-.isla-background.selected h4 {
-    margin-left: 540px;
-    margin-top: 175px;
-}
+/*.isla-background.selected h4 {*/
+    /*margin-left: 540px;*/
+    /*margin-top: 175px;*/
+/*}*/
 
 
-.isla-background.not-selected h4 {
-    margin-top: 336px;
-    margin-left: 40px;
-}
+/*.isla-background.not-selected h4 {*/
+    /*margin-top: 336px;*/
+    /*margin-left: 40px;*/
+/*}*/
 
-.descubrir.selected h4 {
-    margin-top: 205px;
-}
+/*.descubrir.selected h4 {*/
+    /*margin-top: 205px;*/
+/*}*/
 
-.disfrutar.selected h4 {
-    margin-top: 210px;
-}
+/*.disfrutar.selected h4 {*/
+    /*margin-top: 210px;*/
+/*}*/
 
 
 .concepto-texto {
     margin: 2em;
     color: #ffffff;
+}
+
+.isla-crear-titulo {
+    background-image: url(../images/concep-crear.png);
+    background-size: contain;
+}
+.isla-descubrir-titulo {
+    background-image: url(../images/concep-descubrir.png);
+    background-size: contain;
+}
+.isla-disfrutar-titulo {
+    background-image: url(../images/concep-disfrutar.png);
+    background-size: contain;
+}
+.isla-sentir-titulo {
+    background-image: url(../images/concep-sentir.png);
+    background-size: contain;
 }
