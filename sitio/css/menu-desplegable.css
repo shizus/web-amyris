@@ -66,3 +66,24 @@
 .link-container {
     margin: 1em 0em;
 }
+
+.boton-contacto {
+    z-index: 11;
+    width: 150px;
+    height: 90px;
+    position: fixed;
+    left: 50%;
+    margin-left: -75px;
+    background-color: #D1BE87;
+    bottom: 0;
+    display: table;
+}
+
+.boton-contacto > .link-container a {
+    font-size: 2em;
+}
+.boton-contacto > .link-container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

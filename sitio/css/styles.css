@@ -26,7 +26,7 @@ a {
     color: #ffffff;
 }
 
-a:focus {
+a:focus, a:hover, a:hover li {
     color: #000000;
 }
 
@@ -40,7 +40,7 @@ a:focus {
 
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 nav li.left-division:after {
@@ -1745,6 +1745,10 @@ h2.slogan {
         padding: 0px 0;
         color: #fff;
         margin-top: -7%;
+    }
+
+    #footer a:hover {
+        color: #000000;
     }
 
     #titulo6 {
