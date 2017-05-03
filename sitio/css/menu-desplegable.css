@@ -1,0 +1,48 @@
+#botonesarriba .nube,
+#botonesarriba .cruz {
+    cursor: pointer
+}
+
+.desplegable-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 9;
+}
+
+.perc20 {
+    width: 20%;
+    margin: 0;
+    height: 100%;
+}
+
+.amyris-nav-container {
+    background-image: url(../images/74.jpg);
+    background-size: cover;
+    display: none;
+}
+
+.fragancias-nav-container {
+    background-image: url(../images/74.jpg);
+    background-size: cover;
+    display: none;
+}
+
+.expertise-nav-container {
+    background-image: url(../images/74.jpg);
+    background-size: cover;
+    display: none;
+}
+
+.sustentabilidad-nav-container {
+    background-image: url(../images/74.jpg);
+    background-size: cover;
+    display: none;
+}
+
+.innovaciones-nav-container {
+    background-image: url(../images/74.jpg);
+    background-size: cover;
+    display: none;
+}
