@@ -8,41 +8,61 @@
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     z-index: 9;
 }
 
 .perc20 {
     width: 20%;
     margin: 0;
+    padding: 10em 1em 1em 1em;
     height: 100%;
 }
 
-.amyris-nav-container {
-    background-image: url(../images/74.jpg);
+.perc20 {
+    background-image: url(../images/menu1-a-medida.jpg);
     background-size: cover;
+    padding-left: 30px;
     display: none;
+    font-family: Futura;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.perc20 h1 {
+    font-size: 1.5em;
+    font-family: "Museo 500 Regular";
+    color: #ffffff;
+}
+
+.perc20 a:hover {
+    color: #000000;
 }
 
 .fragancias-nav-container {
-    background-image: url(../images/74.jpg);
+    background-image: url(../images/menu2-a-medida.jpg);
     background-size: cover;
     display: none;
 }
 
 .expertise-nav-container {
-    background-image: url(../images/74.jpg);
+    background-image: url(../images/menu3-a-medida.jpg);
     background-size: cover;
     display: none;
 }
 
 .sustentabilidad-nav-container {
-    background-image: url(../images/74.jpg);
+    background-image: url(../images/menu4-a-medida.jpg);
     background-size: cover;
     display: none;
 }
 
 .innovaciones-nav-container {
-    background-image: url(../images/74.jpg);
+    background-image: url(../images/menu5-a-medida.jpg);
     background-size: cover;
     display: none;
+}
+
+.link-container {
+    margin: 1em 0em;
 }

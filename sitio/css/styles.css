@@ -103,6 +103,10 @@ nav.floating .navbar-nav>li>a {
     display: table;
 }
 
+#navbar li a {
+    cursor: pointer;
+}
+
 /*ul.nav.navbar-nav.navbar-right {*/
     /*height: 65px;*/
 /*}*/

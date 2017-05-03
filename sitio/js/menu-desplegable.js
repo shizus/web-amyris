@@ -1,6 +1,16 @@
 $().ready(function(){
 
+    $(".fa.fa-bars").click(function (event) {
+        event.preventDefault();
+        if (!$("#menu-desplegable").is(":visible")) {
+            $(".nube").click();
+        } else {
+            $(".cruz").click();
+        }
+    });
+
     $(".nube").click(function (event) {
+        event.preventDefault();
         $("#menu-desplegable").show();
         setTimeout(function () {
             $(".amyris-nav-container").slideDown()
