@@ -25,6 +25,7 @@ $(document).ready(function(){
             }
             var element = event.currentTarget;
             $(element).removeClass('selected');
+            $(element).removeClass('not-selected');
             $(element).siblings().removeClass('not-selected');
         }, 300, event);
 
