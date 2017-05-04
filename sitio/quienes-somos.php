@@ -42,40 +42,26 @@ require 'header.php';
   ?>
 
 
-
-<div id="imagensus">
-  <img src="images/sust-5.jpg" >
-</div>
-
-
-
-
-<section id="cuadrado">
-  <div class="primero_cuadrado_quienes " >
-          <h4><?php echo $texto5 ?></h4>
+  
+  <div class="row">
+      <div class="col-md-8 col-md-offset-3 col-sm-12 col-sm-offset-0" id="imagensus">
+              <div class="primero_cuadrado_quienes">
+                  <h4><?php echo $texto5 ?></h4>
+              </div>
+      </div>
   </div>
-
-
-
-
-
-</section>
-
-<div class="col-md-4 " id="columnaderecha" >
- <p><?php echo $texto6 ?> </p><br>
-  <p ><?php echo $texto7 ?></p><br>
-<p class="destacado"><?php echo $texto8 ?></p>
-</div>
-
-
-<div class="col-md-4" id="columnaizquierda">
-    <div  id="linearoja"></div>
-
-  <p class="cuadrodestacado"><?php echo $texto9 ?></p><br>
-<p ><?php echo $texto10 ?></p><br>
-<p><?php echo $texto11 ?></p>
-
-</div>
+  <div class="row">
+      <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0 quienes-somos-izquierda">
+          <p class="cuadrodestacado"><?php echo $texto9 ?></p><br>
+          <p><?php echo $texto10 ?></p><br>
+          <p><?php echo $texto11 ?></p>
+      </div>
+      <div class="col-md-5 col-sm-12 quienes-somos-derecha">
+              <p><?php echo $texto6 ?> </p><br>
+              <p ><?php echo $texto7 ?></p><br>
+              <p class="destacado"><?php echo $texto8 ?></p>
+      </div>
+  </div>
 
 <img src="images/14.jpg" style="width: 100%;height: 800px;margin-top: 10%;"> 
 

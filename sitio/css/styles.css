@@ -385,11 +385,9 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 
 #botonrojo{
     visibility: visible;
-    animation-name: fadeInDownBig;
     color: #fff;
     font-size: 22px;
     padding: 45px 10px 0px 10px;
-    opacity: 0;
 }
 
 #botonrojo img {
@@ -563,10 +561,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 
-#botonrojo2 h2{
+#textorojo3 h2{
     font-size: 50px;
     color: #A2946B;
-    width: 750px;
+    width: 90%;
     margin-left: auto;
     margin-top: 0;
     font-family: 'Museo 500 Regular';
@@ -575,7 +573,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     margin-right: auto;
 }
 
-#botonrojo2 h2.servicio-interno {
+#textorojo3 h2.servicio-interno {
     color: #D1BE87;
 }
 

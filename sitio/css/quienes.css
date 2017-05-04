@@ -86,21 +86,23 @@
     visibility: visible; animation-name: fadeInUpBig;
 }
 
-    #imagensus img{
-         width: 78%;   margin-top: 180px;    margin-left: 15%;
+    #imagensus {
+        background-image: url(../images/sust-5.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 35em;
     }
 
 
       .primero_cuadrado_quienes {
         width: 445px;
-    margin-left: 18%;
     height: 70px;
     background-color: rgba(245, 245, 245, 0.38);
     border: 1px solid #e1e6e9;
     position: relative;
-    margin-top: -32%;
     z-index: 3;
     animation-delay: 0.3s;
+          margin: 4em 1em 1em 4em;
   }
 
   .primero_cuadrado_quienes h4 {
@@ -111,11 +113,7 @@
     font-family: 'Museo 500 Regular';
     font-weight: normal;
 }
-  
 
-  #primero_cuadrado_quienes  h4{
-     font-family:'Museo 500 Regular';font-weight:normal;
-}
 
 
 #columnaderecha{
@@ -142,9 +140,17 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
     width: 106%;
 }
 
-#columnaizquierda .cuadrodestacado{
+.cuadrodestacado{
       background-color: #D1BE87;    font-family: 'Museo 500 Regular';    font-weight: normal;    font-size: 22px;
     line-height: 34px;    color: #fff;    padding: 46px 68px;
+    border-top-color: #da504b;
+    border-top-width: 3px;
+    border-top-style: solid;
+    margin-top: -5em;
+}
+
+.quienes-somos-derecha {
+    margin: 4em 1em 1em 2em;
 }
 
 #columnaizquierda p{

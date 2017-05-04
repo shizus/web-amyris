@@ -8,7 +8,6 @@ require 'header.php';
 
 <body id="body">
 <?php require 'menu.php'; ?>
-<?php require 'menu-desplegable.php'; ?>
 
 <script>
     $(document).ready(function () {

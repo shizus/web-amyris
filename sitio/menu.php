@@ -1,4 +1,6 @@
 
+<?php require 'menu-desplegable.php'; ?>
+
 <div id="contacto">
  <a href="contacto"> <span><?php echo $contacto ?></span></a>
 </div>

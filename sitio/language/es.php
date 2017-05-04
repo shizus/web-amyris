@@ -115,7 +115,7 @@ $cosmetica="Cosm&eacute;tica Automotor";
 $texto1="EL VALOR DE CONECTAR SENTIDOS";
 $texto2="Inspirando felicidad y bienestar";
 $texto3="Quienes Somos / Valores / &iquest;Por qu&eacute; AMYRIS?";
-$texto4="GENERAMOS TENDENCIAS EN FRAGANCIAS Y CUIDADO PERSONAL";
+$texto4="GENERAMOS TENDENCIAS EN <BR> FRAGANCIAS Y CUIDADO PERSONAL";
 $texto5="QUIENES SOMOS " ;
 
 $texto6="Tomamos cada proyecto como un desafío único y para que ello sea posible, investigamos, actualizamos los ingredientes, incorporamos materias primas y nos adaptamos a las tendencias mundiales. " ;

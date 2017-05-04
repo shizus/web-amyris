@@ -12,6 +12,10 @@
     z-index: 9;
 }
 
+.desplegable-container img {
+    width: 29px;
+}
+
 .perc20 {
     width: 20%;
     margin: 0;
@@ -20,10 +24,7 @@
 }
 
 .perc20 {
-    background-image: url(../images/menu1-a-medida.jpg);
-    background-size: cover;
     padding-left: 30px;
-    display: none;
     font-family: Futura;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -37,6 +38,12 @@
 
 .perc20 a:hover {
     color: #000000;
+}
+
+.amyris-nav-container {
+    background-image: url(../images/menu1-a-medida.jpg);
+    background-size: cover;
+    display: none;
 }
 
 .fragancias-nav-container {
@@ -63,6 +70,56 @@
     display: none;
 }
 
+.amyris-nav-container:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/menu1-a-medida.jpg);
+}
+
+.fragancias-nav-container:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/menu2-a-medida.jpg);
+}
+
+.expertise-nav-container:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/menu3-a-medida.jpg);
+}
+
+.sustentabilidad-nav-container:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/menu4-a-medida.jpg);
+}
+
+.innovaciones-nav-container:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/menu5-a-medida.jpg);
+}
+
 .link-container {
     margin: 1em 0em;
 }
@@ -70,7 +127,7 @@
 .boton-contacto {
     z-index: 11;
     width: 150px;
-    height: 90px;
+    height: 70px;
     position: fixed;
     left: 50%;
     margin-left: -75px;
@@ -80,7 +137,7 @@
 }
 
 .boton-contacto > .link-container a {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 .boton-contacto > .link-container {
     text-align: center;
