@@ -9,7 +9,7 @@
     margin-right: auto;
 
     }
-    .titulo2_fragancia {
+.titulo2_fragancia {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-size: 50px;
@@ -39,9 +39,20 @@
     font-weight: normal;
     text-align: center;
     }
+.expertise{
+    margin-top: -765px; margin-left: 35px;
+}
+#hombregorra{
+    position: relative; margin-top: 15%;
+}
 
+#box1 {
+    width: 100%;position: relative; margin-top: -20%; z-index: -1;
+}
 
-
+.texto_spancinco {
+    display: none; height: 100px; position: relative; margin-top: -12%; z-index: -1;
+}
 
   #fragantit img {
     width: 100%;

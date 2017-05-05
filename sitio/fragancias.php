@@ -991,10 +991,6 @@ ul.external li a:hover {
 
 }
 
-[class^=col-] {
-  margin-bottom: 30px;
-}
-
 
 .spancinco{
      color: #fff;
@@ -1008,7 +1004,6 @@ ul.external li a:hover {
     line-height:30px;
 
 }
-
 
 .spancincop1 {
   text-align: left;
@@ -1077,11 +1072,6 @@ ul.external li a:hover {
     color: #fff;
     left: 10px;
 }
-
-
-
-
-}
 </style>
 
 <!-- portfolio section -->
@@ -1091,54 +1081,42 @@ ul.external li a:hover {
 
 
 $(document).ready(function () {
-    $(".spancincop1").hover(function () { // on hover
+    $("#spancincop1").hover(function () { // on hover
     $("#texto_spancinco_1").css("display", "block");
 
-        $("#box1").css("margin-top", "-20%");
+       // $("#box1").css("margin-top", "-20%");
     },function() {//on mouseout
-            $("#box1").css("margin-top", "-37%");
+            //$("#box1").css("margin-top", "-37%");
                $("#texto_spancinco_1").css("display", "none");
             
   });
-});
 
-
-
-$(document).ready(function () {
-    $(".spancincop2").hover(function () { // on hover
+    $("#spancincop2").hover(function () { // on hover
     $("#texto_spancinco_2").css("display", "block");
 
-        $("#box1").css("margin-top", "-20%");
+        //$("#box1").css("margin-top", "-20%");
     },function() {//on mouseout
-            $("#box1").css("margin-top", "-37%");
+            //$("#box1").css("margin-top", "-37%");
                $("#texto_spancinco_2").css("display", "none");
             
   });
-});
 
-
-
-$(document).ready(function () {
-    $(".spancincop3").hover(function () { // on hover
+    $("#spancincop3").hover(function () { // on hover
     $("#texto_spancinco_3").css("display", "block");
 
-        $("#box1").css("margin-top", "-20%");
+       // $("#box1").css("margin-top", "-20%");
     },function() {//on mouseout
-            $("#box1").css("margin-top", "-37%");
+            //$("#box1").css("margin-top", "-37%");
                $("#texto_spancinco_3").css("display", "none");
             
   });
-});
 
-
-
-$(document).ready(function () {
-    $(".spancincop4").hover(function () { // on hover
+    $("#spancincop4").hover(function () { // on hover
     $("#texto_spancinco_4").css("display", "block");
 
-        $("#box1").css("margin-top", "-20%");
+       // $("#box1").css("margin-top", "-20%");
     },function() {//on mouseout
-            $("#box1").css("margin-top", "-37%");
+            //$("#box1").css("margin-top", "-37%");
                $("#texto_spancinco_4").css("display", "none");
             
   });
@@ -1147,18 +1125,18 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $(".spancincop5").hover(function () { // on hover
+    $("#spancincop5").hover(function () { // on hover
     $("#texto_spancinco_5").css("display", "block");
 
 
-        $("#box1").css("margin-top", "-20%");
+        //$("#box1").css("margin-top", "-20%");
     //    $('#box1').animate({
       //                          'margin-top':'-20%'
        //              },1500);
 
 
     },function() {//on mouseout
-            $("#box1").css("margin-top", "-37%");
+           // $("#box1").css("margin-top", "-37%");
                $("#texto_spancinco_5").css("display", "none");
             
   });
@@ -1168,278 +1146,251 @@ $(document).ready(function () {
 
 <div id="cincocuadrados" style="top: 100px;position: relative;">
     <div class="row show-grid">
-    
-   
-        <div class="col-sm-6 col-md-4-5 col-lg-1-5">
-        <img src="images/fraga1.jpg" style="width: 120%; margin-left: -7%;    height: 300px;">
-        <span class="spancinco">FRAGANCIAS FINAS</span>
-        <p class="spancincop1">Ver mas</p>
-
+        <div id="spancincop1" class="col-sm-6 col-md-4-5 col-lg-1-5">
+          <img src="images/fraga1.jpg" style="width: 120%; margin-left: -7%;    height: 300px;">
+          <span class="spancinco">FRAGANCIAS FINAS</span>
+          <p class="spancincop1">Ver mas</p>
         </div>
-        <div class="col-sm-6 col-md-5-5 col-lg-1-5">
-         <img src="images/fraga2.jpg"  style="width: 113%;    height: 300px;">
-         <span class="spancinco">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</span>
-          <p  class="spancincop2">Ver mas</p>
+        <div id="spancincop2" class="col-sm-6 col-md-5-5 col-lg-1-5">
+           <img src="images/fraga2.jpg"  style="width: 113%;    height: 300px;">
+           <span class="spancinco">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</span>
+            <p  class="spancincop2">Ver mas</p>
         </div>
-        <div class="col-sm-6 col-md-3-5 col-lg-1-5">
-         <img src="images/fraga3.jpg" style="width: 113%;    height: 300px;">
-         <span class="spancinco">CUIDADO DEL HOGAR Y AMBIENTALES</span>
-          <p  class="spancincop3">Ver mas</p>
+        <div id="spancincop3" class="col-sm-6 col-md-3-5 col-lg-1-5">
+           <img src="images/fraga3.jpg" style="width: 113%;    height: 300px;">
+           <span class="spancinco">CUIDADO DEL HOGAR Y AMBIENTALES</span>
+            <p  class="spancincop3">Ver mas</p>
         </div>
-        <div class="col-sm-6 col-md-2-5 col-lg-1-5">
-         <img src="images/fraga4.jpg" style="width: 113%;    height: 300px;">
-         <span class="spancinco">LIMPIEZA</span>
-          <p  class="spancincop4">Ver mas</p>
+        <div id="spancincop4" class="col-sm-6 col-md-2-5 col-lg-1-5">
+           <img src="images/fraga4.jpg" style="width: 113%;    height: 300px;">
+           <span class="spancinco">LIMPIEZA</span>
+            <p  class="spancincop4">Ver mas</p>
         </div>
-        <div class="col-sm-6 col-md-4-5 col-lg-1-5">
-         <img src="images/fraga5.jpg" style="width: 113%;    height: 300px;">
-         <span class="spancinco">COSMÉTICA AUTOMOTOR </span>
-         <p  class="spancincop5">Ver mas</p>
+        <div id="spancincop5" class="col-sm-6 col-md-4-5 col-lg-1-5">
+           <img src="images/fraga5.jpg" style="width: 113%;    height: 300px;">
+           <span class="spancinco">COSMÉTICA AUTOMOTOR </span>
+           <p  class="spancincop5">Ver mas</p>
         </div>
+    </div>
+    <img id="box1" src="images/trama6.jpg">
+    <div class="row show-grid">
+        <div class="container texto_spancinco"  id="texto_spancinco_1" >
+              <div class="row">
+                    <div  class="col-sm-12">
+                              <h1 style="
+            font-family: 'Museo 500 Regular';
+            font-weight: normal;
+            font-size: 30px;
+            margin-top: -10%;
+            margin-left: 16%;
+            line-height: 35px;
+            color: #DA504B;;
+            ">FRAGANCIAS FINAS</h1>
 
-<img id="box1" src="images/trama6.jpg" style="    width: 100%;position: relative; margin-top: -37%; z-index: -1;">
-
-
-<div class="container"  id="texto_spancinco_1" style="display: none;height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
-      <div class="row">
-            <div  class="col-sm-12">
-                      <h1 style="
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 30px;
-    margin-top: -10%;
-    margin-left: 16%;
-    line-height: 35px;
-    color: #DA504B;;
-    ">FRAGANCIAS FINAS</h1>
-
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">En AMYRIS buscamos ofrecerle al cliente la más alta calidad de la fragancia creada,
-                      incentivándolo a innovar, brindándole actualización sobre las tendencias a nivel mundial.</p>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">En AMYRIS buscamos ofrecerle al cliente la más alta calidad de la fragancia creada,
+                              incentivándolo a innovar, brindándole actualización sobre las tendencias a nivel mundial.</p>
+                              <br>
+                              <p style=" text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Podemos ofrecer Eau de Perfum, Eau de Toillete, Colonias, fragancias femeninas, masculinas,
+                              para adolecentes, niños y bebes</p>
+                              <br>
+                    </div>
+                    <div  class="col-sm-12" style="text-align: center;">
+                        <img src="images/58b.jpg">
+                    </div>
+              </div>
+        </div>
+        <div class="container texto_spancinco"  id="texto_spancinco_2" >
+              <div class="row">
+                    <div  class="col-sm-12">
+                              <h1  style="
+            font-family: 'Museo 500 Regular';
+            font-weight: normal;
+            font-size: 30px;
+            margin-top: -10%;
+            margin-left: 16%;
+            line-height: 35px;
+            color: #DA504B;;
+            ">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</h1>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Asumimos el compromiso de ofrecerle al consumidor productos que al momento de percibir los
+                              aromas pueda disfrutar</p><br>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">En esta categoría ofrecemos fragancias para jabones líquidos, productos de tocador,
+                              exfoliantes, shampoo, faciales, espumas, sales de baño, cremas, talcos y tinturas.</p>
                       <br>
-                      <p style=" text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Podemos ofrecer Eau de Perfum, Eau de Toillete, Colonias, fragancias femeninas, masculinas,
-                      para adolecentes, niños y bebes</p>
+                    </div>
 
-            </div> 
-            <div  class="col-sm-12" style="text-align: center;">
-                <img src="images/58b.jpg">
-            </div>         
-      </div>
-</div>   
+                    <div  class="col-sm-12" style="text-align: center;">
+                        <img src="images/58b.jpg">
+                    </div>
+              </div>
+        </div>
+        <div class="container texto_spancinco"  id="texto_spancinco_3">
+              <div class="row">
+                    <div  class="col-sm-12">
+                              <h1  style="
+            font-family: 'Museo 500 Regular';
+            font-weight: normal;
+            font-size: 30px;
+            margin-top: -10%;
+            margin-left: 16%;
+            line-height: 35px;
+            color: #DA504B;;
+            ">CUIDADO DEL HOGAR Y AMBIENTALES</h1>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">El hogar está estrechamente relacionado con una sensación de seguridad, confort, pertenencia
+                              y calma. </p><br>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Ofrecemos productos para desodorantes ambientales, desodorantes textiles, velas aromáticas,
+                                ambientadores y difusores.</p>
+                      <br>
+                    </div>
+                    <div  class="col-sm-12" style="text-align: center;">
+                        <img src="images/58b.jpg">
+                    </div>
+              </div>
+        </div>
+        <div class="container texto_spancinco"  id="texto_spancinco_4">
+              <div class="row">
+                    <div  class="col-sm-12">
+                              <h1  style="
+            font-family: 'Museo 500 Regular';
+            font-weight: normal;
+            font-size: 30px;
+            margin-top: -10%;
+            margin-left: 16%;
+            line-height: 35px;
+            color: #DA504B;;
+            ">LIMPIEZA</h1>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Buscamos que el bienestar generado por este tipo de fragancias remita a la pureza, a esa
+                                tranquilidad que se genera al percibir estar en un hogar limpio.</p><br>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Esta clase de fragancias aplican a productos tales como limpiadores para piso, limpiadores en
+                              crema, lavandinas, detergentes, suavizantes, productos quita mancha y apresto.</p>
+                      <br>
+                      </div>
+                      <div  class="col-sm-12" style="text-align: center;">
+                        <img src="images/58b.jpg">
+                    </div>
+              </div>
+        </div>
+        <div class="container texto_spancinco"  id="texto_spancinco_5">
+              <div class="row">
+                    <div  class="col-sm-12">
+                              <h1  style="
+            font-family: 'Museo 500 Regular';
+            font-weight: normal;
+            font-size: 30px;
+            margin-top: -10%;
+            margin-left: 16%;
+            line-height: 35px;
+            color: #DA504B;;
+            ">COSMÉTICA AUTOMOTOR</h1>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Momentos como la compra de tu primer auto o cambiarlo por otro más grande generan alegría
+        y felicidad. Ofrecemos fragancias que le recuerden ese momento.</p><br>
+                              <p style="
+             text-align: left;
+            line-height: 25px;
+            font-family: 'Futura';
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+              margin-left: 16%;
+            width: 720px;
+            ">Lo asesoramos sobre la fragancia adecuada dejando un aroma de alta persistencia</p>
+                      <br>
+                    </div>
 
-
-<div class="container"  id="texto_spancinco_2" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
-      <div class="row">
-            <div  class="col-sm-12">
-                      <h1  style="
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 30px;
-    margin-top: -10%;
-    margin-left: 16%;
-    line-height: 35px;
-    color: #DA504B;;
-    ">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</h1>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Asumimos el compromiso de ofrecerle al consumidor productos que al momento de percibir los
-                      aromas pueda disfrutar</p><br>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">En esta categoría ofrecemos fragancias para jabones líquidos, productos de tocador,
-                      exfoliantes, shampoo, faciales, espumas, sales de baño, cremas, talcos y tinturas.</p>
-            </div>          
-
-            <div  class="col-sm-12" style="text-align: center;">
-                <img src="images/58b.jpg">
-            </div>  
-
-
-      </div>
-</div>  
-
-
-
-<div class="container"  id="texto_spancinco_3" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
-      <div class="row">
-            <div  class="col-sm-12">
-                      <h1  style="
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 30px;
-    margin-top: -10%;
-    margin-left: 16%;
-    line-height: 35px;
-    color: #DA504B;;
-    ">CUIDADO DEL HOGAR Y AMBIENTALES</h1>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">El hogar está estrechamente relacionado con una sensación de seguridad, confort, pertenencia
-                      y calma. </p><br>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Ofrecemos productos para desodorantes ambientales, desodorantes textiles, velas aromáticas,
-                        ambientadores y difusores.</p>
-            </div> 
-            <div  class="col-sm-12" style="text-align: center;">
-                <img src="images/58b.jpg">
-            </div>           
-      </div>
-</div>  
-
-
-
-<div class="container"  id="texto_spancinco_4" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
-      <div class="row">
-            <div  class="col-sm-12">
-                      <h1  style="
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 30px;
-    margin-top: -10%;
-    margin-left: 16%;
-    line-height: 35px;
-    color: #DA504B;;
-    ">LIMPIEZA</h1>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Buscamos que el bienestar generado por este tipo de fragancias remita a la pureza, a esa
-                        tranquilidad que se genera al percibir estar en un hogar limpio.</p><br>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Esta clase de fragancias aplican a productos tales como limpiadores para piso, limpiadores en
-                      crema, lavandinas, detergentes, suavizantes, productos quita mancha y apresto.</p>
-              </div>     
-              <div  class="col-sm-12" style="text-align: center;">
-                <img src="images/58b.jpg">
-            </div>       
-      </div>
-</div>  
-
-<div class="container"  id="texto_spancinco_5" style="display: none; height: 100px;    position: relative; margin-top: -20%; z-index: -1;">
-      <div class="row">
-            <div  class="col-sm-12">
-                      <h1  style="
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 30px;
-    margin-top: -10%;
-    margin-left: 16%;
-    line-height: 35px;
-    color: #DA504B;;
-    ">COSMÉTICA AUTOMOTOR</h1>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Momentos como la compra de tu primer auto o cambiarlo por otro más grande generan alegría
-y felicidad. Ofrecemos fragancias que le recuerden ese momento.</p><br>
-                      <p style="
-     text-align: left;
-    line-height: 25px;
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-      margin-left: 16%;
-    width: 720px;
-    ">Lo asesoramos sobre la fragancia adecuada dejando un aroma de alta persistencia</p>
-            </div> 
-
-            <div  class="col-sm-12" style="text-align: center;">
-                <img src="images/58b.jpg">
-            </div>          
-      </div>
-</div>  
-
-
-
+                    <div  class="col-sm-12" style="text-align: center;">
+                        <img src="images/58b.jpg">
+                    </div>
+              </div>
+        </div>
+    </div>
 </div>
 
-</div>
-
-
-
-</div>
-
-           
-
-
-                 
-
-
-<section id="hombregorra" style="position: relative; margin-top: 15%;"> 
-
+<section id="hombregorra">
   <div class="container" style="visibility: visible; animation-name: zoomIn;">
      <img src="images/05.jpg" style="width: 100%;">
- </div>
+  </div>
 
 
-
- <div class="col-md-5" style="margin-top: -765px;margin-left: 35px;">
+  <div class="col-md-5 expertise">
          <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:60px;text-align: center;color: #fff;margin-left: 20%;margin-top: 50%;">EXPERTISE</h1>
             <p style="text-align: left;
     color: #fff;
@@ -1447,20 +1398,15 @@ y felicidad. Ofrecemos fragancias que le recuerden ese momento.</p><br>
     line-height: 28px;
     margin-left: 30%;
     width: 601px;">CONTAMOS CON TECNOLOGÍA DE ÚLTIMA GENERACIÓN Y TRABAJAMOS CON TÉCNICAS VERIFICADAS Y RIGUROSAS NORMAS INTERNAS QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES.     </p>
-             
-                
-</div>  
 
+
+  </div>
 </section>
 
-
-<div id="prefooter" >
-
-  <?php  require 'footer.php';?>
-  
-</div>
-
-
+  <div id="prefooter_cont" >
+    <?php  require 'footer.php';?>
+  </div>
+  </section>
 
 </body>
 </html>
