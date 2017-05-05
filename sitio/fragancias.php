@@ -1,46 +1,30 @@
 <?php 
-
 	session_start();
 	require 'requirelanguage.php';
 	require 'header.php';
 	require 'menu.php';
-
 ?>
 
 <body>
 
-
-
-
 <?php require_once 'portada.php';
 
  	insertar_portada('portada-fragancias', $texto1f, $texto2f);
-	
 	require_once 'breadcrumbs.php';
-
 	insertar_breadcrumbs($texto3f);
-
 	require_once "servicio.php";
-
 	insertar_servicio($texto35f, $texto4f);
 
 ?>
 
-<section id="fragan">
-	 <div id="fragantit" >
-		<div class="container">
-			<div class="row">
-			  <img src="images/07.jpg">
-			</div>
-		</div>
-	 </div>
-</section>                        
-
-<section id="cuadrado">
-  <div class="col-md-12 col-sm-6 col-xs-12 primero_cuadrado_fragancias">
-    <h4>FRAGANCIAS </h4>
-   </div>
-</section>
+<div class="container">
+	<div class="row fragan"> 
+	<div class="col-md-6 col-md-offset-3">
+      <img src="img/t-fragancias.png" width="100%">
+      </div> 
+	      
+	</div>
+</div>
 
 <style>
 .bajada {
@@ -85,11 +69,11 @@
 	border-bottom: solid 1px #D1BE89;
 	border-right: solid 1px #D1BE89;
 	transform: rotate(45deg);
-	width: 6px;
-	height: 6px;
+	width: 5px;
+	height: 5px;
 	display: block;
 	position: absolute;
-	bottom: -4px;
+	bottom: -3px;
 	left: 50%;
 	
 }
