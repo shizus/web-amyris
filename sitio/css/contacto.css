@@ -159,32 +159,6 @@ height: 100px;
     position: relative;margin-top: -6%;
 }
 
-  #su2_cont h1 {
- font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 60px;
-    text-align: center;
-    color: #fff;
-    margin-left: 14%;
-    width: 800px;
-    margin-top: -80%;
-}
-#su2_cont p {
-    text-align: left;
-    color: #fff;
-    font-size: 21px;
-    line-height: 28px;
-        margin-left: 27%;
-    width: 671px;
-    }
-
-#su2_cont img{
-    width: 8%;
-    position: relative;
-    margin-left: 27%;
-    margin-top: 8%;
-    }
-
 #susten_conta{
     position: relative;margin-top: 48%;
 }
@@ -194,6 +168,6 @@ height: 100px;
 }
 
 #prefooter_cont{
- position: relative;
- margin-top: 10%;
+    background-image: url(../images/78.jpg);
+    background-size: cover;
 }

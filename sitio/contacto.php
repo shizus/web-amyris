@@ -151,22 +151,11 @@ insertar_breadcrumbs($textoc3);
   </div>
 </div>
 
-<section id="susten_conta" >
-  <div id="su1" >
-        <div class="container">
-           <img src="images/78.jpg"  >
-        </div>
-  </div>
 
-  <div  id="su2_cont" class="col-md-6" >
-           <h1 > <?php echo $textoc14 ?> </h1>
-           <p > <?php echo $textoc15 ?> </p>
-       <img src="images/42.png" > 
-  </div>  
-  <div id="prefooter_cont" >
-    <?php  require 'footer.php';?>    
-  </div>
-</section>
+<?php  require 'footer.php';
+footer("su2_cont", "prefooter_cont", $textoc14, $textoc15);
+
+?>
 
 
 </body>
