@@ -73,7 +73,7 @@
 		<p>
 		Contamos con personal de desarrollo y marketing en constante capacitación e investigación para estar siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosmética, fragancias finas, higiene personal, productos para el hogar y productos de limpieza.</p>
 		<p>
-		En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad; Trabajamos con un preciso cronograma de tiempos. 
+		En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad. Trabajamos con un preciso cronograma de tiempos.
 		</p>
 		</div>
 	</div>
