@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-    $to_email       = "info@odmbranding.com"; //Recipient email, Replace with own email here
-    $from_email     = 'noreply@odmbranding.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
+    $to_email       = "hola@latorregabriel.com"; //Recipient email, Replace with own email here
+    $from_email     = 'noreply@latorregabriel.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
     
     //check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
@@ -56,8 +56,8 @@ if($_POST)
     'Reply-To: '.$user_email.'' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
     
-    //$send_mail = mail($to_email, $subject, $message_body, $headers);
-    $send_mail = true;
+    $send_mail = mail($to_email, $subject, $message_body, $headers);
+    //$send_mail = true; FOR LOCAL TEST
     
     if(!$send_mail)
     {
