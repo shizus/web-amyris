@@ -170,7 +170,7 @@ un estricto cronograma que nos posibilita cumplir con plazos de
 entrega diferenciales y una logística de entrega eficaz.";
 $textoe9="OFRECEMOS CREACIÓN, DESARROLLO,
 INNOVACIÓN, ACTUALIZACIÓN DEL PRODUCTO,
-CALIDAD Y ORIGINALIDAD";
+CALIDAD Y ORIGINALIDAD.";
 $textoe10="EN AMYRIS, BUSCAMOS SIEMPRE QUE EL CONSUMIDOR OBTENGA UNA IDENTIFICACIÓN ÚNICA CON EL PRODUCTO. ";
 $textoe11="Al momento de pensar cada creación, buscamos que el
 consumidor obtenga una identificación única con el producto.
@@ -215,7 +215,7 @@ $textoe24="Estamos siempre a disposici&oacute;n del cliente, buscando brindar
 soluciones ante cualquier situaci&oacute;n adversa que pudiera surgir  ajena a Amyris. Para eso, hacemos el seguimiento del
 producto y contamos con un SERVICIO DE POSTVENTA que brinda soluciones pr&aacute;cticas y r&aacute;pidas. Ante todo, nuestra
 responsabilidad es el beneficio y la satisfacci&oacute;n del cliente";
-$textoe25="El respeto por el cliente es la clave de nuestro &eacute;xito";
+$textoe25="El respeto por el cliente es la clave de nuestro &eacute;xito.";
 $textoe255="SOMOS ESTRICTOS EN CADA DETALLE DEL PROCESO DE
 DESARROLLO, FABRICACIÓN Y ENTREGA. ESTA ES UNA DE
 LAS PRINCIPALES RAZONES POR LA CUAL LAS EMPRESAS

@@ -42,7 +42,14 @@ a:focus, a:hover {
 }
 
 .titulo-dorado {
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
     color: #D1BE87;
+    font-size: 60px;
+    padding: 1.5em 0 0em 0;
+}
+.parrafo-destacado {
+    font-size: 1.8em !important;
 }
 
 .titulo-imagen {

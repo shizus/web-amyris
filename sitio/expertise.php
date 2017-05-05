@@ -69,13 +69,15 @@ insertar_servicio($textoe4, $textoe5);
     <h1 ><?php echo $textoe6 ?></h1><br>
       <p id="textoe1"><?php echo $textoe7 ?></p><br>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>
-    <p id="textoe2"><?php echo $textoe9 ?></p>
+    <p id="textoe2"><?php echo $textoe9 ?>
+        <div class="linea-roja-50 float-right"></div>
+    </p>
     </div>
 
     <div class="col-md-6" id="columnaseis2" >
       <p id="textoe3" ><?php echo $textoe10 ?></p><br><br><br>
-    <p id="textoe4"><?php echo $textoe11 ?></p><br>
-    <p id="textoe5" ><?php echo $textoe12 ?></p>
+        <p id="textoe4"><?php echo $textoe11 ?></p><br>
+        <p id="textoe5" ><?php echo $textoe12 ?></p>
 
     </div>
 
@@ -94,9 +96,7 @@ insertar_servicio($textoe4, $textoe5);
     <p ><?php echo $textoe14?></p>
     <p ><?php echo $textoe15?></p>
     </div>
-</div>
-</div>
-<div class="row">
+    <div class="row galeria-container">
         <div class="row">
             <a href="images/c1.jpg" data-lightbox="portfolio" class="col-sm-4">
                 <img src="images/c1.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
@@ -119,10 +119,7 @@ insertar_servicio($textoe4, $textoe5);
                 <img src="images/c6.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
             </a>
         </div>
-</div>
-<div id="tramadebajoportfolio" >
-     <img src="images/trama3.jpg" >
-
+    </div>
 </div>
 
    <h1  id="control-calidad" class="titulo-dorado text-center"><?php echo $textoe19 ?></h1>
@@ -136,7 +133,7 @@ insertar_servicio($textoe4, $textoe5);
 
         <h1 ><?php echo $textoe21 ?></h1>
 
-        <img src="images/lista.png" style="margin-left: -12%;">
+        <img src="images/lista.png" style="width: 500px; margin-left: -2em;">
 
     </div>
 
@@ -144,7 +141,7 @@ insertar_servicio($textoe4, $textoe5);
         <p  class="p0" ><?php echo $textoe255 ?></p><br>
         <p  class="p1" ><?php echo $textoe22 ?></p><br>
         <p   class="p2" ><?php echo $textoe23 ?></p><br>
-        <p   class="p2" ><?php echo $textoe25 ?></p>
+        <p   class="p0 parrafo-destacado" ><?php echo $textoe25 ?></p>
     </div>
 
 </div>
