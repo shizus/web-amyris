@@ -62,7 +62,7 @@ insertar_servicio($textoin4, $textoin5);
        </div>
 </div>       
 
-<section id="sustentabilidad">
+<section id="innovar">
 
   <div class="primero_cuadrado_inno " >
           <h4 ><?php echo $textoin6 ?> </h4>
@@ -91,7 +91,7 @@ insertar_servicio($textoin4, $textoin5);
       </div>
  <div class="col-md-12" id="cuain1">
 
-    <div class="cuadrado_inno_id">
+    <div id="ideas" class="cuadrado_inno_id">
           <h4 >I+D+I</h4>
       </div>
 </div>
@@ -114,7 +114,7 @@ insertar_servicio($textoin4, $textoin5);
 
 
 <div id="contenedortrescolumnas" >
-    <div class="container">
+    <div class="container" id="desarrollo">
 
         <div class="col-md-12 columna12">
            <h3>¿CÓMO TRABAJA NUESTRO DEPARTAMENTO I+D+I?</h3>

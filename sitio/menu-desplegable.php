@@ -38,11 +38,11 @@
   <div class="perc20 col-sm-12 innovaciones-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-      Innovaciones
+        <a href="innovaciones">Innovaciones</a>
     </h1>
-    <div class="link-container"><a href="innovaciones">Aprendemos para innovar</a></div>
-    <div class="link-container"><a href="innovaciones">Departamento de ideas </a></div>
-    <div class="link-container"><a href="innovaciones">Desarrollo e innovación</a></div>
+    <div class="link-container"><a href="innovaciones#innovar">Aprendemos para innovar</a></div>
+    <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas </a></div>
+    <div class="link-container"><a href="innovaciones#desarrollo">Desarrollo e innovación</a></div>
   </div>
   <div class="boton-contacto">
     <div class="link-container"><a href="contacto">Contacto</a></div>
