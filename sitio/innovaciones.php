@@ -62,7 +62,7 @@ insertar_servicio($textoin4, $textoin5);
        </div>
 </div>       
 
-<section id="cuadrado">
+<section id="sustentabilidad">
 
   <div class="primero_cuadrado_inno " >
           <h4 ><?php echo $textoin6 ?> </h4>

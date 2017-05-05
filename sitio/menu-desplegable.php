@@ -29,11 +29,11 @@
   <div class="perc20 col-sm-12 sustentabilidad-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-      Sustentabilidad
+        <a href="sustentabilidad">Sustentabilidad</a>
     </h1>
-    <div class="link-container"><a href="sustentabilidad">Valores</a></div>
-    <div class="link-container"><a href="sustentabilidad">Enfoque Sustentable</a></div>
-    <div class="link-container"><a href="sustentabilidad">¿Cómo operamos?</a></div>
+    <div class="link-container"><a href="sustentabilidad#valores">Valores</a></div>
+    <div class="link-container"><a href="sustentabilidad#sustentabilidad">Enfoque Sustentable</a></div>
+    <div class="link-container"><a href="sustentabilidad#como-operamos">¿Cómo operamos?</a></div>
   </div>
   <div class="perc20 col-sm-12 innovaciones-nav-container">
   <img src="images/flor-menu.png">
