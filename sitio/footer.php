@@ -14,7 +14,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
                             <h1 class='animation animated-item-1'>$titulo</h1>
                             <p>$texto</p>
                             <p>
-                                <img class='footer-nube' src='images/42.png'>
+                                <img alt='Imagen cargando' class='footer-nube' src='images/42.png'>
                             </p>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
             <div class='col-md-7 col-md-offset-1 col-sm-12 col-sm-offset-0'>
                 <div class='row fondo-blanco'>
                     <div class='col-md-5'>
-                        <img id='logo-footer' src='images/logofooter.png'>
+                        <img alt='Imagen cargando' id='logo-footer' src='images/logofooter.png'>
                     </div>
                     <div class='col-md-7 letra-negra'>
                         <div class='row'>
@@ -70,12 +70,13 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
             </div>
             <div class='col-md-2' id='lista-afuera' >
               <ul>
-                  <a href='quienes-somos'> <li>$amyris </li></a>
-                  <a href='fragancias'> <li>$fragancias </li></a>
-                  <a href='expertise'> <li>$expertise </li></a>
-                  <a href='sustentabilidad'> <li>$sustentabilidad </li></a>
-                  <a href='innovaciones'> <li>$innovaciones </li></a>
-                  <a href='contacto'> <li>$contacto2 </li></a>
+                  <li><a href='quienes-somos'> $amyris </a></li>
+                  <li><a href='fragancias'>$fragancias</a></li>
+                  <li>  <a href='expertise'> $expertise </a></li>
+                  <li><a href='sustentabilidad'> $sustentabilidad </a></li>
+                  <li><a href='innovaciones'> $innovaciones </a></li>
+                  <li><a href='contacto'> $contacto2 </a></li>
+         
               </ul>
             </div>
             </div>

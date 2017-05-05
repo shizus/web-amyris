@@ -9,11 +9,6 @@ require 'header.php';
 
 
 
-
-
-<body>
-
-
   <script type="text/javascript">
   jQuery(document).ready(function($) {
     $(".scroll").click(function(event){   

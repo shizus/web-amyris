@@ -24,8 +24,6 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 }
 </style>
 
-<body>
-
 
 <script>
   $(document).ready(function () {

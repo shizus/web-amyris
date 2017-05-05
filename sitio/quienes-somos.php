@@ -5,8 +5,6 @@ require 'header.php';
 
 ?>
 
-<body>
-
 <?php  require 'menu.php';?>
 
 <?php

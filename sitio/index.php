@@ -4,7 +4,6 @@ require 'requirelanguage.php';
 require 'header.php';
 
 ?>
-<body id="body">
 <?php require 'menu.php'; ?>
 
 <!--
@@ -188,6 +187,7 @@ End Fixed Navigation
             </div>
         </div>
     </div>
+</main>
     
   <?php require 'footer.php';
   

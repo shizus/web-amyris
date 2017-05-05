@@ -6,9 +6,6 @@ require 'header.php';
 ?>
 <?php  require 'menu.php';?>
 
-
-<body>
-
 <script>
   $(document).ready(function () {
     // READ recods on page load

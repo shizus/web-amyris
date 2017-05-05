@@ -61,7 +61,7 @@
 
             <div class="modal-header">
                 <h4 class="modal-title">¿Queres conocernos?</h4>
-                <h4 class="modal-title"">Dejanos tus datos</h4>
+                <h4 class="modal-title">Dejanos tus datos</h4>
             </div>
 
             <div class="modal-body">
@@ -117,9 +117,9 @@
                     ¡Llamanos!
                 </p>
                 <br>
-                <a href="tel:(54 11) 5197-1918">(54 11) 5197-1918</a><br>
-                <a href="tel:(54 11) 5197-1920">(54 11) 5197-1920</a><br>
-                <a href="tel:(54 11) 5197-1932">(54 11) 5197-1932</a><br>
+                <a href="tel:(5411)5197-1918">(54 11) 5197-1918</a><br>
+                <a href="tel:(5411)5197-1920">(54 11) 5197-1920</a><br>
+                <a href="tel:(5411)5197-1932">(54 11) 5197-1932</a><br>
             </div>
 
         </div><!-- modal-content -->

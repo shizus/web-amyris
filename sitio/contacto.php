@@ -6,7 +6,6 @@ require 'header.php';
 ?>
 
 <?php  require 'menu.php';?>
-<body>
 <script type="text/javascript">
   jQuery(document).ready(function($) {
     $("#mailEnviado").hide();
@@ -87,7 +86,7 @@ insertar_breadcrumbs($textoc3);
 
 <div  class="col-md-12 col-sm-6 col-xs-12"> 
     <div id="botonrojo_quienes">
-        <img src="images/nube.png" >
+        <img alt='Imagen cargando' src="images/nube.png" >
     </div>
 </div>
 
@@ -106,7 +105,8 @@ insertar_breadcrumbs($textoc3);
 </div>
 
 </div>
-<iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.7829180079!2d-58.54074308525398!3d-34.533727480477665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0b0c0e97daf%3A0xe8b41b2ee25398e2!2sCap.+Cajaraville+2902%2C+Carapachay%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1474596618448" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe style="width:100%; border:0;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.7829180079!2d-58.54074308525398!3d-34.533727480477665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0b0c0e97daf%3A0xe8b41b2ee25398e2!2sCap.+Cajaraville+2902%2C+Carapachay%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1474596618448" height="500" allowfullscreen></iframe>
 
 
 <div  class="col-md-12 col-sm-6 col-xs-12">
@@ -120,24 +120,24 @@ insertar_breadcrumbs($textoc3);
 
 
 <div id="fototachos" >
-  <img class="tachos" src="images/cont-3.jpg" >
+  <img alt='Imagen cargando' class="tachos" src="images/cont-3.jpg" >
 </div>
 <div class="col-md-12 col-sm-6 col-xs-12" id="fotocontacto" >
   <div class="container">
     <div class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
-        <img src="images/cont-4.jpg">
+        <img alt='Imagen cargando' src="images/cont-4.jpg">
     </div>
 
     <div class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
-      <form id="mail" action="">
+      <form id="mail" action="formulario.php">
           <h1 ><?php echo $textoc7 ?>  </h1><br>
           <div id="campos" >
-            <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '></input><br><br>
-            <input type="text" id="mail" required placeholder='<?php echo $textoc9 ?> '></input><br><br>
-            <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'></input><br><br>
-            <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '></input><br><br>
-            <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
-            <input type="submit" class="submit" value='<?php echo $textoc13 ?> '> </input>
+            <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '><br><br>
+            <input type="text" name="mail" required placeholder='<?php echo $textoc9 ?> '><br><br>
+            <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'><br><br>
+            <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '><br><br>
+            <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" ><br><br>
+            <input type="submit" class="submit" value='<?php echo $textoc13 ?> '> 
           </div>
       </form>
         <br>
