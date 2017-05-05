@@ -59,12 +59,11 @@ insertar_servicio($textoe4, $textoe5);
 <section id="cuadrado">
 
   <div class="primero_cuadrado_expertise">
-    <h4 ><?php echo $expertise ?> </h4>
+      <img src="img/t-expertise.png">
    </div>
 </section>
 
-<div id="columnas" >
-    <div  id="linearojaexpertise"></div>
+<div id="columnas" class="row">
 
     <div class="col-md-6" id="columnaseis1" >
     <h1 ><?php echo $textoe6 ?></h1><br>
@@ -85,16 +84,16 @@ insertar_servicio($textoe4, $textoe5);
   
 
 </style>
-<div id="infraestructura" class="segundo_cuadrado_expertise">
-    <h4 > <?php echo $textoe13 ;?></h4>
-   </div>
-
-<div id="tramaexpertise">
- <img src="images/trama5.jpg"  >
-<div class="col-md-12" id="textotrama1">
-<p ><?php echo $textoe14?></p>
-<p ><?php echo $textoe15?></p>
-</div>
+<div id="tramaexpertise" class="row">
+    <div class="col-md-12">
+        <div class="titulo-imagen-container margen-top-4em">
+            <img class="titulo-imagen text-center" src="img/t-infraestructura.png">
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0" id="textotrama1">
+    <p ><?php echo $textoe14?></p>
+    <p ><?php echo $textoe15?></p>
+    </div>
 </div>
 </div>
 <div class="row">
