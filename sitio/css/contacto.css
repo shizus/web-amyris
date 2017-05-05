@@ -137,9 +137,11 @@ div#arrow {
 #columna6conta{
     height: 100px;    text-align: right;
 }
+
 #fotocontacto{
-height: 100px;
+height: 45em;
 }
+
 #columna6conta img{
     width: 99%; height: 500px;
 }

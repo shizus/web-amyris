@@ -1,10 +1,18 @@
 #botonesarriba .nube,
 #botonesarriba .cruz {
-    cursor: pointer
+    cursor: pointer;
+    height: 70px;
+    width: 50px;
+}
+
+.linea-blanca-menu {
+    background-color: #ffffff;
+    height: 1px;
+    width: 2em;
 }
 
 .desplegable-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -19,7 +27,7 @@
 .perc20 {
     width: 20%;
     margin: 0;
-    padding: 10em 1em 1em 1em;
+    padding: 13em 1em 1em 1em;
     height: 100%;
 }
 

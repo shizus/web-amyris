@@ -60,7 +60,7 @@ insertar_servicio($textos4, $textos5);
 
     </div>
 </div>
-<section id="cuadrado">
+<section id="sustentabilidad">
 
     <div class="primero_cuadrado_sus " >
         <h4 ><?php echo $textos6 ?></h4>
@@ -69,7 +69,7 @@ insertar_servicio($textos4, $textos5);
 </section>
 
 <section id="columnas2">
-    <div class="col-md-4" id="esquinaizquierdas"  >
+    <div class="col-md-4" id="valores">
         <h2 ><?php echo $textos7 ?></h2>
         <p class="ptexto1"><?php echo $textos8 ?></p><br>
         <p class="ptexto1"><?php echo $textos88 ?></p><br>
@@ -89,14 +89,14 @@ insertar_servicio($textos4, $textos5);
 </section>
 
 
-<section id="susten">
+<section id="seccion-como-operamos">
 
-    <div class=" cuarto" >
+    <div class="cuarto" >
 
         <img src="images/44b.jpg" style="width: 100%;margin-top: 5%;">
     </div>
 
-    <div class="segundo_cuadrado_sus col-md-12 " >
+    <div id="como-operamos" class="segundo_cuadrado_sus col-md-12 " >
         <h4><?php echo $textos15 ?>  </h4>
     </div>
 

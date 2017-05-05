@@ -13,6 +13,8 @@ $().ready(function(){
         event.preventDefault();
         $('#right').hide();
         $('#left').show();
+        $('#menu-icon').hide();
+        $('#close-icon').show();
         $("#menu-desplegable").show();
         setTimeout(function () {
             $(".amyris-nav-container").slideDown()
@@ -34,23 +36,27 @@ $().ready(function(){
 
     $(".cruz").click(function (event) {
         $('#right').show();
+        $('#menu-icon').show();
+        $('#close-icon').hide();
         $('#left').hide();
-        $("#menu-desplegable").hide();
         setTimeout(function () {
-            $(".amyris-nav-container").hide()
-        }, 100);
+            $(".amyris-nav-container").slideUp()
+        }, 500);
         setTimeout(function () {
-            $(".fragancias-nav-container").hide()
-        }, 200);
-        setTimeout(function () {
-            $(".expertise-nav-container").hide()
-        }, 300);
-        setTimeout(function () {
-            $(".sustentabilidad-nav-container").hide()
+            $(".fragancias-nav-container").slideUp()
         }, 400);
         setTimeout(function () {
-            $(".innovaciones-nav-container").hide()
-        }, 500);
+            $(".expertise-nav-container").slideUp()
+        }, 300);
+        setTimeout(function () {
+            $(".sustentabilidad-nav-container").slideUp()
+        }, 200);
+        setTimeout(function () {
+            $(".innovaciones-nav-container").slideUp()
+        }, 100);
+        setTimeout(function () {
+            $("#menu-desplegable").hide();
+        }, 800);
         enableScroll();
     });
 });

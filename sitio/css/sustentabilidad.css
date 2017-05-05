@@ -79,12 +79,12 @@
      margin-top: 40%;
   }
 
-  #esquinaizquierdas{
+ #valores{
     position: relative;margin-left: 11%;
     margin-top: -5%;
   }
 
-  #esquinaizquierdas h2{
+ #valores h2{
     font-family:'Museo 500 Regular';
     font-weight: bold;
     color:#A59965;
@@ -92,7 +92,7 @@
     line-height: 25px; 
      }
 
-  #esquinaizquierdas .ptexto1{
+ #valores .ptexto1{
      font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;

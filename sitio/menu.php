@@ -44,7 +44,8 @@
                 </li>
                 <li class="left-division">
                     <a>
-                        <i class="fa fa-bars bold"></i>
+                        <i id="menu-icon" class="fa fa-bars bold"></i>
+                        <i id="close-icon" class="fa fa-close" style="display: none;"></i>
                     </a>
                 </li>
             </ul>

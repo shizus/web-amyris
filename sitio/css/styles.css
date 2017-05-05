@@ -24,7 +24,7 @@ a {
     color: #ffffff;
 }
 
-a:focus, a:hover, a:hover li {
+a:focus, a:hover {
     color: #000000;
      cursor: pointer;
 }

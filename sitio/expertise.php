@@ -85,7 +85,7 @@ insertar_servicio($textoe4, $textoe5);
   
 
 </style>
-<div class="segundo_cuadrado_expertise">
+<div id="infraestructura" class="segundo_cuadrado_expertise">
     <h4 > <?php echo $textoe13 ;?></h4>
    </div>
 
@@ -126,7 +126,7 @@ insertar_servicio($textoe4, $textoe5);
 
 </div>
 
-   <h1  id="titulocontrol" ><?php echo $textoe19 ?></h1>
+   <h1  id="control-calidad"><?php echo $textoe19 ?></h1>
 
    <img src="images/47.jpg" style="width: 70%;margin-top: 60px;margin-left: 280px;">
 
@@ -153,7 +153,7 @@ insertar_servicio($textoe4, $textoe5);
     <img class="imagen2" src="images/mapa.png" >
 </div>
 
-<div class="col-md-12"  id="floresamarillas">
+<div class="col-md-12"  id="comercio-exterior">
          <h1 ><?php echo $textoe26 ?></h1><br>
             <p class="textop1" ><?php echo $textoe27 ?></p><br>
               <p class="textop2"><?php echo $textoe28 ?></p>
