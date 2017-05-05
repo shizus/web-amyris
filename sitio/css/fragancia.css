@@ -84,5 +84,8 @@
     color: #000;
   }
 
-
+  #expertise {
+      background-image: url(../images/05.jpg);
+      background-size: cover;
+  }
 

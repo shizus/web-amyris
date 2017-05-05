@@ -12,8 +12,6 @@
     font-weight: normal;
     src: local('Futura'), url('../futurastd.woff') format('woff');
 }
-
-
 /* Reglas generales */
 
 html, body {
@@ -28,6 +26,7 @@ a {
 
 a:focus, a:hover, a:hover li {
     color: #000000;
+     cursor: pointer;
 }
 
 .float-right {
@@ -37,16 +36,12 @@ a:focus, a:hover, a:hover li {
 .hide-until-dom-ready {
     display: none;
 }
-
-
 .linea-roja-50 {
     height: 3px;
     width: 50%;
     background-color: #da504b;
     margin: 1em 0 1em 0;
 }
-
-
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
     color: #000000;
@@ -246,8 +241,6 @@ h4.modal-title {
     font-family: "Museo 500 Regular";
     font-size: 2em;
 }
-
-
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
 #map {
@@ -281,15 +274,11 @@ h4.modal-title {
     right:0;
 }
 
-
-
 #menu1{
     background-image: url(../menu/menu11.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-
 div #menu1,#menu2,#menu3,#menu4,#menu5{
     height: 100%;
 }
@@ -328,15 +317,11 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-
 #menu4{
     background-image: url(../menu/menu44.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-
 #menu5{
     background-image: url(../menu/menu55.png);
     background-repeat: no-repeat;
@@ -413,8 +398,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 .producto-arriba {
     border-bottom: none;
 }
-
-
 .producto-arriba:hover div {
     margin-top: 0;
     transition: all 700ms;
@@ -556,8 +539,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     padding-bottom: 13em;
     font-size: 4em;
 }
-
-
 #botonrojo2{
     visibility: visible; animation-name: fadeInUpBig;
 }
@@ -568,8 +549,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     font-family: 'Futura';
 
 }
-
-
 #textorojo3 h2{
     font-size: 50px;
     color: #A2946B;
@@ -589,18 +568,12 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 #priemr_cuadrado {
     padding-top: 6em;
 }
-
-
 .primero{
     animation-delay:0.3s;
 }
-
-
 .segundo{
     animation-delay:0.3s;
 }
-
-
 .tercero{
     animation-delay:0.9s;
 }
@@ -662,8 +635,6 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
             ), url('../img/isla4.jpg');
 }
 
-
-
 img.nube{
     width: 52px;
     height: auto;
@@ -688,8 +659,6 @@ img.nube{
     font-weight: normal;
 
 }
-
-
 img.img-responsive {
     min-height: 100%;
 }
@@ -708,8 +677,6 @@ li .hide-when-no-mouse {
 li:hover .hide-when-no-mouse {
     visibility: visible;
 }
-
-
 
 /*=================================================================
   Portfolio
@@ -766,8 +733,6 @@ figcaption.mask h3 {
     text-align: left;
     padding: 5px 66px 13px 83px;
 }
-
-
 #mascara5  h3 {
     margin: 0;
     margin-top: -5px;
@@ -779,8 +744,6 @@ figcaption.mask h3 {
     padding: 5px 66px 13px 83px;
 }
 
-
-
 #mascara4  h3 {
     margin: 0;
     margin-top: 22px;
@@ -791,8 +754,6 @@ figcaption.mask h3 {
     text-align: left;
     padding: 5px 66px 13px 83px;
 }
-
-
 
 
 ul.external {
@@ -857,8 +818,6 @@ ul.external li a:hover {
 .fancybox-title-inside-wrap {
     padding-top: 0;
 }
-
-
 .primero_cuadrado {
     display: table;
     margin-top: auto;
@@ -899,31 +858,21 @@ ul.external li a:hover {
 }
 
 
-
-
 .accordian2 .primero{
     visibility: visible;
     animation-name: slideInUp;
 }
-
-
 .accordian2 .primero .image_title2 a{
     font-family:'Museo 500 Regular';
     font-weight:normal;
 }
-
-
 .accordian2 .tercero{
     visibility: visible;
     animation-name: slideInUp;
 }
-
-
 .accordian2 .tercero .image_title2 a{
     font-family:'Museo 500 Regular';font-weight:normal;
 }
-
-
 /* Accordion rehecho */
 
 .content {
@@ -973,11 +922,7 @@ ul.external li a:hover {
 .container.conceptos {
     height: 28em;
 }
-
-
 /* acordeon de las islas de abajo */
-
-
 .accordian2 {
     width: 720px;
     height: 425px;
@@ -1027,27 +972,17 @@ ul.external li a:hover {
 
 .accordian2 ul:hover li a{
     left: -80px;
-
-
 }
-
-
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/
 .accordian2 ul li:hover {width: 640px;}
-
-
 .accordian2 li img {
     display: block;
 }
 
 
-
-
 /*Image title styles*/
 .image_title2 {
-
-
     writing-mode: vertical-rl;
 
     word-wrap: break-word;
@@ -1058,8 +993,6 @@ ul.external li a:hover {
 
 }
 .image_title2 a {
-
-
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
@@ -1079,11 +1012,7 @@ ul.external li a:hover {
     display: block;
     color: #fff;
     text-decoration: none;
-
-
 }
-
-
 .caja1{
 
     /* background: rgba(0, 0, 0, 0.5);   */
@@ -1105,8 +1034,6 @@ ul.external li a:hover {
     bottom: 0;
     width: 92px;
 }
-
-
 .caja1:hover{
     background: rgba(255, 255, 255, 0.59);
     width: 640px;
@@ -1118,22 +1045,16 @@ ul.external li a:hover {
 
 }
 
-
-
 .boton_isla_abajo1{
     margin-left: -135%;
     z-index: 0;
 
 }
-
-
 .boton_isla_abajo2{
     margin-left: 777%;
     z-index: 0;
 
 }
-
-
 
 
 .caja1:hover .boton_isla_abajo1{
@@ -1144,8 +1065,6 @@ ul.external li a:hover {
     z-index: 0;
     width: 9%;
 }
-
-
 .caja2:hover .boton_isla_abajo2{
 
     margin-top: 342px;
@@ -1183,8 +1102,6 @@ ul.external li a:hover {
 
     color: #A59965;
 }
-
-
 .ir-arriba {
     display: none;
     padding: 20px;
@@ -1197,8 +1114,6 @@ ul.external li a:hover {
     right: 20px;
     z-index: 2;
 }
-
-
 .slide-titulo {
     font-family: 'Museo 500 Regular';
     margin-left: auto;
@@ -1206,8 +1121,6 @@ ul.external li a:hover {
     font-size: 4em;
     width: 80%;
 }
-
-
 #titulo6{
     visibility: visible;
     animation-name: slideInDown;
@@ -1220,8 +1133,6 @@ ul.external li a:hover {
     font-size: 35px;
     width: 834px;
 }
-
-
 .accordian {
     width: 100%;
     height: 425px;
@@ -1268,28 +1179,18 @@ ul.external li a:hover {
     width: 10%;
 }
 
-
-
-
-
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/
 .accordian ul li:hover {
     width: 70%;
 }
-
-
 .accordian li img {
     display: block;
 }
 
 
-
-
 /*Image title styles*/
 .image_title {
-
-
     writing-mode: vertical-rl;
 
     word-wrap: break-word;
@@ -1300,8 +1201,6 @@ ul.external li a:hover {
 
 }
 .titulo-isla {
-
-
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
@@ -1321,8 +1220,6 @@ ul.external li a:hover {
     display: block;
     color: #fff;
     text-decoration: none;
-
-
 }
 
 .image_title a:hover {
@@ -1366,15 +1263,11 @@ ul.external li a:hover {
     left: -65px;
 }
 
-
-
 #service{
     position: relative;
     z-index: -1;
     margin-top: -5em;
 }
-
-
 #imagentrama{
     width: 100%;
     height: 950px;
@@ -1383,8 +1276,6 @@ ul.external li a:hover {
 #islas{
     margin-top: 1em;
 }
-
-
 #lista1{
     margin-left: 35px;
     width: 403px;
@@ -1455,8 +1346,6 @@ ul.external li a:hover {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
 }
-
-
 #lista4{
     width: 268px ;
     border: 1px solid;
@@ -1477,8 +1366,6 @@ ul.external li a:hover {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
 }
-
-
 #lista5{
     width: 268px;
     border: 1px solid;
@@ -1499,8 +1386,6 @@ ul.external li a:hover {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
 }
-
-
 #cuadrado1{
     position: relative;
 }
@@ -1510,16 +1395,16 @@ ul.external li a:hover {
     position: relative; z-index: -1;
 }
 
-
-#sustentitulo h1 {
+#footer-text-container {
+    margin-left: 2em;
+}
+#footer-text-container h1 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-size: 60px;
     text-align: center;
 }
-
-
-#sustentitulo p {
+#footer-text-container p {
     text-align: left;
     font-size: 21px;
     line-height: 32px;
@@ -1527,10 +1412,12 @@ ul.external li a:hover {
     width: 578px;
 }
 
-
-
 #ultimafoto img{
     width: 100%;
+}
+
+img.footer-nube {
+   width: 50px;
 }
 
 .foto-footer-container {
@@ -1555,8 +1442,6 @@ ul.external li a:hover {
     border-width: 10px;
     border-style: solid;
 }
-
-
 #conteinersustenta{
     margin-top: 10%;
 
@@ -1567,12 +1452,10 @@ ultimafoto{
     position: relative;
 }
 
-#sustentitulo img{
+#footer-text-container img{
     width: 50px;
     margin-top: 7%;
 }
-
-
 #footer_quienes img{
     width: 100%;
 
@@ -1603,8 +1486,6 @@ footer i {
 .letra-negra {
     color: #000;
 }
-
-
 #lista-afuera ul {
     list-style: none;
     font-family: 'Museo 500 Regular';
@@ -1726,8 +1607,6 @@ h2.slogan {
 #titulo4 {
     text-align: left;
 }
-
-
 #bredcrumbs-container h3 {
     font-size: 25px;
     color: #D1BE87;
@@ -1735,8 +1614,6 @@ h2.slogan {
     font-weight: normal;
     margin-left: 10%;
 }
-
-
 
 
 @media (min-width: 1900px) {
@@ -1779,13 +1656,9 @@ h2.slogan {
         font-size: 35px;
         width: 834px;
     }
-
-
     #portfolio{
         position: relative;
         margin-left: -3%;
     }
 
 }
-
-

@@ -1,6 +1,4 @@
 <?php
-
-
 function insertar_portada($clase_portada, $titulo, $subtitulo) {
     echo
     "<div id='portada' class='row $clase_portada portada'>

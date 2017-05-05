@@ -4,9 +4,6 @@ require 'requirelanguage.php';
 require 'header.php';
 
 ?>
-
-
-<body id="body">
 <?php require 'menu.php'; ?>
 
 <!--
@@ -24,16 +21,12 @@ End Fixed Navigation
     <!--
     End Home SliderEnd
     ==================================== -->
-
-
     <!-- Service section -->
 
     <?php require 'conceptos.php'; ?>
     <!--
      Section acordeon
      ======================================= -->
-
-
 
 
     <!-- video -->
@@ -51,11 +44,7 @@ End Fixed Navigation
     <div id="islas">
         <div class="container">
             <div class="row">
-
-
                 <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn">
-
-
                     <!-- portfolio section -->
                     <div id="portfolio">
                         <div>
@@ -130,14 +119,10 @@ End Fixed Navigation
                         </div>
                     </div>
                     <!-- end portfolio section -->
-
-
                 </div>
             </div>
         </div>
     </div>
-
-
     <div id="priemr_cuadrado">
         <div class="container">
             <div class="row">
@@ -202,17 +187,12 @@ End Fixed Navigation
             </div>
         </div>
     </div>
-
-
+</main>
     
-
-
   <?php require 'footer.php';
   
     footer("conteinersustenta", "ultimafoto", $sustentabilidad, $sustentabilidad2);
   ?>
-
-
     <!-- Essential jQuery Plugins
     ================================================== -->
   
@@ -241,7 +221,5 @@ End Fixed Navigation
     <!-- Custom Functions -->
     <script src="js/main.js"></script>
     <script src="js/conceptos.js"></script>
-
-
 </body>
 </html>

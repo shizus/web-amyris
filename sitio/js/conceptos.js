@@ -14,8 +14,6 @@ $(document).ready(function(){
             300,
             event
         );
-
-
     };
 
     var saleMouse = function(event) {

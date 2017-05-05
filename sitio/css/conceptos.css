@@ -2,8 +2,6 @@
     max-width: 960px;
     width: 960px;
 }
-
-
 .conceptos .content {
     margin-top: -1.3em;
 }
@@ -52,8 +50,6 @@
     height: 100%;
     float: left;
 }
-
-
 .concepto-texto-container {
     height: 0;
     overflow: hidden;
@@ -95,8 +91,6 @@
     /*margin-left: 540px;*/
     /*margin-top: 175px;*/
 /*}*/
-
-
 /*.isla-background.not-selected h4 {*/
     /*margin-top: 336px;*/
     /*margin-left: 40px;*/
@@ -109,8 +103,6 @@
 /*.disfrutar.selected h4 {*/
     /*margin-top: 210px;*/
 /*}*/
-
-
 .concepto-texto {
     margin: 2em;
     color: #ffffff;
