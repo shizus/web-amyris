@@ -79,7 +79,6 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
          
               </ul>
             </div>
-            </div>
         </div>
     </div>
 </footer>
