@@ -133,12 +133,12 @@ $texto13="HONESTIDAD";
 $texto14 ="El respeto y la sinceridad son pilares fundamentales de nuestra empresa.
 Garantizamos a nuestros clientes transparencia en nuestros procesos desde el
 inicio hasta el final." ;
-$texto15="ETICA";
+$texto15="ÉTICA";
 $texto16="Cada proyecto implica un compromiso con el cliente y esa obligación que
 tomamos hace que cada desarrollo sea único e irrepetible. Nos caracteriza una
-conducta de fielidad, confianza y lealtad sobre el trabajo realizado.." ;
+conducta de fielidad, confianza y lealtad sobre el trabajo realizado." ;
 $texto17="SINERGIA";
-$texto18="Trabajamos en conjunto con los clientes como socios estratégicos" ;
+$texto18="Trabajamos en conjunto con los clientes como socios estratégicos." ;
 $texto19="FAMILIA";
 $texto20="Consideramos a nuestro personal como una gran familia en donde todos poseemos el mismo esp&iacute;ritu entusiasta de trabajo, respeto, crecimiento y de calidad en el servicio." ;
 

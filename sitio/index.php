@@ -9,14 +9,6 @@ require 'header.php';
 <body id="body">
 <?php require 'menu.php'; ?>
 
-<script>
-    $(document).ready(function () {
-        // READ recods on page load
-        $("#contacto").css("display", "none");
-    });
-
-</script>
-
 <!--
 End Fixed Navigation
 ==================================== -->
@@ -212,44 +204,27 @@ End Fixed Navigation
     </div>
 
 
-    <div class="container" id="conteinersustenta">
-        <div class="row">
+    
 
 
-            <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="ultimafoto" data-wow-delay="0.2s">
-                    <div id="sustentitulo" class="col-md-5 intro-pic wow slideInLeft">
-                        <h1 class="animation animated-item-1"><?php echo $sustentabilidad ?></h1>
-                        <p><?php echo $sustentabilidad2 ?></p>
-                        <p>
-                            <img src="images/42.png">
-                        </p>
-                    </div>
-            </div>
-        </div>
-    </div>
-
-
-  <?php require 'footer.php'; ?>
+  <?php require 'footer.php';
+  
+    footer("conteinersustenta", "ultimafoto", $sustentabilidad, $sustentabilidad2);
+  ?>
 
 
     <!-- Essential jQuery Plugins
     ================================================== -->
-    <script src="js/jquery.js"></script>
+  
     <!-- Counter in About section  -->
     <script src="js/jquery.countTo.js"></script>
 
-    <!-- Main jQuery -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <!-- Twitter Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+   
     <!-- Single Page Nav -->
     <script src="js/jquery.singlePageNav.min.js"></script>
     <!-- jquery.fancybox.pack -->
     <script src="js/jquery.fancybox.pack.js"></script>
-    <!-- Google Map API -->
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyhHMjogLdqX4qOItPagUypToqDY_17pE&callback=initMap">
-    </script>
+    
     <!-- Owl Carousel -->
     <script src="js/owl.carousel.min.js"></script>
     <!-- jquery easing -->

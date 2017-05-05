@@ -91,19 +91,22 @@
         background-repeat: no-repeat;
         background-position: center center;
         height: 35em;
+        margin-top: -4em;
     }
 
 
       .primero_cuadrado_quienes {
         width: 445px;
     height: 70px;
-    background-color: rgba(245, 245, 245, 0.38);
-    border: 1px solid #e1e6e9;
     position: relative;
     z-index: 3;
     animation-delay: 0.3s;
           margin: 4em 1em 1em 4em;
   }
+
+    .primero_cuadrado_quienes img {
+        width: 100%;
+    }
 
   .primero_cuadrado_quienes h4 {
     font-size: 50px;
@@ -126,9 +129,10 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
     width: 574px;     padding: 2px 42px 1px 38px;
 }
 
-#columnaderecha .destacado {
+.destacado {
       font-family: 'Museo 500 Regular';     font-weight: normal;     color: #D1BE87;
-    font-size: 26px;     line-height: 35px;     width: 545px;     padding: 2px 42px 1px 38px; 
+    font-size: 26px;     line-height: 35px;     width: 545px;     padding: 2px 42px 1px 0px;
+    margin-top: 1em;
 }
 
 #columnaizquierda{
@@ -141,12 +145,26 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 }
 
 .cuadrodestacado{
-      background-color: #D1BE87;    font-family: 'Museo 500 Regular';    font-weight: normal;    font-size: 22px;
-    line-height: 34px;    color: #fff;    padding: 46px 68px;
+      background-color: #D1BE87;
+    font-family: 'Museo 500 Regular';
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #fff;
+    padding: 46px 68px;
     border-top-color: #da504b;
-    border-top-width: 3px;
+    border-top-width: 7px;
     border-top-style: solid;
     margin-top: -5em;
+}
+
+.futura {
+    font-family: Futura;
+}
+
+.px19 {
+    font-size: 19px;
+    line-height: 34px;
 }
 
 .quienes-somos-derecha {
@@ -158,24 +176,33 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
     width: 574px;     padding: 2px 42px 1px 38px;
 }
 
+.valores-background {
+    background-image: url(../images/14.jpg);
+    height: 50em;
+    background-size: cover;
+    margin-top: 6em;
+}
+
+.tramado-background {
+    background-image: url(../images/trama2.jpg);
+    height: 20em;
+    background-size: cover;
+
+}
+
   .segundo_cuadrado_quienes {
      width: 445px;
-    margin-left: 32%;
+    margin-left: auto;
+      margin-right: auto;
     height: 100px;
-    background-color: #fff;
-    border: 1px solid #e1e6e9;
-    position: relative;
-    margin-top: -50%;
-    z-index: 3;
-    position: absolute;
-    animation-delay: 0.3s;}
-
-
-    .segundo_cuadrado_quienes h4 {
-    font-size: 70px;
-    text-align: center;
+      position: relative;
+      z-index: 3;
     animation-delay: 0.3s;
-    color: rgba(99, 89, 89, 0.86);
+  }
+
+  .segundo_cuadrado_quienes img {
+    width: 100%;
+      margin: 4em auto 1em auto;
 
   }
 
@@ -184,15 +211,14 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 }
 
 #columna5{
-      margin-top: -21%;
-      margin-left: 25%;
+      margin-top: -25em;
       background-color: rgba(209, 190, 137, 0.86);
-      margin-right: auto;
-    width: 700px;    height: 500px;
+    height: 500px;
+    padding-top: 2em;
 }
 
 #columna5 h1{
-    padding: 15px;
+    padding: 15px 0 0px 0;
     font-family:'Museo 500 Regular';
     font-weight:normal;
     font-size:28px;
@@ -202,7 +228,8 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 
 
 #columna5 p{
- font-family: 'Futura'; color: rgba(0, 0, 0, 0.59);
+ font-family: 'Futura';
+    color: #575756;
     font-size: 18px;
     line-height: 22px;
     padding: 0px 48px;
@@ -229,6 +256,7 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 
     #porqueamir{
     margin-bottom: 1100px;
+        margin-top: 8em;
 }
 
 #porqueamir .por1 {
@@ -269,8 +297,8 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #tituloarriba p{
     font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 30px;
     text-align: center;
     width: 711px;
@@ -291,10 +319,11 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #titulocostadoizquierdo p{
     font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 32px;
     text-align: right;
+    margin: 0 1em 0 2em;
 }
 
 #titulocostadoderecho{
@@ -310,10 +339,11 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #titulocostadoderecho p{
     font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 32px;
     text-align: left;
+    margin: 0 2em 0 1em;
 }
 
 #tituloabajo{
@@ -327,8 +357,8 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #tituloabajo p{
      font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 30px;
     text-align: center;
     width: 711px;
@@ -345,10 +375,11 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #titulocostadoizquierdoabajo p{
     font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 32px;
     text-align: right;
+    margin: 0 1em 0 2em;
 }
 #titulocostadoderechobajo{
        position: relative;
@@ -359,10 +390,11 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #titulocostadoderechobajo p{
     font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 32px;
     text-align: left;
+    margin: 0 2em 0 1em;
 }
 
 
@@ -373,8 +405,8 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 #tituloabajoabajo p{
     font-family: 'Futura';
     text-align: left;
-    color: rgba(0, 0, 0, 0.68);
-    font-size: 21px;
+    color: #818181;
+    font-size: 18px;
     line-height: 30px;
     text-align: center;
     width: 400px;
@@ -385,10 +417,9 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
 
   #sustenido{
 visibility: visible; animation-name: zoomIn;
-  }  
-#sustenido img{
-    width: 100%;    position: relative;
-}
+      background-image: url(../images/15.jpg);
+      background-size: cover;
+  }
 
 
 #susten5 h1{
@@ -398,7 +429,7 @@ visibility: visible; animation-name: zoomIn;
 #susten5 p{
     text-align: left;
     color: #fff;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 30px;
     margin-left: 10%;
     width: 553px;

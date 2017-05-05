@@ -229,23 +229,10 @@ insertar_servicio($textoin4, $textoin5);
 </div>
 
 
-
-
-
- <div class="col-md-12" id="su2" >
-
-         <h1><?php echo $contacto2 ?></h1>
-            <p> <?php echo $textoin21 ?> </p>
-           <img src="images/42.png" >  
-                
-</div>  
-
-
-<div id="prefooter">
-
-  <?php  require 'footer.php';?>
+  <?php  require 'footer.php';
+  footer("su2", "ultimafoto", $contacto2, $textoin21);
   
-</div>
+  ?>
 
 
 

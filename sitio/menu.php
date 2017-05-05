@@ -1,10 +1,6 @@
 
 <?php require 'menu-desplegable.php'; ?>
 
-<div id="contacto">
- <a href="contacto"> <span><?php echo $contacto ?></span></a>
-</div>
-
 <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 <div id="botonesarriba">
     <img class="nube"  src="images/40.png" id="right">

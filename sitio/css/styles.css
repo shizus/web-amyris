@@ -38,6 +38,15 @@ a:focus, a:hover, a:hover li {
     display: none;
 }
 
+
+.linea-roja-50 {
+    height: 3px;
+    width: 50%;
+    background-color: #da504b;
+    margin: 1em 0 1em 0;
+}
+
+
 a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     text-decoration: none;
     color: #000000;
@@ -1507,18 +1516,14 @@ ul.external li a:hover {
     font-weight: normal;
     font-size: 60px;
     text-align: center;
-    color: #A59965;
-    margin-left: 10%;
 }
 
 
 #sustentitulo p {
     text-align: left;
-    color: #5F5840;
     font-size: 21px;
     line-height: 32px;
     font-family: Futura;
-    margin-left: 10%;
     width: 578px;
 }
 
@@ -1526,6 +1531,19 @@ ul.external li a:hover {
 
 #ultimafoto img{
     width: 100%;
+}
+
+.foto-footer-container {
+    height: 510px;
+    border: solid #ffffff 15px;
+}
+.foto-footer-container,
+.foto-footer-container h1{
+    color: #ffffff;
+}
+
+.foto-footer-container img {
+    width: 50px;
 }
 
 #ultimafoto {
@@ -1769,4 +1787,5 @@ h2.slogan {
     }
 
 }
+
 
