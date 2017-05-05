@@ -366,7 +366,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 #service .container {
     background-image: url(../images/trama2.jpg);
     background-size: cover;
-    padding: 12em 0 20em 0;
+    padding: 12em 0 12em 0;
 }
 
 #service .container.servicio-interno {
