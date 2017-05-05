@@ -73,6 +73,7 @@
 	margin-top: -9%;
 	z-index: 3;
 	animation-delay: 0.3s;
+	font-size: 1.2em;
 }
 .bajada h2{
 	font-size: 36px;
@@ -83,7 +84,7 @@
 	font-family: 'Museo 500 Regular';
 	font-weight: normal;
 	text-align: center;
-	padding: 17px;
+	padding: 17px 1px 5px 1px;
 }
 .bajada p{
 	font-family: 'Futura';
@@ -122,7 +123,7 @@
 	padding: 25px 15px;
 	position: absolute;
 	color: #D1BE89;
-	font-family: 'Futura';
+	font-family: 'Museo 500 Regular';
 }
 .descripciones, .quinto-descripciones {
 	margin-bottom: 130px;
