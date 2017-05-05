@@ -9,7 +9,7 @@ function insertar_servicio($titulo, $subtitulo, $interna=true) {
             <div class='row'>
                 <div class='col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn'>
                     <div id='botonrojo' class='centered $hide_until_dom_ready'>
-                        <img src='images/nube.png'>
+                        <img alt="Imagen cargando" src='images/nube.png'>
                     </div>
                     <h3>$titulo</h3>
                 </div>

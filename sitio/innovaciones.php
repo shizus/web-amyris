@@ -60,7 +60,7 @@ insertar_servicio($textoin4, $textoin5);
 
 <div id="frasco" >
        <div class="container">
-         <img src="images/60.jpg" >
+         <img alt="Imagen cargando" src="images/60.jpg" >
        </div>
 </div>       
 
@@ -80,7 +80,7 @@ insertar_servicio($textoin4, $textoin5);
 </div>
 
 <div id="telescopio" >
-<img  src="images/61.jpg"  >
+<img alt="Imagen cargando"  src="images/61.jpg"  >
 </div>
   
   
@@ -123,7 +123,7 @@ insertar_servicio($textoin4, $textoin5);
         </div>
 
         <div class="col-md-12 columna12">
-            <img src="images/inno.png">
+            <img alt="Imagen cargando" src="images/inno.png">
         </div>
         <div class="col-md-4 columna1" >
         <h2> <?php echo $textoin15 ?></h2>
@@ -146,22 +146,22 @@ insertar_servicio($textoin4, $textoin5);
 <div id="portfolio_expertise">
   
   <div class="col-md-4" id="imagenportfolio1_inno" >
- <img src="images/inn-4.jpg" >
+ <img alt="Imagen cargando" src="images/inn-4.jpg" >
   </div>
 
   <div class="col-md-4" id="imagenportfolio2_inno" >
- <img src="images/inn-5.jpg" >
+ <img alt="Imagen cargando" src="images/inn-5.jpg" >
   </div>
   <div class="col-md-4" id="imagenportfolio3_inno" >
- <img src="images/inn-6.jpg">
+ <img alt="Imagen cargando" src="images/inn-6.jpg">
   </div>
 </div>
 <div id="trama33" >
-<img src="images/trama4.jpg" >
+<img alt="Imagen cargando" src="images/trama4.jpg" >
 </div>
  <div class="contacinno">
    <div class="container" >
-    <img src="images/inn-7.jpg"  >
+    <img alt="Imagen cargando" src="images/inn-7.jpg"  >
    </div> 
 </div>
   <?php  require 'footer.php';

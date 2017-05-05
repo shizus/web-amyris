@@ -9,7 +9,7 @@ function insertar_portada($clase_portada, $titulo, $subtitulo) {
         </div>
         <div class='arrow text-center nube-scroll' >
             <a class='scroll' href='#banner-bottom'>
-                <img alt='' src='img/icono-scroll.png'/></a>
+                <img alt="Imagen cargando" alt='' src='img/icono-scroll.png'/></a>
         </div>
     </div> ";
 }

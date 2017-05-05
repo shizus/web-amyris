@@ -57,7 +57,7 @@ insertar_servicio($textos4, $textos5);
 <div id="imagenrosa" >
        <div class="container">
 
-          <img src="images/67b.jpg">
+          <img alt="Imagen cargando" src="images/67b.jpg">
 
           </div>
 </div>
@@ -94,7 +94,7 @@ insertar_servicio($textos4, $textos5);
   
  <div class=" cuarto" >
 
-    <img src="images/44b.jpg" style="width: 100%;margin-top: 5%;">
+    <img alt="Imagen cargando" src="images/44b.jpg" style="width: 100%;margin-top: 5%;">
 </div>
 
  <div class="segundo_cuadrado_sus col-md-12 " >
@@ -104,7 +104,7 @@ insertar_servicio($textos4, $textos5);
  <div class="col-md-12 " id="columnadocesusten" >
          <h1 ><?php echo $textos16 ?> </h1>
 		 <br><br>
-         <img id="corchete" src="images/corchete.png" >
+         <img alt="Imagen cargando" id="corchete" src="images/corchete.png" >
 </div>  
 <div class="container">
 
@@ -123,7 +123,7 @@ insertar_servicio($textos4, $textos5);
           </div>
 
         <div class="col-md-3"  id="sustencolumna3" style="">
-          <img src="images/susten.png" >
+          <img alt="Imagen cargando" src="images/susten.png" >
         </div>
       <div class="col-md-4" id="sustencolumna4" >
            <h1><?php echo $textos23 ?> </h1>

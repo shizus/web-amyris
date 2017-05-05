@@ -555,7 +555,7 @@ margin-left: 400px;
          <div id="fragantit" >
                     <div class="container">
                         <div class="row">
-                          <img src="images/07.jpg"  >
+                          <img alt="Imagen cargando" src="images/07.jpg"  >
 
                         </div>
                     </div>
@@ -612,15 +612,16 @@ margin-left: 400px;
 }
 
 </style>
+<div class="row">
+    <div class="col-md-12 col-sm-6 col-xs-12"  >
+        <div class="segundo_cuadrado_fragancias">
 
- <div class="col-md-12 col-sm-6 col-xs-12"  >
- <div class="segundo_cuadrado_fragancias">
-       
-          <h2>SISTEMA CONCEPTUAL AMYRIS</h2>
-         <p><?php echo $texto44f ?></p>
+            <h2>SISTEMA CONCEPTUAL AMYRIS</h2>
+            <p><?php echo $texto44f ?></p>
 
-     </div>
- </div>
+        </div>
+    </div>
+</div>
 
 
 <style>
@@ -757,7 +758,7 @@ opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
 
 
 <!--<div>
-  <img src="images/flecha1.png" style="position: absolute;margin-top: 100px;
+  <img alt="Imagen cargando" src="images/flecha1.png" style="position: absolute;margin-top: 100px;
   margin-left: -580px;">
 </div>
  -->
@@ -775,7 +776,7 @@ opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
 <div class="caja"><p style="text-align: right;">SENTIR</p>
 
 <span class="info11">
-<img src="images/flechaprimera.png" style="position: absolute;margin-top: -50px;margin-left: -4%;">
+<img alt="Imagen cargando" src="images/flechaprimera.png" style="position: absolute;margin-top: -50px;margin-left: -4%;">
 LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.</span></a></div>
 </div>
 
@@ -784,7 +785,7 @@ LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUED
 
 <div class="caja"><p style="text-align: right;">DESCUBRIR</p>
 
-<span class="info1"><img src="images/flechasegunda.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y
+<span class="info1"><img alt="Imagen cargando" src="images/flechasegunda.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y
 COMPRENDER LOS SENTIDOS Y EMOCIONES. </span></a></div>
 </div>
 
@@ -792,14 +793,14 @@ COMPRENDER LOS SENTIDOS Y EMOCIONES. </span></a></div>
 
 <div class="col-md-3" >
 <div class="caja"><p style="text-align: center;">OLER</p>
-<span class="info2"><img src="images/flechatercera.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD.
+<span class="info2"><img alt="Imagen cargando" src="images/flechatercera.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD.
 PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.</span></a></div>
 </div>
 
 
 <div class="col-md-3" >
 <div class="caja"><p style="text-align: left;">DISFRUTAR</p>
-<span class="info3"><img src="images/flechacuartaaa.png" style="position: absolute;margin-top: -50px;margin-left: -8%;">ENCONTRAR LA FRAGANCIA ADECUADA GENERA ALEGRÍA Y EMOCIÓN. EN AMYRIS TE INVITAMOS A DISFRUTAR ESE MOMENTO CON PRODUCTOS
+<span class="info3"><img alt="Imagen cargando" src="images/flechacuartaaa.png" style="position: absolute;margin-top: -50px;margin-left: -8%;">ENCONTRAR LA FRAGANCIA ADECUADA GENERA ALEGRÍA Y EMOCIÓN. EN AMYRIS TE INVITAMOS A DISFRUTAR ESE MOMENTO CON PRODUCTOS
 DE LA MÁS ALTA CALIDAD.</span></a></div>
 </div>
 
@@ -1147,32 +1148,32 @@ $(document).ready(function () {
 <div id="cincocuadrados" style="top: 100px;position: relative;">
     <div class="row show-grid">
         <div id="spancincop1" class="col-sm-6 col-md-4-5 col-lg-1-5">
-          <img src="images/fraga1.jpg" style="width: 120%; margin-left: -7%;    height: 300px;">
+          <img alt="Imagen cargando" src="images/fraga1.jpg" style="width: 120%; margin-left: -7%;    height: 300px;">
           <span class="spancinco">FRAGANCIAS FINAS</span>
           <p class="spancincop1">Ver mas</p>
         </div>
         <div id="spancincop2" class="col-sm-6 col-md-5-5 col-lg-1-5">
-           <img src="images/fraga2.jpg"  style="width: 113%;    height: 300px;">
+           <img alt="Imagen cargando" src="images/fraga2.jpg"  style="width: 113%;    height: 300px;">
            <span class="spancinco">CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</span>
             <p  class="spancincop2">Ver mas</p>
         </div>
         <div id="spancincop3" class="col-sm-6 col-md-3-5 col-lg-1-5">
-           <img src="images/fraga3.jpg" style="width: 113%;    height: 300px;">
+           <img alt="Imagen cargando" src="images/fraga3.jpg" style="width: 113%;    height: 300px;">
            <span class="spancinco">CUIDADO DEL HOGAR Y AMBIENTALES</span>
             <p  class="spancincop3">Ver mas</p>
         </div>
         <div id="spancincop4" class="col-sm-6 col-md-2-5 col-lg-1-5">
-           <img src="images/fraga4.jpg" style="width: 113%;    height: 300px;">
+           <img alt="Imagen cargando" src="images/fraga4.jpg" style="width: 113%;    height: 300px;">
            <span class="spancinco">LIMPIEZA</span>
             <p  class="spancincop4">Ver mas</p>
         </div>
         <div id="spancincop5" class="col-sm-6 col-md-4-5 col-lg-1-5">
-           <img src="images/fraga5.jpg" style="width: 113%;    height: 300px;">
+           <img alt="Imagen cargando" src="images/fraga5.jpg" style="width: 113%;    height: 300px;">
            <span class="spancinco">COSMÉTICA AUTOMOTOR </span>
            <p  class="spancincop5">Ver mas</p>
         </div>
     </div>
-    <img id="box1" src="images/trama6.jpg">
+    <img alt="Imagen cargando" id="box1" src="images/trama6.jpg">
     <div class="row show-grid">
         <div class="container texto_spancinco"  id="texto_spancinco_1" >
               <div class="row">
@@ -1212,7 +1213,7 @@ $(document).ready(function () {
                               <br>
                     </div>
                     <div  class="col-sm-12" style="text-align: center;">
-                        <img src="images/58b.jpg">
+                        <img alt="Imagen cargando" src="images/58b.jpg">
                     </div>
               </div>
         </div>
@@ -1254,7 +1255,7 @@ $(document).ready(function () {
                     </div>
 
                     <div  class="col-sm-12" style="text-align: center;">
-                        <img src="images/58b.jpg">
+                        <img alt="Imagen cargando" src="images/58b.jpg">
                     </div>
               </div>
         </div>
@@ -1295,7 +1296,7 @@ $(document).ready(function () {
                       <br>
                     </div>
                     <div  class="col-sm-12" style="text-align: center;">
-                        <img src="images/58b.jpg">
+                        <img alt="Imagen cargando" src="images/58b.jpg">
                     </div>
               </div>
         </div>
@@ -1336,7 +1337,7 @@ $(document).ready(function () {
                       <br>
                       </div>
                       <div  class="col-sm-12" style="text-align: center;">
-                        <img src="images/58b.jpg">
+                        <img alt="Imagen cargando" src="images/58b.jpg">
                     </div>
               </div>
         </div>
@@ -1377,7 +1378,7 @@ $(document).ready(function () {
                     </div>
 
                     <div  class="col-sm-12" style="text-align: center;">
-                        <img src="images/58b.jpg">
+                        <img alt="Imagen cargando" src="images/58b.jpg">
                     </div>
               </div>
         </div>

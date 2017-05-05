@@ -87,7 +87,7 @@ insertar_breadcrumbs($textoc3);
 
 <div  class="col-md-12 col-sm-6 col-xs-12"> 
     <div id="botonrojo_quienes">
-        <img src="images/nube.png" >
+        <img alt="Imagen cargando" src="images/nube.png" >
     </div>
 </div>
 
@@ -120,37 +120,38 @@ insertar_breadcrumbs($textoc3);
 
 
 <div id="fototachos" >
-  <img class="tachos" src="images/cont-3.jpg" >
+  <img alt="Imagen cargando" class="tachos" src="images/cont-3.jpg" >
 </div>
-<div class="col-md-12 col-sm-6 col-xs-12" id="fotocontacto" >
-  <div class="container">
-    <div class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
-        <img src="images/cont-4.jpg">
-    </div>
+<div class="row">
+    <div class="col-md-12 col-sm-6 col-xs-12" id="fotocontacto" >
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6" id="columna6conta" >
+                <img alt="Imagen cargando" src="images/cont-4.jpg">
+            </div>
 
-    <div class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
-      <form id="mail" action="">
-          <h1 ><?php echo $textoc7 ?>  </h1><br>
-          <div id="campos" >
-            <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '></input><br><br>
-            <input type="text" id="mail" required placeholder='<?php echo $textoc9 ?> '></input><br><br>
-            <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'></input><br><br>
-            <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '></input><br><br>
-            <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
-            <input type="submit" class="submit" value='<?php echo $textoc13 ?> '> </input>
-          </div>
-      </form>
-        <br>
-        <div id="contactResult"></div>
+            <div class="col-md-6 col-sm-6 col-xs-6" id="formulariocontacto" >
+                <form id="mail" action="">
+                    <h1 ><?php echo $textoc7 ?>  </h1><br>
+                    <div id="campos" >
+                        <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '></input><br><br>
+                        <input type="text" id="mail" required placeholder='<?php echo $textoc9 ?> '></input><br><br>
+                        <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'></input><br><br>
+                        <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '></input><br><br>
+                        <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" ></input><br><br>
+                        <input type="submit" class="submit" value='<?php echo $textoc13 ?> '> </input>
+                    </div>
+                </form>
+                <br>
+                <div id="contactResult"></div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6" id="mailEnviado">
+                <br><br>
+                <h1 ><?php echo $textoc16 ?></h1>
+                <h3 ><?php echo $textoc17 ?></h3>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 col-sm-6 col-xs-6" id="mailEnviado">
-      <br><br>
-      <h1 ><?php echo $textoc16 ?></h1>
-      <h3 ><?php echo $textoc17 ?></h3>
-    </div>
-  </div>
 </div>
-
 
 <?php  require 'footer.php';
 footer("su2_cont", "prefooter_cont", $textoc14, $textoc15);

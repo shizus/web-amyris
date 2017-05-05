@@ -60,7 +60,7 @@ End Fixed Navigation
                                                 <p>Buscamos ofrecerle al cliente la más alta calidad de la fragancia
                                                     creada.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
+                                                    <a href="fragancias"> <img alt="Imagen cargando" src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -73,7 +73,7 @@ End Fixed Navigation
                                                     de percibir los aromas, pueda disfrutar.</p>
                                                 <div>
                                                     <a href="fragancias">
-                                                        <img src="images/42.png" class="nube"></a>
+                                                        <img alt="Imagen cargando" src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -87,7 +87,7 @@ End Fixed Navigation
                                                 <p>Ofrecemos productos que están relacionados con la sensación de seguridad,
                                                     confort, pertenencia y calma.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
+                                                    <a href="fragancias"> <img alt="Imagen cargando" src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,7 +98,7 @@ End Fixed Navigation
                                                 <p>Buscamos que el bienestar generado remita a la tranquilidad de percibir un
                                                     hogar limpio.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
+                                                    <a href="fragancias"> <img alt="Imagen cargando" src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -109,7 +109,7 @@ End Fixed Navigation
                                                 <p>Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
                                                 con un auto nuevo.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube"></a>
+                                                    <a href="fragancias"> <img alt="Imagen cargando" src="images/42.png" class="nube"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@ End Fixed Navigation
             </div>
         </div>
         <div class="wow zoomIn animated" id="fotolaboratorio">
-            <img src="images/laboratorio.jpg">
+            <img alt="Imagen cargando" src="images/laboratorio.jpg">
         </div>
     </div>
 
@@ -154,7 +154,7 @@ End Fixed Navigation
                                 </div>
                                 <div class="nube-contenedor">
                                     <a href="#">
-                                    <img class="nube" src="images/42.png">
+                                    <img alt="Imagen cargando" class="nube" src="images/42.png">
                                     </a>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ End Fixed Navigation
                                 </div>
                                 <div class="nube-contenedor">
                                     <a href="#">
-                                        <img class="nube" src="images/42.png">
+                                        <img alt="Imagen cargando" class="nube" src="images/42.png">
                                     </a>
                                 </div>
                             </div>
