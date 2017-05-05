@@ -2,29 +2,29 @@
   <div class="perc20 col-sm-12 amyris-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-      Amyris
+        <a href="quienes-somos">Amyris</a>
     </h1>
-    <div class="link-container"><a href="quienes-somos">¿Quienes Somos?</a></div>
-    <div class="link-container"><a href="quienes-somos">Valores</a></div>
-    <div class="link-container"><a href="quienes-somos">¿Por qué Amyris?</a></div>
+    <div class="link-container"><a href="quienes-somos#quienes-somos">¿Quienes Somos?</a></div>
+    <div class="link-container"><a href="quienes-somos#valores">Valores</a></div>
+    <div class="link-container"><a href="quienes-somos#porqueamir">¿Por qué Amyris?</a></div>
   </div>
   <div class="perc20 col-sm-12 fragancias-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-      Fragancias
+        <a href="fragancias">Fragancias</a>
     </h1>
-    <div class="link-container"><a href="fragancias">Sistema Conceptual</a></div>
-    <div class="link-container"><a href="fragancias">Productos</a></div>
+    <div class="link-container"><a href="fragancias#sistema-conceptual">Sistema Conceptual</a></div>
+    <div class="link-container"><a href="fragancias#productos">Productos</a></div>
   </div>
   <div class="perc20 col-sm-12 expertise-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-      Expertise
+        <a href="expertise">Expertise</a>
     </h1>
     <div class="link-container"><a href="expertise">Desarrollo y Creación</a></div>
-    <div class="link-container"><a href="expertise">Infraestructura</a></div>
-    <div class="link-container"><a href="expertise">Control de Calidad</a></div>
-    <div class="link-container"><a href="expertise">Comercio exterior</a></div>
+    <div class="link-container"><a href="expertise#infraestructura">Infraestructura</a></div>
+    <div class="link-container"><a href="expertise#control-calidad">Control de Calidad</a></div>
+    <div class="link-container"><a href="expertise#comercio-exterior">Comercio exterior</a></div>
   </div>
   <div class="perc20 col-sm-12 sustentabilidad-nav-container">
   <img src="images/flor-menu.png">
