@@ -53,23 +53,14 @@ require_once "servicio.php";
 insertar_servicio($textos4, $textos5);
 ?>
 
-<div id="imagenrosa" >
-    <div class="container">
-
-        <img src="images/67b.jpg">
-
+<div id="imagenrosa" class="row" >
+    <div class="primero_cuadrado_sus col-md-9 col-md-offset-1 col-sm-12 col-sm-offset-0" >
+        <img src="img/t-sustentabilidad.png" class="titulo-imagen">
     </div>
 </div>
-<section id="sustentabilidad">
 
-    <div class="primero_cuadrado_sus " >
-        <h4 ><?php echo $textos6 ?></h4>
-    </div>
-
-</section>
-
-<section id="columnas2">
-    <div class="col-md-4" id="valores">
+<section id="columnas2" class="row">
+    <div class="col-md-5 col-md-offset-1" id="valores">
         <h2 ><?php echo $textos7 ?></h2>
         <p class="ptexto1"><?php echo $textos8 ?></p><br>
         <p class="ptexto1"><?php echo $textos88 ?></p><br>
@@ -78,14 +69,12 @@ insertar_servicio($textos4, $textos5);
 
     </div>
 
-    <div  id="linearojasus"></div>
-    <div class="col-md-4" id="esquinaderechas">
+    <div class="col-md-5" id="esquinaderechas">
         <p class="ezquinaderecha1" ><?php echo $textos11 ?></p><br>
         <p class="ezquinaderecha2" > <?php echo $textos12 ?></p><br>
         <p class="ezquinaderecha3" > <?php echo $textos13 ?></p><br>
         <p class="ezquinaderecha4" ><?php echo $textos14 ?> </p>
     </div>
-    <div  id="linearojasusinferior"></div>
 </section>
 
 

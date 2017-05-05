@@ -128,7 +128,7 @@ insertar_servicio($textoe4, $textoe5);
 
 
 <div class="row">
-    <div class="col-md-4" id="columnacontrol4" >
+    <div class="col-md-4 col-md-offset-1" id="columnacontrol4" >
         <p><?php echo $textoe20 ?></p><br>
 
         <h1 ><?php echo $textoe21 ?></h1>
