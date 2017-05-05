@@ -1,13 +1,16 @@
 $().ready(function(){
 
-    $(".fa.fa-bars").click(function (event) {
+    function tocarNubeoCruz(event) {
         event.preventDefault();
         if (!$("#menu-desplegable").is(":visible")) {
             $(".nube").click();
         } else {
             $(".cruz").click();
         }
-    });
+    }
+
+    $(".fa.fa-bars").click(tocarNubeoCruz);
+    $(".fa.fa-close").click(tocarNubeoCruz);
 
     $(".nube").click(function (event) {
         event.preventDefault();
