@@ -265,46 +265,7 @@ font-size: 27px;line-height: 35px;
     width: 377px;
 }
 
-#imagensfinalsusten img{
-width: 100%;
-position: relative;
-z-index: -1;
-margin-top: -7%;
+#sustenfinal {
+    background-image: url(../images/69.jpg);
+    background-size: cover;
 }
-
-#sustenfinal{
-    position: relative;
-    margin-top:10%;
-}
-#sustenfinal .divsusten{
-    visibility: visible;
-     animation-name: zoomIn;
-}
-
-#sustenfinal .divsusten img{
-width: 100%;
-}
-
-#sustenfinal .divsusten .columnadoce{
- position: relative;
- margin-top: -41%;
-}
-#sustenfinal .divsusten .columnadoce h1{
-font-family: 'Museo 500 Regular';
-font-weight: normal;
-font-size: 60px;
-text-align: center;
-color: #fff;
-margin-left: 3%;
-width: 500px;
-}
-
-#sustenfinal .divsusten .columnadoce p{
-text-align: left;
-color: #fff;
-font-size: 23px;
-line-height: 32px;
-margin-left: 3%;
-width: 700px;
-}
-

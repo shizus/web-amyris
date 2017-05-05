@@ -13,7 +13,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
                         <h1 class='animation animated-item-1'>$titulo</h1>
                         <p>$texto</p>
                         <p>
-                            <img src='images/42.png'>
+                            <img class='footer-nube' src='images/42.png'>
                         </p>
                     </div>
             </div>

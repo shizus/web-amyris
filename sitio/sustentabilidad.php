@@ -133,31 +133,12 @@ insertar_servicio($textos4, $textos5);
 
 </div>
 </div>
-<div id="imagensfinalsusten">
-<img src="images/69.jpg" >
-</div>
-
-<div id="sustenfinal" >
-       <div class="divsusten" >
-              <div class="container">
-                  <img src="images/27.jpg" >
-                     <div class="col-md-12 columnadoce"   >
-                             <h1 ><?php echo $textos27 ?> </h1>
-                                <p > <?php echo $textos28 ?> </p>
-                                 
-                                    
-                    </div>  
-              </div>
-      </div>
-
-</div>
-
-
-<div id="prefooter" >
-
-  <?php  require 'footer.php';?>
   
-</div>
+  
+  <?php  require 'footer.php';
+  footer("imagensfinalsusten", "sustenfinal", $textos27, $textos28);
+  
+  ?>
 
 
 </body>

@@ -1412,6 +1412,10 @@ ul.external li a:hover {
     width: 100%;
 }
 
+img.footer-nube {
+   width: 50px;
+}
+
 .foto-footer-container {
     height: 510px;
     border: solid #ffffff 15px;
