@@ -289,24 +289,23 @@ color:#A59965;font-size: 18px;
     line-height: 34px;
 }
 
-#mapa .imagen1{
+#mapa .imagen2{
 width: 100%;
+    margin: 2em 0 5em 0;
 }
 
-#mapa .imagen2{
-    position: relative;
-    margin-top: -33%;
-    width: 23%;
-    margin-left: 38%;
+#mapa {
+    background-image: url(../images/exp-10.jpg);
+    background-size: cover;
 }
+
 #comercio-exterior h1{
 font-family:'Museo 500 Regular';
 font-weight:normal;
 font-size:70px;
 text-align: center;
+    padding-top: 1em;
 color: #fff;
-margin-top: -56%;
-margin-left: 0%;
 }
 #comercio-exterior .textop1{
     font-family: 'Futura';
@@ -329,7 +328,7 @@ margin-left: 0%;
     line-height: 28px;
 }
 #fotofinal{
-position: relative;margin-top:8%;
+position: relative;
 }
 
 #contenedorfloresamarillas {
@@ -337,9 +336,7 @@ position: relative;margin-top:8%;
     background-image: url(../images/48.jpg);
     background-size: cover;
 }
-#susten6{
-     margin-top: -50%;margin-left: 35px;
-}
+
 
 #susten6 h1{
     font-family:'Museo 500 Regular';
@@ -347,20 +344,17 @@ position: relative;margin-top:8%;
     font-size:60px;
     text-align: center;
     color: #fff;
-    margin-left: 0%;
+    margin-left: 0;
 }
 #susten6 .textopsusten1 {
     text-align: left;
     color: #fff;
     font-size: 21px;
     line-height: 28px;
-    margin-left: 21%;
     width: 457px;
 }
 
 #susten6 img {
    width: 50px;
     position: relative;
-    margin-left: 21%;
-    margin-top: 10%;
     }

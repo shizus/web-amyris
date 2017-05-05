@@ -41,6 +41,10 @@ a:focus, a:hover {
     margin-top: 4em;
 }
 
+.titulo-dorado {
+    color: #D1BE87;
+}
+
 .titulo-imagen {
     width: 30em;
 }

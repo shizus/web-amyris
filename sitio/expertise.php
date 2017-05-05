@@ -125,39 +125,41 @@ insertar_servicio($textoe4, $textoe5);
 
 </div>
 
-   <h1  id="control-calidad"><?php echo $textoe19 ?></h1>
+   <h1  id="control-calidad" class="titulo-dorado text-center"><?php echo $textoe19 ?></h1>
 
    <img src="images/47.jpg" style="width: 70%;margin-top: 60px;margin-left: 280px;">
 
 
-<div  id="linearojaexpertiseinf"></div>
-<div class="col-md-4" id="columnacontrol4" >
-  <p><?php echo $textoe20 ?></p><br>
+<div class="row">
+    <div class="col-md-4" id="columnacontrol4" >
+        <p><?php echo $textoe20 ?></p><br>
 
- <h1 ><?php echo $textoe21 ?></h1>
+        <h1 ><?php echo $textoe21 ?></h1>
 
- <img src="images/lista.png" style="margin-left: -12%;">
+        <img src="images/lista.png" style="margin-left: -12%;">
+
+    </div>
+
+    <div class="col-md-5" id="columnacontrol5" >
+        <p  class="p0" ><?php echo $textoe255 ?></p><br>
+        <p  class="p1" ><?php echo $textoe22 ?></p><br>
+        <p   class="p2" ><?php echo $textoe23 ?></p><br>
+        <p   class="p2" ><?php echo $textoe25 ?></p>
+    </div>
 
 </div>
 
-<div class="col-md-5" id="columnacontrol5" >
-<p  class="p0" ><?php echo $textoe255 ?></p><br>
-<p  class="p1" ><?php echo $textoe22 ?></p><br>
-<p   class="p2" ><?php echo $textoe23 ?></p><br>
-<p   class="p2" ><?php echo $textoe25 ?></p>
+<div id="mapa" class="row">
+    <div class="col-md-12"  id="comercio-exterior">
+        <h1 ><?php echo $textoe26 ?></h1><br>
+        <p class="textop1" ><?php echo $textoe27 ?></p><br>
+        <p class="textop2"><?php echo $textoe28 ?></p>
+    </div>
+    <div class="col-md-4 col-md-offset-4">
+        <img class="imagen2" src="images/mapa.png" >
+    </div>
 </div>
 
-<div id="mapa">
-    <img class="imagen1" src="images/exp-10.jpg" >
-    <img class="imagen2" src="images/mapa.png" >
-</div>
-
-<div class="col-md-12"  id="comercio-exterior">
-         <h1 ><?php echo $textoe26 ?></h1><br>
-            <p class="textop1" ><?php echo $textoe27 ?></p><br>
-              <p class="textop2"><?php echo $textoe28 ?></p>
-                
-</div> 
 
 <?php  require 'footer.php';
 footer("fotofinal", "contenedorfloresamarillas", $fragancias, $textoe29);
