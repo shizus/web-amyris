@@ -54,36 +54,15 @@
     display: none; height: 100px; position: relative; margin-top: -12%; z-index: -1;
 }
 
-  #fragantit img {
-    width: 100%;
-    margin-top: 10%;
+  .fragan {
+    height: 550px;
+	background-image: url(../images/07.jpg);
+	background-size: cover;
   }
 
-  .primero_cuadrado_fragancias{
-    text-align: center;
-        width: 445px;
-        margin-left: 30%;
-    height: 80px;
-    background-color: #fff;
-    border: 1px solid #e1e6e9;
-    z-index: 3;
-  
-    margin-top: -60%;
-    animation-delay: 0.3s;
-
+  .fragan img {
+   margin-top: 50px;
   }
-
-  .primero_cuadrado_fragancias h4 {
-    font-size: 55px;
-    text-align: center;
-    animation-delay: 0.3s;
-    color: #fff;
-  
-  font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    color: #000;
-  }
-
   #expertise {
       background-image: url(../images/05.jpg);
       background-size: cover;

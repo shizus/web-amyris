@@ -1,818 +1,157 @@
-
 <?php 
-session_start();
-require 'requirelanguage.php';
-require 'header.php';
+	session_start();
+	require 'requirelanguage.php';
+	require 'header.php';
+	require 'menu.php';
+?>
+
+<body>
+
+<?php require_once 'portada.php';
+
+ 	insertar_portada('portada-fragancias', $texto1f, $texto2f);
+	require_once 'breadcrumbs.php';
+	insertar_breadcrumbs($texto3f);
+	require_once "servicio.php";
+	insertar_servicio($texto35f, $texto4f);
 
 ?>
-<?php  require 'menu.php';?>
 
-
-
-  <script type="text/javascript">
-  jQuery(document).ready(function($) {
-    $(".scroll").click(function(event){   
-      event.preventDefault();
-      $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-    });
-  });
-</script><!-- start-smoth-scrolling -->
-
-
-
-  <?php require_once 'portada.php';
-
-  insertar_portada('portada-fragancias', $texto1f, $texto2f);
-  ;?>
-
-
-
-
-
+<div class="container">
+	<div class="row fragan"> 
+	<div class="col-md-6 col-md-offset-3">
+      <img src="img/t-fragancias.png" width="100%">
+      </div> 
+	      
+	</div>
+</div>
 
 <style>
-
-
-
-.accordian {
-  width: 720px;
-  height: 425px;
-  overflow: hidden;
-  position: absolute;
-
- z-index: 2;
-  /*Time for some styling*/
-  margin: -25px;
-   margin-left: 230px;
-   /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
+.bajada {
+	background-color: rgba(255, 255, 255, 0.83);
+	margin-top: -9%;
+	z-index: 3;
+	animation-delay: 0.3s;
 }
-
-/*A small hack to prevent flickering on some browsers*/
-.accordian ul {
-  width: 2000px;
-  /*This will give ample space to the last item to move
-  instead of falling down/flickering during hovers.*/
+.bajada h2{
+	font-size: 36px;
+	color: #D1BE89;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22px;
+	font-family: 'Museo 500 Regular';
+	font-weight: normal;
+	text-align: center;
+	padding: 17px;
 }
-
-.accordian li {
-  position: relative;
-  display: block;
-  width: 250px;
-  float: left;
-
-  /*border-left: 1px solid #888;
-  
-  /*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  */
-
-  /*Transitions to give animation effect*/
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  /*If you hover on the images now you should be able to 
-  see the basic accordian*/
+.bajada p{
+	font-family: 'Futura';
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 34px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 20px;
 }
-
-/*Reduce with of un-hovered elements este reduce los de al lado */
-.accordian ul:hover li {width: 40px;}
-
-.accordian ul:hover li a{
-  left: -80px;
+.boton {
+	font-family: 'Futura';
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: solid 1px grey;
+	cursor: pointer;
 }
-
-
-
-
-
-/*Lets apply hover effects now*/
-/*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/ 
-.accordian ul li:hover {width: 640px;}
-
-
-.accordian li img {
-  display: block;
+.boton.active {
+		border-bottom: solid 1px #D1BE89;
 }
-
-
-
-
-/*Image title styles*/
-.image_title {
-
-
-  writing-mode: vertical-rl;
-
-    word-wrap: break-word; 
-  /*background: rgba(0, 0, 0, 0.5); */
-  position: absolute;
-  left: 0; bottom: 0; 
-  width: 640px; 
-
+.boton.active:after {
+	content: '';
+	background: white;
+	border-bottom: solid 1px #D1BE89;
+	border-right: solid 1px #D1BE89;
+	transform: rotate(45deg);
+	width: 5px;
+	height: 5px;
+	display: block;
+	position: absolute;
+	bottom: -3px;
+	left: 50%;
+	
 }
-.image_title .texto1_isla1 {
-
-
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 50px;
-  position: relative;
-  left: -432px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-
-
+.desc {
+	text-align: center;
+	padding: 25px 15px;
+	position: absolute;
+	color: #D1BE89;
+	font-family: 'Futura';
 }
-
-.image_title .texto2_isla1 {
-
-
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: 650px;
-
-
-
+.descripciones {
+	margin-bottom: 130px;
 }
-
-.accordian ul:hover .image_title .texto2_isla1 {
-margin-right: 100px;
-top: -180px;
-line-height: 27px;
-  transition: all 0.5s;
-
-
-
-}
-
-
-
-/* -----------------------------------------------------------*/
-
-
-.image_title .texto1_isla2 {
-
-
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 50px;
-  position: relative;
-  left: -432px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-
-
-}
-
-.image_title .texto2_isla2 {
-
-
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: -200px;
-
-
-
-}
-.accordian ul:hover .image_title .texto2_isla2 {
-margin-right: 100px;
-top: -180px;
-line-height: 27px;
-  transition: all 0.5s;
-}
-
-/* ---------------------------------------------------------*/
-
-
-.image_title .texto1_isla3 {
-
-
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 50px;
-  position: relative;
-  left: -460px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-
-
-}
-
-.image_title .texto2_isla3 {
-
-
--webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 22px;
-  position: relative;
-width: 380px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  font-family:'Museo 500 Regular';
-  font-weight:normal;
-  writing-mode: horizontal-tb;
-  margin-right: -200px;
-
-
-
-}
-.accordian ul:hover .image_title .texto2_isla3 {
-margin-right: 100px;
-top: -150px;
-line-height: 27px;
-  transition: all 0.5s;
-}
-
-
-
-
-/* acordeon de las islas de abajo */
-
-
-.accordian2 {
-  width: 720px;
-  height: 425px;
-  overflow: hidden;
-  position: absolute;
-
- z-index: 2;
-  /*Time for some styling*/
-  margin: -25px;
-   margin-left: 230px;
-   /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
-}
-
-/*A small hack to prevent flickering on some browsers*/
-.accordian2 ul {
-  width: 2000px;
-  /*This will give ample space to the last item to move
-  instead of falling down/flickering during hovers.*/
-}
-
-.accordian2 li {
-  position: relative;
-  display: block;
-  width: 350px;
-  float: left;
-
-  /*border-left: 1px solid #888;
-  
-  /*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-  */
-
-  /*Transitions to give animation effect*/
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  /*If you hover on the images now you should be able to 
-  see the basic accordian*/
-}
-
-/*Reduce with of un-hovered elements este reduce los de al lado */
-.accordian2 ul:hover li {width: 40px;}
-
-.accordian2 ul:hover li a{
-  left: -80px;
-
-
-}
-
-
-/*Lets apply hover effects now*/
-/*The LI hover style should override the UL hover style vuelve a al pasicon inicial*/ 
-.accordian2 ul li:hover {width: 640px;}
-
-
-.accordian2 li img {
-  display: block;
-}
-
-
-
-
-/*Image title styles*/
-.image_title2 {
-
-
-  writing-mode: vertical-rl;
-
-    word-wrap: break-word; 
-  /*background: rgba(0, 0, 0, 0.5);  */
-  position: absolute;
-  left: 0; bottom: 0; 
-  width: 640px; 
-
-}
-.image_title2 a {
-
-
--webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
-  -o-transform: rotate(-180deg);
-  transform: rotate(-180deg);
- 
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
- 
-  font-size: 50px;
-  position: relative;
-  left: -580px;
-  padding-top: 20px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-
-
-}
-
-
-.caja1{
-
- /* background: rgba(0, 0, 0, 0.5);   */
-  background: rgba(255, 255, 255, 0.59);
-  position: absolute;
-  left: 14; 
-  top:0px;
-  bottom: 0; 
-  width: 92px; 
-}
-
-.caja2{
-
- /* background: rgba(0, 0, 0, 0.5);   */
-  background: rgba(255, 255, 255, 0.59);
-  position: absolute;
-  left: 14; 
-  top:0px;
-  bottom: 0; 
-  width: 92px; 
-}
-
-
-.caja1:hover{
-  background: rgba(255, 255, 255, 0.59);
-  width: 640px;
-}
-
-.caja2:hover{
-  background: rgba(255, 255, 255, 0.59);
-  width: 640px;
-
-}
-
-
-
-.boton_isla_abajo1{
-margin-left: -90px;
-  z-index: 0;
-
-}
-
-
-.boton_isla_abajo2{
-margin-left: 400px;
-  z-index: 0;
-
-}
-
-
-
-
-.caja1:hover .boton_isla_abajo1{
-  
-    margin-top: 342px;
-  position: absolute;
-  margin-left: 11px;
-  z-index: 0;
-  width: 9%;
-}
-
-
-.caja2:hover .boton_isla_abajo2{
-  
-    margin-top: 342px;
-  position: absolute;
-  margin-left: 11px;
-  z-index: 0;
-  width: 9%;
-}
-
-
-
-
-
+.descripciones .desc{
+	opacity: 0;
+}	
+.descripciones .active{
+	opacity: 1;
+}	
 </style>
 
+<div class="container">
+<div class="row">
+<div class="col-md-10 col-md-offset-1 bajada"> 
+ 	<h2>SISTEMA CONCEPTUAL AMYRIS</h2>
+ 	<p><?php echo $texto44f ?></p>
+ 	<div class="row">
+ 	<div class="col-md-8 col-md-offset-2">
+		<div class="row">       
+			<div class="col-md-3 col-xs-3 boton active" id="sentir">SENTIR</div>
+			<div class="col-md-3 col-xs-3 boton" id="descubrir">DESCUBRIR</div>
+			<div class="col-md-3 col-xs-3 boton" id="oler">OLER</div>
+			<div class="col-md-3 col-xs-3 boton" id="disfrutar">DISFRUTAR</div>
+		</div>
+		<div class="row descripciones">
+			<div class="col-md-12 desc active" id="sentir-desc">
+				LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
+			</div>
+			<div class="col-md-12 desc" id="descubrir-desc">
+				SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.
+			</div>
+			<div class="col-md-12 desc" id="oler-desc">
+				NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.
+			</div>
+			<div class="col-md-12 desc" id="disfrutar-desc">
+				LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
+			</div>
+		</div>
+		</div>
+	</div>
+	
+<script>
+	$('.boton').hover(entraMouse);
+	
+	function entraMouse(event){
+		$(".boton").removeClass("active");
+		$(".desc").removeClass("active");
+		$("#" + event.currentTarget.id).addClass("active");
+		$("#" + event.currentTarget.id + "-desc").addClass("active");
+	}
+	
+</script>
 
+	<div class="row">
+	<div class="col-md-12">
+		<p>
+		Contamos con personal de desarrollo y marketing en constante capacitación e investigación para estar siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosmética, fragancias finas, higiene personal, productos para el hogar y productos de limpieza.</p>
+		<p>
+		En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad; Trabajamos con un preciso cronograma de tiempos. 
+		</p>
+		</div>
+	</div>
+</div>
+</div>
+</div>
 
-  <?php require_once 'breadcrumbs.php';
-  insertar_breadcrumbs($texto3f);
-
-  ?>
-
-  <?php
-  require_once "servicio.php";
-  insertar_servicio($texto35f, $texto4f);
-  ?>
-
-
-
-<style>
-  #fragantit img {
-    width: 100%;
-    margin-top: 10%;
-  }
-
-  .primero_cuadrado_fragancias{
-    text-align: center;
-        width: 445px;
-        margin-left: 30%;
-    height: 80px;
-    background-color: #fff;
-    border: 1px solid #e1e6e9;
-    z-index: 3;
-  
-    margin-top: -50%;
-    animation-delay: 0.3s;
-
-  }
-
-  .primero_cuadrado_fragancias h4 {
-    font-size: 55px;
-    text-align: center;
-    animation-delay: 0.3s;
-    color: #fff;
-  
-  font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    color: #000;
-  }
-
-</style>
-
-<section id="fragan">
-         <div id="fragantit" >
-                    <div class="container">
-                        <div class="row">
-                          <img src="images/07.jpg"  >
-
-                        </div>
-                    </div>
-         </div>
-</section>                        
-
-
-<section id="cuadrado">
-
-  <div class="col-md-12 col-sm-6 col-xs-12 primero_cuadrado_fragancias">
-    <h4>FRAGANCIAS </h4>
-   </div>
-
-
-</section>
-
-
-
-<style>
-  .segundo_cuadrado_fragancias {
-    height: 160px;
-    background-color: rgba(255, 255, 255, 0.83);
  
-    margin-top: -9%;
-    z-index: 3;
-        margin-left: 12%;
-    margin-right: 12%;
-        animation-delay: 0.3s;
-  }
 
-
-  .segundo_cuadrado_fragancias h2{
-    font-size: 36px;
-    color: #D1BE89;
-    width: 820px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 22px;
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    text-align: center;
-    padding: 17px;
-  }
-
-  .segundo_cuadrado_fragancias p{
-    font-family: 'Futura';
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 34px;
-
-      padding: 5px 51px 5px 95px;
-    text-align: center;
-    line-height: 30px;
-}
-
-</style>
-
- <div class="col-md-12 col-sm-6 col-xs-12"  >
- <div class="segundo_cuadrado_fragancias">
-       
-          <h2>SISTEMA CONCEPTUAL AMYRIS</h2>
-         <p><?php echo $texto44f ?></p>
-
-     </div>
- </div>
-
-
-<style>
-  .caja {
-position: relative; /*Para poder ubicar la info dentro de la caja*/
-margin: 10px auto;
-}
-.caja .imagen1 img {
-border:2px solid black;
-margin-left: 181px;
-}
-.caja .imagen2 img {
-border:2px solid black;
-margin-left: 181px;
-}
-
-.caja .imagen3 img {
-border:2px solid black;
-margin-left: 181px;
-}
-
-.info11 {
-position: absolute; /*Info sobre la imagen*/
-top: 70px;
-left: 60%; /*Desplazamos a partir de la esquina superior izquierda*/
-zoom: 1;
-width: 640px;
-text-align: center;
-font-family:'Museo 500 Regular';font-weight:normal;
-color:#A59965;
-font-size: 16px;
-filter: alpha(opacity=0); /*Opacidad Para IE */
-opacity: 0; /*Inicialmente transparente */
-padding: 5px;
-
-
--moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
--webkit-transition:all ease .8s ;
-transition:all ease .8s;
-}
-
-.info1 {
-position: absolute; /*Info sobre la imagen*/
-top: 70px;
-left: -50%; /*Desplazamos a partir de la esquina superior izquierda*/
-zoom: 1;
-width: 640px;
-text-align: center;
-font-family:'Museo 500 Regular';font-weight:normal;
-color:#A59965;
-font-size: 16px;
-filter: alpha(opacity=0); /*Opacidad Para IE */
-opacity: 0; /*Inicialmente transparente */
-padding: 5px;
-
-
--moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
--webkit-transition:all ease .8s ;
-transition:all ease .8s;
-}
-
-
-
-.caja:hover .info11 {
-filter: alpha(opacity=80);
-opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
-}
-
-
-.caja:hover .info1 {
-filter: alpha(opacity=80);
-opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
-}
-
-
-.info2 {
-position: absolute; /*Info sobre la imagen*/
-top: 70px;
-left: -175%; /*Desplazamos a partir de la esquina superior izquierda*/
-zoom: 1;
-width: 640px;
-text-align: center;
-font-family:'Museo 500 Regular';font-weight:normal;
-color:#A59965;
-font-size: 16px;
-filter: alpha(opacity=0); /*Opacidad Para IE */
-opacity: 0; /*Inicialmente transparente */
-padding: 5px;
-
-
--moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
--webkit-transition:all ease .8s ;
-transition:all ease .8s;
-}
-.caja:hover .info2 {
-filter: alpha(opacity=80);
-opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
-}
-
-
-
-.info3 {
-position: absolute; /*Info sobre la imagen*/
-top: 70px;
-left: -510px; /*Desplazamos a partir de la esquina superior izquierda*/
-zoom: 1;
-width: 640px;
-text-align: center;
-font-family:'Museo 500 Regular';font-weight:normal;
-color:#A59965;
-font-size: 16px;
-filter: alpha(opacity=0); /*Opacidad Para IE */
-opacity: 0; /*Inicialmente transparente */
-padding: 5px;
-
-
--moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
--webkit-transition:all ease .8s ;
-transition:all ease .8s;
-}
-.caja:hover .info3 {
-filter: alpha(opacity=80);
-opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
-}
-
-#contenedorcuatro{
-      margin-left: 10%;
-    margin-right: 10%;
-}
-
-
-</style>
-
-
-
-<!--<div>
-  <img src="images/flecha1.png" style="position: absolute;margin-top: 100px;
-  margin-left: -580px;">
-</div>
- -->
-
-
-<div id="sleep">
-    <div class="container">
-        <div class="row" id="contenedorcuatro">
-
-
-
-
-<div class="col-md-3">
-
-<div class="caja"><p style="text-align: right;">SENTIR</p>
-
-<span class="info11">
-<img src="images/flechaprimera.png" style="position: absolute;margin-top: -50px;margin-left: -4%;">
-LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.</span></a></div>
-</div>
-
-
-<div class="col-md-3">
-
-<div class="caja"><p style="text-align: right;">DESCUBRIR</p>
-
-<span class="info1"><img src="images/flechasegunda.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y
-COMPRENDER LOS SENTIDOS Y EMOCIONES. </span></a></div>
-</div>
-
-
-
-<div class="col-md-3" >
-<div class="caja"><p style="text-align: center;">OLER</p>
-<span class="info2"><img src="images/flechatercera.png" style="position: absolute;margin-top: -50px;margin-left: -10%;">NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD.
-PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.</span></a></div>
-</div>
-
-
-<div class="col-md-3" >
-<div class="caja"><p style="text-align: left;">DISFRUTAR</p>
-<span class="info3"><img src="images/flechacuartaaa.png" style="position: absolute;margin-top: -50px;margin-left: -8%;">ENCONTRAR LA FRAGANCIA ADECUADA GENERA ALEGRÍA Y EMOCIÓN. EN AMYRIS TE INVITAMOS A DISFRUTAR ESE MOMENTO CON PRODUCTOS
-DE LA MÁS ALTA CALIDAD.</span></a></div>
-</div>
-
-
-        </div>
-    </div>
-</div>        
-
-
-
-
-<div class="col-md-8" style="position: relative;margin-left: 198px;margin-top: 170px;z-index: 3;">
-  <p style="text-align: center;line-height: 25px;font-family: 'Futura'; font-size: 19px; font-weight: 500;">Contamos con personal de desarrollo y marketing en constante capacitación e investigación para estar siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosmética, fraganciasfinas, higiene personal, productos para el hogar y productos de limpieza</p>
-</div>
-
-<div class="col-md-8" style="position: relative;margin-left: 198px;margin-top: 40px;z-index: 3;">
-  <p style="text-align: center;line-height: 25px;font-family: 'Futura'; font-size: 19px;font-weight: 500;">En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad; Trabajamos con un preciso cronograma de tiempos. </p>
-</div>
 
 
 

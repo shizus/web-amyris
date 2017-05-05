@@ -145,7 +145,7 @@ nuestra empresa hasta su salida. Todo el proceso de producción está controlado
 //fragancias
 $texto1f="EL VALOR DE TRANSMITIR EMOCIONES";
 $texto2f="vinculando nuestras fragancias con la sensibilidad del consumidor";
-$texto3f="Fragancias / Fragancias Finas / Cuidado Personal / Hogar y limpieza";
+$texto3f="Sistema Conceptual Amyris / Productos";
 $texto35f="AMYRIS ES CREACIÓN E INNOVACIÓN" ;
 $texto4f="TRANSFORMAMOS LA FRAGANCIA  EN UN SELLO PERSONAL " ;
 $texto44f="Desde nuestros inicios, nuestro objetivo siempre fue la búsqueda de soluciones sensoriales que nos permita
