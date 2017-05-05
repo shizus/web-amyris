@@ -3,8 +3,8 @@
 
 <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 <div id="botonesarriba">
-    <img alt="Imagen cargando" class="nube"  src="images/40.png" id="right">
-    <img alt="Imagen cargando" class="cruz" src="images/41.png" id="left">
+    <img class="nube"  src="images/40.png" id="right">
+    <img class="cruz" src="images/41.png" id="left">
 </div>
 
 <!-- Fixed navbar -->
@@ -17,7 +17,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img alt="Imagen cargando" src="images/logo.png"  ></a>
+            <a class="navbar-brand" href="/"><img src="images/logo.png"  ></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">

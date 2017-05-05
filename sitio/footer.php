@@ -14,7 +14,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
                             <h1 class='animation animated-item-1'>$titulo</h1>
                             <p>$texto</p>
                             <p>
-                                <img alt="Imagen cargando" class='footer-nube' src='images/42.png'>
+                                <img class='footer-nube' src='images/42.png'>
                             </p>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto) {
             <div class='col-md-7 col-md-offset-1 col-sm-12 col-sm-offset-0'>
                 <div class='row fondo-blanco'>
                     <div class='col-md-5'>
-                        <img alt="Imagen cargando" id='logo-footer' src='images/logofooter.png'>
+                        <img id='logo-footer' src='images/logofooter.png'>
                     </div>
                     <div class='col-md-7 letra-negra'>
                         <div class='row'>
