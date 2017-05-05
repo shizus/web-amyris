@@ -28,6 +28,7 @@ a {
 
 a:focus, a:hover, a:hover li {
     color: #000000;
+     cursor: pointer;
 }
 
 .float-right {
