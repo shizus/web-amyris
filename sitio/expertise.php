@@ -211,39 +211,10 @@ insertar_servicio($textoe4, $textoe5);
 
 
 
-<div id="fotofinal" >
-    <div class="container">
-                        <div class="row" class="contenedorfloresamarillas"> 
-<img src="images/48.jpg" >
-                        </div>
-    </div>                    
+<?php  require 'footer.php';
+footer("fotofinal", "contenedorfloresamarillas", $fragancias, $textoe29);
 
-</div>
-
-
-<section id="susten">
-
-
- <div class="col-md-6" id="susten6">
-         <h1 ><?php echo $fragancias ?></h1>
-            <p class="textopsusten1" ><?php echo $textoe29 ?>
-            </p>
-
-        <img src="images/42.png" >      
-                
-</div>  
-
-
-
-
-
-</section>
-
-<div id="prefooter" >
-
-  <?php  require 'footer.php';?>
-  
-</div>
+?>
 
 </body>
 </html>

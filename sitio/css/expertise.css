@@ -359,14 +359,12 @@ margin-left: 0%;
 position: relative;margin-top:8%;
 }
 
-#fotofinal .contenedorfloresamarillas {
+#contenedorfloresamarillas {
      visibility: visible; animation-name: zoomIn;
+    background-image: url(../images/48.jpg);
+    background-size: cover;
 }
 
-
-#fotofinal .contenedorfloresamarillas {
-width: 100%;
-}
 
 #susten6{
      margin-top: -50%;margin-left: 35px;
