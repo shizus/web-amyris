@@ -71,7 +71,7 @@
   }
 
  #valores{
-    position: relative;
+    margin-top: 6em;
   }
 
  #valores h2{
@@ -148,8 +148,8 @@ img#corchete{
 #esquinaderechas .ezquinaderecha4{
 font-family:'Museo 500 Regular';
 font-weight:normal;
-color:#A59965;
-font-size: 27px;line-height: 35px;
+color: #D1BE87;
+font-size: 1.8em;line-height: 35px;
 
 }
 .segundo_cuadrado_sus {

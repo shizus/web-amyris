@@ -65,7 +65,7 @@ insertar_servicio($textos4, $textos5);
         <p class="ptexto1"><?php echo $textos8 ?></p><br>
         <p class="ptexto1"><?php echo $textos88 ?></p><br>
         <h2 ><?php echo $textos9 ?></h2>
-        <p class="ptexto2"> <?php echo $textos10 ?></p><br>
+        <p class="ptexto1"> <?php echo $textos10 ?></p><br>
 
     </div>
 
@@ -73,7 +73,9 @@ insertar_servicio($textos4, $textos5);
         <p class="ezquinaderecha1" ><?php echo $textos11 ?></p><br>
         <p class="ezquinaderecha2" > <?php echo $textos12 ?></p><br>
         <p class="ezquinaderecha3" > <?php echo $textos13 ?></p><br>
-        <p class="ezquinaderecha4" ><?php echo $textos14 ?> </p>
+        <p class="ezquinaderecha4" ><?php echo $textos14 ?>
+            <div class="linea-roja-50 float-right"></div>
+        </p>
     </div>
 </section>
 
