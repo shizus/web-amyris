@@ -7,8 +7,6 @@ require 'header.php';
 <?php  require 'menu.php';?>
 
 
-
-
 <body>
 
 <script>
@@ -18,8 +16,6 @@ require 'header.php';
 });
 
 </script>
-
-
   <script type="text/javascript">
   jQuery(document).ready(function($) {
     $(".scroll").click(function(event){   
@@ -42,20 +38,14 @@ insertar_portada('portada-expertise', $textoe1, $textoe2);
 ;?>
 
 
-
-
 <?php require_once 'breadcrumbs.php';
 insertar_breadcrumbs($textoe3);
 
 ?>
-
-
 <?php
 require_once "servicio.php";
 insertar_servicio($textoe4, $textoe5);
 ?>
-
-
 
 
 <section id="fragan">
@@ -67,22 +57,14 @@ insertar_servicio($textoe4, $textoe5);
          </div>
 </section>  
 
-
-
   
-
-
 
 <section id="cuadrado">
 
   <div class="primero_cuadrado_expertise">
     <h4 ><?php echo $expertise ?> </h4>
    </div>
-
-
 </section>
-
-
 
 <div id="columnas" >
     <div  id="linearojaexpertise"></div>
@@ -101,24 +83,14 @@ insertar_servicio($textoe4, $textoe5);
 
     </div>
 
-
-
 </div>
-
-
 <style>
   
 
 </style>
-
-
 <div class="segundo_cuadrado_expertise">
     <h4 > <?php echo $textoe13 ;?></h4>
    </div>
-
-
-
-
 
 <div id="tramaexpertise">
  <img src="images/trama5.jpg"  >
@@ -126,14 +98,8 @@ insertar_servicio($textoe4, $textoe5);
 <p ><?php echo $textoe14?></p>
 <p ><?php echo $textoe15?></p>
 </div>
-
-
 </div>
-
-
 </div>
-
-
 <div class="row">
         <div class="row">
             <a href="images/c1.jpg" data-lightbox="portfolio" class="col-sm-4">
@@ -158,20 +124,14 @@ insertar_servicio($textoe4, $textoe5);
             </a>
         </div>
 </div>
-
-
-<div id="tramadebajoportfolio" > 
+<div id="tramadebajoportfolio" >
      <img src="images/trama3.jpg" >
 
 </div>
 
-
-
    <h1  id="titulocontrol" ><?php echo $textoe19 ?></h1>
 
    <img src="images/47.jpg" style="width: 70%;margin-top: 60px;margin-left: 280px;">
-
-
 
 
 <div  id="linearojaexpertiseinf"></div>
@@ -191,16 +151,10 @@ insertar_servicio($textoe4, $textoe5);
 <p   class="p2" ><?php echo $textoe25 ?></p>
 </div>
 
-
-
-
-
 <div id="mapa">
     <img class="imagen1" src="images/exp-10.jpg" >
     <img class="imagen2" src="images/mapa.png" >
 </div>
-
-
 
 <div class="col-md-12"  id="floresamarillas">
          <h1 ><?php echo $textoe26 ?></h1><br>
@@ -208,8 +162,6 @@ insertar_servicio($textoe4, $textoe5);
               <p class="textop2"><?php echo $textoe28 ?></p>
                 
 </div> 
-
-
 
 <?php  require 'footer.php';
 footer("fotofinal", "contenedorfloresamarillas", $fragancias, $textoe29);

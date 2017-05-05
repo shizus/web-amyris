@@ -65,8 +65,6 @@
                 <i class="fa fa-angle-right fa-3x"></i>
             </a>
         </nav>
-
-
         <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
             <span class="nav-dot-current"></span>
             <span></span>

@@ -1,13 +1,9 @@
 <?php
-
-
 // menu 1
 $amyris="AMYRIS";
 $quienes="ABOUT US";
 $valores="VALUES";
 $porque="&iquest;WHY AMYRIS?";
-
-
 
 //menu2
 
@@ -16,18 +12,12 @@ $fraganciasfinas="FINE FRAGANCES";
 $cuidadopersonal="PERSONAL CARE";
 $hogarylimpieza="HOME AND CLEANING";
 
-
-
 // menu3
-
-
 $expertise="EXPERTISE";
 $desarrollo="DEVELOPMENT AND CREATION";
 $infraestructura="INFRASTRUCTURE";
 $control="QA";
 $comercio="FOREIGN TRADE";
-
-
 
 //menu4
 
@@ -36,8 +26,6 @@ $proteccion="PROTECTION";
 $eficiencia="EFFICIENCY";
 $valoresm="VALUES";
 
-
-
 //menu5
 
 $innovaciones="INNOVATIONS";
@@ -45,23 +33,17 @@ $departamento="DEPARTMENT OF IDEAS";
 $desarrollom="DEVELOPMENT AND INNOVATION";
 $investigacion="INVESTIGATION";
 
-
-
 $bienvenidos="WELCOME TO";
 $creamos1="CREATING FRAGRANCES";
 $creamos2="CREATE FEELINGS";
 
 $fabricamos="Frafancias that connect to manufacture consumer sentiment" ;
 $logramos="We managed to generate links specifying the olfactory imagination";
-
-
 $disfrutar1="enjoy";
 $disfrutar2="FLAVORS FRAGRANCES AND WE ALWAYS REMEMBER A SPECIAL TIME. POS THAT OUR FRAGRANCES ARE INVITED TO RELAX, TO HAPPINESS AND THE ENJOYMENT" ;
 
 $oler1="smell";
 $oler2="OUR SENSE OF SMELL IS MORE SENSITIVE THAN ANY AND AMENDING our behavior. WHY WORK IN COMBINING AMYRIS 3000 RAW MATERIALS FOR SEARCH AND PERFECT UNIQUE FRAGRANCE ";
-
-
 $descubrir1="discover";
 $descubrir2="AROMAS CONQUER THE NOSE AND MEMORIES FOR FIRING sensations such AMYRIS CREATED THAT IN RESPONDING FRAGRANCES BETTER PSYCHOLOGICAL CHARACTERISTICS OF CONSUMER";
 
@@ -77,15 +59,9 @@ $hogarylimpieza2="Home & Cleaning";
 
 $segundo_cuadrado1="AMYRIS COVERS ALL THE DEVELOPMENT PROCESS WITH LATEST TECHNOLOGY AND  " ;
 $segundo_cuadrado2="HIGHLY QUALIFIED PROFESSIONALS EXCLUSIVE IDEAS DEPARTMENT OF DEVELOPMENT AND RESEARCH";
-
-
 $sustentabilidad2="INTRODUCTION TO TAKE CARE OF OUR PLANET AND OUR STAFF INVOLVED IN ALL PROCESSES IN THE CREATION AND DEVELOPMENT OF OUR FRAGRANCES";
 
-
-
 // quienes somos
-
-
 
 $texto1="CONNECTING THE VALUE OF SENSES";
 $texto2="Inspiring happiness and welfare";
@@ -105,8 +81,6 @@ research, development, production, innovation and creation of fragrances first q
 $texto10="aim to experience an experience only. Thus, you are looking captivate the senses, We are always aligned with the objectives of each client which, together with our passion, it allows us to provide always an absolute quality in every product generated." ;
 $texto11="This is the challenge we take daily, which seduces us continue to grow with our customers as a great
 team, enhancing the relationship as a value chain, allowing us to always be renewed and well anticipate the global trend." ;
-
-
 $texto12="VALUES";
 $texto13="HONESTY";
 $texto14="Respect for the client and transparency in our actions are our essence deeper. Honesty is something that represents our way of being, thinking and actions and that we apply in every detail of the work process.";
@@ -141,11 +115,7 @@ $texto34="AMYRIS COVERS ALL THE DEVELOPMENT PROCESS FRAGRANCE WITH THE LATEST TE
 EXCLUSIVE IDEAS, DEVELOPMENT AND RESEARCH";
 
 
-
-
 // expertise
-
-
 
 $textoe1="VALUE OF PROVIDING QUALITY";
 $textoe2="Stimulating and seduces the senses";
@@ -200,11 +170,7 @@ $textoe27="Taking based in Buenos Aires, Amyris has presence throughout Argentin
 $textoe28="We're also in the process of reaching the immediate expansion through Asia a professional network of distributors";
 $textoe29="PROPER PRODUCE FRAGRANCE FOR EACH PRODUCT, LOOKING FOR IDENTIFICATION WITH CONSUMERS THROUGH A PERSONAL SEAL.";
 
-
-
 //susten
-
-
 $textos1="THE VALUE OF TRUST";
 $textos2="WE TAKE CARE OF OUR PROCESSES AND OUR PEOPLE";
 $textos3="Values";
@@ -254,8 +220,6 @@ every detail of the components of our products because we care.";
 $textos27="ABOUT US";
 $textos28=" IN AMYRIS, WE WORK TO SUIT THE CLIENT ABSOLUTE EXCLUSIVE AND ADVICE ON TOTAL MANUFACTURING PRODUCT FOR THE BEST FINAL RESULT.";
 
-
-
 // innovaciones
 
 $textoin1="THE VALUE OF IDEAS";
@@ -290,11 +254,7 @@ contribute possible approaches or solutions, coupled with our expertise and know
 $textoin21="&iquest;DO NEED ANY QUESTIONS OR COMMENTS? WRITE TO US SO WE CAN HELP.";
 
 
-
-
 //contacto
-
-
 $textoc1="VALUE TO BE REPORTED";
 $textoc2="Generate durable and reliable links";
 $textoc3=" &iquest;Where we are? / Make us your inquiry";
@@ -314,8 +274,6 @@ $textoc15="IN AMYRIS, WE ARE STRICT IN EVERY DETAIL MANUFACTURING PROCESS AND DE
 MAIN REASONS FOR WHICH COMPANIES LEADERS TRUST US.";
 $textoc16="Thank you for your question";
 $textoc17="We will contact you shortly";
-
-
 $holamundo="Hello World!";
 $cambiarIdioma="Change Language";
 $inicio="Home";

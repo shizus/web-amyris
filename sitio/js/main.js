@@ -20,8 +20,6 @@ jQuery(window).load(function(){
 /* ========================================================================= */
 
 $(function() {
-
-
     var Page = (function() {
 
         var $navArrows = $( '#nav-arrows' ),
@@ -92,8 +90,6 @@ $(function() {
     Page.init();
 
 });
-
-
 
 $(document).ready(function(){
 
@@ -186,10 +182,6 @@ $(document).ready(function(){
 
 	
 });
-
-
-
-
 
 
 var wow = new WOW ({

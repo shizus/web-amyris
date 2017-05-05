@@ -23,8 +23,6 @@
   #titulosusten{
     margin-top: -23%;
   }
-
-
  #textosusten  {
     font-size: 25px;
     color: #DA504B;
@@ -66,13 +64,9 @@
     color: rgba(119, 119, 119, 1);
     font-family:'Museo 500 Regular';font-weight:normal;
   }
-
-
   #imagenbotonrojo{
     width: 70px;margin-top: -26px;margin-left: -21px;
   }
-
-
   #imagenrosa{
     position: relative;margin-top: 20%;
   }
@@ -90,8 +84,6 @@
     margin-top: -5%;
   }
 
-
-
   #esquinaizquierdas h2{
     font-family:'Museo 500 Regular';
     font-weight: bold;
@@ -99,8 +91,6 @@
     font-size: 27px;
     line-height: 25px; 
      }
-
-
 
   #esquinaizquierdas .ptexto1{
      font-family: 'Futura';
@@ -145,8 +135,6 @@ img#corchete{
     margin-left: 10%;
     margin-bottom: 5%;
 }
-
-
 #esquinaderechas .ezquinaderecha1{
     background-color:#D1BE87;
     font-family:'Museo 500 Regular';
@@ -157,8 +145,6 @@ img#corchete{
     margin-top: -26%;
     padding-left: 20%;
 }
-
-
 #esquinaderechas .ezquinaderecha2{
     font-family: 'Futura';
     font-size: 19px;
@@ -167,8 +153,6 @@ img#corchete{
     margin-top: 10%;
 
 }
-
-
 
 #esquinaderechas .ezquinaderecha3{
      font-family: 'Futura';
@@ -185,8 +169,6 @@ color:#A59965;
 font-size: 27px;line-height: 35px;
 
 }
-
-
 .segundo_cuadrado_sus {
     width: 750px;
     margin-left: 22.5%;
@@ -213,8 +195,6 @@ font-size: 27px;line-height: 35px;
   #susten .cuarto{
     visibility: visible; animation-name: zoomIn;
   }
-
-
   #columnadocesusten{
     height: 170px;
     width: 800px;
@@ -273,13 +253,9 @@ font-size: 27px;line-height: 35px;
 #sustencolumna4 {
 	margin-top: -4%;
 }
-
-
 #sustencolumna4 h1{
 	font-family:'Museo 500 Regular';font-weight:normal;font-size:30px;text-align: left;color:#da504b;margin-bottom:10px;
 }
-
-
 #textcols3{
     text-align: left;
     font-family:'Futura';
@@ -300,8 +276,6 @@ margin-top: -7%;
     position: relative;
     margin-top:10%;
 }
-
-
 #sustenfinal .divsusten{
     visibility: visible;
      animation-name: zoomIn;
@@ -315,8 +289,6 @@ width: 100%;
  position: relative;
  margin-top: -41%;
 }
-
-
 #sustenfinal .divsusten .columnadoce h1{
 font-family: 'Museo 500 Regular';
 font-weight: normal;
@@ -335,8 +307,4 @@ line-height: 32px;
 margin-left: 3%;
 width: 700px;
 }
-
-
-
-
 

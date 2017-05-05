@@ -4,8 +4,6 @@
 
     // Space between element and top of screen (when scrolling)
     var topMargin = 0;
-
-
     $(window).on('scroll', function(event) {
         var scrollTop = $(window).scrollTop();
 

@@ -16,8 +16,6 @@
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="images/favicon.ico" rel="shortcut icon" type="image/png" />
-
-
 		<!-- CSS
 		================================================== -->
 		
@@ -54,8 +52,6 @@
     <link rel="stylesheet" href="css/menu-desplegable.css">
 
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
-
-
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <!-- Modernizer Script for old Browsers -->
     <script src="js/modernizr-2.6.2.min.js"></script>

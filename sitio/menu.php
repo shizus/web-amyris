@@ -52,8 +52,6 @@
     </div>
 </nav>
 
-
-
 <!-- Modal Contacto-->
 <div class="modal right fade" id="contacto-modal" tabindex="-1" role="dialog" aria-labelledby="contacto-modal">
     <div class="modal-dialog" role="document">
@@ -94,8 +92,6 @@
         </div><!-- modal-content -->
     </div><!-- modal-dialog -->
 </div><!-- modal -->
-
-
 <!-- Modal Teléfono-->
 <div class="modal right fade" id="telefono-modal" tabindex="-1" role="dialog" aria-labelledby="telefono-modal">
     <div class="modal-dialog" role="document">
@@ -155,12 +151,8 @@
         </div><!-- modal-content -->
     </div><!-- modal-dialog -->
 </div><!-- modal -->
-
-
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script>
-
-
 $(document).ready(function() {
 
   $('.ir-arriba').click(function(){
@@ -177,8 +169,6 @@ $(document).ready(function() {
 });
   
 });
-
-
 
 $('.open-overlay').click(function() {
 
@@ -213,8 +203,6 @@ $('.open-overlay').click(function() {
     nav_item_4.removeClass('slide-in-nav-item-delay-3-reverse').addClass('slide-in-nav-item-delay-3');
     nav_item_5.removeClass('slide-in-nav-item-delay-4-reverse').addClass('slide-in-nav-item-delay-4');
   } else {
-
-
     top_bar.removeClass('animate-top-bar').addClass('animate-out-top-bar');
     middle_bar.removeClass('animate-middle-bar').addClass('animate-out-middle-bar');
     bottom_bar.removeClass('animate-bottom-bar').addClass('animate-out-bottom-bar');
@@ -236,8 +224,6 @@ $( "#contacto" ).animate({ "margin-top": "45%" } ,1000);
   $('#right').hide();
 
    $('#left').show();
-
-
   
 });
 
@@ -250,8 +236,6 @@ $('#left').hide();
       $("#contacto").hide();
       $( "#contacto" ).animate({ "margin-top": "4270px" } ,1000);
 $('.open-overlay').click();
-
-
 });
 </script>
 

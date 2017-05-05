@@ -1,6 +1,4 @@
 <?php
-
-
 // menu 1
 $amyris="AMYRIS";
 $quienes="&iquest;QUI&Eacute;NES SOMOS?";
@@ -13,11 +11,7 @@ $fragancias="FRAGANCIAS";
 $fraganciasfinas="FRAGANCIA FINAS";
 $cuidadopersonal="CUIDADO PERSONAL";
 $hogarylimpieza="HOGAR Y LIMPIEZA";
-
-
 // menu3
-
-
 $expertise="EXPERTISE";
 $expertise_texto="Nuestro estandarte es la calidad de nuestros productos y de nuestros procedimientos. Somos estrictos en
 cada detalle del proceso de fabricación y entrega. Por ello trabajamos con tecnología de última
@@ -33,14 +27,10 @@ y se aplican a nuevas tecnologías,
 herramientas y tendencias que
 logren generar un producto
 diferencial.";
-
-
 $desarrollo="DESARROLLO Y CREACI&Oacute;N";
 $infraestructura="INFRAESTRUCTURA";
 $control="CONTROL DE CALIDAD";
 $comercio="COMERCIO EXTERIOR";
-
-
 //menu4
 
 $sustentabilidad="SUSTENTABILIDAD";
@@ -48,17 +38,13 @@ $proteccion="PROTECCI&Oacute;N";
 $eficiencia="EFICIENCIA";
 $valoresm="VALORES";
 
-
-
 //menu5
 
 $innovaciones="INNOVACIONES";
 $departamento="DEPARTAMENTO DE IDEAS";
 $desarrollom="DESARROLLO E INNOVACI&Oacute;N";
 $investigacion="INVESTIGACI&Oacute;N";
-
-
-//index 
+//index
 
 $bienvenidos="BIENVENIDOS A";
 $creamos1="CREAMOS FRAGANCIAS";
@@ -66,8 +52,6 @@ $creamos2="CREAMOS SENSACIONES";
 
 $fabricamos="Creamos fragancias que transmiten emociones y conectan con la sensibilidad del consumidor";
 $logramos="Brindamos excelencia para concretar la imaginación olfativa";
-
-
 $isla_crear_titulo="crear";
 $isla_crear_texto="NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISE&Ntilde;ADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO  DE CREACI&Oacute;N DEL DISE&Ntilde;O Y ASESORAMOS SOBRE LA MEJOR OPCI&Oacute;N." ;
 
@@ -79,15 +63,11 @@ $isla_disfrutar_texto="ENCONTRAR LA FRAGANCIA ADECUADA TE GENERA REGOCIJO, ALEGR
 
 $oler1="oler";
 $oler2="NUESTRO SENTIDO DEL OLFATO ES M&Aacute;S SENSIBLE QUE CUALQUIER OTRO Y MODIFICA NUESTRO COMPORTAMIENTO. POR ESO EN AMYRIS TRABAJAMOS COMBINANDO 3000 MATERIAS PRIMAS PARA BUSCAR ESA FRAGANCIA &Uacute;NICA Y PERFECTA.";
-
-
 $isla_descubrir_titulo="descubrir";
 $isla_descubrir_texto="SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACI&Oacute;N OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.";
 
 $amyrises="AMYRIS ES ARMON&Iacute;A EN EL AIRE";
 $ofrecemosexcelencia="OFRECEMOS EXCELENCIA EN LA CREACI&Oacute;N Y ELABORACI&Oacute;N DE FRAGANCIAS" ;
-
-
 $contacto="Contacto";
 $contacto2="CONTACTO";
 
@@ -97,8 +77,6 @@ $hogarylimpieza2="Hogar y Limpieza";
 
 $segundo_cuadrado1="AMYRIS CUBRE TODO EL PROCESO DE DESARROLLO CON LA ÚLTIMA TECNOLOG&Iacute;A, PROFESIONALES ALTAMENTE CAPACITADOS Y UN " ;
 $segundo_cuadrado2="DEPARTAMENTO EXCLUSIVO DE IDEAS, DESARROLLO E INVESTIGACI&Oacute;N";
-
-
 $sustentabilidad2="NUESTRA PREMISA ES GARANTIZAR EL CUIDADO Y LA REDUCCI&Oacute;N DEL IMPACTO AMBIENTAL EN TODOS LOS PROCESOS INVOLUCRADOS EN LA CREACI&Oacute;N Y EL DESARROLLO DE NUESTRAS FRAGANCIAS.  ";
 
 $cuidadohogar="Cuidado del Hogar <br>y Ambientales" ;
@@ -106,11 +84,7 @@ $cuidadohogar="Cuidado del Hogar <br>y Ambientales" ;
 $limpieza="Limpieza" ;
 
 $cosmetica="Cosm&eacute;tica Automotor";
-
-
 // quienes somos
-
-
 
 $texto1="EL VALOR DE CONECTAR SENTIDOS";
 $texto2="Inspirando felicidad y bienestar";
@@ -126,8 +100,6 @@ investigación, desarrollo, producción, elaboración, innovación y creación d
 $texto10="Poseemos presencia en todo el territorio nacional como también en el internacional. Disponemos de distribuidores en el mercado latinoamericano exclusivamente seleccionado y capacitado para mantener la calidad de nuestros productos." ;
 $texto11="Nuestro expertise se apoya en la búsqueda constante de soluciones sensoriales innovadoras, buscamos cautivar los sentidos para representarlos en una fragancia, explorando y descubriendo cuáles emociones nos conmueven, posibilitando
 así el objetivo de experimentar una vivencia única. " ;
-
-
 $texto12="VALORES";
 $texto13="HONESTIDAD";
 $texto14 ="El respeto y la sinceridad son pilares fundamentales de nuestra empresa.
@@ -170,8 +142,6 @@ el producto del cliente garantizando que la fragancia creada cumpla con los par�
 $texto244="Laboratorio de control de calidad que analiza rigurosamente el producto desde el ingreso a
 nuestra empresa hasta su salida. Todo el proceso de producción está controlado por los máximos standars de calidad" ;
 
-
-
 //fragancias
 $texto1f="EL VALOR DE TRANSMITIR EMOCIONES";
 $texto2f="vinculando nuestras fragancias con la sensibilidad del consumidor";
@@ -181,13 +151,9 @@ $texto4f="TRANSFORMAMOS LA FRAGANCIA  EN UN SELLO PERSONAL " ;
 $texto44f="Desde nuestros inicios, nuestro objetivo siempre fue la búsqueda de soluciones sensoriales que nos permita
 desarrollar y crear fragancias únicas. Esto nos llevó a desarrollar un sistema conceptual de trabajo:";
 
-
-
 // expertise
 $texto300 ="Tecnología de última generación en los laboratorios y sectores productivos";
-
-
-$textoe1="EL VALOR DE BRINDAR CALIDAD"; 
+$textoe1="EL VALOR DE BRINDAR CALIDAD";
 $textoe2="controlando nuestros productos y procedimientos";
 $textoe3="Desarrollo y Creaci&oacute;n / Infraestructura / Control de Calidad / Comercio Exterior";
 $textoe4="AMYRIS ES ARMONÍA EN EL AIRE";
@@ -254,8 +220,6 @@ $textoe255="SOMOS ESTRICTOS EN CADA DETALLE DEL PROCESO DE
 DESARROLLO, FABRICACIÓN Y ENTREGA. ESTA ES UNA DE
 LAS PRINCIPALES RAZONES POR LA CUAL LAS EMPRESAS
 LÍDERES CONFÍAN EN NOSOTROS. ";
-
-
 $textoe26="COMERCIO EXTERIOR";
 $textoe27="Teniendo base en Buenos Aires, Amyris posee presencia en todo el territorio argentino y est&aacute; presente tambi&eacute;n en el mercado internacional, principalmente con una fuerte incidencia en varios pa&iacute;ses de Am&eacute;rica Latina, siendo adem&aacute;s partners de empresas l&iacute;deres del rubro.";
 $textoe28="Asimismo, nos encontramos en un proceso de expansi&oacute;n inmediata que llega al continente asi&aacute;tico mediante una red profesional de distribuidores.";
@@ -264,11 +228,7 @@ PARA CADA PRODUCTO, BUSCANDO LA IDENTIFICACIÓN
 CON EL CONSUMIDOR A TRAVÉS DE UN SELLO PERSONAL.";
 
 
-
-
 //susten
-
-
 $textos1="EL VALOR DE LA CONFIANZA";
 $textos2="garantizando el cuidado de nuestros procesos";
 $textos3="Valores / ";
@@ -344,8 +304,6 @@ $textos27="QUIENES SOMOS";
 $textos28="EN AMYRIS, TRABAJAMOS A LA MEDIDA DEL CLIENTE CON EXCLUSIVIDAD ABSOLUTA Y UN ASESORAMIENTO TOTAL EN LA FABRICACI&Oacute;N DEL PRODUCTO, PARA EL MEJOR RESULTADO FINAL.";
 
 
-
-
 // innovaciones
 
 $textoin1="EL VALOR DE LAS IDEAS";
@@ -391,8 +349,6 @@ universo de las fragancias para dar
 originalidad a la fragancia. Esto nos permite
 anticiparnos a lo que el cliente quiere, creando
 nuevas oportunidades durante el proceso.";
-
-
 $textoin19="IDEAS E INNOVACIONES";
 $textoin20="Pensamos y trabajamos en equipo.
 Tanto nuestros perfumistas como
@@ -400,15 +356,9 @@ nuestros vendedores y
 desarrolladores, aportan ideas al
 I+D+I para generar productos
 nuevos y creativos.";
-
-
 $textoin21="&iquest;NECESITA HACER ALGUNA CONSULTA O COMENTARIO? ESCR&Iacute;BANOS PARA QUE PODAMOS AYUDARLO.";
 
-
-
 //contacto
-
-
 $textoc1="EL VALOR DE ESTAR COMUNICADOS";
 $textoc2="Generamos v&iacute;nculos duraderos y confiables";
 $textoc3="&iquest;D&oacute;nde estamos? / H&aacute;ganos su consulta";
@@ -427,8 +377,6 @@ $textoc15="EN AMYRIS, SOMOS ESTRICTOS EN CADA DETALLE DEL PROCESO DE FABRICACI&o
 PRINCIPALES RAZONES POR LA CUAL EMPRESAS L&iacute;DERES CONFÍAN EN NOSOTROS.";
 $textoc16="Gracias por su consulta";
 $textoc17="En breve nos estaremos comunicando con ud.";
-
-
 
 $holamundo="Hola Mundo!";
 $cambiarIdioma="Cambiar Idioma";

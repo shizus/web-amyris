@@ -15,10 +15,6 @@
 /* =================================== */
 
 
-
-
-
-
 body {
     background-color: #fff;
     line-height: 24px;
@@ -50,8 +46,6 @@ a, a:hover, a:focus, .btn:focus {
     text-decoration: none;
     outline: none;
 }
-
-
 #nav li a:hover{
     background-color: #609cec;
 }
@@ -222,8 +216,6 @@ main > section {
     background-size: cover;
 }
 
-
-
 /**
 /*	Header
 /* ==========================================*/
@@ -258,13 +250,9 @@ h1.navbar-brand {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-
 /*=================================================================
 	Home Slider
 ==================================================================*/
-
-
 #home-slider {
     position: relative;
     padding: 0;
@@ -414,8 +402,6 @@ h1.navbar-brand {
 /**
 Producto /
  */
-
-
 .producto-fragancias-finas {
     background-image: url(../images/fraga1.jpg);
     background-position-y: -90px;
@@ -471,8 +457,6 @@ Producto /
     background-image: url(../img/transp-automotor.png);
     background-size: cover;
 }
-
-
 .isla-producto p {
     height: 5.4em;
     font-size: 1.4em;
@@ -487,8 +471,6 @@ Producto /
     font-family: "Museo 500 Regular";
     font-size: 1.8em;
 }
-
-
 /*============================================================
 	Footer
 ==============================================================*/
@@ -607,8 +589,6 @@ Producto /
     font-size: 12px;
 }
 
-
-
 /*============================================================ 
 	Responsive Styles
  ============================================================*/
@@ -633,8 +613,6 @@ Producto /
         bottom: -40px;
     }
 }
-
-
 /*============================================================
 	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
@@ -691,8 +669,6 @@ Producto /
         margin-bottom: 50px;
     }
 }
-
-
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
@@ -837,8 +813,6 @@ Producto /
         margin: 0 7px;
     }
 }
-
-
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
@@ -919,8 +893,6 @@ Producto /
         width: 380px;
     }
 }
-
-
 @media (max-width: 767px){
 
     #logo img{
@@ -928,8 +900,6 @@ Producto /
     margin-left: 15px;
     }
 }
-
-
 @media (min-width:  1200px){
 
     #logo img{
@@ -937,5 +907,3 @@ Producto /
     }
 
 }
-
-

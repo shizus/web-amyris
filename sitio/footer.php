@@ -1,17 +1,13 @@
 <?php
-
-
 require_once 'requirelanguage.php';
 
-function footer($containerId, $fotoContainerId, $titulo, $texto){
+function footer($containerId, $fotoContainerId, $titulo, $texto) {
     
     global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto2;
     
     echo "
     <div class='container' id='$containerId'>
         <div class='row'>
-
-
             <div class='col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn foto-footer-container' id='$fotoContainerId' data-wow-delay='0.2s'>
                     <div id='sustentitulo' class='col-md-5 intro-pic wow slideInLeft'>
                         <h1 class='animation animated-item-1'>$titulo</h1>
@@ -87,8 +83,6 @@ function footer($containerId, $fotoContainerId, $titulo, $texto){
     ";
 }
 ?>
-
-
 
 
 <!-- Main jQuery -->

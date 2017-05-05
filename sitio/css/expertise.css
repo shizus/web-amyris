@@ -99,8 +99,6 @@
 #columnaseis1{
     position: relative;margin-left: 40px;margin-top: -12%;
 }
-
-
 #columnaseis1 h1{
     font-family:'Museo 500 Regular';font-weight:normal;color:#A59965;font-size: 60px;width: 500px;
     padding: 0px 60px;
@@ -152,8 +150,6 @@
     font-weight: 500;
     line-height: 34px;width: 530px;
 }
-
-
 #textoe5{
     font-family: 'Futura';
     font-size: 19px;
@@ -181,8 +177,6 @@
 	color: #D1BE89;
     font-family:'Museo 500 Regular';font-weight:normal;
 }
-
-
 #tramaexpertise img{
     width: 100%;position: relative;margin-top: 10%;
 }
@@ -190,8 +184,6 @@
 #textotrama1{
      position: relative;margin-top: -30%;
 }
-
-
 #textotrama1 p{
     font-family: 'Futura';
     font-size: 19px;
@@ -226,8 +218,6 @@ img.plus{
 
 width: 100%;
 }
-
-
 #titulocontrol{
     font-family:'Museo 500 Regular';
     font-weight:normal;
@@ -237,8 +227,6 @@ width: 100%;
     margin-left: 0%;
     margin-top: -5%;
 }
-
-
 #columnacontrol4{
      position: relative;
     margin-top: -8%;
@@ -264,8 +252,6 @@ width: 100%;
     color: #A59965;
     margin-left: -8%;
 }
-
-
 #columnacontrol5 {
 position: relative;margin-left: 4%;
     margin-top: 4%;
@@ -279,8 +265,6 @@ color:#A59965;font-size: 18px;
     line-height: 34px;
   
 }
-
-
 #columnacontrol5 .p1{
     font-family: 'Futura';
     font-size: 19px;
@@ -306,8 +290,6 @@ color:#A59965;font-size: 18px;
     line-height: 34px;
 }
 
-
-
 #mapa .imagen1{
 width: 100%;
 }
@@ -318,8 +300,6 @@ width: 100%;
     width: 23%;
     margin-left: 38%;
 }
-
-
 #floresamarillas h1{
 font-family:'Museo 500 Regular';
 font-weight:normal;
@@ -329,8 +309,6 @@ color: #fff;
 margin-top: -56%;
 margin-left: 0%;
 }
-
-
 #floresamarillas .textop1{
     font-family: 'Futura';
     font-size: 18px;
@@ -341,8 +319,6 @@ margin-left: 0%;
     color: #fff;
     line-height: 28px;
 }
-
-
 #floresamarillas .textop2{
      font-family: 'Futura';
     margin-left: auto;
@@ -353,8 +329,6 @@ margin-left: 0%;
     font-size: 18px;
     line-height: 28px;
 }
-
-
 #fotofinal{
 position: relative;margin-top:8%;
 }
@@ -364,8 +338,6 @@ position: relative;margin-top:8%;
     background-image: url(../images/48.jpg);
     background-size: cover;
 }
-
-
 #susten6{
      margin-top: -50%;margin-left: 35px;
 }
@@ -378,8 +350,6 @@ position: relative;margin-top:8%;
     color: #fff;
     margin-left: 0%;
 }
-
-
 #susten6 .textopsusten1 {
     text-align: left;
     color: #fff;

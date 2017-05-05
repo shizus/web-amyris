@@ -195,8 +195,6 @@
         });
       }
     });
-
-
     this.$lightbox.find('.lb-loader, .lb-close').on('click', function() {
       self.end();
       return false;

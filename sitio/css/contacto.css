@@ -7,9 +7,7 @@ div#arrow {
     position: relative;
     margin-top: 10%;
 }
-
-
-#botonrojo2_fragancias h4{  
+#botonrojo2_fragancias h4{
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
@@ -43,8 +41,6 @@ div#arrow {
     margin-top: -8%;
     margin-right: auto;
   }
-
-
 .primero_cuadrado_contacto h2 {
     color: #D1BE87;
     font-size: 25px;
@@ -70,8 +66,6 @@ div#arrow {
     line-height: 23px;
     color: rgba(0, 0, 0, 0.72);
 }
-
-
  #formulariocontacto h1 {
     font-family: 'Museo 500 Regular';
     font-weight: bold;
@@ -101,8 +95,6 @@ div#arrow {
     margin-left: 10%;
     width: 100%;
 }
-
-
   #formulariocontacto input {
     font-family: 'Futura';
     font-size: 18px;
@@ -138,8 +130,6 @@ div#arrow {
     z-index: -5;
     top: -111px;
 }
-
-
 #fototachos img{
     width: 100%;
 }
@@ -147,13 +137,9 @@ div#arrow {
 #columna6conta{
     height: 100px;    text-align: right;
 }
-
-
 #fotocontacto{
 height: 100px;
 }
-
-
 #columna6conta img{
     width: 99%; height: 500px;
 }
