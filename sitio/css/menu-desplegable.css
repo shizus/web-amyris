@@ -1,6 +1,8 @@
 #botonesarriba .nube,
 #botonesarriba .cruz {
-    cursor: pointer
+    cursor: pointer;
+    height: 70px;
+    width: 50px;
 }
 
 .desplegable-container {
