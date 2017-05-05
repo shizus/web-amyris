@@ -1384,29 +1384,11 @@ $(document).ready(function () {
     </div>
 </div>
 
-<section id="hombregorra">
-  <div class="container" style="visibility: visible; animation-name: zoomIn;">
-     <img src="images/05.jpg" style="width: 100%;">
-  </div>
 
+  <?php  require 'footer.php';
+  footer("hombregorra", "expertise", "EXPERTISE", "CONTAMOS CON TECNOLOGÍA DE ÚLTIMA GENERACIÓN Y TRABAJAMOS CON TÉCNICAS VERIFICADAS Y RIGUROSAS NORMAS INTERNAS QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES. ");
 
-  <div class="col-md-5 expertise">
-         <h1 style="font-family:'Museo 500 Regular';font-weight:normal;font-size:60px;text-align: center;color: #fff;margin-left: 20%;margin-top: 50%;">EXPERTISE</h1>
-            <p style="text-align: left;
-    color: #fff;
-    font-size: 21px;
-    line-height: 28px;
-    margin-left: 30%;
-    width: 601px;">CONTAMOS CON TECNOLOGÍA DE ÚLTIMA GENERACIÓN Y TRABAJAMOS CON TÉCNICAS VERIFICADAS Y RIGUROSAS NORMAS INTERNAS QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES.     </p>
-
-
-  </div>
-</section>
-
-  <div id="prefooter_cont" >
-    <?php  require 'footer.php';?>
-  </div>
-  </section>
+  ?>
 
 </body>
 </html>
