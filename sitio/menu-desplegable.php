@@ -4,6 +4,7 @@
     <h1 class="nav-bar-title">
         <a href="quienes-somos">Amyris</a>
     </h1>
+      <div class="linea-blanca-menu"></div>
     <div class="link-container"><a href="quienes-somos#quienes-somos">¿Quienes Somos?</a></div>
     <div class="link-container"><a href="quienes-somos#valores">Valores</a></div>
     <div class="link-container"><a href="quienes-somos#porqueamir">¿Por qué Amyris?</a></div>
@@ -13,6 +14,7 @@
     <h1 class="nav-bar-title">
         <a href="fragancias">Fragancias</a>
     </h1>
+      <div class="linea-blanca-menu"></div>
     <div class="link-container"><a href="fragancias#sistema-conceptual">Sistema Conceptual</a></div>
     <div class="link-container"><a href="fragancias#productos">Productos</a></div>
   </div>
@@ -21,6 +23,7 @@
     <h1 class="nav-bar-title">
         <a href="expertise">Expertise</a>
     </h1>
+      <div class="linea-blanca-menu"></div>
     <div class="link-container"><a href="expertise">Desarrollo y Creación</a></div>
     <div class="link-container"><a href="expertise#infraestructura">Infraestructura</a></div>
     <div class="link-container"><a href="expertise#control-calidad">Control de Calidad</a></div>
@@ -31,6 +34,7 @@
     <h1 class="nav-bar-title">
         <a href="sustentabilidad">Sustentabilidad</a>
     </h1>
+      <div class="linea-blanca-menu"></div>
     <div class="link-container"><a href="sustentabilidad#valores">Valores</a></div>
     <div class="link-container"><a href="sustentabilidad#sustentabilidad">Enfoque Sustentable</a></div>
     <div class="link-container"><a href="sustentabilidad#como-operamos">¿Cómo operamos?</a></div>
@@ -40,6 +44,7 @@
     <h1 class="nav-bar-title">
         <a href="innovaciones">Innovaciones</a>
     </h1>
+      <div class="linea-blanca-menu"></div>
     <div class="link-container"><a href="innovaciones#innovar">Aprendemos para innovar</a></div>
     <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas </a></div>
     <div class="link-container"><a href="innovaciones#desarrollo">Desarrollo e innovación</a></div>
