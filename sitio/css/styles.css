@@ -1394,13 +1394,17 @@ ul.external li a:hover {
     margin-top: 0%;visibility: visible;animation-name: zoomIn;
     position: relative; z-index: -1;
 }
-#sustentitulo h1 {
+
+#footer-text-container {
+    margin-left: 2em;
+}
+#footer-text-container h1 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-size: 60px;
     text-align: center;
 }
-#sustentitulo p {
+#footer-text-container p {
     text-align: left;
     font-size: 21px;
     line-height: 32px;
@@ -1448,7 +1452,7 @@ ultimafoto{
     position: relative;
 }
 
-#sustentitulo img{
+#footer-text-container img{
     width: 50px;
     margin-top: 7%;
 }

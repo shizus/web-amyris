@@ -126,7 +126,6 @@ insertar_servicio($textos4, $textos5);
           <img src="images/susten.png" >
         </div>
       <div class="col-md-4" id="sustencolumna4" >
-      <br><br><br><br><br><br>
            <h1><?php echo $textos23 ?> </h1>
                   <p id="textcols3"> <?php echo $textos24 ?> </p>
       </div>
