@@ -82,43 +82,49 @@ insertar_servicio($textos4, $textos5);
 
 <section id="seccion-como-operamos">
 
-    <div class="cuarto" >
-
-        <img src="images/44b.jpg" style="width: 100%;margin-top: 5%;">
+    <div class="cuarto row" >
+        <div id="como-operamos" class="segundo_cuadrado_sus col-md-12 text-center">
+            <img class="titulo-imagen" src="img/t-como-operamos.png">
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center" id="columnadocesusten" >
+            <h1 ><?php echo $textos16 ?> </h1>
+            <br><br>
+            <img id="corchete" src="images/corchete.png" >
+        </div>
     </div>
 
-    <div id="como-operamos" class="segundo_cuadrado_sus col-md-12 " >
-        <h4><?php echo $textos15 ?>  </h4>
-    </div>
 
-    <div class="col-md-12 " id="columnadocesusten" >
-        <h1 ><?php echo $textos16 ?> </h1>
-        <br><br>
-        <img id="corchete" src="images/corchete.png" >
-    </div>
-    <div class="container">
+    
+    <div class="row seguridad-higiene">
 
-        <div  class="col-md-12" id="porque" >
-
-            <div class="col-md-4 porquecolumna4">
-                <br>
-                <br>
-                <h1> <?php echo $textos17 ?></h1>
-                <p  id="textcols1"> <?php echo $textos18 ?> </p>
-                <br>
-                <h1> <?php echo $textos19 ?></h1>
-                <p id="textcols2" > <?php echo $textos20 ?> </p>
+        <div  class="col-md-10 col-md-offset-1" id="porque" >
+            <div class="row">
+                <div class="col-md-4 porquecolumna4">
+                    <br>
+                    <br>
+                    <h1> <?php echo $textos17 ?></h1>
+                    <p  id="textcols1"> <?php echo $textos18 ?> </p>
+                    <br>
+                    <h1> <?php echo $textos19 ?></h1>
+                    <p id="textcols2" > <?php echo $textos20 ?> </p>
 
 
+                </div>
+                <div class="col-md-3"  id="sustencolumna3" style="">
+                    <img src="images/susten.png" >
+                </div>
+                <div class="col-md-4" id="sustencolumna4" >
+                    <h1><?php echo $textos23 ?> </h1>
+                    <p id="textcols3"> <?php echo $textos24 ?> </p>
+                </div>
             </div>
 
-            <div class="col-md-3"  id="sustencolumna3" style="">
-                <img src="images/susten.png" >
-            </div>
-            <div class="col-md-4" id="sustencolumna4" >
-                <h1><?php echo $textos23 ?> </h1>
-                <p id="textcols3"> <?php echo $textos24 ?> </p>
-            </div>
+            
+
+            
 
         </div>
     </div>

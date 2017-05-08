@@ -111,7 +111,6 @@
 
 img#corchete{
     width: 350px;
-	margin-left: 25%;
 }
 
 #esquinaderechas{
@@ -153,10 +152,8 @@ font-size: 1.8em;line-height: 35px;
 
 }
 .segundo_cuadrado_sus {
-    width: 750px;
     /* margin-right: auto; */
     height: 120px;
-    background-color: rgba(255, 255, 255, 0.75);
     position: relative;
     z-index: 3;
     position: relative;
@@ -173,17 +170,37 @@ font-size: 1.8em;line-height: 35px;
 	opacity: 1;
   }
 
-  #susten .cuarto{
+  .cuarto{
     visibility: visible; animation-name: zoomIn;
+      background-image: url(../images/44b.jpg);
+      background-size: cover;
+      height: 40em;
   }
+
+  #como-operamos .titulo-imagen {
+      margin-top: 5em;
+      width: 50em;
+  }
+
+  .seguridad-higiene {
+      margin-top: 5em;
+  }
+
   #columnadocesusten{
     height: 170px;
-    width: 800px;
     margin-top: -125px;
     background-color: #D1BE89;
     padding: 25px;
 	opacity: 0.95;
   }
+
+  #imagenrosa .titulo-imagen {
+      width: 36em;
+  }
+
+    #seccion-como-operamos {
+        margin-top: 6em;
+    }
 
   #columnadocesusten h1{
     font-family:'Museo 500 Regular';
