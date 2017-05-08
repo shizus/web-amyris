@@ -102,7 +102,7 @@ insertar_servicio($textos4, $textos5);
 
         <div  class="col-md-10 col-md-offset-1" id="porque" >
             <div class="row">
-                <div class="col-md-4 porquecolumna4">
+                <div class="col-md-4 col-md-offset-1 porquecolumna4">
                     <br>
                     <br>
                     <h1> <?php echo $textos17 ?></h1>
@@ -126,6 +126,11 @@ insertar_servicio($textos4, $textos5);
 
             
 
+        </div>
+    </div>
+    <div class="row sustentabilidad-impacto-ambiental">
+        <div class col-md-12>
+            &nbsp;
         </div>
     </div>
 </section>

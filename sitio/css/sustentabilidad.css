@@ -186,13 +186,21 @@ font-size: 1.8em;line-height: 35px;
       margin-top: 5em;
   }
 
-  #columnadocesusten{
+#columnadocesusten {
     height: 170px;
     margin-top: -125px;
     background-color: #D1BE89;
-    padding: 25px;
-	opacity: 0.95;
-  }
+    padding: 1.5em 4em;
+    opacity: 0.95;
+}
+
+#sustencolumna3 {
+    margin-top: 4em;
+}
+#sustencolumna4 {
+    margin-top: 6em;
+    margin-left: -1em;
+}
 
   #imagenrosa .titulo-imagen {
       width: 36em;
@@ -254,7 +262,20 @@ font-size: 1.8em;line-height: 35px;
     font-size: 19px;
     color: rgba(0, 0, 0, 0.68);
     line-height: 28px;
-    width: 377px;
+    width: 90%;
+}
+
+.seguridad-higiene {
+ z-index: 5;
+}
+
+.sustentabilidad-impacto-ambiental {
+    background-image: url(../images/sust-4.jpg);
+    background-size: cover;
+    margin-top: -6em;
+    z-index: 1;
+    height: 40em;
+    margin-bottom: 10em;
 }
 
 #sustenfinal {
