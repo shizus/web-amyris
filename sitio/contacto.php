@@ -130,7 +130,7 @@ insertar_breadcrumbs($textoc3);
   <img alt='Imagen cargando' class="tachos" src="images/cont-3.jpg" >
 </div>
 <div class="row">
-    <div class="col-md-12" id="fotocontacto" >
+    <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0" id="fotocontacto" >
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12" id="columna6conta" >
                 <img alt='Imagen cargando' src="images/cont-4.jpg">
@@ -140,11 +140,11 @@ insertar_breadcrumbs($textoc3);
                 <form id="mail" action="formulario.php">
                     <h1 ><?php echo $textoc7 ?>  </h1><br>
                     <div id="campos" >
-                        <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '><br><br>
-                        <input type="text" name="mail" required placeholder='<?php echo $textoc9 ?> '><br><br>
-                        <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'><br><br>
-                        <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '><br><br>
-                        <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" ><br><br>
+                        <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '>
+                        <input type="text" name="mail" required placeholder='<?php echo $textoc9 ?> '>
+                        <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'>
+                        <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '>
+                        <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" >
                         <input type="submit" class="submit" value='<?php echo $textoc13 ?> '>
                     </div>
                 </form>

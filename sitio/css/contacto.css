@@ -14,7 +14,8 @@ div#arrow {
     line-height: 26px;
     /* width: 574px; */
     text-align: center;
-    margin: 8% 13% 8% 13%
+    margin: 3em 3em 6em 3em;
+    color: #575756;
   }
 
   #info h1 {
@@ -68,13 +69,11 @@ div#arrow {
 }
  #formulariocontacto h1 {
     font-family: 'Museo 500 Regular';
-    font-weight: bold;
     color: #D1BE87;
     font-size: 42px;
     width: 663px;
     text-align: left;
-    margin-left: 10%;
-
+     margin-bottom: 0.6em;
   }
 
 #mailEnviado h1 {
@@ -84,7 +83,6 @@ div#arrow {
     font-size: 40px;
     width: 663px;
     text-align: left;
-    margin-left: 10%;
 }
 
 #mailEnviado h3 {
@@ -92,12 +90,10 @@ div#arrow {
     color: #D1BE87;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    margin-left: 10%;
     width: 100%;
 }
   #formulariocontacto input {
     font-family: 'Futura';
-    font-size: 18px;
     width: 600px;
     height: 40px;
     background-color: rgba(232, 222, 195, 0.62);
@@ -106,6 +102,10 @@ div#arrow {
     padding: 0px 80px;
     margin-left: -45px;
   }
+
+form#mail {
+    padding-top: 4em;
+}
 
   #formulariocontacto .mensaje {
     width: 600px;
@@ -121,8 +121,9 @@ div#arrow {
       width: 229px;
     background: #DA504B;
     padding: 1px 16px;
-    margin-left: 60%;
     color: #fff;
+    margin: 0 -0.65em 0 0;
+    float: right;
 }
 
 #fototachos{
@@ -138,31 +139,36 @@ div#arrow {
     height: 100px;    text-align: right;
 }
 
-#fotocontacto{
-height: 45em;
+#fotocontacto {
+    height: 39em;
 }
 
 #columna6conta img{
-    width: 99%; height: 500px;
+    width: 100%;
+    height: auto;
 }
 
 #formulariocontacto{
     height: 100px;
-    margin-left: 48%;
-    margin-top: -10%;
+    margin-top: -5em;
 }
 
 #mailEnviado{
     height: 100px;
-    margin-left: 48%;
 }
 
 #campos{
-    position: relative;margin-top: -6%;
+    position: relative;
+    margin-top: -6%;
+}
+
+#campos input {
+    margin-bottom: 0.6em;
 }
 
 #susten_conta{
-    position: relative;margin-top: 48%;
+    position: relative;
+
 }
 
 #su1 img{
