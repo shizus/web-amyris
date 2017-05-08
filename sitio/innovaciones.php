@@ -56,26 +56,18 @@ require_once "servicio.php";
 insertar_servicio($textoin4, $textoin5);
 ?>
 
-<div id="frasco" >
-       <div class="container">
-         <img src="images/60.jpg" >
-       </div>
-</div>       
-
-<section id="innovar">
-
-  <div class="primero_cuadrado_inno " >
-          <h4 ><?php echo $textoin6 ?> </h4>
-  </div>
-
-</section>
-
-<div  id="linearojainno"></div>
-<div id="columna_inno" class="col-md-4">
-  <h2><?php echo $textoin7 ?></h2>
-  <p><?php echo $textoin8 ?></p>
-
+<div id="frasco" class="row">
+    <div class="primero_cuadrado_inno col-md-8 col-md-offset-2" >
+        <img class="titulo-imagen" src="img/t-innovaciones.png">
+    </div>
 </div>
+<div class="row">
+    <div id="columna_inno" class="col-md-6 col-md-offset-5 col-sm-10 col-sm-offset-1">
+        <h2><?php echo $textoin7 ?></h2>
+        <p><?php echo $textoin8 ?></p>
+    </div>
+</div>
+
 
 <div id="telescopio" >
 <img  src="images/61.jpg"  >
