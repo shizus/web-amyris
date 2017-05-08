@@ -69,68 +69,70 @@ insertar_servicio($textoin4, $textoin5);
 </div>
 
 
-<div id="telescopio" >
-<img  src="images/61.jpg"  >
+<div id="telescopio" class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+        <div class="cuadrado_inno">
+            <p> <?php echo $textoin9 ?></p>
+            <h4><?php echo $textoin10 ?></h4>
+        </div>
+    </div>
+    <div class="col-md-12" id="cuain1">
+        <div id="ideas" class="cuadrado_inno_id">
+            <img src="img/t-i+d+i.png" class="titulo-imagen">
+        </div>
+    </div>
 </div>
-  
-  
-      <div class="col-md-12">
-
-           <div class="cuadrado_inno">
-              <p> <?php echo $textoin9 ?></p>
-              <h4><?php echo $textoin10 ?></h4>
-          </div>
-      </div>
- <div class="col-md-12" id="cuain1">
-
-    <div id="ideas" class="cuadrado_inno_id">
-          <h4 >I+D+I</h4>
-      </div>
-</div>
-
-
- <div class="col-md-12" id="cuain2" >
-
-  <div class="cuadrado_inno_id2">
-          <h4><?php echo $textoin11 ?> </h4>
-           <p> <?php echo $textoin12 ?></p>
-      </div>
-</div> 
- <div class="col-md-12" id="cuain3" >
-  <div class="cuadrado_inno_id3">
-         
-          <h4 > <?php echo $textoin13 ?></h4>
-           <p><?php echo $textoin14 ?> </p>
-      </div>
+<div class="row">
+    <div class="col-md-10 col-md-offset-1" id="cuain2" >
+        <div class="cuadrado_inno_id2">
+            <h4><?php echo $textoin11 ?> </h4>
+            <p> <?php echo $textoin12 ?></p>
+        </div>
+    </div>
 </div>
 
+ 
+<div class="row">
+    <div class="col-md-12" id="cuain3" >
+        <div class="cuadrado_inno_id3">
 
-<div id="contenedortrescolumnas" >
-    <div class="container" id="desarrollo">
-
-        <div class="col-md-12 columna12">
-           <h3>¿CÓMO TRABAJA NUESTRO DEPARTAMENTO I+D+I?</h3>
+            <h4 > <?php echo $textoin13 ?></h4>
+            <p><?php echo $textoin14 ?> </p>
         </div>
+    </div>
+</div>
 
-        <div class="col-md-12 columna12">
-            <img src="images/inno.png">
-        </div>
-        <div class="col-md-4 columna1" >
-        <h2> <?php echo $textoin15 ?></h2>
-          <p ><?php echo $textoin16 ?> </p>
-        </div>
+ 
 
-        <div class="col-md-4 columna2" >
-        <h2> <?php echo $textoin17 ?></h2>
-          <p> <?php echo $textoin18 ?></p>
-        </div>
 
-        <div class="col-md-4 columna3" >
-        <h2 > <?php echo $textoin19 ?></h2><br>
-          <p > <?php echo $textoin20 ?></p>
-        </div>
 
-     </div>
+<div id="contenedortrescolumnas" class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row" id="desarrollo">
+
+            <div class="col-md-12 columna12">
+                <h3>¿CÓMO TRABAJA NUESTRO DEPARTAMENTO I+D+I?</h3>
+            </div>
+
+            <div class="col-md-12 columna12">
+                <img src="images/inno.png">
+            </div>
+            <div class="col-md-4 columna1" >
+                <h2> <?php echo $textoin15 ?></h2>
+                <p ><?php echo $textoin16 ?> </p>
+            </div>
+
+            <div class="col-md-4 columna2" >
+                <h2> <?php echo $textoin17 ?></h2>
+                <p> <?php echo $textoin18 ?></p>
+            </div>
+            <div class="col-md-4 columna3" >
+                <h2 > <?php echo $textoin19 ?></h2><br>
+                <p > <?php echo $textoin20 ?></p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="portfolio_expertise">
@@ -149,13 +151,8 @@ insertar_servicio($textoin4, $textoin5);
 <div id="trama33" >
 <img src="images/trama4.jpg" >
 </div>
- <div class="contacinno">
-   <div class="container" >
-    <img src="images/inn-7.jpg"  >
-   </div> 
-</div>
   <?php  require 'footer.php';
-  footer("su2", "ultimafoto", $contacto2, $textoin21);
+  footer("su2", "inn7", $contacto2, $textoin21);
   
   ?>
 </body>

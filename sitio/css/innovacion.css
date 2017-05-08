@@ -63,15 +63,11 @@ h3.textoinno1  {
     margin-left: -21px;
 }
 
-#frasco {
-    margin-top: -5em;
-}
-
 .primero_cuadrado_inno {
     padding: 3em 0 0 5em;
-    background-image: url(../images/60.jpg);
+    background-image: url(../images/inn-2.jpg);
     background-size: cover;
-    height: 30em;
+    height: 35em;
 }
 
 #linearojainno {
@@ -109,23 +105,16 @@ h3.textoinno1  {
 }
 
 #telescopio {
-    position: relative;
-    top: 150px;
+    margin-top: 10em;
+    background-image: url(../images/61.jpg);
+    background-size: cover;
+    height: 40em;
 }
-
-#telescopio img {
-    width: 100%;
-}
-
 .cuadrado_inno {
-
-    margin-top: -58%;
-    margin-left: 11%;
-    margin-right: 11%;
+    margin-top: -6em;
     height: 220px;
     background-color: rgba(255, 255, 255, 0.88);
     border: 1px solid #e1e6e9;
-    position: relative;
     z-index: 3;
     visibility: visible;
     animation-name: zoomIn;
@@ -154,14 +143,9 @@ h3.textoinno1  {
 }
 
 .cuadrado_inno_id {
-    width: 533px;
-    /* margin-top: -21%; */
     margin-left: auto;
     margin-right: auto;
     height: 118px;
-    background-color: rgba(245, 245, 245, 0.91);
-    border: 1px solid #e1e6e9;
-    /* position: relative; */
     z-index: 3;
     animation-delay: 0.3s;
 
@@ -180,11 +164,8 @@ h3.textoinno1  {
 .cuadrado_inno_id2 {
     /* width: 1100px; */
     /* margin-left: 45px; */
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 2%;
     height: 170px;
-    background-color: rgba(255, 255, 255, 0.84);
+    background-color: rgba(255, 255, 255, 0.9);
     position: relative;
     z-index: 3;
     animation-delay: 0.3s;
@@ -195,16 +176,14 @@ h3.textoinno1  {
     padding-top: 40px;
     text-align: center;
     color: #D1BE87;
-    opacity: 0.6;
     font-family: 'Museo 500 Regular';
-    font-weight: bold;
 }
 
 .cuadrado_inno_id2 p {
     font-family: 'Futura';
     font-size: 17px;
     font-weight: 500;
-    line-height: 34px;
+    line-height: 30px;
     padding: 0px 51px;
 }
 
@@ -226,12 +205,10 @@ h3.textoinno1  {
     text-align: center;
     color: #d9504b;
     font-family: 'Museo 500 Regular';
-    font-weight: bold;
 }
 
 .cuadrado_inno_id3 p {
     font-size: 20px;
-    margin-left: 60px;
     line-height: 30px;
     text-align: center;
     font-family: 'Museo 500 Regular';
@@ -253,12 +230,12 @@ h3.textoinno1  {
 
 #cuain1 {
     text-align: center;
-    position: relative;
-    margin-top: -10%;
+    margin-top: 13em;
 }
 
 #cuain2 {
     text-align: center;
+    margin-top: -8em;
 }
 
 #cuain3 {
@@ -289,9 +266,9 @@ h3.textoinno1  {
     color: #d9504b;
 }
 
-#contenedortrescolumnas .columna1 p {
+#contenedortrescolumnas p {
     font-family: 'Futura';
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 34px;
     width: 282px;
@@ -331,15 +308,15 @@ h3.textoinno1  {
     color: #D1BE87;
 }
 
-#contenedortrescolumnas .container {
+#desarrollo {
     background: rgba(255, 255, 255, 0.83);
     border: 1px solid #D1BE87;
     position: relative;
-    margin-top: 42%;
+    margin-top: 5em;
     height: 650px;
 }
 
-#contenedortrescolumnas .container .columna12 {
+#contenedortrescolumnas .row .columna12 {
     text-align: center;
 }
 
@@ -383,6 +360,12 @@ h3.textoinno1  {
     width: 100%;
 }
 
+
+#inn7 {
+  background-image: url(../images/inn-7.jpg);
+    background-size: cover;
+    height: 40em;
+}
 #su2 h1 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
