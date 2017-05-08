@@ -242,7 +242,7 @@ h3.textoinno1  {
     text-align: center;
 }
 
-#contenedortrescolumnas .columna1 h2 {
+#contenedortrescolumnas h2 {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
     font-size: 32px;
@@ -258,12 +258,8 @@ h3.textoinno1  {
     color: #d9504b;
 }
 
-#contenedortrescolumnas .columna3 h2 {
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 32px;
-    text-align: center;
-    color: #d9504b;
+.columna12 h3 {
+    color: #D1BE87;
 }
 
 #contenedortrescolumnas p {
@@ -271,41 +267,8 @@ h3.textoinno1  {
     font-size: 17px;
     font-weight: 500;
     line-height: 34px;
-    width: 282px;
     text-align: center;
     margin: 0 auto;
-}
-
-#contenedortrescolumnas .columna2 p {
-    font-family: 'Futura';
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 34px;
-    width: 382px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-#contenedortrescolumnas .columna3 p {
-    font-family: 'Futura';
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 34px;
-    width: 282px;
-    text-align: center;
-    margin: 0 auto;
-	margin-top: -25px;
-}
-
-#contenedortrescolumnas h3 {
-    font-size: 22px;
-    margin-left: 60px;
-    line-height: 30px;
-    margin-top: 35px;
-    text-align: center;
-    font-family: 'Museo 500 Regular';
-    font-weight: bold;
-    color: #D1BE87;
 }
 
 #desarrollo {

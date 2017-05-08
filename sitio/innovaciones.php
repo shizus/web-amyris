@@ -128,7 +128,7 @@ insertar_servicio($textoin4, $textoin5);
                 <p> <?php echo $textoin18 ?></p>
             </div>
             <div class="col-md-4 columna3" >
-                <h2 > <?php echo $textoin19 ?></h2><br>
+                <h2 > <?php echo $textoin19 ?></h2>
                 <p > <?php echo $textoin20 ?></p>
             </div>
         </div>
