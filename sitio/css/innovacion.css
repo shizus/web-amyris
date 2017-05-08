@@ -290,27 +290,28 @@ h3.textoinno1  {
     z-index: -1;
 }
 
-#imagenportfolio1_inno img {
-    width: 108%;
-    height: 375px;
+#imagenportfolio1_inno {
+    background-image: url(../images/inn-4.jpg);
+    background-size: cover;
+    height: 25em;
 }
 
-#imagenportfolio2_inno img {
-    width: 108%;
-    height: 375px;
-"
+#imagenportfolio2_inno {
+    background-image: url(../images/inn-5.jpg);
+    background-size: cover;
+    height: 25em;
 }
 
-#imagenportfolio3_inno img {
-    width: 108%;
-    height: 375px;
+#imagenportfolio3_inno {
+    background-image: url(../images/inn-6.jpg);
+    background-size: cover;
+    height: 25em;
 }
-
-#trama33 img {
-    width: 100%;
-    position: relative;
-    margin-top: -32%;
+.trama33 {
+    background-image: url(../images/trama4.jpg);
+   background-size: cover;
     z-index: -2;
+    height: 10em;
 }
 
 .contacinno {
@@ -323,41 +324,10 @@ h3.textoinno1  {
     width: 100%;
 }
 
-
 #inn7 {
   background-image: url(../images/inn-7.jpg);
     background-size: cover;
     height: 40em;
-}
-#su2 h1 {
-    font-family: 'Museo 500 Regular';
-    font-weight: normal;
-    font-size: 60px;
-    text-align: center;
-    color: #fff;
-    margin-right: 47%;
-
-}
-
-#su2 p {
-    text-align: left;
-    color: #fff;
-    font-size: 21px;
-    line-height: 28px;
-    width: 600px;
-    margin-left: 14%;
-
-}
-
-#su2 {
-    position: relative;
-    margin-top: -34%;
-}
-
-#su2 img {
-    width: 5%;
-    margin-left: 14%;
-    margin-top: 2%;
 }
 
 #prefooter {

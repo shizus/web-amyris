@@ -135,21 +135,19 @@ insertar_servicio($textoin4, $textoin5);
     </div>
 </div>
 
-<div id="portfolio_expertise">
+<div id="portfolio_expertise" class="row">
   
   <div class="col-md-4" id="imagenportfolio1_inno" >
- <img src="images/inn-4.jpg" >
+ 
   </div>
 
   <div class="col-md-4" id="imagenportfolio2_inno" >
- <img src="images/inn-5.jpg" >
   </div>
   <div class="col-md-4" id="imagenportfolio3_inno" >
- <img src="images/inn-6.jpg">
   </div>
-</div>
-<div id="trama33" >
-<img src="images/trama4.jpg" >
+    <div class="col-md-12 trama33">
+    
+    </div>
 </div>
   <?php  require 'footer.php';
   footer("su2", "inn7", $contacto2, $textoin21);
