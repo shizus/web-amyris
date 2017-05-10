@@ -29,6 +29,10 @@ a:focus, a:hover {
      cursor: pointer;
 }
 
+label {
+    font-weight: 500;
+}
+
 .titulo-imagen-container {
     text-align: center;
 }
@@ -405,6 +409,10 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     background-image: none;
 }
 
+.servicio-home {
+    padding-bottom: 3.2em;
+}
+
 #portfolio {
     margin-top: -10em;
 }
@@ -539,7 +547,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     color: gray;
 }
 
-.nube-contenedor img.nube {
+.nube-contenedor img.nube-link {
     margin-top: 0;
 }
 
@@ -668,6 +676,12 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 img.nube{
+    width: 52px;
+    height: auto;
+    margin-top: 2em;
+}
+
+img.nube-link{
     width: 52px;
     height: auto;
     margin-top: 2em;
@@ -1518,6 +1532,11 @@ footer i {
 .letra-negra {
     color: #000;
 }
+
+a.letra-negra:hover {
+    color: #D1BE87;
+}
+
 #lista-afuera ul {
     list-style: none;
     font-family: 'Museo 500 Regular';

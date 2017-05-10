@@ -65,7 +65,7 @@ insertar_servicio($textoe4, $textoe5);
 
 <div id="columnas" class="row">
 
-    <div class="col-md-6" id="columnaseis1" >
+    <div class="col-md-6" id="desarrollo-creacion">
     <h1 ><?php echo $textoe6 ?></h1><br>
       <p id="textoe1"><?php echo $textoe7 ?></p><br>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>

@@ -61,7 +61,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
             <div class="modal-header">
-                <h4 class="modal-title">¿Queres conocernos?</h4>
+                <h4 class="modal-title">¿Querés conocernos?</h4>
                 <h4 class="modal-title">Dejanos tus datos</h4>
             </div>
 

@@ -1,7 +1,7 @@
 <?php
 
 function insertar_servicio($titulo, $subtitulo, $interna=true) {
-    $clase_interna = $interna ? "servicio-interno" : "";
+    $clase_interna = $interna ? "servicio-interno" : "servicio-home";
     $hide_until_dom_ready = !$interna ? "hide-until-dom-ready" : "";
     echo "
         <div id='service'>
@@ -15,7 +15,7 @@ function insertar_servicio($titulo, $subtitulo, $interna=true) {
                 </div>
             </div>
             <div class='row'>
-                <div class='col-md-12 col-sm-12 text-center wow animated zoomIn'
+                <div class='col-md-10  col-md-offset-1 col-sm-12 col-sm-offset-0 text-center wow animated zoomIn'
                      id='textorojo3'>
                     <h2 id='textorojo' class='$clase_interna'>$subtitulo</h2>
                 </div>
