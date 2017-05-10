@@ -44,28 +44,15 @@ require_once "servicio.php";
 insertar_servicio($textoe4, $textoe5);
 ?>
 
-
-<section id="fragan">
-         <div id="fragantit" >
-                   
-                      <img src="images/34.jpg" style="width: 100%;">
-
-                    
-         </div>
-</section>  
-
-  
-
-<section id="cuadrado">
-
-  <div class="primero_cuadrado_expertise">
-      <img src="img/t-expertise.png">
-   </div>
-</section>
+<div class="row expertise-container">
+    <div class="col-md-12">
+        <img src="img/t-expertise.png" class="titulo-imagen">
+    </div>
+</div>
 
 <div id="columnas" class="row">
 
-    <div class="col-md-6" id="desarrollo-creacion">
+    <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0" id="desarrollo-creacion">
     <h1 ><?php echo $textoe6 ?></h1><br>
       <p id="textoe1"><?php echo $textoe7 ?></p><br>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>
@@ -74,7 +61,7 @@ insertar_servicio($textoe4, $textoe5);
     </p>
     </div>
 
-    <div class="col-md-6" id="columnaseis2" >
+    <div class="col-md-5 col-sm-12" id="columnaseis2" >
       <p id="textoe3" ><?php echo $textoe10 ?></p><br><br><br>
         <p id="textoe4"><?php echo $textoe11 ?></p><br>
         <p id="textoe5" ><?php echo $textoe12 ?></p>

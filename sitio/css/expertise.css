@@ -66,9 +66,7 @@
 }
 
 #columnas{
-    position: relative;
-    margin-top: 30%;
-    margin-bottom: 8em;
+    margin-top: 2em;
 }
 
 #linearojaexpertise {
@@ -103,14 +101,14 @@
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
-    line-height: 34px;padding-left: 60px;
+    line-height: 34px;
 }
 
 #textoe11{
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
-    line-height: 34px;padding-left: 60px;
+    line-height: 34px;
 }
 
 #textoe2{
@@ -119,26 +117,36 @@
 	color: #D1BE87;
 	font-size: 20px;
 	line-height: 35px;
-	padding-left: 60px;
-	width: 600px;
+}
+
+#desarrollo-creacion p {
+    margin-right: 1em;
 }
 
 #columnaseis2{
     position: relative;
-    margin-top: -260px;
+    margin-top: -8em;
 
+}
+
+.expertise-container {
+    background-image: url(../images/34.jpg);
+    background-size: cover;
+    height: 40em;
+}
+
+.expertise-container .titulo-imagen {
+    margin: 19em 0 0 4em;
 }
 
 #textoe3{
     background-color: #D1BE87;
     font-family: 'Museo 500 Regular';
     font-weight: normal;
-    font-size: 22px;
+    font-size: 1.5em;
+    padding: 1.3em;
     line-height: 42px;
     color: #fff;
-    width: 136%;
-    height: 230px;
-    padding: 49px;
     border-top: 7px solid #DA4655;
 }
 
@@ -146,13 +154,13 @@
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
-    line-height: 34px;width: 530px;
+    line-height: 34px;
 }
 #textoe5{
     font-family: 'Futura';
     font-size: 19px;
     font-weight: 500;
-    line-height: 34px;width: 500px;
+    line-height: 34px;
 }
 
 .segundo_cuadrado_expertise {
@@ -233,9 +241,7 @@ width: 100%;
 }
 
 #desarrollo-creacion h1 {
-    padding-left: 60px;
     color: #D1BE87;
-    width: 60%;
     font-size: 4em;
 }
 
