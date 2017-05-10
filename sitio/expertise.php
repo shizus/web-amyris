@@ -25,7 +25,10 @@ require 'header.php';
 <!-- lightbox -->
 <script>
     lightbox.option({
-      'albumLabel': '%1 / %2'
+        fitImagesInViewport: true,
+        disableScrolling: true,
+        showImageNumberLabel: false,
+        wrapAround: true
     })
 </script>
 

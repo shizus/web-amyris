@@ -125,7 +125,8 @@ img#corchete{
     font-weight:normal;
     font-size: 22px;
     line-height: 45px;
-    color:#fff;padding: 35px;
+    color:#fff;
+    padding: 0.5em 0.5em 0.5em 4em;
     border-top: solid 7px #da504b;
 }
 #esquinaderechas .ezquinaderecha2{

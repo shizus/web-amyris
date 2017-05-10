@@ -147,9 +147,31 @@
     padding: 1.3em;
     line-height: 42px;
     color: #fff;
-    border-top: 7px solid #DA4655;
+    border-top: 7px solid #DA4655;  
 }
 
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev {
+    opacity: 1;
+}
+
+
+.lightboxOverlay {
+    background-color: #D1BE87;
+    opacity: 0.8;
+}
+
+/* Forzando ancho completo en las fotos de la galería*/
+
+.lb-outerContainer,
+.lb-container,
+.lb-image {
+    width: 100% !important;
+}
+
+
+
+/**/
 #textoe4{
     font-family: 'Futura';
     font-size: 19px;
@@ -268,7 +290,7 @@ width: 100%;
 }
 
 #columnacontrol4 {
-    margin-top: -3em;
+    margin-top: -7em;
 }
 
 #columnacontrol4 h1{
