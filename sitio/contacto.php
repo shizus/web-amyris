@@ -163,7 +163,7 @@ insertar_breadcrumbs($textoc3);
 </div>
 
 <?php  require 'footer.php';
-footer("su2_cont", "prefooter_cont", $textoc14, $textoc15);
+footer("su2_cont", "prefooter_cont", $textoc14, $textoc15, "./expertise#control-calidad");
 
 ?>
 

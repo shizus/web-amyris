@@ -109,7 +109,7 @@ require 'header.php';
 
 </section>
 <?php  require 'footer.php';
-footer("susten", "sustenido", $texto33, $texto34);
+footer("susten", "sustenido", $texto33, $texto34, "./innovaciones");
 
 ?>
 

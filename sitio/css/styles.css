@@ -74,6 +74,10 @@ a:hover, .navbar-normal ul.navbar-nav > li > a:hover {
     color: #000000;
 }
 
+.foto-footer-container a:hover {
+    color: inherit;
+}
+
 nav li.left-division:after {
     content:"";
     background: #ffffff;
@@ -232,7 +236,7 @@ nav.floating .navbar-nav>li>a {
 .modal textarea {
     background-color: #DACA9E;
     border: #ffffff solid 1px;
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 
 .modal input.form-control::-webkit-input-placeholder,
@@ -266,7 +270,8 @@ nav.floating .navbar-nav>li>a {
 
 h4.modal-title {
     font-family: "Museo 500 Regular";
-    font-size: 2em;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */

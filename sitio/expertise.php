@@ -159,7 +159,7 @@ insertar_servicio($textoe4, $textoe5);
 
 
 <?php  require 'footer.php';
-footer("fotofinal", "contenedorfloresamarillas", $fragancias, $textoe29);
+footer("fotofinal", "contenedorfloresamarillas", $fragancias, $textoe29, "./fragancias");
 
 ?>
 

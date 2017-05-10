@@ -150,7 +150,7 @@ insertar_servicio($textoin4, $textoin5);
     </div>
 </div>
   <?php  require 'footer.php';
-  footer("su2", "inn7", $contacto2, $textoin21);
+  footer("su2", "inn7", $contacto2, $textoin21, "./contacto");
   
   ?>
 </body>

@@ -137,7 +137,7 @@ insertar_servicio($textos4, $textos5);
   
   
   <?php  require 'footer.php';
-  footer("imagensfinalsusten", "sustenfinal", $textos27, $textos28);
+  footer("imagensfinalsusten", "sustenfinal", $textos27, $textos28, "./quienes-somos");
   
   ?>
 
