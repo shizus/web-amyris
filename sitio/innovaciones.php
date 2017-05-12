@@ -70,13 +70,9 @@ insertar_servicio($textoin4, $textoin5);
 
 
 <div id="telescopio" class="row">
-    <div class="col-md-10 col-md-offset-1">
-        <div class='wow animated fadeInDown'>
-        <div class="cuadrado_inno">
+    <div class="col-md-10 col-md-offset-1 cuadrado_inno wow animated fadeInDown">
             <p> <?php echo $textoin9 ?></p>
             <h4><?php echo $textoin10 ?></h4>
-        </div>
-        </div>
     </div>
     <div class="col-md-12" id="cuain1">
         <div id="ideas" class="cuadrado_inno_id">
@@ -85,23 +81,19 @@ insertar_servicio($textoin4, $textoin5);
     </div>
 </div>
 <div class="row">
-    <div class="col-md-10 col-md-offset-1" id="cuain2" >
-        <div class="cuadrado_inno_id2">
+    <div class="col-md-10 col-md-offset-1 cuadrado_inno_id2" id="cuain2" >
             <h4><?php echo $textoin11 ?> </h4>
             <p> <?php echo $textoin12 ?></p>
-        </div>
     </div>
 </div>
 
  
 <div class="row">
-    <div class="col-md-12" id="cuain3" >
-        <div class="cuadrado_inno_id3">
+        <div class="col-md-10 col-md-offset-1 cuadrado_inno_id3">
 
             <h4 > <?php echo $textoin13 ?></h4>
             <p><?php echo $textoin14 ?> </p>
         </div>
-    </div>
 </div>
 
  
