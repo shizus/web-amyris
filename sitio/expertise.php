@@ -158,7 +158,14 @@ insertar_servicio($textoe4, $textoe5);
 
         <h1 ><?php echo $textoe21 ?></h1>
 
-        <img src="images/lista.png" style="width: 450px; margin-left: 0em;">
+       	<ul>
+       		<li><img src="images/icono-estandarte1.png">En la <b>Creación</b></li>
+       		<li><img src="images/icono-estandarte2.png">En los <b>Procesos de Fabricación</b></li>
+       		<li><img src="images/icono-estandarte3.png">En el <b>Cronograma y los Plazos</b></li>
+       		<li><img src="images/icono-estandarte4.png">En el <b>Control de Calidad</b></li>
+       		<li><img src="images/icono-estandarte5.png">En <b>Certificado de Análisis</b></li>
+       		<li><img src="images/icono-estandarte6.png">En el <b>Servicio de Postventa</b></li>
+       	</ul>
 
     </div>
 
