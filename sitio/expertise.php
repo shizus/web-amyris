@@ -19,6 +19,17 @@ require 'header.php';
       event.preventDefault();
       $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
     });
+    
+    function calculateGalleryItemHeight(){
+        var galleryItemWidth = $(".galeria-container .col-md-4").width();
+        var galleryItemHeight = 280 * galleryItemWidth / 470;
+        $(".galeria-container .col-md-4").height(galleryItemHeight);
+    }
+    
+    calculateGalleryItemHeight();
+    
+    $(".galeria-container .col-md-4").resize(calculateGalleryItemHeight);
+    
   });
 </script><!-- start-smoth-scrolling -->
 
@@ -89,21 +100,21 @@ insertar_servicio($textoe4, $textoe5);
     <div class="row">
         <div class="galeria-container col-md-12">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 c1-jpg">
                     <a href="images/c1.jpg" data-lightbox="portfolio" >
-                        <img src="images/c1.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
+                        <img src="images/plus.jpg" class="plus">
                     </a>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4 c2-jpg">
                     <a href="images/c2.jpg" data-lightbox="portfolio" >
-                        <img src="images/c2.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
+                        <img src="images/plus.jpg" class="plus">
                     </a>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4 c3-jpg">
                     <a href="images/c3.jpg" data-lightbox="portfolio" >
-                        <img src="images/c3.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
+                        <img src="images/plus.jpg" class="plus">
                     </a>
                 </div>
                 
@@ -111,21 +122,21 @@ insertar_servicio($textoe4, $textoe5);
             <div class="row">
 
 
-                <div class="col-md-4">
+                <div class="col-md-4 c4-jpg">
                     <a href="images/c4.jpg" data-lightbox="portfolio" >
-                        <img src="images/c4.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
+                        <img src="images/plus.jpg" class="plus">
                     </a>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 c5-jpg">
                     <a href="images/c5.jpg" data-lightbox="portfolio" >
-                        <img src="images/c5.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
+                        <img src="images/plus.jpg" class="plus">
                     </a>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 c6-jpg">
                     <a href="images/c6.jpg" data-lightbox="portfolio" >
-                        <img src="images/c6.jpg" class="portfolio"><img src="images/plus.jpg" class="plus">
+                        <img src="images/plus.jpg" class="plus">
                     </a>
                 </div>
                 

@@ -250,6 +250,90 @@ img.portfolio {
     height: 20em;
 }
 
+.c1-jpg {
+    background-image: url(../images/c1.jpg);
+    background-size: cover;
+}
+.c2-jpg {
+    background-image: url(../images/c2.jpg);
+    background-size: cover;
+}
+.c3-jpg {
+    background-image: url(../images/c3.jpg);
+    background-size: cover;
+}
+.c4-jpg {
+    background-image: url(../images/c4.jpg);
+    background-size: cover;
+}
+.c5-jpg {
+    background-image: url(../images/c5.jpg);
+    background-size: cover;
+}
+.c6-jpg {
+    background-image: url(../images/c6.jpg);
+    background-size: cover;
+}
+
+.c1-jpg:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/c1.jpg);
+}
+.c2-jpg:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/c2.jpg);
+    background-size: cover;
+}
+.c3-jpg:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/c3.jpg);
+    background-size: cover;
+}
+.c4-jpg:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/c4.jpg);
+    background-size: cover;
+}
+.c5-jpg:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/c5.jpg);
+    background-size: cover;
+}
+.c6-jpg:hover {
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(162, 148, 107, 0.8),
+                    rgba(162, 148, 107, 0.8)
+            ),
+            url(../images/c6.jpg);
+    background-size: cover;
+}
 
 img.plus{
     width: 10%;

@@ -286,3 +286,9 @@ margin-top: 5%;
     background-image: url(../images/27.jpg);
     background-size: cover;
 }
+
+@media (min-width: 120em){
+    img#corchete {
+        margin-top: 5em;
+    }
+}

@@ -1,4 +1,4 @@
-<div class="container conceptos">
+<div class="container conceptos hide-until-dom-ready">
     <div class="row">
         <div class="content col-md-12">
             <div class="row islas-container">
