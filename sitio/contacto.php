@@ -144,7 +144,10 @@ insertar_breadcrumbs($textoc3);
                         <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'>
                         <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '>
                         <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" >
-                        <input type="submit" class="submit" value='<?php echo $textoc13 ?> '>
+                        <br>
+                        <div class="input-container">
+                            <input type="submit" class="submit" value='<?php echo $textoc13 ?> '>
+                        </div>
                     </div>
                 </form>
                 <br>
