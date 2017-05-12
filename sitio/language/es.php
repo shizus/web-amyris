@@ -349,7 +349,7 @@ universo de las fragancias para dar
 originalidad a la fragancia. Esto nos permite
 anticiparnos a lo que el cliente quiere, creando
 nuevas oportunidades durante el proceso.";
-$textoin19="IDEAS E<br>INNOVACIONES";
+$textoin19="IDEAS E INNOVACIONES";
 $textoin20="Pensamos y trabajamos en equipo.
 Tanto nuestros perfumistas como
 nuestros vendedores y

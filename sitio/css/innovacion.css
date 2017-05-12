@@ -330,3 +330,19 @@ h3.textoinno1  {
 #prefooter {
     position: relative;
 }
+
+@media (min-width: 80em){
+    #desarrollo {
+        max-width: 85em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 120em){
+    #desarrollo {
+        max-width: 85em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
