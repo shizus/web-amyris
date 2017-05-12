@@ -15,7 +15,9 @@ $().ready(function(){
     $(".nube").click(function (event) {
         event.preventDefault();
 		
-		$('.navbar-default').addClass('navbar-normal').removeClass('floating');
+		setTimeout(function() {
+		    $('.navbar-default').addClass('navbar-normal').removeClass('floating');
+        }, 50);
 		
         $('#right').hide();
         $('#left').show();
@@ -41,7 +43,7 @@ $().ready(function(){
     });
 
     $(".cruz").click(function (event) {
-		scroleada();
+		scrolleando();
         $('#right').show();
         $('#menu-icon').show();
         $('#close-icon').hide();
