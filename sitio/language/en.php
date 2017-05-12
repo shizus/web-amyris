@@ -248,7 +248,7 @@ $textoin17="RESEARCH AND TRAINING";
 $textoin18="We continually invest in the training of our staff, not only to study the impact of our products in the consumer, if not
 to also generate products durable and outstanding. Always We inquire about the profile of users and the universe of fragrances. This
 allows us to anticipate what the customer wants, creating new opportunities during the process.";
-$textoin19="IDEAS AND INNOVATIONS";
+$textoin19="IDEAS AND<br>INNOVATIONS";
 $textoin20="We think and work as a team. So much our perfumers, like our vendors and developers, provide ideas to the R & D & I for testing or experimentations that can generate new and creative products. Our staff is a big family where everyone
 contribute possible approaches or solutions, coupled with our expertise and knowledge enables us innovate solutions fragrances.";
 $textoin21="&iquest;DO NEED ANY QUESTIONS OR COMMENTS? WRITE TO US SO WE CAN HELP.";
@@ -258,8 +258,8 @@ $textoin21="&iquest;DO NEED ANY QUESTIONS OR COMMENTS? WRITE TO US SO WE CAN HEL
 $textoc1="VALUE TO BE REPORTED";
 $textoc2="Generate durable and reliable links";
 $textoc3=" &iquest;Where we are? / Make us your inquiry";
-$textoc4="In Amyris, we want to know the needs and opinions of each client. We want to be involved in every detail of
-creation and manufacturing process, so that we can thus meet any suggestions.";
+$textoc4="In Amyris, we want to know the needs and opinions of each client.We want to be involved in every detail of
+creation and manufacturing process,<br>so that we can thus meet any suggestions.";
 $textoc5="WHERE WE ARE";
 $textoc6="Plant Production and Sales Office";
 $textoc7="LET US YOUR INQUIRY";

@@ -9,10 +9,10 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#") {
     <div class='container' id='$containerId'>
     
         <div class='row'>
-            <div class='col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn foto-footer-container' id='$fotoContainerId' data-wow-delay='0.2s'>
+            <div class='col-md-12 col-sm-6 col-xs-12 text-center foto-footer-container' id='$fotoContainerId' data-wow-delay='0.2s'>
                     <a href='$link'>
                     <div class='row'>
-                        <div id='footer-text-container' class='col-md-6 intro-pic wow slideInLeft'>
+                        <div id='footer-text-container' class='col-md-6 intro-pic wow animated fadeInDown'>
                             <h1 class='animation animated-item-1'>$titulo</h1>
                             <p>$texto</p>
                             <p>

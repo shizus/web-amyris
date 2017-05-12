@@ -44,7 +44,7 @@ End Fixed Navigation
     <div id="islas">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+                <div class="col-md-12 col-sm-6 col-xs-12 text-center">
                     <!-- portfolio section -->
                     <div id="portfolio">
                         <div>
@@ -124,11 +124,11 @@ End Fixed Navigation
         </div>
     </div>
     <div id="priemr_cuadrado">
-        <div class="container">
+        <div class="container wow animated fadeInDown">
             <div class="row">
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center wow animated zoomIn" id="cuadrado1">
+                <div class="col-md-12 col-sm-6 col-xs-12 text-center " id="cuadrado1">
                     <section id="cuadrado">
-                        <div class="wow zoomIn animated primero_cuadrado ">
+                        <div class="primero_cuadrado ">
                             <h4><?php echo $segundo_cuadrado1 ?><br><span
                                         style="color: #DA504B;"><?php echo $segundo_cuadrado2 ?></span></h4>
                         </div>
@@ -136,7 +136,7 @@ End Fixed Navigation
                 </div>
             </div>
         </div>
-        <div class="wow zoomIn animated" id="fotolaboratorio">
+        <div class="" id="fotolaboratorio">
             <img src="images/laboratorio.jpg">
         </div>
     </div>

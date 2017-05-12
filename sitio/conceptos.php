@@ -1,4 +1,4 @@
-<div class="container conceptos hide-until-dom-ready wow animated fadeInUp animated" style="animation-name: fadeInUp;">
+<div class="container conceptos">
     <div class="row">
         <div class="content col-md-12">
             <div class="row islas-container">

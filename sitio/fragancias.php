@@ -160,6 +160,10 @@
      QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES. ", "./expertise");
 
   ?>
-
+    <script src="js/jquery.slitslider.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
 </body>
 </html>

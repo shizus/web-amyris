@@ -141,6 +141,10 @@ insertar_servicio($textos4, $textos5);
   
   ?>
 
-
+    <script src="js/jquery.slitslider.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
     </body>
     </html>

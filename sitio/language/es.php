@@ -349,7 +349,7 @@ universo de las fragancias para dar
 originalidad a la fragancia. Esto nos permite
 anticiparnos a lo que el cliente quiere, creando
 nuevas oportunidades durante el proceso.";
-$textoin19="IDEAS E INNOVACIONES";
+$textoin19="IDEAS E<br>INNOVACIONES";
 $textoin20="Pensamos y trabajamos en equipo.
 Tanto nuestros perfumistas como
 nuestros vendedores y
@@ -362,7 +362,9 @@ $textoin21="&iquest;NECESITA HACER ALGUNA CONSULTA O COMENTARIO? ESCR&Iacute;BAN
 $textoc1="EL VALOR DE ESTAR COMUNICADOS";
 $textoc2="Generamos v&iacute;nculos duraderos y confiables";
 $textoc3="&iquest;D&oacute;nde estamos? / H&aacute;ganos su consulta";
-$textoc4="En Amyris, nos interesa conocer las necesidades y la opini&oacute;n de cada cliente. Queremos que se involucre en cada detalle del proceso de creaci&oacute;n y fabricaci&oacute;n, para que podamos as&iacute;, atender a cualquier sugerencia.";
+$textoc4="En Amyris, nos interesa conocer las necesidades y la opini&oacute;n de cada cliente.<br>
+Queremos que se involucre en cada detalle del proceso de creaci&oacute;n y fabricaci&oacute;n,<br>
+para que podamos as&iacute;, atender a cualquier sugerencia.";
 $textoc5="D&Oacute;NDE ESTAMOS";
 $textoc6="Planta de Producci&oacute;n y Oficina de Ventas";
 $textoc7="H&Aacute;GANOS SU CONSULTA";

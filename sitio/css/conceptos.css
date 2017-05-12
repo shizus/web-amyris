@@ -4,6 +4,7 @@
 }
 .conceptos .content {
     margin-top: -1.3em;
+    z-index: 1;
 }
 
 .isla-background {

@@ -44,14 +44,14 @@ require 'header.php';
       </div>
   </div>
 
-<div id="valores" class="row valores-background">
+<div id="valoresquienes" class="row valores-background">
     <div class="segundo_cuadrado_quienes " >
         <img src="img/t-valores.png">
     </div>
 </div>
 
 <div class="row tramado-background">
-    <div class="col-md-6 col-md-offset-3" id="columna5">
+    <div class="col-md-6 col-md-offset-3 wow animated fadeInDown" id="columna5">
         <h1 ><?php echo $texto13 ?></h1>
         <p><?php echo $texto14 ?></p>
         <h1 class="titulocolumna5destacado"><?php echo $texto15 ?></h1>
@@ -112,5 +112,9 @@ require 'header.php';
 footer("susten", "sustenido", $texto33, $texto34, "./innovaciones");
 
 ?>
-
+    <script src="js/jquery.slitslider.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
 </body>

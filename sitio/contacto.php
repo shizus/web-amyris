@@ -84,7 +84,7 @@ insertar_breadcrumbs($textoc3);
 
 <div class="banner-bottom" id="banner-bottom"></div>
 
-<div class="row">
+<div class="row wow animated fadeInDown">
     <div  class="col-md-12 col-sm-6 col-xs-12">
         <div id="botonrojo" class="centered text-center">
             <img src="images/nube.png">
@@ -129,13 +129,12 @@ insertar_breadcrumbs($textoc3);
 <div id="fototachos" >
   <img alt='Imagen cargando' class="tachos" src="images/cont-3.jpg" >
 </div>
-<div class="row">
+<div class="row formulariocontainer">
     <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0" id="fotocontacto" >
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12" id="columna6conta" >
                 <img alt='Imagen cargando' src="images/cont-4.jpg">
             </div>
-
             <div class="col-md-6 col-sm-12 col-xs-12" id="formulariocontacto" >
                 <form id="mail" action="formulario.php">
                     <h1 ><?php echo $textoc7 ?>  </h1><br>
@@ -161,12 +160,15 @@ insertar_breadcrumbs($textoc3);
 <div class="row">
     <div class="col-md-12"></div>
 </div>
-
 <?php  require 'footer.php';
 footer("su2_cont", "prefooter_cont", $textoc14, $textoc15, "./expertise#control-calidad");
 
 ?>
 
-
+    <script src="js/jquery.slitslider.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
 </body>
 </html>

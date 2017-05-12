@@ -8,7 +8,7 @@
         <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <title>AMYRIS - Fragancias</title>
+       <title>AMYRIS</title>
 		<!-- Meta Description -->
        <meta name="description" content="Creamos Fragancias. Creamos Sensaciones">
         <meta name="keywords" content="fragancias, esencias, sensaciones, aromas">

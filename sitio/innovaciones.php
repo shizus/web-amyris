@@ -71,10 +71,11 @@ insertar_servicio($textoin4, $textoin5);
 
 <div id="telescopio" class="row">
     <div class="col-md-10 col-md-offset-1">
-
+        <div class='wow animated fadeInDown'>
         <div class="cuadrado_inno">
             <p> <?php echo $textoin9 ?></p>
             <h4><?php echo $textoin10 ?></h4>
+        </div>
         </div>
     </div>
     <div class="col-md-12" id="cuain1">
@@ -153,5 +154,11 @@ insertar_servicio($textoin4, $textoin5);
   footer("su2", "inn7", $contacto2, $textoin21, "./contacto");
   
   ?>
+
+    <script src="js/jquery.slitslider.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
 </body>
 </html>
