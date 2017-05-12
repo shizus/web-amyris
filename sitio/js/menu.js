@@ -2,12 +2,12 @@
     // Space between element and top of screen (when scrolling)
     $(window).on('scroll', function(event) {
 
-  	scroleada();
+  	scrolleando();
 		
     });
 })(jQuery);
 
-function scroleada(){
+function scrolleando(){
 	      if ($(window).scrollTop() >= 10) {
             $('nav').addClass("floating");
             $('nav').removeClass("navbar-normal");
