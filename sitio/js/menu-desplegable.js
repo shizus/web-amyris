@@ -14,6 +14,8 @@ $().ready(function(){
 
     $(".nube").click(function (event) {
         event.preventDefault();
+		
+		$('.navbar-default').addClass('navbar-normal').removeClass('floating');
         $('#right').hide();
         $('#left').show();
         $('#menu-icon').hide();
