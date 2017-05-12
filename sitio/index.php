@@ -59,7 +59,7 @@ End Fixed Navigation
                                                 <p>Buscamos ofrecerle al cliente la más alta calidad de la fragancia
                                                     creada.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube-link"></a>
+                                                    <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@ End Fixed Navigation
                                                 <p>Asumimos el compromiso de ofrecerle al consumidor productos que al momento
                                                     de percibir los aromas, pueda disfrutar.</p>
                                                 <div>
-                                                    <a href="fragancias">
+                                                    <a href="fragancias#productos">
                                                         <img src="images/42.png" class="nube-link"></a>
                                                 </div>
                                             </div>
@@ -86,7 +86,7 @@ End Fixed Navigation
                                                 <p>Ofrecemos productos que están relacionados con la sensación de seguridad,
                                                     confort, pertenencia y calma.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube-link"></a>
+                                                    <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -97,7 +97,7 @@ End Fixed Navigation
                                                 <p>Buscamos que el bienestar generado remita a la tranquilidad de percibir un
                                                     hogar limpio.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube-link"></a>
+                                                    <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -108,7 +108,7 @@ End Fixed Navigation
                                                 <p>Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
                                                 con un auto nuevo.</p>
                                                 <div>
-                                                    <a href="fragancias"> <img src="images/42.png" class="nube-link"></a>
+                                                    <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
                                             </div>
                                         </div>

@@ -111,6 +111,7 @@
 
 img#corchete{
     width: 350px;
+    margin-top: 4em;
 }
 
 #esquinaderechas{
@@ -126,7 +127,7 @@ img#corchete{
     font-size: 22px;
     line-height: 45px;
     color:#fff;
-    padding: 0.5em 0.5em 0.5em 4em;
+    padding: 1em 0.5em 1em 3em;
     border-top: solid 7px #da504b;
 }
 #esquinaderechas .ezquinaderecha2{
@@ -150,6 +151,7 @@ font-family:'Museo 500 Regular';
 font-weight:normal;
 color: #D1BE87;
 font-size: 1.8em;line-height: 35px;
+margin-top: 5%;
 
 }
 .segundo_cuadrado_sus {
@@ -192,7 +194,7 @@ font-size: 1.8em;line-height: 35px;
     margin-top: -125px;
     background-color: #D1BE89;
     padding: 1.5em 4em;
-    opacity: 0.95;
+    opacity: 1;
 }
 
 #sustencolumna3 {
@@ -208,7 +210,7 @@ font-size: 1.8em;line-height: 35px;
   }
 
     #seccion-como-operamos {
-        margin-top: 6em;
+        margin-top: 10em;
     }
 
   #columnadocesusten h1{
@@ -229,7 +231,8 @@ font-size: 1.8em;line-height: 35px;
 }
 
 #porque .porquecolumna4 h1{
-    font-family:'Museo 500 Regular';font-weight:normal;font-size:30px;text-align: right;color:#da504b;margin-bottom:10px;
+    font-family:'Museo 500 Regular';font-weight:normal;font-size:30px;
+    text-align: right;color:#da504b;margin-bottom:10px;
 }
 
 #textcols1{

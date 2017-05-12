@@ -147,7 +147,7 @@ insertar_servicio($textoe4, $textoe5);
 
         <h1 ><?php echo $textoe21 ?></h1>
 
-        <img src="images/lista.png" style="width: 500px; margin-left: -2em;">
+        <img src="images/lista.png" style="width: 450px; margin-left: 0em;">
 
     </div>
 

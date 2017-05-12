@@ -260,6 +260,7 @@ h3.textoinno1  {
 
 .columna12 h3 {
     color: #D1BE87;
+    margin-top: 2.5em;
 }
 
 #contenedortrescolumnas p {
@@ -275,7 +276,7 @@ h3.textoinno1  {
     background: rgba(255, 255, 255, 0.83);
     border: 1px solid #D1BE87;
     position: relative;
-    margin-top: 5em;
+    margin-top: 10em;
     height: 650px;
 }
 

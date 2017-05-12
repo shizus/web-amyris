@@ -89,9 +89,8 @@ insertar_servicio($textos4, $textos5);
     </div>
     
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center" id="columnadocesusten" >
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center wow animated fadeInDown" id="columnadocesusten" >
             <h1 ><?php echo $textos16 ?> </h1>
-            <br><br>
             <img id="corchete" src="images/corchete.png" >
         </div>
     </div>

@@ -88,23 +88,23 @@
 	<div class="row">
 		<div class="col-sm-6 col-md-4-5 col-lg-1-5 quinto active" style="background:linear-gradient(rgba(122, 108, 67, 0.4),rgba(122, 108, 67, 0.4)),url(images/fraga1.jpg); background-size:cover" id="frag-finas">
 			<h2>FRAGANCIAS FINAS</h2>
-			<span class="view-more">VER MÁS</span>
+			<span class="view-more"></span>
 		</div>
 		<div class="col-sm-6 col-md-4-5 col-lg-1-5 quinto" style="background:linear-gradient(rgba(122, 108, 67, 0.4),rgba(122, 108, 67, 0.4)),url(images/fraga2.jpg); background-size:cover" id="cuidado-personal">
 			<h2>CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR</h2>
-			<span class="view-more">VER MÁS</span>
+			<span class="view-more"></span>
 		</div>
 		<div class="col-sm-6 col-md-4-5 col-lg-1-5 quinto" style="background:linear-gradient(rgba(122, 108, 67, 0.4),rgba(122, 108, 67, 0.4)),url(images/fraga3.jpg); background-size:cover" id="hogar">
 			<h2>CUIDADO DEL HOGAR Y AMBIENTALES</h2>
-			<span class="view-more">VER MÁS</span>
+			<span class="view-more"></span>
 		</div>
 		<div class="col-sm-6 col-md-4-5 col-lg-1-5 quinto" style="background:linear-gradient(rgba(122, 108, 67, 0.4),rgba(122, 108, 67, 0.4)),url(images/fraga4.jpg); background-size:cover" id="limpieza">
 			<h2>LIMPIEZA</h2>
-			<span class="view-more">VER MÁS</span>
+			<span class="view-more"></span>
 		</div>
 		<div class="col-sm-6 col-md-4-5 col-lg-1-5 quinto" style="background:linear-gradient(rgba(122, 108, 67, 0.4),rgba(122, 108, 67, 0.4)),url(images/fraga5.jpg); background-size:cover" id="automotor">
 			<h2>COSMÉTICA AUTOMOTOR</h2>
-			<span class="view-more">VER MÁS</span>
+			<span class="view-more"></span>
 		</div>
 		
 	</div>
@@ -136,7 +136,7 @@
 			y felicidad.</p>
 			<p>Ofrecemos fragancias que le recuerden ese momento. Lo asesoramos sobre la fragancia adecuada dejando un aroma de alta persistencia.</p>
 		</div>
-		<img src="images/58b.jpg">
+		<img class='wow animated fadeInDown' src="images/58b.jpg">
 	</div>
 	
 	<script>

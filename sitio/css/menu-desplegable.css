@@ -143,6 +143,9 @@
     bottom: 0;
     display: table;
 }
+.boton-contacto:hover {
+    background-color: #D1BE89;
+}
 
 .boton-contacto > .link-container a {
     font-size: 1.6em;
