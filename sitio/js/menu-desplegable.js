@@ -16,6 +16,7 @@ $().ready(function(){
         event.preventDefault();
 		
 		$('.navbar-default').addClass('navbar-normal').removeClass('floating');
+		
         $('#right').hide();
         $('#left').show();
         $('#menu-icon').hide();
@@ -40,6 +41,7 @@ $().ready(function(){
     });
 
     $(".cruz").click(function (event) {
+		scroleada();
         $('#right').show();
         $('#menu-icon').show();
         $('#close-icon').hide();
