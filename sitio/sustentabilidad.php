@@ -99,9 +99,9 @@ insertar_servicio($textos4, $textos5);
     
     <div class="row seguridad-higiene">
 
-        <div  class="col-md-10 col-md-offset-1" id="porque" >
+        <div  class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" id="porque" >
             <div class="row">
-                <div class="col-md-4 col-md-offset-1 porquecolumna4">
+                <div class="col-md-4 col-md-offset-1 porquecolumna4 col-lg-3 col-lg-offset-2">
                     <br>
                     <br>
                     <h1> <?php echo $textos17 ?></h1>
@@ -112,10 +112,10 @@ insertar_servicio($textos4, $textos5);
 
 
                 </div>
-                <div class="col-md-3"  id="sustencolumna3" style="">
+                <div class="col-md-3 text-center col-lg-2"  id="sustencolumna3">
                     <img src="images/susten.png" >
                 </div>
-                <div class="col-md-4" id="sustencolumna4" >
+                <div class="col-md-4 col-lg-3" id="sustencolumna4" >
                     <h1><?php echo $textos23 ?> </h1>
                     <p id="textcols3"> <?php echo $textos24 ?> </p>
                 </div>
