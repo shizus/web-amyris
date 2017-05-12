@@ -5,6 +5,16 @@
     width: 50px;
 }
 
+a.menu-desplegable-link:hover {
+    color: #ffffff;
+}
+
+a.menu-desplegable-link:hover .nav-bar-title{
+    color: #000000;
+}
+
+
+
 .linea-blanca-menu {
     background-color: #ffffff;
     height: 1px;
