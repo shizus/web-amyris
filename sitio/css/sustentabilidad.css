@@ -291,4 +291,10 @@ margin-top: 5%;
     img#corchete {
         margin-top: 6.5em;
     }
+
+    #porque > .row {
+        max-width: 100em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
