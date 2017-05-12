@@ -373,6 +373,20 @@ width: 100%;
     margin-top: -5%;
 }
 
+#columnacontrol4 ul{
+	font-family: 'Futura';
+	font-size:14pt;
+	font-weight: 100;
+	list-style-type: none;
+}
+#columnacontrol4 li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#columnacontrol4 li img{
+	height: 40px;
+	margin-right: 10px;
+}
 #columnacontrol4 p{
      background-color:#D1BE89;
      font-family:'Museo 500 Regular';
