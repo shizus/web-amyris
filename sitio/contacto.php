@@ -84,7 +84,7 @@ insertar_breadcrumbs($textoc3);
 
 <div class="banner-bottom" id="banner-bottom"></div>
 
-<div class="row wow animated fadeInDown">
+<div class="row">
     <div  class="col-md-12 col-sm-6 col-xs-12">
         <div id="botonrojo" class="centered text-center">
             <img src="images/nube.png">
