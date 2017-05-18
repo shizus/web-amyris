@@ -1,63 +1,56 @@
 <div id="menu-desplegable" class="desplegable-container" style="display: none">
-  <a href="quienes-somos" class="menu-desplegable-link">
+  <div class="boton-cruz">
+  </div>
   <div class="perc20 col-sm-12 amyris-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-        Amyris
+        <a href="quienes-somos">Amyris</a>
     </h1>
       <div class="linea-blanca-menu"></div>
-    <div class="link-container">¿Quienes Somos?</div>
-    <div class="link-container">Valores</div>
-    <div class="link-container">¿Por qué Amyris?</div>
+    <div class="link-container"><a href="quienes-somos#quienes-somos">¿Quienes Somos?</a></div>
+    <div class="link-container"><a href="quienes-somos#valores">Valores</a></div>
+    <div class="link-container"><a href="quienes-somos#porqueamir">¿Por qué Amyris?</a></div>
   </div>
-  </a>
-  <a href="fragancias"class="menu-desplegable-link">
   <div class="perc20 col-sm-12 fragancias-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-        Fragancias
+        <a href="fragancias">Fragancias</a>
     </h1>
       <div class="linea-blanca-menu"></div>
-    <div class="link-container">Sistema Conceptual</div>
-    <div class="link-container">Productos</div>
+    <div class="link-container"><a href="fragancias#sistema-conceptual">Sistema Conceptual</a></div>
+    <div class="link-container"><a href="fragancias#productos">Productos</a></div>
   </div>
-  </a>
-  <a href="expertise" class="menu-desplegable-link">
   <div class="perc20 col-sm-12 expertise-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-        Expertise
+        <a href="expertise">Expertise</a>
     </h1>
       <div class="linea-blanca-menu"></div>
-    <div class="link-container">Desarrollo y Creación</div>
-    <div class="link-container">Infraestructura</div>
-    <div class="link-container">Control de Calidad</div>
-    <div class="link-container">Comercio exterior</div>
+    <div class="link-container"><a href="expertise">Desarrollo y Creación</a></div>
+    <div class="link-container"><a href="expertise#infraestructura">Infraestructura</a></div>
+    <div class="link-container"><a href="expertise#control-calidad">Control de Calidad</a></div>
+    <div class="link-container"><a href="expertise#comercio-exterior">Comercio exterior</a></div>
   </div>
-  </a>
-  <a href="sustentabilidad" class="menu-desplegable-link">
   <div class="perc20 col-sm-12 sustentabilidad-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-        Sustentabilidad
+        <a href="sustentabilidad">Sustentabilidad</a>
     </h1>
       <div class="linea-blanca-menu"></div>
-    <div class="link-container">Valores</div>
-    <div class="link-container">Enfoque Sustentable</div>
-    <div class="link-container">¿Cómo operamos?</div>
+    <div class="link-container"><a href="sustentabilidad#valores">Valores</a></div>
+    <div class="link-container"><a href="sustentabilidad#sustentabilidad">Enfoque Sustentable</a></div>
+    <div class="link-container"><a href="sustentabilidad#como-operamos">¿Cómo operamos?</a></div>
   </div>
-  </a>
-  <a href="innovaciones" class="menu-desplegable-link">
   <div class="perc20 col-sm-12 innovaciones-nav-container">
   <img src="images/flor-menu.png">
     <h1 class="nav-bar-title">
-        Innovaciones
+        <a href="innovaciones">Innovaciones</a>
     </h1>
       <div class="linea-blanca-menu"></div>
-    <div class="link-container">Aprendemos para innovar</div>
-    <div class="link-container">Departamento de ideas, Desarrollo e innovación</div>
+    <div class="link-container"><a href="innovaciones#innovar">Aprendemos para innovar</a></div>
+    <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas </a></div>
+    <div class="link-container"><a href="innovaciones#desarrollo">Desarrollo e innovación</a></div>
   </div>
-  </a>
   <div class="boton-contacto">
     <div class="link-container"><a href="contacto">Contacto</a></div>
   </div>

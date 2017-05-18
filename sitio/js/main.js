@@ -27,6 +27,8 @@ $(function() {
             slitslider = $( '#slider' ).slitslider( {
                 // amount (%) to translate both slices - adjust as necessary
                 translateFactor : 230,
+                autoplay : true,
+                interval: 4000,
                 // maximum possible angle
                 maxAngle : 0,
                 // maximum possible scale
@@ -92,7 +94,6 @@ $(function() {
 });
 
 $(document).ready(function(){
-
 	$('.hide-until-dom-ready').removeClass('hide-until-dom-ready');
 	/* ========================================================================= */
 	/*	Menu item highlighting
@@ -171,7 +172,41 @@ $(document).ready(function(){
 	// 	}
 	// });
 
-	
+	var jump=function(e)
+    {
+       if (e){
+           e.preventDefault();
+           var target = $(this).attr("href");
+       }else{
+           var target = location.hash;
+       }
+
+       $('html,body').animate(
+       {
+           scrollTop: $(target).offset().top - 10em
+       },1000,function()
+       {
+           location.hash = target;
+       });
+
+    }
+
+    $('html, body').hide()
+
+    $(document).ready(function()
+    {
+        $('a[href^=#]').bind("click", jump);
+
+        if (location.hash){
+            setTimeout(function(){
+                $('html, body').scrollTop(0).show()
+                jump()
+            }, 0);
+        }else{
+          $('html, body').show()
+        }
+    });
+
 });
 
 

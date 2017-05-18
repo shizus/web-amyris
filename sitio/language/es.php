@@ -108,7 +108,7 @@ inicio hasta el final." ;
 $texto15="ÉTICA";
 $texto16="Cada proyecto implica un compromiso con el cliente y esa obligación que
 tomamos hace que cada desarrollo sea único e irrepetible. Nos caracteriza una
-conducta de fielidad, confianza y lealtad sobre el trabajo realizado." ;
+conducta de fidelidad, confianza y lealtad sobre el trabajo realizado." ;
 $texto17="SINERGIA";
 $texto18="Trabajamos en conjunto con los clientes como socios estratégicos." ;
 $texto19="FAMILIA";
@@ -150,6 +150,10 @@ $texto35f="AMYRIS ES CREACIÓN E INNOVACIÓN" ;
 $texto4f="TRANSFORMAMOS LA FRAGANCIA  EN UN SELLO PERSONAL " ;
 $texto44f="Desde nuestros inicios, nuestro objetivo siempre fue la búsqueda de soluciones sensoriales que nos permita
 desarrollar y crear fragancias únicas. Esto nos llevó a desarrollar un sistema conceptual de trabajo:";
+$texto50f="SENTIR";
+$texto51f="DESCUBRIR";
+$texto52f="CREAR";
+$texto53f="DISFRUTAR";
 
 // expertise
 $texto300 ="Tecnología de última generación en los laboratorios y sectores productivos";

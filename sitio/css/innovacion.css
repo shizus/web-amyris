@@ -117,7 +117,7 @@ h3.textoinno1  {
     border: 1px solid #e1e6e9;
     z-index: 3;
     visibility: visible;
-    animation-name: zoomIn;
+    animation-name: fadeInDown;
     animation-delay: 0.3s;
 }
 
