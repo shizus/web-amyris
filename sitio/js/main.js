@@ -27,6 +27,8 @@ $(function() {
             slitslider = $( '#slider' ).slitslider( {
                 // amount (%) to translate both slices - adjust as necessary
                 translateFactor : 230,
+                autoplay : true,
+                interval: 4000,
                 // maximum possible angle
                 maxAngle : 0,
                 // maximum possible scale
@@ -92,7 +94,6 @@ $(function() {
 });
 
 $(document).ready(function(){
-
 	$('.hide-until-dom-ready').removeClass('hide-until-dom-ready');
 	/* ========================================================================= */
 	/*	Menu item highlighting
@@ -171,7 +172,7 @@ $(document).ready(function(){
 	// 	}
 	// });
 
-	
+
 });
 
 

@@ -34,10 +34,10 @@
  	<div class="row">
  	<div class="col-md-8 col-md-offset-2">
 		<div class="row">       
-			<div class="col-md-3 col-xs-3 boton active" id="sentir">SENTIR</div>
-			<div class="col-md-3 col-xs-3 boton" id="descubrir">DESCUBRIR</div>
-			<div class="col-md-3 col-xs-3 boton" id="oler">OLER</div>
-			<div class="col-md-3 col-xs-3 boton" id="disfrutar">DISFRUTAR</div>
+			<div class="col-md-3 col-xs-3 boton active" id="sentir"><?php echo $texto50f ?></div>
+			<div class="col-md-3 col-xs-3 boton" id="descubrir"><?php echo $texto51f ?></div>
+			<div class="col-md-3 col-xs-3 boton" id="oler"><?php echo $texto52f ?></div>
+			<div class="col-md-3 col-xs-3 boton" id="disfrutar"><?php echo $texto53f ?></div>
 		</div>
 		<div class="row descripciones">
 			<div class="col-md-12 desc active" id="sentir-desc">

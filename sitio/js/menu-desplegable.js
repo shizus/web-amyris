@@ -11,6 +11,10 @@ $().ready(function(){
 
     $(".fa.fa-bars").click(tocarNubeoCruz);
     $(".fa.fa-close").click(tocarNubeoCruz);
+    $(".boton-cruz").click(function (event) {
+        event.preventDefault();
+        $(".cruz").click();
+    });
 
     $(".nube").click(function (event) {
         event.preventDefault();
@@ -18,9 +22,9 @@ $().ready(function(){
 		setTimeout(function() {
 		    $('.navbar-default').addClass('navbar-normal').removeClass('floating');
         }, 50);
-		
         $('#right').hide();
         $('#left').show();
+        $('.boton-cruz').show();
         $('#menu-icon').hide();
         $('#close-icon').show();
         $("#menu-desplegable").show();
@@ -48,6 +52,7 @@ $().ready(function(){
         $('#menu-icon').show();
         $('#close-icon').hide();
         $('#left').hide();
+        $('.boton-cruz').hide();
         setTimeout(function () {
             $(".amyris-nav-container").slideUp()
         }, 500);

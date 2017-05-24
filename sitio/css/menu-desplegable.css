@@ -10,7 +10,7 @@ a.menu-desplegable-link:hover {
 }
 
 a.menu-desplegable-link:hover .nav-bar-title{
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -164,4 +164,15 @@ a.menu-desplegable-link:hover .nav-bar-title{
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+}
+.boton-cruz {
+    z-index: 11;
+    position: fixed;
+    left: 50%;
+    margin-left: -25px;
+    cursor: pointer;
+    height: 70px;
+    width: 50px;
+    background-image: url(../images/41.png); 
+    background-size: cover;
 }
