@@ -585,7 +585,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 
 }
 #textorojo3 h2{
-    font-size: 50px;
+    font-size: 2.5em;
     color: #A2946B;
     width: 90%;
     margin-left: auto;
@@ -1732,6 +1732,10 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         opacity: 1;
         height: inherit;
     }
+
+    #portfolio {
+        margin-top: 1em;
+    }
 }
 
 /* iPad */
@@ -1764,4 +1768,16 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         left: 0.5em;
     }
 
+    #service {
+        margin: 1em;
+        height: 30em;
+    }
+
+    #service .container {
+        padding: 1em;
+    }
+
+    #portfolio {
+        margin: 1em 0;
+    }
 }
