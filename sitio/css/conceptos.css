@@ -125,3 +125,29 @@
     background-image: url(../images/concep-sentir.png);
     background-size: contain;
 }
+
+
+/* Desde iPad */
+@media only screen
+and (max-device-width : 1024px)  { /* STYLES GO HERE */
+
+    .concepto-titulo-container {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .concepto-titulo{
+        color: #ffffff;
+        font-size: 3em;
+    }
+
+    .concepto-texto {
+        margin: 0;
+    }
+    .concepto-texto-container {
+        opacity: 1;
+        height: inherit;
+        width: 100%;
+    }
+}
