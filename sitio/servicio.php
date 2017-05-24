@@ -8,7 +8,7 @@ function insertar_servicio($titulo, $subtitulo, $interna=true) {
         <div class='container $clase_interna'>
             <div class='$hide_until_dom_ready wow animated fadeInDown'>
             <div class='row'>
-                <div class='col-md-12 col-sm-6 col-xs-12 text-center'>
+                <div class='col-md-12 col-sm-12 col-xs-12 text-center'>
                     <div id='botonrojo' class='centered'>
                         <img src='images/nube.png'>
                     </div>
