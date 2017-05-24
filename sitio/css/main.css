@@ -63,6 +63,7 @@ footer h1,footer h2,footer h3,footer h4,footer h5,footer h6 {
 
 footer h2 {
     font-size: 1.5em;
+	margin-top: 0px;
 }
 
 footer h6 {
@@ -475,18 +476,16 @@ Producto /
 	Footer
 ==============================================================*/
 
-#footer {
+footer {
     background-image: url('../img/trama5.jpg');
     background-size: cover;
-    padding: 0px 0;
     color: #fff;
-    margin-top: -10%;
+    margin-top: -200px;
 }
 
 .footer-content {
     width: 390px;
     margin: 0 auto;
-
 }
 
 .footer-content > div {
@@ -672,6 +671,33 @@ Producto /
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
+@media (max-width: 979px) {
+	
+.foto-footer-container {
+	border: 0px !important;
+}
+	
+#lista-afuera-small {
+	display: block !important;
+	}
+	
+#lista-afuera {
+	display: none !important;
+	}
+	
+.fondo-blanco {
+	padding-top: 20px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+	}
+.fondo-blanco img {
+	padding-bottom: 20px;
+	}
+footer .copyright {
+/*	background: none !important;*/
+	margin-top: -2px;
+	}
+}
 
 @media only screen and (max-width: 767px) {
 
