@@ -1736,6 +1736,45 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
     #portfolio {
         margin-top: 1em;
     }
+
+    .producto-abajo div,
+    .producto-arriba div {
+        margin-top: 0;
+    }
+
+    .isla-producto {
+        height: 40em;
+    }
+
+    .isla-producto > div {
+        background: none;
+    }
+
+    .isla-producto > div > h4 {
+        background: #ffffff;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 2.5em;
+        font-size: 2.8em;
+        height: 3em;
+        color: #D1BE87;
+    }
+
+    .isla-producto p {
+        background: rgba(265,265,265,0.8);
+    }
+
+    .isla-producto > div > div {
+        display: none;
+    }
+
+    .isla-producto p {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        padding: 1em;
+    }
 }
 
 /* iPad */

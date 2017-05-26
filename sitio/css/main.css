@@ -410,23 +410,26 @@ Producto /
 
 .producto-cuidado-personal{
     background-image: url(../images/islap3chicaarriba.jpg);
+    background-size: cover;
 }
 
 .producto-cuidado-hogar{
     background-image: url(../images/islap1chica.jpg);
+    background-size: cover;
 }
 
 .producto-limpieza{
     background-image: url(../images/islap3chica.jpg);
+    background-size: cover;
 }
 
 .producto-cosmetica{
     background-image: url(../images/islap2.jpg);
+    background-size: cover;
 }
 
 .isla-producto {
     height: 25em;
-    background-size: cover;
     padding: 0;
 }
 
