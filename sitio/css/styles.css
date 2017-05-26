@@ -1858,8 +1858,8 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
     .primero_cuadrado h4 {
-        font-size: 1.2em;
-        line-height: 1.2em;
+        font-size: 1em;
+        line-height: 1.3em;
     }
 
     .destacado-seccion {
