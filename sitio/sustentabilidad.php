@@ -80,7 +80,7 @@ insertar_servicio($textos4, $textos5);
 </section>
 
 
-<section id="seccion-como-operamos">
+<section id="seccion-como-operamos" class="container-fluid">
 
     <div class="cuarto row" >
         <div id="como-operamos" class="segundo_cuadrado_sus col-md-12 text-center">
@@ -99,9 +99,9 @@ insertar_servicio($textos4, $textos5);
     
     <div class="row seguridad-higiene">
 
-        <div  class="col-md-10 col-md-offset-1" id="porque" >
+        <div  class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0" id="porque" >
             <div class="row">
-                <div class="col-md-4 col-md-offset-1 porquecolumna4">
+                <div class="col-md-4 col-md-offset-1 col-sm-12 col-xs-12 porquecolumna4">
                     <br>
                     <br>
                     <h1> <?php echo $textos17 ?></h1>
@@ -112,10 +112,10 @@ insertar_servicio($textos4, $textos5);
 
 
                 </div>
-                <div class="col-md-3 text-center"  id="sustencolumna3">
+                <div class="col-md-3 text-center col-sm-12 col-xs-12 "  id="sustencolumna3">
                     <img src="images/susten.png" >
                 </div>
-                <div class="col-md-4" id="sustencolumna4" >
+                <div class="col-md-4 col-sm-12 col-xs-12" id="sustencolumna4" >
                     <h1><?php echo $textos23 ?> </h1>
                     <p id="textcols3"> <?php echo $textos24 ?> </p>
                 </div>

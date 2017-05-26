@@ -3,7 +3,7 @@ function insertar_portada($clase_portada, $titulo, $subtitulo) {
     echo
     "<div id='portada' class='row $clase_portada portada'>
         <div >
-        <div class='col-md-12 col-sm-6 col-xs-12 text-center wow animated fadeInDown hide-until-dom-ready'>
+        <div class='col-md-12 col-sm-12 col-xs-12 text-center wow animated fadeInDown hide-until-dom-ready'>
                 <h4 class='animation animated-item-1 titulo_portada'>$titulo</h4>
         
                 <h1 class='animation animated-item-2 subtitulo_portada'>$subtitulo</h1>

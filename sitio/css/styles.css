@@ -1810,6 +1810,10 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         background-color: rgba(265, 265, 265, 0.8);
     }
 
+    .destacado-alto {
+        height: auto;
+    }
+
     .destacado-seccion .col-sm-12 {
         padding: 0;
     }
@@ -1834,12 +1838,66 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         width: 100%;
     }
 
+    footer {
+        margin-top: -5em;
+        padding-top: 8em;
+    }
+
+    #footer-text-container h1 {
+        font-size: 2em;
+        color: #A59965;
+        text-align: center;
+    }
+
+    #footer-text-container p {
+        color: #594d2c;
+        text-align: center;
+        width: 100%;
+        margin-top: 3em;
+        font-size: 1.8em;
+    }
+
+    #columnas2 {
+        margin: 0.5em;
+        text-align: center;
+    }
+
+    #esquinaderechas {
+        margin-top: 0.5em;
+    }
+
+    #porque {
+        height: auto;
+    }
+
+    #sustencolumna4 {
+        margin-left: 0em;
+    }
+
+    #porque .porquecolumna4 h1,
+    #textcols1,
+    #textcols2,
+    #textcols3,
+    #sustencolumna4 h1{
+        text-align: center;
+        width: 100%;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    #textcols3 {
+        padding-bottom: 2em;
+    }
 }
 
 /* iPad */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  { /* STYLES GO HERE */
+    #service {
+        padding: 2em 0em;
+        margin-top: 0;
+    }
 }
 
 /* iPhone5 */
@@ -1896,4 +1954,93 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         margin-top: 0;
     }
 
+    .destacados-titulo, .destacados-titulo a {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .destacado-responsive-padding {
+        height: 10em;
+    }
+
+    .destacado-texto p {
+        font-size: 1.2em;
+        line-height: 1em;
+    }
+
+    .titulo_portada {
+        width: 100%;
+    }
+
+    .subtitulo_portada {
+        font-size: 2em;
+    }
+
+    #bredcrumbs-container h3 {
+        font-size: 1em;
+    }
+
+    .primero_cuadrado_sus {
+        height: 20em;
+    }
+
+    .titulo-imagen,
+    #imagenrosa .titulo-imagen {
+        width: 15em;
+    }
+
+    #como-operamos .titulo-imagen {
+        width: 15em;
+    }
+
+    #columnadocesusten {
+        height: auto;
+    }
+
+    img#corchete {
+        width: 100%;
+    }
+
+
+    .sustentabilidad-impacto-ambiental {
+        height: 20em;
+    }
+
+    #esquinaderechas .ezquinaderecha2,
+    #esquinaderechas .ezquinaderecha3 {
+        line-height: 1.5em;
+    }
+
+    .cuarto {
+        height: 30em;
+    }
+
+    .foto-footer-container {
+        height: 20em;
+    }
+
+    #footer-text-container {
+        margin: 0;
+    }
+
+    #footer-text-container h1 {
+        font-size: 2em;
+        color: #A59965;
+    }
+
+    #footer-text-container p {
+        font-size: 1em;
+        line-height: 1.1em;
+        color: #594d2c;
+        text-align: center;
+        width: 100%;
+    }
+
+    #ultimafoto {
+        height: 20em;
+    }
+
+    #lista-afuera-small ul {
+        font-size: 1em;
+    }
 }

@@ -16,7 +16,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#") {
 					<div id='footer-text-container' class='col-md-6 intro-pic wow animated fadeInDown'>
 						<h1 class='animation animated-item-1'><?php echo $titulo ?></h1>
 						<p><?php echo $texto ?></p>
-						<p><img alt='Nube Amyris' class='footer-nube' src='images/42.png'></p>
+						<p class="hidden-sm hidden-xs visible-lg visible-md"><img alt='Nube Amyris' class='footer-nube' src='images/42.png'></p>
 					</div>
 				</div>
 			</a>
@@ -29,7 +29,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#") {
 <div class='container'>
 
 <div class='row' id='lista-afuera-small'>
-	<div class='col-md-6 col-sm-6 col-xs-5 col-xs-offset-1'>
+	<div class='col-md-6 col-sm-6 col-xs-5'>
 		<ul>
 			<li><a href='quienes-somos'><?php echo $amyris ?></a></li>
 			<li><a href='fragancias'><?php echo $fragancias ?></a></li>
