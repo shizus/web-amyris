@@ -67,24 +67,28 @@ a.menu-desplegable-link:hover .nav-bar-title{
     background-image: url(../images/menu1-a-medida.jpg);
     background-size: cover;
     display: none;
+    background-position: center;
 }
 
 .fragancias-nav-container {
     background-image: url(../images/menu2-a-medida.jpg);
     background-size: cover;
     display: none;
+    background-position: center;
 }
 
 .expertise-nav-container {
     background-image: url(../images/menu3-a-medida.jpg);
     background-size: cover;
     display: none;
+    background-position: center;
 }
 
 .sustentabilidad-nav-container {
     background-image: url(../images/menu4-a-medida.jpg);
     background-size: cover;
     display: none;
+    background-position: center;
 }
 
 .innovaciones-nav-container {
@@ -101,6 +105,8 @@ a.menu-desplegable-link:hover .nav-bar-title{
                     rgba(162, 148, 107, 0.8)
             ),
             url(../images/menu1-a-medida.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .fragancias-nav-container:hover {
@@ -111,6 +117,8 @@ a.menu-desplegable-link:hover .nav-bar-title{
                     rgba(162, 148, 107, 0.8)
             ),
             url(../images/menu2-a-medida.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .expertise-nav-container:hover {
@@ -121,6 +129,8 @@ a.menu-desplegable-link:hover .nav-bar-title{
                     rgba(162, 148, 107, 0.8)
             ),
             url(../images/menu3-a-medida.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .sustentabilidad-nav-container:hover {
@@ -131,6 +141,8 @@ a.menu-desplegable-link:hover .nav-bar-title{
                     rgba(162, 148, 107, 0.8)
             ),
             url(../images/menu4-a-medida.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .innovaciones-nav-container:hover {

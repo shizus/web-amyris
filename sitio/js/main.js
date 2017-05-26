@@ -1,9 +1,3 @@
- var ParAccEndpoint = "http://localhost:8000/api/v1/parameters/",
-        OrdersEndPoint = "http://localhost:8000/api/v1/orders/",
-        paypal_pct = 0.00,
-        paypal_fee = 0.00,
-        nexpay_fee = 0.00,
-        exchange_rate = 0.00
 
 /* ========================================================================= */
 /*	Preloader
@@ -95,25 +89,6 @@ $(function() {
 
 $(document).ready(function(){
 	$('.hide-until-dom-ready').removeClass('hide-until-dom-ready');
-	/* ========================================================================= */
-	/*	Menu item highlighting
-	/* ========================================================================= */
-
-	// jQuery('#nav').singlePageNav({
-	// 	offset: jQuery('#nav').outerHeight(),
-	// 	filter: ':not(.external)',
-	// 	speed: 2000,
-	// 	currentClass: 'current',
-	// 	easing: 'easeInOutExpo',
-	// 	updateHash: true,
-	// 	beforeStart: function() {
-	// 		console.log('begin scrolling');
-	// 	},
-	// 	onComplete: function() {
-	// 		console.log('done scrolling');
-	// 	}
-	// });
-	
 	
 	/* ========================================================================= */
 	/*	Fix Slider Height
@@ -127,51 +102,6 @@ $(document).ready(function(){
     $(window).resize(function(){'use strict',
         $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
     });
-	
-	
-	
-	// $("#works, #testimonial").owlCarousel({
-	// 	navigation : true,
-	// 	pagination : false,
-	// 	slideSpeed : 700,
-	// 	paginationSpeed : 400,
-	// 	singleItem:true,
-	// 	navigationText: ["<i class='fa fa-angle-left fa-lg'></i>","<i class='fa fa-angle-right fa-lg'></i>"]
-	// });
-	
-	
-	/* ========================================================================= */
-	/*	Featured Project Lightbox
-	/* ========================================================================= */
-
-	// $(".fancybox").fancybox({
-	// 	padding: 0,
-    //
-	// 	openEffect : 'elastic',
-	// 	openSpeed  : 650,
-    //
-	// 	closeEffect : 'elastic',
-	// 	closeSpeed  : 550,
-    //
-	// 	closeClick : true,
-	//
-	// 	beforeShow: function () {
-	// 		this.title = $(this.element).attr('title');
-	// 		this.title = '<h3>' + this.title + '</h3>' + '<p>' + $(this.element).parents('.portfolio-item').find('img').attr('alt') + '</p>';
-	// 	},
-	//
-	// 	helpers : {
-	// 		title : {
-	// 			type: 'inside'
-	// 		},
-	// 		overlay : {
-	// 			css : {
-	// 				'background' : 'rgba(0,0,0,0.8)'
-	// 			}
-	// 		}
-	// 	}
-	// });
-
 
 });
 

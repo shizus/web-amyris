@@ -44,6 +44,13 @@ $().ready(function(){
             $(".innovaciones-nav-container").slideDown()
         }, 900);
         disableScroll();
+
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+        if (isMobile) {
+            $('#portada').hide()
+            $('#portada').nextAll().hide();
+        }
+
     });
 
     $(".cruz").click(function (event) {
@@ -72,6 +79,11 @@ $().ready(function(){
             $("#menu-desplegable").hide();
         }, 800);
         enableScroll();
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+        if (isMobile) {
+            $('#portada').show()
+            $('#portada').nextAll().show();
+        }
     });
 });
 
@@ -94,6 +106,10 @@ function preventDefaultForScrollKeys(e) {
 }
 
 function disableScroll() {
+
+    var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+    if (isMobile) return;
+
     $("html").css("overflow", "hidden");
     if (window.addEventListener) // older FF
         window.addEventListener('DOMMouseScroll', preventDefault, false);

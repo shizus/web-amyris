@@ -367,7 +367,8 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     margin-right: auto;
     position: absolute;
     z-index: 222;
-    width: 4%;
+    width: 4em;
+    height: 6em;
     margin-top: 0%;
 
 }
@@ -379,7 +380,8 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     margin-right: auto;
     position: absolute;
     z-index: 111;
-    width: 4%;
+    width: 4em;
+    height: 6em;
 }
 
 #trama img{
@@ -1713,6 +1715,115 @@ h2.slogan {
 @media only screen
 and (max-device-width : 1024px)  { /* STYLES GO HERE */
 
+
+    .amyris-nav-container {
+        background-image: url(../images/17.jpg);
+        background-size: cover;
+        display: none;
+        background-position: center;
+    }
+
+    .fragancias-nav-container {
+        background-image: url(../images/18.jpg);
+        background-size: cover;
+        display: none;
+        background-position: center;
+    }
+
+    .expertise-nav-container {
+        background-image: url(../images/15.jpg);
+        background-size: cover;
+        display: none;
+        background-position: center;
+    }
+
+    .sustentabilidad-nav-container {
+        background-image: url(../images/sust-1.jpg);
+        background-size: cover;
+        display: none;
+        background-position: center;
+    }
+
+    .innovaciones-nav-container {
+        background-image: url(../images/27.jpg);
+        background-size: cover;
+        display: none;
+    }
+
+    .amyris-nav-container:hover {
+        background:
+            /* top, transparent red, faked with gradient */
+                linear-gradient(
+                        rgba(162, 148, 107, 0.8),
+                        rgba(162, 148, 107, 0.8)
+                ),
+                url(../images/18.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .fragancias-nav-container:hover {
+        background:
+            /* top, transparent red, faked with gradient */
+                linear-gradient(
+                        rgba(162, 148, 107, 0.8),
+                        rgba(162, 148, 107, 0.8)
+                ),
+                url(../images/15.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .expertise-nav-container:hover {
+        background:
+            /* top, transparent red, faked with gradient */
+                linear-gradient(
+                        rgba(162, 148, 107, 0.8),
+                        rgba(162, 148, 107, 0.8)
+                ),
+                url(../images/sust-1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sustentabilidad-nav-container:hover {
+        background:
+            /* top, transparent red, faked with gradient */
+                linear-gradient(
+                        rgba(162, 148, 107, 0.8),
+                        rgba(162, 148, 107, 0.8)
+                ),
+                url(../images/27.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .innovaciones-nav-container:hover {
+        background:
+            /* top, transparent red, faked with gradient */
+                linear-gradient(
+                        rgba(162, 148, 107, 0.8),
+                        rgba(162, 148, 107, 0.8)
+                ),
+                url(../images/menu5-a-medida.jpg);
+    }
+
+    #menu-desplegable img {
+        margin-top: 2em;
+    }
+
+    #menu-desplegable .nav-bar-title {
+        font-size: 2em;
+    }
+
+    #menu-desplegable .link-container {
+        font-size: 1.8em;
+    }
+
+    #menu-desplegable > div  > div.row > div.col-sm-12 {
+        height: 30em;
+    }
+
     #titulo1,
     #titulo2,
     #titulo3,
@@ -1905,6 +2016,11 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
 
+    nav.floating img {
+        height: 3em;
+        margin-top: -0.8em;
+    }
+
     #titulo1,
     #titulo2,
     #titulo3,
@@ -1966,6 +2082,37 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     .destacado-texto p {
         font-size: 1.2em;
         line-height: 1em;
+    }
+
+    .navbar-brand img {
+        margin-top: 0em;
+        height: 2em;
+    }
+
+    .conceptos-row {
+        height: 20em;
+    }
+    .titulo_portada {
+        margin-top: 5em;
+    }
+    #portada.portada-expertise {
+        height: 30em;
+    }
+
+    #portada.portada-innovaciones {
+        height: 30em;
+    }
+
+    #portada.portada-sustentabilidad {
+        height: 30em;
+    }
+
+    #portada.portada-fragancias {
+        height: 30em;
+    }
+
+    #portada.portada-contacto {
+        height: 30em;
     }
 
     .titulo_portada {

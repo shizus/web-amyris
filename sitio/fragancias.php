@@ -31,7 +31,7 @@
 <div class="col-md-10 col-md-offset-1 bajada"> 
  	<h2 id="sistema-conceptual">SISTEMA CONCEPTUAL AMYRIS</h2>
  	<p><?php echo $texto44f ?></p>
- 	<div class="row">
+ 	<div class="row conceptos-row">
  	<div class="col-md-8 col-md-offset-2">
 		<div class="row">       
 			<div class="col-md-3 col-xs-3 boton active" id="sentir"><?php echo $texto50f ?></div>
