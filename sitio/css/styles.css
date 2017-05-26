@@ -1717,35 +1717,35 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
 
 
     .amyris-nav-container {
-        background-image: url(../images/17.jpg);
+        background-image: url(../images/responsive-001.jpg);
         background-size: cover;
         display: none;
         background-position: center;
     }
 
     .fragancias-nav-container {
-        background-image: url(../images/18.jpg);
+        background-image: url(../images/responsive-002.jpg);
         background-size: cover;
         display: none;
         background-position: center;
     }
 
     .expertise-nav-container {
-        background-image: url(../images/15.jpg);
+        background-image: url(../images/responsive-003.jpg);
         background-size: cover;
         display: none;
         background-position: center;
     }
 
     .sustentabilidad-nav-container {
-        background-image: url(../images/sust-1.jpg);
+        background-image: url(../images/responsive-004.jpg);
         background-size: cover;
         display: none;
         background-position: center;
     }
 
     .innovaciones-nav-container {
-        background-image: url(../images/27.jpg);
+        background-image: url(../images/responsive-005.jpg);
         background-size: cover;
         display: none;
     }
@@ -1757,7 +1757,7 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
                         rgba(162, 148, 107, 0.8),
                         rgba(162, 148, 107, 0.8)
                 ),
-                url(../images/18.jpg);
+                url(../images/responsive-001.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1769,7 +1769,7 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
                         rgba(162, 148, 107, 0.8),
                         rgba(162, 148, 107, 0.8)
                 ),
-                url(../images/15.jpg);
+                url(../images/responsive-002.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1781,7 +1781,7 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
                         rgba(162, 148, 107, 0.8),
                         rgba(162, 148, 107, 0.8)
                 ),
-                url(../images/sust-1.jpg);
+                url(../images/responsive-003.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1793,7 +1793,7 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
                         rgba(162, 148, 107, 0.8),
                         rgba(162, 148, 107, 0.8)
                 ),
-                url(../images/27.jpg);
+                url(../images/responsive-004.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1805,7 +1805,7 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
                         rgba(162, 148, 107, 0.8),
                         rgba(162, 148, 107, 0.8)
                 ),
-                url(../images/menu5-a-medida.jpg);
+                url(../images/responsive-005.jpg);
     }
 
     #menu-desplegable img {
