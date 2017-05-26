@@ -2036,6 +2036,31 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
     #columna5 {
         margin-top: -3em;
     }
+
+    #desarrollo-creacion h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #textoe1,
+    #textoe11,
+    #textoe2,
+    #textoe4,
+    #textoe5,
+    #columnacontrol4 h1{
+        margin-left: 1em;
+    }
+
+    #columnaseis2 {
+        margin-top: 1em;
+    }
+
+    #comercio-exterior .textop1,
+    #comercio-exterior .textop2 {
+        width: 100%;
+        font-size: 1.4em;
+        padding: 1em 1em;
+    }
 }
 
 /* iPad */
