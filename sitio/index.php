@@ -147,7 +147,7 @@ End Fixed Navigation
         </div>
     </div>
 
-    <div class="container">
+    <div class="container visible-md visible-lg hidden-sm hidden-xs">
         <div class="row destacado-alto destacado-seccion">
             <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0  destacado-alto">
                 <div class="row  destacado-alto">
@@ -193,6 +193,31 @@ End Fixed Navigation
             </div>
         </div>
     </div>
+
+    <div class="container-fluid visible-xs visible-sm hidden-md hidden-lg">
+        <div class="row destacado-alto destacado-seccion">
+            <div class="col-sm-12 destacado-izquierda">
+                <div class="destacados-titulo destacado-expertise">
+                                                        <a href="./expertise"><?php echo $expertise ?></a>
+                </div>
+                <div class="destacado-responsive-padding"></div>
+                <div class="destacado-texto">
+                    <p><?php echo $expertise_texto ?></p>
+                </div>
+            </div>
+            <div class="col-sm-12 destacado-derecha">
+                <div class="destacados-titulo destacado-expertise">
+                    <a href="./innovaciones"><?php echo $idi ?></a>
+                </div>
+                <div class="destacado-responsive-padding"></div>
+                <div class="destacado-texto">
+                    <p><?php echo $idi_texto ?></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
 </main>
     
   <?php require 'footer.php';
