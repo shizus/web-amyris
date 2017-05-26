@@ -2190,4 +2190,46 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #lista-afuera-small ul {
         font-size: 1em;
     }
+
+    #botonesarriba .nube {
+        height: 2em;
+        width: 1.5em;
+    }
+
+    #botonesarriba .cruz {
+        height: 2em;
+        width: 1.5em;
+    }
+
+    .navbar-fixed-top #navbar ul.nav li {
+        height: 65px;
+        display: inline-block;
+    }
+
+
+    .navbar-nav {
+        margin: 0;
+        margin-right: -4.3em;
+    }
+
+    .nav li.left-division:after {
+        background: transparent;
+    }
+
+    .navbar-header {
+        width: 30%;
+        float: left;
+    }
+
+    #navbar {
+        float: right;
+        width: 70%;
+        margin-top: 1em;
+    }
+
+    #navbar li a,
+    nav.navbar-fixed-top {
+        padding: 0.2em;
+        font-size: 1.1em;
+    }
 }
