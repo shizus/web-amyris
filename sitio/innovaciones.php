@@ -80,6 +80,7 @@ insertar_servicio($textoin4, $textoin5);
         </div>
     </div>
 </div>
+
 <div class="row">
     <div class="col-md-10 col-md-offset-1 cuadrado_inno_id2" id="cuain2" >
             <h4><?php echo $textoin11 ?> </h4>

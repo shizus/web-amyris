@@ -1949,6 +1949,25 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         width: 100%;
     }
 
+    .cuadrado_inno_id2 {
+        height: auto;
+    }
+
+    .columna12 img {
+        width: 100%;
+    }
+
+    #desarrollo {
+        height: auto;
+        padding-bottom: 1em;
+    }
+
+    #imagenportfolio1_inno,
+    #imagenportfolio2_inno,
+    #imagenportfolio3_inno {
+        height: 35em;
+    }
+
     footer {
         margin-top: -5em;
         padding-top: 8em;
@@ -2351,5 +2370,28 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         height: 250px;
         width: 250px;
         margin: auto;
+    }
+
+    .cuadrado_inno h4,
+    .cuadrado_inno_id2 h4,
+    .cuadrado_inno p {
+        font-size: 2em;
+    }
+
+
+    .cuadrado_inno_id3 {
+        height: auto;
+    }
+
+
+    .cuadrado_inno_id3 h4,
+    .cuadrado_inno_id3 p {
+        font-size: 1.1em;
+    }
+
+    #imagenportfolio1_inno,
+    #imagenportfolio2_inno,
+    #imagenportfolio3_inno {
+        height: 15em;
     }
 }
