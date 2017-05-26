@@ -2215,6 +2215,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         top: 0;
     }
 
+    #esquinaderechas .ezquinaderecha1 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
     .titulo_portada {
         width: 100%;
     }
