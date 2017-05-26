@@ -10,6 +10,7 @@ $().ready(function(){
     }
 
     $(".fa.fa-bars").click(tocarNubeoCruz);
+    $(".navbar-toggle.collapsed").click(tocarNubeoCruz);
     $(".fa.fa-close").click(tocarNubeoCruz);
     $(".boton-cruz").click(function (event) {
         event.preventDefault();
