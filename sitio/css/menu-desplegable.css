@@ -58,6 +58,11 @@ a.menu-desplegable-link:hover .nav-bar-title{
     color: #000000;
 }
 
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
 .amyris-nav-container {
     background-image: url(../images/menu1-a-medida.jpg);
     background-size: cover;
