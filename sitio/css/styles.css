@@ -2065,6 +2065,10 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
     .ancho-100 {
         display: grid;
     }
+
+    .view-more {
+        display: none;
+    }
 }
 
 /* iPad */
@@ -2426,5 +2430,18 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     #inn7 {
         height: 20em;
+    }
+
+    .quinto h2 {
+        margin-top: 0;
+        padding-top: 1em;
+    }
+
+    .quintos-descripciones {
+        height: 30em;
+    }
+
+    .quintos-descripciones img {
+        top: 27em;
     }
 }

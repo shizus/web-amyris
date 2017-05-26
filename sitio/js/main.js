@@ -102,7 +102,14 @@ $(document).ready(function(){
     $(window).resize(function(){'use strict',
         $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
     });
-
+    var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+    if (isMobile) {
+        $("#productos .row .quinto").click(function () {
+            $('html,body').animate({
+                scrollTop: $("#automotor-desc").offset().top
+            });
+        });
+    }
 });
 
 
