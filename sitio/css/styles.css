@@ -1999,6 +1999,24 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
     #textcols3 {
         padding-bottom: 2em;
     }
+
+    .primero_cuadrado_quienes {
+        width: 100%;
+        margin: 1em 0.5em;
+    }
+
+    .quienes-somos-izquierda,
+    .quienes-somos-derecha {
+        margin-left: 1em;
+    }
+
+    .destacado {
+        width: 100%;
+    }
+
+    #columna5 {
+        margin-top: -3em;
+    }
 }
 
 /* iPad */
@@ -2095,6 +2113,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     .titulo_portada {
         margin-top: 5em;
     }
+
+    #portada {
+        background-position: center;
+    }
+
     #portada.portada-expertise {
         height: 30em;
     }
@@ -2111,6 +2134,65 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         height: 30em;
     }
 
+    #quienes-somos,
+    .valores-background {
+        height: 25em;
+    }
+
+
+    .primero_cuadrado_quienes img {
+        width: 6em;
+    }
+
+    .segundo_cuadrado_quienes {
+        width: 100%;
+        height: 25em;
+        text-align: center;
+    }
+
+    .segundo_cuadrado_quienes img {
+        width: 10em;
+    }
+
+    .tramado-background {
+        height: auto;
+    }
+
+    #porqueamir .por1 {
+        width: 100%;
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    #porqueamir .porp,
+    #tituloarriba img,
+    #tituloarriba p,
+    #tituloabajo p,
+    #tituloabajoabajo p {
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #tituloabajo img {
+        display: none;
+    }
+
+    #titulocostadoderecho,
+    #titulocostadoderechobajo {
+        margin-left: 1em;
+    }
+
+    #titulocostadoizquierdo,
+    #titulocostadoderecho,
+    #titulocostadoizquierdoabajo,
+    #titulocostadoderechobajo {
+        margin-top: 1em;
+    }
+
+    #tituloabajoabajo {
+        margin-top: 2em;
+    }
     #portada.portada-contacto {
         height: 30em;
     }
@@ -2142,6 +2224,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     #columnadocesusten {
         height: auto;
+    }
+
+    #columna5 {
+        height: auto;
+        padding-bottom: 4em;
     }
 
     img#corchete {

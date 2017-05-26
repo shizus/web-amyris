@@ -72,13 +72,13 @@ require 'header.php';
       <img src="images/pilares.png">
 </div>
 
-    <div class="col-md-4" id="titulocostadoizquierdo">
+    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoizquierdo">
       <br>
       <h1><?php echo $texto25 ?></h1>
       <p><?php echo $texto26 ?></p>
 
     </div>
-    <div class="col-md-4" id="titulocostadoderecho" >
+    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoderecho" >
     <br>
      <h1><?php echo $texto23 ?></h1>
      <p><?php echo $texto24 ?></p>
@@ -93,17 +93,17 @@ require 'header.php';
 
 </div>
 
-    <div class="col-md-4" id="titulocostadoizquierdoabajo">
+    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoizquierdoabajo">
      <br>
       <p><?php echo $texto266 ?></p>
 
     </div>
-    <div class="col-md-4" id="titulocostadoderechobajo">
+    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoderechobajo">
     <br>
       <p><?php echo $texto244 ?></p>
     </div>
 
-    <div class="col-md-12" id="tituloabajoabajo" >
+    <div class="col-md-12 col-sm-12 col-xs-12" id="tituloabajoabajo" >
                 <p ><?php echo $texto300 ?></p>
     </div>
 

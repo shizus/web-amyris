@@ -82,6 +82,7 @@
 
     #quienes-somos {
         background-image: url(../images/sust-5.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         height: 35em;
