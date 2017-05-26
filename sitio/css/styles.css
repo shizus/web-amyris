@@ -1755,14 +1755,15 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        line-height: 2.5em;
-        font-size: 2.8em;
-        height: 3em;
+        line-height: 1em;
+        font-size: 2em;
+        height: 2.5em;
         color: #D1BE87;
     }
 
     .isla-producto p {
         background: rgba(265,265,265,0.8);
+        width: 100%;
     }
 
     .isla-producto > div > div {

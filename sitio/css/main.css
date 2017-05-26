@@ -405,6 +405,7 @@ Producto /
  */
 .producto-fragancias-finas {
     background-image: url(../images/fraga1.jpg);
+    background-size: cover;
     background-position-y: -90px;
 }
 
