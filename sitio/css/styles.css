@@ -1856,4 +1856,13 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     .isla-producto p {
         font-size: 1em;
     }
+
+    .primero_cuadrado h4 {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    .destacado-seccion {
+        margin-top: 0;
+    }
 }

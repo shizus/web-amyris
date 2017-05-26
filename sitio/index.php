@@ -132,7 +132,7 @@ End Fixed Navigation
     <div id="priemr_cuadrado">
         <div class="container wow animated fadeInDown">
             <div class="row">
-                <div class="col-md-12 col-sm-6 col-xs-12 text-center " id="cuadrado1">
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center " id="cuadrado1">
                     <section id="cuadrado">
                         <div class="primero_cuadrado ">
                             <h4><?php echo $segundo_cuadrado1 ?><br><span
