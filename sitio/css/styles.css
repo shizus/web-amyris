@@ -2061,6 +2061,10 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         font-size: 1.4em;
         padding: 1em 1em;
     }
+
+    .ancho-100 {
+        display: grid;
+    }
 }
 
 /* iPad */

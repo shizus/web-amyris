@@ -97,53 +97,56 @@ insertar_servicio($textoe4, $textoe5);
     <p ><?php echo $textoe14?></p>
     <p ><?php echo $textoe15?></p>
     </div>
-    <div class="row">
-        <div class="galeria-container col-md-12">
-            <div class="row">
-                <div class="col-md-4 c1-jpg">
-                    <a href="images/c1.jpg" data-lightbox="portfolio" >
-                        <img src="images/plus.jpg" class="plus">
-                    </a>
+    <div class="col-md-12 ancho-100">
+        <div class="row">
+            <div class="galeria-container col-md-12">
+                <div class="row">
+                    <div class="col-md-4 c1-jpg">
+                        <a href="images/c1.jpg" data-lightbox="portfolio" >
+                            <img src="images/plus.jpg" class="plus">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 c2-jpg">
+                        <a href="images/c2.jpg" data-lightbox="portfolio" >
+                            <img src="images/plus.jpg" class="plus">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 c3-jpg">
+                        <a href="images/c3.jpg" data-lightbox="portfolio" >
+                            <img src="images/plus.jpg" class="plus">
+                        </a>
+                    </div>
+
                 </div>
-                
-                <div class="col-md-4 c2-jpg">
-                    <a href="images/c2.jpg" data-lightbox="portfolio" >
-                        <img src="images/plus.jpg" class="plus">
-                    </a>
-                </div>
-                
-                <div class="col-md-4 c3-jpg">
-                    <a href="images/c3.jpg" data-lightbox="portfolio" >
-                        <img src="images/plus.jpg" class="plus">
-                    </a>
-                </div>
-                
-            </div>
-            <div class="row">
+                <div class="row">
 
 
-                <div class="col-md-4 c4-jpg">
-                    <a href="images/c4.jpg" data-lightbox="portfolio" >
-                        <img src="images/plus.jpg" class="plus">
-                    </a>
-                </div>
+                    <div class="col-md-4 c4-jpg">
+                        <a href="images/c4.jpg" data-lightbox="portfolio" >
+                            <img src="images/plus.jpg" class="plus">
+                        </a>
+                    </div>
 
-                <div class="col-md-4 c5-jpg">
-                    <a href="images/c5.jpg" data-lightbox="portfolio" >
-                        <img src="images/plus.jpg" class="plus">
-                    </a>
-                </div>
+                    <div class="col-md-4 c5-jpg">
+                        <a href="images/c5.jpg" data-lightbox="portfolio" >
+                            <img src="images/plus.jpg" class="plus">
+                        </a>
+                    </div>
 
-                <div class="col-md-4 c6-jpg">
-                    <a href="images/c6.jpg" data-lightbox="portfolio" >
-                        <img src="images/plus.jpg" class="plus">
-                    </a>
+                    <div class="col-md-4 c6-jpg">
+                        <a href="images/c6.jpg" data-lightbox="portfolio" >
+                            <img src="images/plus.jpg" class="plus">
+                        </a>
+                    </div>
+
+
                 </div>
-                
-                
             </div>
         </div>
     </div>
+    
     
 </div>
 
