@@ -27,7 +27,7 @@
           <a href="expertise">Expertise</a>
       </h1>
         <div class="linea-blanca-menu"></div>
-      <div class="link-container"><a href="expertise">Desarrollo y Creación</a></div>
+      <div class="link-container"><a href="expertise#desarrollo-creacion">Desarrollo y Creación</a></div>
       <div class="link-container"><a href="expertise#infraestructura">Infraestructura</a></div>
       <div class="link-container"><a href="expertise#control-calidad">Control de Calidad</a></div>
       <div class="link-container"><a href="expertise#comercio-exterior">Comercio exterior</a></div>
@@ -39,7 +39,7 @@
       </h1>
         <div class="linea-blanca-menu"></div>
       <div class="link-container"><a href="sustentabilidad#valores">Valores</a></div>
-      <div class="link-container"><a href="sustentabilidad#sustentabilidad">Enfoque Sustentable</a></div>
+      <div class="link-container"><a href="sustentabilidad#enfoque-sustentable">Enfoque Sustentable</a></div>
       <div class="link-container"><a href="sustentabilidad#como-operamos">¿Cómo operamos?</a></div>
     </div>
     <div class="perc20 col-sm-12 innovaciones-nav-container">
@@ -48,7 +48,7 @@
           <a href="innovaciones">Innovaciones</a>
       </h1>
         <div class="linea-blanca-menu"></div>
-      <div class="link-container"><a href="innovaciones#innovar">Aprendemos para innovar</a></div>
+      <div class="link-container"><a href="innovaciones#aprendemos-innovar">Aprendemos para innovar</a></div>
       <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas </a></div>
       <div class="link-container"><a href="innovaciones#desarrollo">Desarrollo e innovación</a></div>
     </div>

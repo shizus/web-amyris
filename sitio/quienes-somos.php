@@ -44,7 +44,7 @@ require 'header.php';
       </div>
   </div>
 
-<div id="valoresquienes" class="row valores-background">
+<div id="valores" class="row valores-background">
     <div class="segundo_cuadrado_quienes " >
         <img src="img/t-valores.png">
     </div>

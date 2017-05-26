@@ -88,7 +88,7 @@ insertar_servicio($textoe4, $textoe5);
 
 </style>
 <div id="tramaexpertise" class="row">
-    <div class="col-md-12">
+    <div id="infraestructura" class="col-md-12">
         <div class="titulo-imagen-container margen-top-4em">
             <img class="titulo-imagen text-center" src="img/t-infraestructura.png">
         </div>

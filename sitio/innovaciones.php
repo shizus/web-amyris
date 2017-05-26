@@ -62,7 +62,7 @@ insertar_servicio($textoin4, $textoin5);
     </div>
 </div>
 <div class="row">
-    <div id="columna_inno" class="col-md-6 col-md-offset-5 col-sm-10 col-sm-offset-1">
+    <div id="aprendemos-innovar" class="col-md-6 col-md-offset-5 col-sm-10 col-sm-offset-1">
         <h2><?php echo $textoin7 ?></h2>
         <p><?php echo $textoin8 ?></p>
     </div>

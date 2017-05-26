@@ -53,7 +53,7 @@ require_once "servicio.php";
 insertar_servicio($textos4, $textos5);
 ?>
 
-<div id="imagenrosa" class="row" >
+<div id="sustentabilidad" class="row" >
     <div class="primero_cuadrado_sus col-md-9 col-md-offset-1 col-sm-12 col-sm-offset-0" >
         <img src="img/t-sustentabilidad.png" class="titulo-imagen">
     </div>
@@ -63,8 +63,8 @@ insertar_servicio($textos4, $textos5);
     <div class="col-md-5 col-md-offset-1" id="valores">
         <h2 ><?php echo $textos7 ?></h2>
         <p class="ptexto1"><?php echo $textos8 ?></p><br>
-        <p class="ptexto1"><?php echo $textos88 ?></p><br>
-        <h2 ><?php echo $textos9 ?></h2>
+        <p id="enfoque-sustentable" class="ptexto1"><?php echo $textos88 ?></p><br>
+        <h2><?php echo $textos9 ?></h2>
         <p class="ptexto1"> <?php echo $textos10 ?></p><br>
 
     </div>
