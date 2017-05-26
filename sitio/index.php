@@ -54,7 +54,7 @@ End Fixed Navigation
                                         <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-fragancias-finas">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
-                                                    <?php echo $fraganciasfinas2 ?>
+                                                        <a class="dorado" href="fragancias#productos"><?php echo $fraganciasfinas2 ?></a>
                                                     </span></h4>
                                                 <p>Buscamos ofrecerle al cliente la más alta calidad de la fragancia
                                                     creada.</p>
@@ -66,7 +66,7 @@ End Fixed Navigation
                                         <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-cuidado-personal">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
-                                                    <?php echo $cuidadopersonal2 ?>
+                                                        <a class="dorado" href="fragancias#productos"><?php echo $cuidadopersonal2 ?></a>
                                                 </span></h4>
                                                 <p>Asumimos el compromiso de ofrecerle al consumidor productos que al momento
                                                     de percibir los aromas, pueda disfrutar.</p>
@@ -82,7 +82,7 @@ End Fixed Navigation
                                             <div>
                                                 <h4>
                                                     <span class="visible-sm visible-xs hidden-lg hidden-md">
-                                                        <?php echo $cuidadohogar ?>
+                                                        <a class="dorado" href="fragancias#productos"><?php echo $cuidadohogar ?></a>
                                                     </span>
                                                 </h4>
                                                 <p>Ofrecemos productos que están relacionados con la sensación de seguridad,
@@ -94,8 +94,11 @@ End Fixed Navigation
                                         </div>
                                         <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-limpieza">
                                             <div>
-                                                <h4> <span class="visible-sm visible-xs hidden-lg hidden-md"><?php echo $limpieza ?>
-                                                </span></h4>
+                                                <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
+                                                    <a class="dorado" href="fragancias#productos"><?php echo $limpieza ?>
+                                                       </a>
+                                                         </span>
+                                                </h4>
                                                 <p>Buscamos que el bienestar generado remita a la tranquilidad de percibir un
                                                     hogar limpio.</p>
                                                 <div>
@@ -105,7 +108,8 @@ End Fixed Navigation
                                         </div>
                                         <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cosmetica">
                                             <div>
-                                                <h4> <span class="visible-sm visible-xs hidden-lg hidden-md"><?php echo $cosmetica ?>
+                                                <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
+                                                        <a class="dorado" href="fragancias#productos"><?php echo $cosmetica ?></a>
                                                 </span></h4>
                                                 <p>Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
                                                 con un auto nuevo.</p>

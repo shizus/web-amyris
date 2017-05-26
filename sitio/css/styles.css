@@ -1675,6 +1675,10 @@ h2.slogan {
     margin-left: 10%;
 }
 
+.dorado {
+    color: #D1BE87;
+}
+
 
 @media (min-width: 1900px) {
 
@@ -1708,6 +1712,7 @@ h2.slogan {
 /* Desde iPad */
 @media only screen
 and (max-device-width : 1024px)  { /* STYLES GO HERE */
+
     #titulo1,
     #titulo2,
     #titulo3,
@@ -1779,6 +1784,26 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         margin: 0;
         padding: 1em;
     }
+
+    #service {
+        z-index: 1;
+    }
+
+    #service .container {
+        padding: 1em 0.5em;
+    }
+
+    .servicio-home {
+        padding: 1em 0em;
+    }
+
+    #service h3 {
+        font-size: 1.5em;
+    }
+
+    #textorojo3 h2 {
+        font-size: 1.5em;
+    }
 }
 
 /* iPad */
@@ -1813,14 +1838,22 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     #service {
         margin: 1em;
-        height: 30em;
-    }
-
-    #service .container {
-        padding: 1em;
+        height: auto;
     }
 
     #portfolio {
         margin: 1em 0;
+    }
+
+    .isla-producto {
+        height: 25em;
+    }
+
+    .isla-producto > div > h4 {
+        font-size: 1.5em;
+    }
+
+    .isla-producto p {
+        font-size: 1em;
     }
 }

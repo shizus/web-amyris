@@ -432,6 +432,7 @@ Producto /
 .isla-producto {
     height: 25em;
     padding: 0;
+    background-repeat: no-repeat;
 }
 
 .isla-producto > div {
