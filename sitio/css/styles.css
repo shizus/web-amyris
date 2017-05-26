@@ -2232,4 +2232,14 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         padding: 0.2em;
         font-size: 1.1em;
     }
+
+    .modal.left .modal-dialog, .modal.right .modal-dialog {
+        width: 320px;
+    }
+
+    .map-container {
+        height: 250px;
+        width: 250px;
+        margin: auto;
+    }
 }
