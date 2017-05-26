@@ -2394,4 +2394,8 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #imagenportfolio3_inno {
         height: 15em;
     }
+
+    #inn7 {
+        height: 20em;
+    }
 }
