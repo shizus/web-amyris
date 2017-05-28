@@ -5,15 +5,18 @@
   	scrolleando();
 		
     });
+    scrolleando();
 })(jQuery);
 
 function scrolleando(){
 	      if ($(window).scrollTop() >= 10) {
             $('nav').addClass("floating");
+            $('body').css("margin-top", "65px");
             $('nav').removeClass("navbar-normal");
-        } else {
-            $('nav').addClass("navbar-normal");
-            $('nav').removeClass("floating");
+          } else {
+              $('nav').addClass("navbar-normal");
+              $('body').css("margin-top", "0");
+              $('nav').removeClass("floating");
         }
 }
 

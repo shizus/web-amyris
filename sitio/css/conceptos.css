@@ -129,7 +129,7 @@
 
 /* Desde iPad */
 @media only screen
-and (max-device-width : 1024px)  { /* STYLES GO HERE */
+and (max-device-width : 1023px)  { /* STYLES GO HERE */
 
     .concepto-titulo-container {
         height: auto;

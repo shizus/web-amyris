@@ -441,7 +441,7 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
 }
 
 .producto-arriba div {
-    margin-top: 60%;
+    margin-top: 19em;
     transition: all 300ms;
 }
 
@@ -1713,7 +1713,7 @@ h2.slogan {
 
 /* Desde iPad */
 @media only screen
-and (max-device-width : 1024px)  { /* STYLES GO HERE */
+and (max-device-width : 1023px)  { /* STYLES GO HERE */
 
 
     .amyris-nav-container {
@@ -1847,6 +1847,10 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
     .concepto-texto-container {
         opacity: 1;
         height: inherit;
+    }
+
+    .concepto-texto {
+        text-align: center;
     }
 
     #portfolio {
@@ -2079,6 +2083,15 @@ and (max-device-width : 1024px)  { /* STYLES GO HERE */
         padding: 2em 0em;
         margin-top: 0;
     }
+
+    .conceptos .row {
+        height: 30em;
+    }
+
+    .crear .concepto-titulo,
+    .sentir .concepto-titulo {
+        margin-top: 1em;
+    }
 }
 
 /* iPhone5 */
@@ -2293,6 +2306,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         width: 15em;
     }
 
+    .boton {
+        font-size: 0.8em;
+    }
+
     #como-operamos .titulo-imagen {
         width: 15em;
     }
@@ -2444,4 +2461,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     .quintos-descripciones img {
         top: 27em;
     }
+
+    #comercio-exterior h1,
+    #desarrollo-creacion h1{
+        font-size: 2em;
+    }
+
+
 }

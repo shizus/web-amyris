@@ -1,5 +1,10 @@
 $().ready(function(){
 
+
+    $(".link-container a").click(function(){
+        $(".cruz").click();
+    });
+
     function tocarNubeoCruz(event) {
         event.preventDefault();
         if (!$("#menu-desplegable").is(":visible")) {
