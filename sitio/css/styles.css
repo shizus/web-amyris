@@ -1681,7 +1681,30 @@ h2.slogan {
     text-transform: uppercase;
 }
 
+.contacto-row,
+.cruz-row,
+.contacto-row div,
+.cruz-row div.cruz-row-height {
+    height: 2em !important;
+}
 
+.contacto-row,
+.cruz-row {
+    text-align: center;
+    font-size: 2em;
+    display: table;
+}
+
+.contacto-row div,
+.cruz-row div.cruz-row-height {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.cruz-row-height img {
+    margin: 0;
+}
 
 @media (min-width: 1900px) {
 

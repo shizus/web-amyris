@@ -58,6 +58,7 @@
   <div class="container-fluid visible-sm visible-xs hidden-lg hidden-md">
     <div class="row">
       <div class="col-sm-12 amyris-nav-container center">
+          <div style="height: 6em"></div>
       <img src="images/flor-menu.png">
         <h1 class="nav-bar-title">
             <a href="quienes-somos">Amyris</a>
@@ -108,6 +109,16 @@
         </h1>
         <div class="link-container"><a href="innovaciones#innovar">Aprendemos para innovar</a></div>
         <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas, desarrollo e innovación</a></div>
+      </div>
+    </div>
+    <div class="row visible-xs visible-sm hidden-lg hidden-md contacto-row" style="background-color: #D1BE87">
+      <div class="col-sm-12 col-xs-12" style="display: table">
+          <a href="contacto" style="display: table-cell; vertical-align: middle">Contacto</a>
+      </div>
+    </div>
+    <div class="row visible-xs visible-sm hidden-lg hidden-md cruz-row" style="background-color: #D1BE87">
+      <div class="col-sm-12 col-xs-12 cruz-row-height">
+          <img height="56" src="images/41-x-white.png" style="margin: 0" onclick='$(".cruz").click();'>
       </div>
     </div>
   </div>  
