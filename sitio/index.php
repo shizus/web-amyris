@@ -142,8 +142,8 @@ End Fixed Navigation
                 </div>
             </div>
         </div>
-        <div class="" id="fotolaboratorio">
-            <img src="images/laboratorio.jpg">
+        <div class="" id="fotolaboratorio" style="background-image: url(images/laboratorio.jpg); background-size: cover;">
+<!--            <img src="images/laboratorio.jpg">-->
         </div>
     </div>
 

@@ -49,8 +49,7 @@
       </h1>
         <div class="linea-blanca-menu"></div>
       <div class="link-container"><a href="innovaciones#aprendemos-innovar">Aprendemos para innovar</a></div>
-      <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas </a></div>
-      <div class="link-container"><a href="innovaciones#desarrollo">Desarrollo e innovación</a></div>
+      <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas, desarrollo e innovación</a></div>
     </div>
     <div class="boton-contacto">
       <div class="link-container"><a href="contacto">Contacto</a></div>
@@ -108,8 +107,7 @@
             <a href="innovaciones">Innovaciones</a>
         </h1>
         <div class="link-container"><a href="innovaciones#innovar">Aprendemos para innovar</a></div>
-        <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas </a></div>
-        <div class="link-container"><a href="innovaciones#desarrollo">Desarrollo e innovación</a></div>
+        <div class="link-container"><a href="innovaciones#ideas">Departamento de ideas, desarrollo e innovación</a></div>
       </div>
     </div>
   </div>  

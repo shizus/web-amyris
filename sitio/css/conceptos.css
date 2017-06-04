@@ -127,9 +127,14 @@
 }
 
 
-/* Desde iPad */
+/*!* Desde iPad *!*/
+/*@media only screen*/
+/*and (max-device-width : 1023px)  { !* STYLES GO HERE *!*/
+/* Desde iPad portrait */
 @media only screen
-and (max-device-width : 1023px)  { /* STYLES GO HERE */
+/*and (min-device-width : 768px)*/
+and (max-device-width : 1024px)
+and (orientation : portrait) { /* STYLES GO HERE */
 
     .concepto-titulo-container {
         height: auto;

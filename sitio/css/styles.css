@@ -706,9 +706,6 @@ img.nube-link{
     font-weight: normal;
 
 }
-img.img-responsive {
-    min-height: 100%;
-}
 
 figcaption.mask h4 {
     margin: 10px;
@@ -898,10 +895,8 @@ ul.external li a:hover {
 
 #fotolaboratorio{
     visibility: visible; animation-name: zoomIn;
-}
-
-#fotolaboratorio img{
-    width: 100%;margin-left: auto;margin-top: -5%;
+    height: 35em;
+    margin-top: -5em;
 }
 
 
@@ -1412,11 +1407,6 @@ ul.external li a:hover {
     position: relative;
 }
 
-#fotolaboratorio{
-    margin-top: 0%;visibility: visible;animation-name: zoomIn;
-    position: relative; z-index: -1;
-}
-
 #footer-text-container {
     margin-left: 2em;
 }
@@ -1682,6 +1672,17 @@ h2.slogan {
 }
 
 
+.link-container a {
+    font-family: Futura;
+}
+
+.link-container a,
+.nav-bar-title {
+    text-transform: uppercase;
+}
+
+
+
 @media (min-width: 1900px) {
 
     footer {
@@ -1710,12 +1711,15 @@ h2.slogan {
 
 }
 
+/*!* Desde iPad *!*/
+/*@media only screen*/
+/*and (max-device-width : 1023px)  { !* STYLES GO HERE *!*/
 
-/* Desde iPad */
+/* Desde iPad portrait */
 @media only screen
-and (max-device-width : 1023px)  { /* STYLES GO HERE */
-
-
+/*and (min-device-width : 768px)*/
+and (max-device-width : 1024px)
+and (orientation : portrait) { /* STYLES GO HERE */
     .amyris-nav-container {
         background-image: url(../images/responsive-001.jpg);
         background-size: cover;
@@ -2078,7 +2082,7 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 /* iPad */
 @media only screen
 and (min-device-width : 768px)
-and (max-device-width : 1024px)  { /* STYLES GO HERE */
+and (max-device-width : 1023px)  { /* STYLES GO HERE */
     #service {
         padding: 2em 0em;
         margin-top: 0;
@@ -2137,13 +2141,23 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
     .isla-producto > div > h4 {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
     .isla-producto p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
+    .producto-fragancias-finas div h4,
+    .producto-cosmetica div h4,
+    .producto-limpieza div h4 {
+        padding-top: 0.8em;
+    }
+
+
+    .producto-fragancias-finas {
+        background-position-y: 0;
+    }
     .primero_cuadrado h4 {
         font-size: 1em;
         line-height: 1.3em;
@@ -2385,6 +2399,9 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         display: inline-block;
     }
 
+    .link-container a {
+        font-size: 0.7em;
+    }
 
     .navbar-nav {
         margin: 0;
@@ -2465,6 +2482,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #comercio-exterior h1,
     #desarrollo-creacion h1{
         font-size: 2em;
+    }
+
+    #fotolaboratorio {
+        height: 25em;
+        background-position-x: -8em;
     }
 
 

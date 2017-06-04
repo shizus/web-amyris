@@ -1,5 +1,10 @@
 $().ready(function(){
 
+    var shiftWindow = function() { setTimeout(function() {
+        scrollBy(0, -60)
+    },20)};
+    if (location.hash) shiftWindow();
+    window.addEventListener("hashchange", shiftWindow);
 
     $(".link-container a").click(function(){
         $(".cruz").click();
@@ -53,7 +58,10 @@ $().ready(function(){
 
         var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
         if (isMobile) {
-            $('#portada').hide()
+            $('main').hide();
+            $('footer').prev().hide();
+            $('footer').hide();
+            $('#portada').hide();
             $('#portada').nextAll().hide();
         }
 
@@ -87,7 +95,10 @@ $().ready(function(){
         enableScroll();
         var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
         if (isMobile) {
-            $('#portada').show()
+            $('main').show();
+            $('footer').prev().show();
+            $('footer').show();
+            $('#portada').show();
             $('#portada').nextAll().show();
         }
     });
