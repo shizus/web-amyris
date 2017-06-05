@@ -31,30 +31,53 @@
 <div class="col-md-10 col-md-offset-1 bajada"> 
  	<h2 id="sistema-conceptual">SISTEMA CONCEPTUAL AMYRIS</h2>
  	<p><?php echo $texto44f ?></p>
- 	<div class="row conceptos-row">
- 	<div class="col-md-8 col-md-offset-2">
-		<div class="row">       
-			<div class="col-md-3 col-xs-3 boton active" id="sentir"><?php echo $texto50f ?></div>
-			<div class="col-md-3 col-xs-3 boton" id="descubrir"><?php echo $texto51f ?></div>
-			<div class="col-md-3 col-xs-3 boton" id="oler"><?php echo $texto52f ?></div>
-			<div class="col-md-3 col-xs-3 boton" id="disfrutar"><?php echo $texto53f ?></div>
-		</div>
-		<div class="row descripciones">
-			<div class="col-md-12 desc active" id="sentir-desc">
-				LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
-			</div>
-			<div class="col-md-12 desc" id="descubrir-desc">
-				SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.
-			</div>
-			<div class="col-md-12 desc" id="oler-desc">
-				NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.
-			</div>
-			<div class="col-md-12 desc" id="disfrutar-desc">
-				LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
-			</div>
-		</div>
+ 	<div class="row conceptos-row visible-md visible-lg hidden-xs hidden-sm">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+                <div class="col-md-3 col-xs-3 boton active" id="sentir"><?php echo $texto50f ?></div>
+                <div class="col-md-3 col-xs-3 boton" id="descubrir"><?php echo $texto51f ?></div>
+                <div class="col-md-3 col-xs-3 boton" id="oler"><?php echo $texto52f ?></div>
+                <div class="col-md-3 col-xs-3 boton" id="disfrutar"><?php echo $texto53f ?></div>
+            </div>
+            <div class="row descripciones">
+                <div class="col-md-12 desc active" id="sentir-desc">
+                    LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
+                </div>
+                <div class="col-md-12 desc" id="descubrir-desc">
+                    SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.
+                </div>
+                <div class="col-md-12 desc" id="oler-desc">
+                    NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.
+                </div>
+                <div class="col-md-12 desc" id="disfrutar-desc">
+                    LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
+                </div>
+            </div>
 		</div>
 	</div>
+
+    <div class="row hidden-md hidden-lg visible-xs visible-sm">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 texto-centrado"><?php echo $texto50f ?></div>
+                <div class="col-md-12 dorado">
+                    LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
+                </div>
+                <div class="col-md-12 texto-centrado"><?php echo $texto51f ?></div>
+                <div class="col-md-12 dorado">
+                    SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.
+                </div>
+                <div class="col-md-12 texto-centrado"><?php echo $texto52f ?></div>
+                <div class="col-md-12 dorado">
+                    NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.
+                </div>
+                <div class="col-md-12 texto-centrado"><?php echo $texto53f ?></div>
+                <div class="col-md-12 dorado">
+                    LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.
+                </div>
+            </div>
+        </div>
+    </div>
 	
 <script>
 	$('.boton').hover(entraMouse);

@@ -44,6 +44,10 @@ label {
     margin-top: 4em;
 }
 
+.texto-centrado {
+    text-align: center;
+}
+
 .titulo-dorado {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
@@ -1769,6 +1773,11 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
     .fragan {
         height: 20em;
+    }
+
+    .dorado {
+        text-align: center;
+        margin: 1em 0.5em;
     }
 
     img.icono-responsive {
