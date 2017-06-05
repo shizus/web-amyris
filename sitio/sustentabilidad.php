@@ -91,10 +91,10 @@ insertar_servicio($textos4, $textos5);
     <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center wow animated fadeInDown" id="columnadocesusten" >
             <h1 ><?php echo $textos16 ?> </h1>
-            <img id="corchete" src="images/corchete.png" >
+            <img id="corchete" class="pilares" src="images/corchete.png" >
         </div>
     </div>
-
+    <img class="hidden-lg hidden-md visible-sm visible-xs corchete-responsive" src="images/corchete.png" >
 
     
     <div class="row seguridad-higiene">
@@ -104,18 +104,21 @@ insertar_servicio($textos4, $textos5);
                 <div class="col-md-4 col-md-offset-1 col-sm-12 col-xs-12 porquecolumna4">
                     <br>
                     <br>
+                    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/sustentabilidad-seguridadehigiene.png">
                     <h1> <?php echo $textos17 ?></h1>
                     <p  id="textcols1"> <?php echo $textos18 ?> </p>
                     <br>
+                    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/sustentabilidad-impactoambiental.png">
                     <h1> <?php echo $textos19 ?></h1>
                     <p id="textcols2" > <?php echo $textos20 ?> </p>
 
 
                 </div>
                 <div class="col-md-3 text-center col-sm-12 col-xs-12 "  id="sustencolumna3">
-                    <img src="images/susten.png" >
+                    <img class="pilares" src="images/susten.png" >
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12" id="sustencolumna4" >
+                    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/sustentabilidad-desechos.png">
                     <h1><?php echo $textos23 ?> </h1>
                     <p id="textcols3"> <?php echo $textos24 ?> </p>
                 </div>

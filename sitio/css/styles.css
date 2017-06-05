@@ -1748,6 +1748,13 @@ and (orientation : portrait) { /* STYLES GO HERE */
         display: none;
     }
 
+    .corchete-responsive {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+    }
+
     img.icono-responsive {
         width: 44px !important;
         margin-left: auto !important;
@@ -2201,6 +2208,10 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
 
+    .cuarto {
+        background-position-x: -148px;
+    }
+
 
     #quienes-somos {
         margin-left: auto;
@@ -2493,6 +2504,15 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     .sustentabilidad-impacto-ambiental {
         height: 20em;
+        background-position-x: -295px;
+    }
+
+    .sustentabilidad-impacto-ambiental {
+        margin-top: -4em;
+    }
+
+    #sustencolumna4 {
+        margin-top: 0;
     }
 
     #esquinaderechas .ezquinaderecha2,

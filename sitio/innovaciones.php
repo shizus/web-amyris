@@ -110,18 +110,22 @@ insertar_servicio($textoin4, $textoin5);
             </div>
 
             <div class="col-md-12 columna12">
-                <img src="images/inno.png">
+                <img class="pilares" src="images/inno.png">
             </div>
             <div class="col-md-4 columna1" >
+                <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/innovaciones-congresosint.png">
                 <h2> <?php echo $textoin15 ?></h2>
                 <p ><?php echo $textoin16 ?> </p>
             </div>
 
             <div class="col-md-4 columna2" >
+                <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/innovaciones-investigaciones.png">
+
                 <h2> <?php echo $textoin17 ?></h2>
                 <p> <?php echo $textoin18 ?></p>
             </div>
             <div class="col-md-4 columna3" >
+                <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/innovaciones-ideaseinnov.png">
                 <h2 > <?php echo $textoin19 ?></h2>
                 <p > <?php echo $textoin20 ?></p>
             </div>
