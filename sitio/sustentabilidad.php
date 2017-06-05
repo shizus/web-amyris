@@ -61,6 +61,7 @@ insertar_servicio($textos4, $textos5);
 
 <section id="columnas2" class="row">
     <div class="col-md-5 col-md-offset-1" id="valores">
+        <p class="ezquinaderecha1 hidden-lg hidden-md visible-sm visible-xs destacado-box-responsive" ><?php echo $textos11 ?></p><br>
         <h2 ><?php echo $textos7 ?></h2>
         <p class="ptexto1"><?php echo $textos8 ?></p><br>
         <p id="enfoque-sustentable" class="ptexto1"><?php echo $textos88 ?></p><br>
@@ -70,7 +71,7 @@ insertar_servicio($textos4, $textos5);
     </div>
 
     <div class="col-md-5" id="esquinaderechas">
-        <p class="ezquinaderecha1" ><?php echo $textos11 ?></p><br>
+        <p class="ezquinaderecha1 visible-lg visible-md hidden-sm hidden-xs" ><?php echo $textos11 ?></p><br>
         <p class="ezquinaderecha2" > <?php echo $textos12 ?></p><br>
         <p class="ezquinaderecha3" > <?php echo $textos13 ?></p><br>
         <p class="ezquinaderecha4" ><?php echo $textos14 ?>

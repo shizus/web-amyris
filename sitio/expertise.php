@@ -67,6 +67,7 @@ insertar_servicio($textoe4, $textoe5);
 <div id="columnas" class="row">
 
     <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0" id="desarrollo-creacion">
+        <p class="hidden-lg hidden-md visible-sm visible-xs destacado-box-responsive"><?php echo $textoe10 ?></p><br>
     <h1 ><?php echo $textoe6 ?></h1><br>
       <p id="textoe1"><?php echo $textoe7 ?></p><br>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>
@@ -76,7 +77,7 @@ insertar_servicio($textoe4, $textoe5);
     </div>
 
     <div class="col-md-5 col-sm-12" id="columnaseis2" >
-      <p id="textoe3" ><?php echo $textoe10 ?></p><br><br><br>
+      <p id="textoe3" class="visible-lg visible-md hidden-sm hidden-xs"><?php echo $textoe10 ?></p><br><br><br>
         <p id="textoe4"><?php echo $textoe11 ?></p><br>
         <p id="textoe5" ><?php echo $textoe12 ?></p>
 

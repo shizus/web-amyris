@@ -1755,6 +1755,22 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin-top: 2em;
     }
 
+    .destacado-box-responsive {
+        background-color: #D1BE87;
+        border-top: solid 7px #da504b;
+        color: #FFFFFF;
+        padding: 2em 0.5em;
+        text-align: center;
+    }
+
+    #desarrollo-creacion p {
+        margin: 1em;
+    }
+
+    .fragan {
+        height: 20em;
+    }
+
     img.icono-responsive {
         width: 44px !important;
         margin-left: auto !important;
