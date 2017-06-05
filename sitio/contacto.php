@@ -116,7 +116,7 @@ insertar_breadcrumbs($textoc3);
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.7829180079!2d-58.54074308525398!3d-34.533727480477665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0b0c0e97daf%3A0xe8b41b2ee25398e2!2sCap.+Cajaraville+2902%2C+Carapachay%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1474596618448" height="500" allowfullscreen></iframe>
 
 
-<div  class="col-md-12 col-sm-12 col-xs-12">
+<div  class="col-md-12 col-sm-12 col-xs-12 imagen-contacto-fondo">
   <div class="primero_cuadrado_contacto " >
       <div class="segundo_cuadrado_contacto"  >
           <h2 ><?php echo $textoc6 ?> </h2>

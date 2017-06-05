@@ -70,6 +70,10 @@ label {
 .hide-until-dom-ready {
     display: none;
 }
+
+.control-calidad-img {
+    width: 70%;margin-top: 60px;margin-left: 280px;
+}
 .linea-roja-50 {
     height: 3px;
     width: 50%;
@@ -1738,18 +1742,49 @@ h2.slogan {
 
 }
 
-/*!* Desde iPad *!*/
-/*@media only screen*/
-/*and (max-device-width : 1023px)  { !* STYLES GO HERE *!*/
 
 /* Only iPad portrait */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
+
+
+
+    #titulocostadoizquierdo,
+    #titulocostadoderechobajo,
+    #titulocostadoderecho {
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #titulocostadoizquierdo h1,
+    #titulocostadoizquierdo p,
+    #titulocostadoderecho p,
+    #titulocostadoderecho h1,
+    #titulocostadoizquierdoabajo p{
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #tituloabajoabajo p,
+    #titulocostadoizquierdoabajo {
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    #tituloabajo p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
     .quinto {
         height: 30em;
     }
+
 
     #frag-finas {
         background-position-y: -100px !important;
@@ -1766,8 +1801,82 @@ and (orientation : portrait) {
 and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
+
+    .close span {
+        font-size: 2em;
+    }
+    #porqueamir .porp {
+        width: 100%;
+    }
+    #campos {
+        margin-top: 0;
+        margin: auto;
+    }
+
+    #formulariocontacto h1 {
+        text-align: center;
+    }
+
+    #formulariocontacto input,
+    #formulariocontacto .mensaje {
+        margin-left: 0;
+        padding: 0 1em;
+        width: 100%;
+    }
+
+    .input-container{
+        padding-right: 5px;
+    }
+
+    #fotocontacto {
+        height: auto;
+    }
+
+    #columna6conta {
+        height: auto;
+    }
+
+    #formulariocontacto {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .cuadrado_inno_id3 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 20em;
+    }
+
+
+    #columnadocesusten h1 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .control-calidad-img {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #columnacontrol4 {
+        margin-top: 0;
+    }
+
+    #columnaseis2 p,
+    #textotrama1 p,
+    #desarrollo-creacion p {
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
     .pilares {
         display: none;
+    }
+
+    .titulo-dorado {
+        font-size: 2.5em;
     }
 
     .corchete-responsive {
@@ -2054,6 +2163,10 @@ and (orientation : portrait) { /* STYLES GO HERE */
         padding-bottom: 1em;
     }
 
+    #aprendemos-innovar {
+        text-align: center;
+    }
+
     #imagenportfolio1_inno,
     #imagenportfolio2_inno,
     #imagenportfolio3_inno {
@@ -2082,6 +2195,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
     #footer-text-container.interno h1 {
         color: #FFFFFF;
+        font-size: 2.5em;
     }
 
     #footer-text-container.interno p {
@@ -2103,6 +2217,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
     #sustencolumna4 {
         margin-left: 0em;
+        margin-top: 0;
     }
 
     #porque .porquecolumna4 h1,
@@ -2148,8 +2263,28 @@ and (orientation : portrait) { /* STYLES GO HERE */
     #textoe2,
     #textoe4,
     #textoe5,
+    #columnacontrol5 .p0,
+    #columnacontrol5 .p1,
+    #columnacontrol5 .p2,
     #columnacontrol4 h1{
         margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+
+    #columnacontrol5 {
+        margin-left: 0;
+    }
+
+    #columnacontrol4 ul {
+        padding-left: 1em;
+        padding-right: 0.5em;
+    }
+
+    #mapa .imagen2 {
+        width: 60%;
+        margin: 2em auto 5em auto;
+        display: block;
     }
 
     #columnaseis2 {
@@ -2181,7 +2316,7 @@ and (orientation : landscape) { /* STYLES GO HERE */
     .col-md-4-5 {
         width: 20%;
     }
-    
+
     .container.conceptos {
         margin-left: 0.85em;
     }
@@ -2255,6 +2390,84 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
+
+    .modal-content {
+        padding: 1em 0.5em;
+    }
+
+    #formulariocontacto .submit {
+        margin: 0 auto 0 auto;
+        float: none;
+    }
+
+    form#mail {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #formulariocontacto h1 {
+        margin-left: 0;
+    }
+
+    #botonrojo2_fragancias h4 {
+        padding: 1em;
+        margin: 0;
+    }
+
+    .imagen-contacto-fondo {
+        background-image: url(../images/cont-3.jpg);
+        background-size: cover;
+        margin-top: -9px;
+        height: 20em;
+        background-position-x: -211px;
+    }
+
+    .imagen-contacto-fondo .primero_cuadrado_contacto {
+        margin-top: -3em;
+    }
+
+    #fototachos {
+        display: none;
+    }
+
+    #info h1 {
+        text-align: center;
+        margin: 1em;
+    }
+    .cuadrado_inno_id3 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 30em;
+        line-height: 0.8em;
+    }
+
+    #aprendemos-innovar {
+        text-align: center;
+        padding: 3em 0em 1em 0em;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aprendemos-innovar p {
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 1.1em;
+        line-height: 1.2em;
+    }
+
+
+    .expertise-container {
+        height: 20em;
+        background-position-x: -100px;
+    }
+
+    .expertise-container .titulo-imagen {
+        margin: 3em auto 1em auto;
+        display: block;
+    }
 
     .cuarto {
         background-position-x: -148px;
@@ -2493,7 +2706,6 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #formulariocontacto h1 {
         width: 100%;
         font-size: 2em;
-        margin-left: 1em;
     }
 
     #fototachos {
@@ -2658,7 +2870,15 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     .cuadrado_inno h4,
     .cuadrado_inno_id2 h4,
     .cuadrado_inno p {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    .cuadrado_inno {
+        height: 160px;
+    }
+
+    .cuadrado_inno_id2 p {
+        padding: 0 1em;
     }
 
 
@@ -2670,6 +2890,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     .cuadrado_inno_id3 h4,
     .cuadrado_inno_id3 p {
         font-size: 1.1em;
+    }
+    .cuadrado_inno_id3 p {
+        margin-bottom: 2em;
+        line-height: 1.1em;
     }
 
     #imagenportfolio1_inno,

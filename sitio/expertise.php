@@ -153,7 +153,7 @@ insertar_servicio($textoe4, $textoe5);
 
    <h1  id="control-calidad" class="titulo-dorado text-center"><?php echo $textoe19 ?></h1>
 
-   <img src="images/47.jpg" style="width: 70%;margin-top: 60px;margin-left: 280px;">
+   <img src="images/47.jpg" class="control-calidad-img">
 
 
 <div class="row">

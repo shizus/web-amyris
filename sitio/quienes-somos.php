@@ -93,7 +93,7 @@ require 'header.php';
   <h1><?php echo $texto29 ?></h1>
    <p><?php echo $texto30 ?></p>
 
-  <img src="images/pilares2.png">
+  <img class="pilares" src="images/pilares2.png">
 
 </div>
 
