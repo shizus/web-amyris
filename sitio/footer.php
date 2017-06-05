@@ -2,10 +2,10 @@
 require_once 'requirelanguage.php';
 
 
-function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#") {
+function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $interno=true) {
     
     global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto2;
-    
+    $interno = $interno ? "interno": "";
     ?>
     
 <div class='container' id='<?php echo $containerId ?>'>
@@ -13,7 +13,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#") {
 		<div class='col-md-12 col-sm-12 col-xs-12 text-center foto-footer-container' id='<?php echo $fotoContainerId ?>' data-wow-delay='0.2s'>
 			<a href='<?php echo $link ?>'>
 				<div class='row'>
-					<div id='footer-text-container' class='col-md-6 intro-pic wow animated fadeInDown'>
+					<div id='footer-text-container' class='col-md-6 intro-pic wow animated fadeInDown <?php echo $interno ?>'>
 						<h1 class='animation animated-item-1'><?php echo $titulo ?></h1>
 						<p><?php echo $texto ?></p>
 						<p class="hidden-sm hidden-xs visible-lg visible-md"><img alt='Nube Amyris' class='footer-nube' src='images/42.png'></p>

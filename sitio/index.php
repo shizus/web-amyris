@@ -223,7 +223,7 @@ End Fixed Navigation
   <?php require 'footer.php';
   
     footer("conteinersustenta", "ultimafoto", $sustentabilidad, $sustentabilidad2,
-      "./sustentabilidad");
+      "./sustentabilidad", false);
   ?>
     <!-- Essential jQuery Plugins
     ================================================== -->

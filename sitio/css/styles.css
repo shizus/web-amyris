@@ -2018,6 +2018,15 @@ and (orientation : portrait) { /* STYLES GO HERE */
         font-size: 1.8em;
     }
 
+
+    #footer-text-container.interno h1 {
+        color: #FFFFFF;
+    }
+
+    #footer-text-container.interno p {
+        color: #FFFFFF;
+    }
+
     #columnas2 {
         margin: 0.5em;
         text-align: center;
@@ -2102,18 +2111,55 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
 }
 
+/* Only iPad landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) { /* STYLES GO HERE */
+    .container.conceptos {
+        margin-left: 0.85em;
+    }
+
+    .producto-arriba div {
+        background-position-x: -1.5em;
+    }
+
+    .producto-abajo div {
+        background-position-x: -1.2em;
+    }
+}
+
 /* iPad */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1023px)  { /* STYLES GO HERE */
+
+    .conceptos .row {
+        height: 30em;
+    }
+    .conceptos .row .concepto-titulo {
+        font-size: 3em ;
+    }
+    .conceptos .row .concepto-texto {
+        font-size: 2em;
+        line-height: 1.5em;
+        margin: 0.5em;
+    }
     #service {
         padding: 2em 0em;
         margin-top: 0;
     }
 
+    #service .container {
+        padding: 1em 0.5em;
+        height: 50em;
+        padding-top: 12em;
+    }
+
     .conceptos .row {
         height: 30em;
     }
+
 
     .crear .concepto-titulo,
     .sentir .concepto-titulo {
@@ -2128,7 +2174,8 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     nav.floating img {
         height: 3em;
-        margin-top: -0.8em;
+        margin-top: -1em;
+        margin-left: -1em;
     }
 
     #titulo1,
@@ -2428,7 +2475,6 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     .navbar-nav {
         margin: 0;
-        margin-right: -4.3em;
     }
 
     .nav li.left-division:after {
@@ -2442,8 +2488,8 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     #navbar {
         float: right;
-        width: 70%;
         margin-top: 1em;
+        margin-right: -1em;
     }
 
     #navbar li a,
