@@ -1743,6 +1743,17 @@ h2.slogan {
 /*and (min-device-width : 768px)*/
 and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
+
+    .pilares {
+        display: none;
+    }
+
+    img.icono-responsive {
+        width: 44px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
     .amyris-nav-container {
         background-image: url(../images/responsive-001.jpg);
         background-size: cover;

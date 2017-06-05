@@ -67,25 +67,29 @@ require 'header.php';
 
 
 <div class="col-md-12" id="tituloarriba" >
+    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-innovacion.png">
   <h1><?php echo $texto27 ?></h1>
    <p><?php echo $texto28 ?></p>
-      <img src="images/pilares.png">
+      <img class="pilares" src="images/pilares.png">
 </div>
 
     <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoizquierdo">
       <br>
+        <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-compromiso.png">
       <h1><?php echo $texto25 ?></h1>
       <p><?php echo $texto26 ?></p>
 
     </div>
     <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoderecho" >
     <br>
+        <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-equipo.png">
      <h1><?php echo $texto23 ?></h1>
      <p><?php echo $texto24 ?></p>
 
     </div>
 
 <div class="col-md-12" id="tituloabajo" >
+    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-calidad.png">
   <h1><?php echo $texto29 ?></h1>
    <p><?php echo $texto30 ?></p>
 
