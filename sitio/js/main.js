@@ -110,6 +110,22 @@ $(document).ready(function(){
             });
         });
     }
+
+    $('.isla-producto').click(function (event) {
+        // console.log($(event.target).children('div'));
+        $(event.currentTarget).children('div').css('margin-top',0);
+    });
+
+    $('.destacado-contenido').click(function (event) {
+        // console.log($(event.target).children('div'));
+        $(event.currentTarget).children('.destacado-texto-container').css('margin-left',0);
+    });
+
+    // $('.isla-producto > div').click(function (event) {
+    //     console.log(event);
+    //     console.log(event.currentTarget);
+    //     console.log($(event.currentTarget).css('margin-top',""));
+    // })
 });
 
 

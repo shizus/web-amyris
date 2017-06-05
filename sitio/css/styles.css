@@ -440,17 +440,17 @@ div #menu1,#menu2,#menu3,#menu4,#menu5{
     transition: all 700ms;
 }
 
-.producto-arriba div {
+.producto-arriba > div {
     margin-top: 19em;
     transition: all 300ms;
 }
 
-.producto-abajo:hover div {
+.producto-abajo:hover > div {
     margin-top: 0;
     transition: all 700ms;
 }
 
-.producto-abajo div {
+.producto-abajo > div {
     margin-top: 19em;
     transition: all 300ms;
 }
@@ -1884,8 +1884,8 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin-top: 1em;
     }
 
-    .producto-abajo div,
-    .producto-arriba div {
+    .producto-abajo > div,
+    .producto-arriba > div {
         margin-top: 0;
     }
 
@@ -2120,12 +2120,30 @@ and (orientation : landscape) { /* STYLES GO HERE */
         margin-left: 0.85em;
     }
 
-    .producto-arriba div {
+    .producto-arriba > div {
         background-position-x: -1.5em;
     }
 
-    .producto-abajo div {
+    .producto-abajo > div {
         background-position-x: -1.2em;
+    }
+
+    .isla-producto p {
+        font-size: 1.4em;
+        margin: 2em 0.8em;
+        line-height: 1em;
+    }
+
+    .destacados-titulo {
+        background-position-x: -0.6em;
+    }
+
+    .destacado-texto p {
+        color: gray;
+        margin: 3em 0em 0.3em 1em;
+        font-family: Futura;
+        font-size: 1em;
+        height: 20em;
     }
 }
 
@@ -2171,6 +2189,22 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
+
+
+    #quienes-somos {
+        margin-left: auto;
+        width: 300px;
+        margin-right: auto;
+    }
+
+    .primero_cuadrado_quienes img {
+        width: 100%;
+    }
+
+    .primero_cuadrado_quienes {
+        width: 100%;
+        margin: 0;
+    }
 
     nav.floating img {
         height: 3em;
@@ -2288,9 +2322,44 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         height: 25em;
     }
 
+    .quienes-somos-izquierda,
+    .quienes-somos-derecha {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
 
-    .primero_cuadrado_quienes img {
-        width: 6em;
+    .cuadrodestacado {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .quienes-somos-izquierda p,
+    .quienes-somos-derecha p,
+    #porqueamir .porp,
+    #tituloarriba p,
+    #tituloabajo p,
+    #titulocostadoizquierdo h1,
+    #titulocostadoderecho h1,
+    #titulocostadoderecho p,
+    #titulocostadoizquierdoabajo p,
+    #titulocostadoderechobajo p,
+    #titulocostadoizquierdo p {
+        text-align: center;
+    }
+
+    #titulocostadoizquierdoabajo p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tramado-background {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #columna5 p {
+        padding: 0 15px;
     }
 
     .segundo_cuadrado_quienes {
@@ -2308,9 +2377,9 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
     #porqueamir .por1 {
-        width: 100%;
+        width: 90%;
         font-size: 2em;
-        line-height: 2em;
+        line-height: 3em;
     }
 
     #porqueamir .porp,
@@ -2319,7 +2388,6 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #tituloabajo p,
     #tituloabajoabajo p {
         width: 100%;
-        text-align: left;
         margin-left: 0;
     }
 
@@ -2329,7 +2397,7 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     #titulocostadoderecho,
     #titulocostadoderechobajo {
-        margin-left: 1em;
+        margin-left: 0;
     }
 
     #titulocostadoizquierdo,
