@@ -1805,9 +1805,19 @@ and (orientation : portrait) { /* STYLES GO HERE */
     .close span {
         font-size: 2em;
     }
+
+    #porqueamir {
+        margin-top: 14em;
+    }
+
     #porqueamir .porp {
         width: 100%;
     }
+
+    .islas-container {
+        font-size: 1.3em;
+    }
+
     #campos {
         margin-top: 0;
         margin: auto;
@@ -2312,6 +2322,26 @@ and (orientation : portrait) { /* STYLES GO HERE */
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
+
+    #textcols1 {
+        margin-left: 0;
+    }
+
+    .porquecolumna4.col-md-offset-1 {
+        margin-left: 1em;
+    }
+
+    #porque {
+        height: 700px;
+    }
+
+    #sustencolumna4 {
+        margin-left: 2em;
+    }
+
+    img#corchete {
+        margin-top: 3em;
+    }
 
     .col-md-4-5 {
         width: 20%;
