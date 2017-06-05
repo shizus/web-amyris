@@ -1742,6 +1742,24 @@ h2.slogan {
 /*@media only screen*/
 /*and (max-device-width : 1023px)  { !* STYLES GO HERE *!*/
 
+/* Only iPad portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .quinto {
+        height: 30em;
+    }
+
+    #frag-finas {
+        background-position-y: -100px !important;
+    }
+
+    #productos h2 {
+        font-size: 3em;
+    }
+
+}
 /* Desde iPad portrait */
 @media only screen
 /*and (min-device-width : 768px)*/
@@ -2159,6 +2177,11 @@ and (orientation : portrait) { /* STYLES GO HERE */
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
+
+    .col-md-4-5 {
+        width: 20%;
+    }
+    
     .container.conceptos {
         margin-left: 0.85em;
     }
