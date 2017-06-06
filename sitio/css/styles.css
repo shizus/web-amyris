@@ -1802,6 +1802,19 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
 
+    #titulocostadoizquierdo h1, #titulocostadoderecho h1, #tituloabajo h1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #titulocostadoderecho p {
+        margin-bottom: 20px;
+    }
+
+    .letra-negra * {
+        color: #000;
+    }
+
     .close span {
         font-size: 2em;
     }
@@ -2323,6 +2336,49 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+    #desarrollo img.pilares {
+        width: 90%;
+    }
+
+    #contenedortrescolumnas h2, #contenedortrescolumnas .columna2 h2 {
+        font-size: 2em;
+    }
+
+    .cuadrado_inno_id2,
+    #desarrollo {
+        height: auto;
+    }
+
+    #tituloarriba .pilares {
+        width: 400px;
+    }
+
+    #titulocostadoderecho br {
+        display: none;
+    }
+    #titulocostadoderechobajo {
+        margin-top: -16em;
+    }
+    #titulocostadoizquierdoabajo {
+        margin-top: -11em;
+    }
+    #columna5 {
+        height: auto;
+    }
+
+    #columna5 p {
+        margin-bottom: 3em;
+    }
+
+    #conteinersustenta {
+        margin-top: 5em;
+    }
+
+    footer {
+        margin-top: -20em;
+        padding-top: 20em;
+    }
+
     #textcols1 {
         margin-left: 0;
     }
@@ -2374,7 +2430,7 @@ and (orientation : landscape) { /* STYLES GO HERE */
         margin: 3em 0em 0.3em 1em;
         font-family: Futura;
         font-size: 1em;
-        height: 20em;
+        height: 22.5em;
     }
 }
 
@@ -2390,7 +2446,7 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
         font-size: 3em ;
     }
     .conceptos .row .concepto-texto {
-        font-size: 2em;
+        font-size: 1.3em;
         line-height: 1.5em;
         margin: 0.5em;
     }
