@@ -1921,6 +1921,18 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin: 1em;
     }
 
+    #valores p:first-child,
+    #desarrollo-creacion p:first-child {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+
+    .linea-roja-50/*.float-right*/ {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
     .fragan {
         height: 20em;
     }
@@ -2143,11 +2155,15 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
 
     #service h3 {
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     #textorojo3 h2 {
-        font-size: 1.5em;
+        font-size: 2.5em;
+    }
+
+    #columna5 {
+        background-color: #D1BE87;
     }
 
 
@@ -2313,12 +2329,19 @@ and (orientation : portrait) { /* STYLES GO HERE */
     #columnacontrol4 ul {
         padding-left: 1em;
         padding-right: 0.5em;
+        width: 21em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #mapa .imagen2 {
         width: 60%;
         margin: 2em auto 5em auto;
         display: block;
+    }
+
+    #botonrojo2_fragancias h4 br:nth-child(2) {
+        display: none;
     }
 
     #columnaseis2 {
