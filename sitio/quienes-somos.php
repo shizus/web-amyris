@@ -22,27 +22,29 @@ require 'header.php';
   require_once "servicio.php";
   insertar_servicio($texto35, $texto4);
   ?>
-  
-  <div class="row">
-      <div class="col-md-8 col-md-offset-3 col-sm-12 col-sm-offset-0" id="quienes-somos">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-8 col-md-offset-3 col-sm-12 col-sm-offset-0" id="quienes-somos">
               <div class="primero_cuadrado_quienes">
                   <h4><img src="img/t-quienes-somos.png"></h4>
               </div>
+          </div>
       </div>
-  </div>
-  <div class="row">
-      <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0 quienes-somos-izquierda futura">
-          <p class="cuadrodestacado"><?php echo $texto9 ?></p><br>
-          <p class="px19"><?php echo $texto10 ?></p><br>
-          <p class="px19"><?php echo $texto11 ?></p>
-      </div>
-      <div class="col-md-5 col-sm-12 quienes-somos-derecha futura">
+      <div class="row">
+          <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0 quienes-somos-izquierda futura">
+              <p class="cuadrodestacado"><?php echo $texto9 ?></p><br>
+              <p class="px19"><?php echo $texto10 ?></p><br>
+              <p class="px19"><?php echo $texto11 ?></p>
+          </div>
+          <div class="col-md-5 col-sm-12 quienes-somos-derecha futura">
               <p class="px19"><?php echo $texto6 ?> </p><br>
               <p class="px19"><?php echo $texto7 ?></p><br>
               <p class="destacado"><?php echo $texto8 ?></p>
-                <div class="linea-roja-50"></div>
+              <div class="linea-roja-50"></div>
+          </div>
       </div>
   </div>
+  
 
 <div id="valores" class="row valores-background">
     <div class="segundo_cuadrado_quienes " >

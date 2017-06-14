@@ -2269,13 +2269,14 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
 
     .primero_cuadrado_quienes {
-        width: 100%;
-        margin: 1em 0.5em;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .quienes-somos-izquierda,
     .quienes-somos-derecha {
-        margin-left: 1em;
+        text-align: center;
+        margin: 0;
     }
 
     .destacado {
