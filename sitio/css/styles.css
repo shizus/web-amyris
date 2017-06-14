@@ -1689,31 +1689,6 @@ h2.slogan {
     text-transform: uppercase;
 }
 
-.contacto-row,
-.cruz-row,
-.contacto-row div,
-.cruz-row div.cruz-row-height {
-    height: 2em !important;
-}
-
-.contacto-row,
-.cruz-row {
-    text-align: center;
-    font-size: 2em;
-    display: table;
-}
-
-.contacto-row div,
-.cruz-row div.cruz-row-height {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-
-.cruz-row-height img {
-    margin: 0;
-}
-
 @media (min-width: 1900px) {
 
     footer {
@@ -1800,6 +1775,7 @@ and (orientation : portrait) {
 /*and (min-device-width : 768px)*/
 and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
+
 
 
     #titulocostadoizquierdo h1, #titulocostadoderecho h1, #tituloabajo h1 {
@@ -2371,6 +2347,19 @@ and (orientation : portrait) { /* STYLES GO HERE */
     .view-more {
         display: none;
     }
+
+
+    .contacto-row {
+        height: 7em;
+    }
+
+    #menu-desplegable > div > div.contacto-row > div.col-sm-12 {
+        height: inherit;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
 }
 
 /* Only iPad landscape */

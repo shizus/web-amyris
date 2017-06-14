@@ -121,14 +121,18 @@
           </div>
       </div>
     </div>
-    <div class="row visible-xs visible-sm hidden-lg hidden-md contacto-row" style="background-color: #D1BE87">
-      <div class="col-sm-12 col-xs-12" style="display: table">
-          <a href="contacto" style="display: table-cell; vertical-align: middle">Contacto</a>
+    <div class="row contacto-row" style="background-color: #D1BE87">
+      <div class="col-sm-12 col-xs-12">
+          <div class="menu-option-container">
+              <a href="contacto">Contacto</a>
+          </div>
       </div>
     </div>
-    <div class="row visible-xs visible-sm hidden-lg hidden-md cruz-row" style="background-color: #D1BE87">
+    <div class="row cruz-row" style="background-color: #938761">
       <div class="col-sm-12 col-xs-12 cruz-row-height">
-          <img height="56" src="images/41-x-white.png" style="margin: 0" onclick='$(".cruz").click();'>
+          <div class="menu-option-container">
+              <img height="56" src="images/41-x-fondo-white.png" style="margin: 0" onclick='$(".cruz").click();'>
+          </div>
       </div>
     </div>
   </div>  
