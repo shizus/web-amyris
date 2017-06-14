@@ -2101,6 +2101,16 @@ and (orientation : portrait) { /* STYLES GO HERE */
         color: #D1BE87;
     }
 
+    .isla-producto div h4 {
+        display: table;
+        /* vertical-align: middle; */
+    }
+
+    .isla-producto div h4 > span {
+        display: table-cell !important;
+        vertical-align: middle;
+    }
+
     .isla-producto p {
         font-size: 2.4em;
         margin: 0.5em 1em 1em 1em;
@@ -2202,7 +2212,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
 
     #footer-text-container h1 {
-        font-size: 2em;
+        font-size: 4em;
         color: #A59965;
         text-align: center;
     }
@@ -2619,12 +2629,6 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     .isla-producto p {
         font-size: 1.2em;
-    }
-
-    .producto-fragancias-finas div h4,
-    .producto-cosmetica div h4,
-    .producto-limpieza div h4 {
-        padding-top: 0.8em;
     }
 
 

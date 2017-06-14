@@ -60,7 +60,7 @@
             </div>
 
             <div class="modal-body">
-                <form>
+                <form id="modal-mail">
                     <div class="form-group">
                         <input type="text" class="form-control" name="nombre" placeholder="Nombre*">
                     </div>
@@ -79,6 +79,11 @@
                     <div class="form-group">
                         <label>* Datos Obligatorios</label>
                         <button type="submit" class="btn btn-default float-right">Enviar</button>
+                    </div>
+                    <div class="form-group" id="mensaje-enviado-modal" style="display: none">
+                        <label>El mensaje ha sido enviado.
+                            ¡Muchas Gracias!
+                            En breve nos pondremos en contacto.</label>
                     </div>
 
                 </form>

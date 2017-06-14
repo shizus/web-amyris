@@ -112,20 +112,28 @@ $(document).ready(function(){
     }
 
     $('.isla-producto').click(function (event) {
-        // console.log($(event.target).children('div'));
-        $(event.currentTarget).children('div').css('margin-top',0);
+        var marginTop = $(event.currentTarget).children('div').css('margin-top');
+        if (marginTop != 0) {
+            $(event.currentTarget).children('div').setAttribute('margen', marginTop);
+            $(event.currentTarget).children('div').css('margin-top',0);
+        } else {
+            marginTop = $(event.currentTarget).children('div').getAttribute('margen');
+            $(event.currentTarget).children('div').css('margin-top',marginTop);
+        }
     });
 
     $('.destacado-contenido').click(function (event) {
         // console.log($(event.target).children('div'));
-        $(event.currentTarget).children('.destacado-texto-container').css('margin-left',0);
+        var marginLeft = $(event.currentTarget).children('.destacado-texto-container').css('margin-left');
+        if (marginLeft != 0) {
+            $(event.currentTarget).children('.destacado-texto-container').setAttribute('margen', marginLeft);
+            $(event.currentTarget).children('.destacado-texto-container').css('margin-left',0);
+        } else {
+            marginLeft = $(event.currentTarget).children('.destacado-texto-container').getAttribute('margen');
+            $(event.currentTarget).children('.destacado-texto-container').css('margin-left',marginLeft);
+        }
     });
 
-    // $('.isla-producto > div').click(function (event) {
-    //     console.log(event);
-    //     console.log(event.currentTarget);
-    //     console.log($(event.currentTarget).css('margin-top',""));
-    // })
 });
 
 

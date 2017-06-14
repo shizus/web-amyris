@@ -148,6 +148,13 @@ insertar_breadcrumbs($textoc3);
                         <div class="input-container">
                             <input type="submit" class="submit" value='<?php echo $textoc13 ?> '>
                         </div>
+                        <label id="mensaje-enviado-label" style="display: none;">El mensaje ha sido enviado.
+
+                            ¡Muchas Gracias!
+
+                            En breve nos pondremos
+
+                            en contacto.</label>
                     </div>
                 </form>
                 <br>
