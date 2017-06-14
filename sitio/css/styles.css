@@ -2231,7 +2231,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
     #footer-text-container.interno h1 {
         color: #FFFFFF;
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     #footer-text-container.interno p {
