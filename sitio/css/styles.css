@@ -3051,5 +3051,29 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         background-position-x: -8em;
     }
 
+    .destacado {
+        padding: 2px 20px 1px 20px;
+    }
 
+    #sustenfinal {
+        background-image: url(../images/27.jpg);
+        background-size: cover;
+        height: 15em;
+        background-position-x: -57px;
+    }
+
+    #textorojo3 h2 {
+        font-size: 1.6em;
+        width: 100%;
+    }
+
+    #menu-desplegable .visible-sm .row .col-sm-12 {
+        display: table;
+        width: 100%;
+    }
+
+    .dummy-cruz-row,
+    #botonesarriba {
+        display: none;
+    }
 }
