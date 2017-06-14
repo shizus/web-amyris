@@ -129,7 +129,14 @@
       </div>
     </div>
     <div class="row cruz-row" style="background-color: #938761">
-      <div class="col-sm-12 col-xs-12 cruz-row-height">
+      <div class="col-sm-12 col-xs-12">
+          <div class="menu-option-container">
+              <img height="56" src="images/41-x-fondo-white.png" style="margin: 0" onclick='$(".cruz").click();'>
+          </div>
+      </div>
+    </div>
+    <div class="row cruz-row" style="background-color: #938761">
+      <div class="col-sm-12 col-xs-12">
           <div class="menu-option-container">
               <img height="56" src="images/41-x-fondo-white.png" style="margin: 0" onclick='$(".cruz").click();'>
           </div>

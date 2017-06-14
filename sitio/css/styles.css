@@ -2353,6 +2353,14 @@ and (orientation : portrait) { /* STYLES GO HERE */
         height: 7em;
     }
 
+    .cruz-row {
+        height: 8em;
+    }
+
+    #menu-desplegable > div > div.cruz-row > div.col-sm-12 {
+        height: inherit;
+        text-align: center;
+    }
     #menu-desplegable > div > div.contacto-row > div.col-sm-12 {
         height: inherit;
         font-size: 2em;
