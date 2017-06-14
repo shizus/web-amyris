@@ -2044,6 +2044,15 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin-top: 2em;
     }
 
+    .menu-option-container {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #menu-desplegable .visible-sm .row .col-sm-12 {
+        display: table !important;
+    }
+
     #menu-desplegable .nav-bar-title {
         font-size: 2em;
     }
