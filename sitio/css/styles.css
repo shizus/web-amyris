@@ -2389,6 +2389,10 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+    #desarrollo-creacion h1 {
+        width: 90%;
+    }
+
     .por-que-abajo-box {
         margin-top: -3em;
     }
