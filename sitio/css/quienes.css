@@ -23,6 +23,10 @@
 
   }
 
+  .pilares-box > img {
+      width: 100%;
+  }
+
   #botonrojo_quienes {
 
     background-image: url(images/botonrojo.png);
@@ -334,8 +338,19 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
      margin-left: auto;     margin-right: auto;    text-align: center;    margin-top: 0%;
 }
 
+.por-que-box h1,
 #tituloabajo h1{
     font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;color:#DA504B;;
+}
+
+.compromiso-box h1,
+.compromiso-box {
+    text-align: right;
+}
+
+.equipo-box h1,
+.equipo-box {
+    text-align: left;
 }
 
 #tituloabajo p{

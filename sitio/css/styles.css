@@ -1781,6 +1781,15 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
 
+    .compromiso-box h1,
+    .compromiso-box {
+        text-align: center;
+    }
+
+    .equipo-box h1,
+    .equipo-box {
+        text-align: center;
+    }
 
     #titulocostadoizquierdo h1, #titulocostadoderecho h1, #tituloabajo h1 {
         margin-top: 20px;

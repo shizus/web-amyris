@@ -72,18 +72,18 @@ require 'header.php';
     <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-innovacion.png">
   <h1><?php echo $texto27 ?></h1>
    <p><?php echo $texto28 ?></p>
-      <img class="pilares" src="images/pilares.png">
 </div>
 
-    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoizquierdo">
-      <br>
+    <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box compromiso-box">
         <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-compromiso.png">
       <h1><?php echo $texto25 ?></h1>
       <p><?php echo $texto26 ?></p>
 
     </div>
-    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoderecho" >
-    <br>
+    <div class="col-md-4 col-sm-12 col-xs-12 pilares-box">
+        <img class="pilares" src="images/pilares.png">
+    </div>
+    <div class="col-md-3 col-xs-12 por-que-box equipo-box">
         <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-equipo.png">
      <h1><?php echo $texto23 ?></h1>
      <p><?php echo $texto24 ?></p>
