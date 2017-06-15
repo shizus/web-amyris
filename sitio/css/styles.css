@@ -1781,13 +1781,13 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
 
-    .compromiso-box h1,
-    .compromiso-box {
+    .por-que-izquierda-box h1,
+    .por-que-izquierda-box {
         text-align: center;
     }
 
-    .equipo-box h1,
-    .equipo-box {
+    .por-que-derecha-box h1,
+    .por-que-derecha-box {
         text-align: center;
     }
 
@@ -2389,6 +2389,10 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+    .por-que-abajo-box {
+        margin-top: -3em;
+    }
+
 
     .tramado-background {
         height: 30em;
@@ -2821,8 +2825,21 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #tituloarriba p,
     #tituloabajo p,
     #tituloabajoabajo p {
-        width: 100%;
-        margin-left: 0;
+        width: auto;
+        margin: 0.5em;
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+
+    .por-que-box p {
+        margin: 0.5em;
+        text-align: center;
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+
+    #susten {
+        margin-top: 2em;
     }
 
     #tituloabajo img {

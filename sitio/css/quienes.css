@@ -23,6 +23,7 @@
 
   }
 
+  .pilares,
   .pilares-box > img {
       width: 100%;
   }
@@ -343,13 +344,13 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
     font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;color:#DA504B;;
 }
 
-.compromiso-box h1,
-.compromiso-box {
+.por-que-izquierda-box h1,
+.por-que-izquierda-box {
     text-align: right;
 }
 
-.equipo-box h1,
-.equipo-box {
+.por-que-derecha-box h1,
+.por-que-derecha-box {
     text-align: left;
 }
 

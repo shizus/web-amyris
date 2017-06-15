@@ -67,51 +67,61 @@ require 'header.php';
 <h1 class="por1" ><?php echo $texto21 ?></h1>
   <p class="porp"><?php echo $texto22 ?></p>
 
+<div class="row">
 
-<div class="col-md-12" id="tituloarriba" >
-    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-innovacion.png">
-  <h1><?php echo $texto27 ?></h1>
-   <p><?php echo $texto28 ?></p>
+    <div class="col-md-12" id="tituloarriba" >
+        <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-innovacion.png">
+        <h1><?php echo $texto27 ?></h1>
+        <p><?php echo $texto28 ?></p>
+    </div>
 </div>
+    
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box por-que-izquierda-box">
+            <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-compromiso.png">
+            <h1><?php echo $texto25 ?></h1>
+            <p><?php echo $texto26 ?></p>
 
-    <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box compromiso-box">
-        <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-compromiso.png">
-      <h1><?php echo $texto25 ?></h1>
-      <p><?php echo $texto26 ?></p>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 pilares-box">
+            <img class="pilares" src="images/pilares.png">
+        </div>
+        <div class="col-md-3 col-xs-12 por-que-box por-que-derecha-box">
+            <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-equipo.png">
+            <h1><?php echo $texto23 ?></h1>
+            <p><?php echo $texto24 ?></p>
 
+        </div>
     </div>
-    <div class="col-md-4 col-sm-12 col-xs-12 pilares-box">
-        <img class="pilares" src="images/pilares.png">
+    
+    <div class="row">
+        <div class="col-md-12" id="tituloabajo" >
+            <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-calidad.png">
+            <h1><?php echo $texto29 ?></h1>
+            <p><?php echo $texto30 ?></p>
+
+        </div>
     </div>
-    <div class="col-md-3 col-xs-12 por-que-box equipo-box">
-        <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-equipo.png">
-     <h1><?php echo $texto23 ?></h1>
-     <p><?php echo $texto24 ?></p>
-
-    </div>
-
-<div class="col-md-12" id="tituloabajo" >
-    <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-calidad.png">
-  <h1><?php echo $texto29 ?></h1>
-   <p><?php echo $texto30 ?></p>
-
-  <img class="pilares" src="images/pilares2.png">
-
-</div>
-
-    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoizquierdoabajo">
-     <br>
-      <p><?php echo $texto266 ?></p>
-
-    </div>
-    <div class="col-md-4 col-sm-12 col-xs-12" id="titulocostadoderechobajo">
-    <br>
-      <p><?php echo $texto244 ?></p>
+    
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box por-que-izquierda-box">
+            <p><?php echo $texto266 ?></p>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <img class="pilares" src="images/pilares2.png">
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12 por-que-box">
+            <p><?php echo $texto244 ?></p>
+        </div>
     </div>
 
-    <div class="col-md-12 col-sm-12 col-xs-12" id="tituloabajoabajo" >
-                <p ><?php echo $texto300 ?></p>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 col-sm-12 col-xs-12 por-que-box por-que-abajo-box">
+            <p class="text-center"><?php echo $texto300 ?></p>
+        </div>
     </div>
+
+  
 
 </section>
 <?php  require 'footer.php';
