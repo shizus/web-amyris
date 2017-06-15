@@ -2142,7 +2142,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
 
     #service h3 {
-        font-size: 3em;
+        font-size:2.5em;
     }
 
     #textorojo3 h2 {
@@ -2518,6 +2518,15 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
+
+
+    #columnacontrol4 ul {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .modal-content {
         padding: 1em 0.5em;
