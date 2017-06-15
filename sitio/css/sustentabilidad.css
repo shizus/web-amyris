@@ -111,7 +111,7 @@
 
 img#corchete{
     width: 350px;
-    margin-top: 4em;
+    margin-top: 6em;
 }
 
 #esquinaderechas{
@@ -195,6 +195,7 @@ margin-top: 5%;
         background-color: #D1BE89;
         padding: 1.5em 4em;
         opacity: 1;
+        display: table-caption;
     }
 
     #sustencolumna3 {
@@ -213,14 +214,18 @@ margin-top: 5%;
         margin-top: 10em;
     }
 
-  #columnadocesusten h1{
-    font-family:'Museo 500 Regular';
-    font-weight:normal;
-    font-size:21px;
-    text-align: center;
-    color: #FFF;
-    line-height: 30px;
-  }
+    #columnadocesusten h1 {
+        font-family: 'Museo 500 Regular';
+        font-weight: normal;
+        font-size: 21px;
+        text-align: center;
+        color: #FFF;
+        line-height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
 
 #porque{
     border: solid;
