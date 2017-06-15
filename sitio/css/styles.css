@@ -1724,6 +1724,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
+
+
     #automotor {
         background-position-y: -226px !important;
     }
@@ -2378,6 +2380,12 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+
+    .tramado-background {
+        height: 30em;
+    }
+
+    
     #desarrollo img.pilares {
         width: 90%;
     }
@@ -2398,12 +2406,15 @@ and (orientation : landscape) { /* STYLES GO HERE */
     #titulocostadoderecho br {
         display: none;
     }
+
     #titulocostadoderechobajo {
         margin-top: -16em;
     }
+
     #titulocostadoizquierdoabajo {
         margin-top: -11em;
     }
+
     #columna5 {
         height: auto;
     }
