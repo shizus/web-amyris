@@ -1689,6 +1689,10 @@ h2.slogan {
     text-transform: uppercase;
 }
 
+.por-que-box p {
+    font-family: "Futura";
+}
+
 @media (min-width: 1900px) {
 
     footer {
@@ -1724,6 +1728,14 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
+    .por-que-box p,
+    #tituloabajo p {
+        margin: 0.5em;
+        width: auto;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.2em;
+    }
 
 
     #automotor {
@@ -1755,11 +1767,6 @@ and (orientation : portrait) {
         width: 100%;
     }
 
-    #tituloabajo p {
-        font-size: 18px;
-        line-height: 32px;
-    }
-
     .quinto {
         height: 30em;
     }
@@ -1780,6 +1787,10 @@ and (orientation : portrait) {
 and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
+    .dummy-cruz-row,
+    #botonesarriba {
+        display: none;
+    }
 
     .por-que-izquierda-box h1,
     .por-que-izquierda-box {
@@ -1912,7 +1923,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
     #valores p:first-child,
     #desarrollo-creacion p:first-child {
-        font-size: 2em;
+        font-size: 1.7em;
         line-height: 1.2em;
     }
 
@@ -2242,7 +2253,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
     #footer-text-container.interno h1 {
         color: #FFFFFF;
-        font-size: 2em;
+        font-size: 4em;
     }
 
     #footer-text-container.interno p {
@@ -2255,7 +2266,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
     }
 
     #esquinaderechas {
-        margin-top: 0.5em;
+        margin-top: -2.5em;
     }
 
     #porque {
@@ -2388,6 +2399,16 @@ and (orientation : portrait) { /* STYLES GO HERE */
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
+
+    #formulariocontacto .mensaje,
+    .input-container,
+    #formulariocontacto input {
+        width: 400px;
+    }
+
+    #formulariocontacto h1 {
+        font-size: 2em;
+    }
 
     #desarrollo-creacion h1 {
         width: 90%;
@@ -2547,6 +2568,17 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
 
+    .cuadrado_inno p {
+        padding-bottom: 0;
+    }
+
+    .cuadrado_inno h4 {
+        margin-top: 5px;
+    }
+
+    #footer-text-container.interno h1 {
+        font-size: 2em;
+    }
 
     #columnacontrol4 ul {
         padding-left: 0.5em;
@@ -2831,14 +2863,15 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #tituloabajoabajo p {
         width: auto;
         margin: 0.5em;
-        font-size: 1em;
+        font-size: 18px;
         line-height: 1.2em;
+        font-family: Futura;
     }
 
     .por-que-box p {
         margin: 0.5em;
         text-align: center;
-        font-size: 1em;
+        font-size: 18px;
         line-height: 1.2em;
     }
 
@@ -3122,8 +3155,5 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         width: 100%;
     }
 
-    .dummy-cruz-row,
-    #botonesarriba {
-        display: none;
-    }
+
 }

@@ -195,7 +195,7 @@ margin-top: 5%;
         background-color: #D1BE89;
         padding: 1.5em 4em;
         opacity: 1;
-        display: table-caption;
+        /*display: table-caption;*/
     }
 
     #sustencolumna3 {
@@ -294,7 +294,7 @@ margin-top: 5%;
 
 @media (min-width: 120em){
     img#corchete {
-        margin-top: 6.5em;
+        margin-top: 8.5em;
     }
 
     #porque > .row {
