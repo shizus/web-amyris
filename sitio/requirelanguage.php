@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+//var_dump($_SESSION["language"]);
 if (empty($_SESSION["language"])) {
 
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -10,9 +12,7 @@ if (empty($_SESSION["language"])) {
      $_SESSION["language"]="es";   
     }
 }
-if (isset($_SESSION["language"]))
-    
-{
+if (isset($_SESSION["language"])) {
 $lang=$_SESSION["language"]; 
 }
 
@@ -35,7 +35,8 @@ switch ($lang){
         break;        
     default:
       //  echo "PAGE ES - Setting Default";
-        include("language/es.php");//include EN in all other cases of different lang detection
+        include("language/es.php");
         break;
 }
-?>
+
+//var_dump($lang);

@@ -16,10 +16,10 @@
         <div id="navbar">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                         <a href="#">EN</a>
+                         <a href="select-lenguage.php?lang=en">EN</a>
                 </li>
                 <li class="left-division">
-                    <a href="#">ES</a>
+                    <a href="select-lenguage.php?lang=es">ES</a>
                 </li>
                 <li>
                     <a href="#" data-toggle="modal" data-target="#telefono-modal">
