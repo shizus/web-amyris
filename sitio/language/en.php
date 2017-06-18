@@ -1,282 +1,271 @@
-<?php
+﻿<?php
 // menu 1
 $amyris="AMYRIS";
 $quienes="ABOUT US";
-$valores="VALUES";
-$porque="&iquest;WHY AMYRIS?";
+$valores="OUR VALUES";
+$porque="WHY AMYRIS?";
 
 //menu2
 
 $fragancias="FRAGRANCES";
-$fraganciasfinas="FINE FRAGANCES";
-$cuidadopersonal="PERSONAL CARE";
-$hogarylimpieza="HOME AND CLEANING";
+$fraganciasfinas="CONCEPTUAL SYSTEM ";
+$cuidadopersonal="PRODUCTS";
+$hogarylimpieza="HOGAR Y LIMPIEZA";
 
 // menu3
 $expertise="EXPERTISE";
+$expertise_texto="Our banner is the quality of our products and procedures. We are strict in every detail of the manufacturing and delivery process. Through innovative technology and best practices, Amyris has continues developing market leading techniques.";
+
+$idi="I+D+I";
+$idi_texto="Our innovation Department works tirelessly researching for new sensations and proposals, where processes are constantly evaluated and applied to new technologies, tools and trends that can generate a differential product.";
+
 $desarrollo="DEVELOPMENT AND CREATION";
 $infraestructura="INFRASTRUCTURE";
-$control="QA";
+$control="QUALITY CONTROL";
 $comercio="FOREIGN TRADE";
 
 //menu4
 
 $sustentabilidad="SUSTAINABILITY";
-$proteccion="PROTECTION";
-$eficiencia="EFFICIENCY";
+$proteccion="SUSTAINABLE APPROACH";
+$eficiencia="OUR PROCESS";
 $valoresm="VALUES";
 
 //menu5
 
 $innovaciones="INNOVATIONS";
-$departamento="DEPARTMENT OF IDEAS";
-$desarrollom="DEVELOPMENT AND INNOVATION";
-$investigacion="INVESTIGATION";
+$departamento="WE LEARN TO INNOVATE";
+$desarrollom="DEPARTMENT OF DEVELOPMENT AND INNOVATION IDEAS";
+$investigacion="INVESTIGACI&Oacute;N";
+//index
 
-$bienvenidos="WELCOME TO";
-$creamos1="CREATING FRAGRANCES";
-$creamos2="CREATE FEELINGS";
+$bienvenidos="WELCOME TO AMYRIS";
+$creamos1="WE CREATE FRAGRANCES";
+$creamos2="WE CREATE SENSATIONS";
 
-$fabricamos="Frafancias that connect to manufacture consumer sentiment" ;
-$logramos="We managed to generate links specifying the olfactory imagination";
-$disfrutar1="enjoy";
-$disfrutar2="FLAVORS FRAGRANCES AND WE ALWAYS REMEMBER A SPECIAL TIME. POS THAT OUR FRAGRANCES ARE INVITED TO RELAX, TO HAPPINESS AND THE ENJOYMENT" ;
+$fabricamos="What sets Amyris apart? Our creativity fueled by passion and innovation, as well as our long-standing and close relationships with our customers";
+$logramos="We create fragrances that transmit emotions and connect with the sensitivity of the consumer";
+$isla_crear_titulo="create";
+$isla_crear_texto="OUR FRAGRANCES ARE TAILORED TO THE CLIENT, DESIGNED, AND DEVELOPED EXCLUSIVELY OFFERING EXCELLENCE AND QUALITY. WE ALLOW OUR CUSTOMERS TO PARTICIPATE IN THE PROCESS OF CREATION OF THE DESIGN AND ADVISE ON THE BEST OPTION." ;
 
-$oler1="smell";
-$oler2="OUR SENSE OF SMELL IS MORE SENSITIVE THAN ANY AND AMENDING our behavior. WHY WORK IN COMBINING AMYRIS 3000 RAW MATERIALS FOR SEARCH AND PERFECT UNIQUE FRAGRANCE ";
-$descubrir1="discover";
-$descubrir2="AROMAS CONQUER THE NOSE AND MEMORIES FOR FIRING sensations such AMYRIS CREATED THAT IN RESPONDING FRAGRANCES BETTER PSYCHOLOGICAL CHARACTERISTICS OF CONSUMER";
+$isla_sentir_titulo="feel";
+$isla_sentir_texto="WHEN YOU SMELL THINGS, YOU REMEMBER EMOTIONS.  OUR SENSE OF SMELL CAN REMIND US OF SPECIAL MOMENTS IN OUR LIVES THAT SUCH AS LAUGHTER, JOY, NOSTALGIA, OR SADNESS. WE DESIGN FRAGRANCES THAT…IS TO INTERPRET THOSE FEELINGS IN A FRAGRANCE." ;
 
-$amyrises="AMYRIS IS CONNECTION";
-$ofrecemosexcelencia="OFFER EXCELLENCE IN FRAGRANCE CREATION AND DEVELOPMENT" ;
+$isla_disfrutar_titulo="enjoy";
+$isla_disfrutar_texto="FIND THE RIGHT FRAGRANCE GENERATE JOY AND EXCITEMENT. AT AMYRIS WE INVITE YOU TO ENJOY THE TIME WITH THE HIGHEST QUALITY PRODUCTS." ;
 
+$oler1="discover";
+$oler2="CREATING A FRAGRANCE REQUIRES A SUBTLE BALANCE OF CREATIVITY, EXPERTISE AND TEAM WORK. WE PROVIDE EXCELLENCE TO ACHIEVE THE PERFECT OLFACTORY IMAGINATION.";
+$isla_descubrir_titulo="discover";
+$isla_descubrir_texto="CREATING A FRAGRANCE REQUIRES A SUBTLE BALANCE OF CREATIVITY, EXPERTISE AND TEAM WORK. WE PROVIDE EXCELLENCE TO ACHIEVE THE PERFECT OLFACTORY IMAGINATION.";
+
+$amyrises="AMYRIS IS HARMONY IN THE AIR";
+$ofrecemosexcelencia="WE OFFER EXCELLENCE IN THE CREATION AND DEVELOPMENT OF FRAGRANCES" ;
 $contacto="Contact";
 $contacto2="CONTACT";
 
-$fraganciasfinas2="Fine Fragrances";
-$cuidadopersonal2="Personal care";
-$hogarylimpieza2="Home & Cleaning";
+$fraganciasfinas2="Fine fragrances";
+$cuidadopersonal2="Personal care and toiletries products";
+$hogarylimpieza2="Taking care of the household and environmental";
 
-$segundo_cuadrado1="AMYRIS COVERS ALL THE DEVELOPMENT PROCESS WITH LATEST TECHNOLOGY AND  " ;
-$segundo_cuadrado2="HIGHLY QUALIFIED PROFESSIONALS EXCLUSIVE IDEAS DEPARTMENT OF DEVELOPMENT AND RESEARCH";
-$sustentabilidad2="INTRODUCTION TO TAKE CARE OF OUR PLANET AND OUR STAFF INVOLVED IN ALL PROCESSES IN THE CREATION AND DEVELOPMENT OF OUR FRAGRANCES";
+$segundo_cuadrado1="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT WITH THE LATEST TECHNOLOGY, HIGHLY TRAINED PROFESSIONALS AND AN " ;
+$segundo_cuadrado2="EXCLUSIVE RESEARCH AND DEVELOPMENT DEPARTMENT";
+$sustentabilidad2="OUR PREMISE IS TO GUARANTEE THE CARE AND THE REDUCTION OF ENVIRONMENTAL IMPACT IN ALL PROCESSES INVOLVED IN THE CREATION AND DEVELOPMENT OF OUR FRAGRANCES";
 
+$cuidadohogar="Taking care of the household and environmental" ;
+
+$limpieza="Cleaning" ;
+
+$cosmetica="Cosmetic automotive";
 // quienes somos
 
-$texto1="CONNECTING THE VALUE OF SENSES";
-$texto2="Inspiring happiness and welfare";
-$texto3="About us / Values / &iquest;Why AMYRIS?";
-$texto4="GENERATE TRENDS IN FRAGRANCE AND PERSONAL CARE";
-$texto5="ABOUT US " ;
-$texto6="Taking based in Buenos Aires, we have presence in throughout the country as well as internationally.
-Thanks to our structure, we can put focus not only in Argentina if not in several countries in Latin America and
-also we are in a process of expansion immediately it is reaching the Asian continent through a network
-professional distributors." ;
-$texto7=" Our expertise is based on the constant search for innovative, exploring and sensory solutions
-discovering what emotions move us, awaken those senses expressing enjoyment possible so the";
-$texto8="WE SEE EVERY DE VELOPMENT, EACH FRAGRANCE CREATED ESPECIALLY AS An art, like a unique challenge. THUS
-WORK IN CONJUNCTION WITH SEVERAL LEADING BRANDS AND ARE CONSIDERED AS A SUPPLIER SPOTLIGHT." ;
-$texto9="Amyris is a family business national capitals, long background and experience dedicated to the
-research, development, production, innovation and creation of fragrances first quality" ;
-$texto10="aim to experience an experience only. Thus, you are looking captivate the senses, We are always aligned with the objectives of each client which, together with our passion, it allows us to provide always an absolute quality in every product generated." ;
-$texto11="This is the challenge we take daily, which seduces us continue to grow with our customers as a great
-team, enhancing the relationship as a value chain, allowing us to always be renewed and well anticipate the global trend." ;
+$texto1="THE VALUE OF CONNECTING SENSES ";
+$texto2="to inspire happiness and well-being";
+$texto3="Who we are? / Securities / for which Amyris?";
+$texto4="WE GENERATE TRENDS IN FRAGRANCES AND PERSONAL CARE";
+$texto5="WHO WE ARE " ;
+
+$texto6="We take each project as a unique challenge and to make this possible, we research, update the ingredients, add raw materials, and adapt to global trends. " ;
+$texto7="The team of AMYRIS S.A. advises the customer in all development and has as main objective to seek excellence and quality in their product, why we work together with several leading brands and we are regarded as a leading provider";
+$texto8="A FRAGRANCE CREATED CUSTOM GIVES IDENTITY AND EVERY DEVELOPMENT IS A UNIQUE CHALLENGE." ;
+$texto9="Amyris is a family-owned business with a long history and vast experience, dedicated to the research, development, production, development, innovation, and creation of fragrances for the industry. " ;
+$texto10="We have distributors in the Latin American market exclusively selected and trained to maintain the quality of our products." ;
+$texto11="Our expertise is based on the constant search for innovative sensory solutions, we seek to captivate the senses to represent them in a fragrance, exploring and discovering what emotions move us, enabling thus the aim of experiencing a unique experience. " ;
 $texto12="VALUES";
 $texto13="HONESTY";
-$texto14="Respect for the client and transparency in our actions are our essence deeper. Honesty is something that represents our way of being, thinking and actions and that we apply in every detail of the work process.";
+$texto14 ="Respect and honesty are fundamental pillars of our company. We guarantee our customers transparency in our processes from the beginning until the end." ;
 $texto15="ETHICS";
-$texto16="Each development, each project is unique and unrepeatable. We characterized a behavior loyalty and trust with the client and is a behavior that trasmitimos from every corner of our company";
+$texto16="Each project involves a commitment with the client and that obligation we take makes each development is unique and unrepeatable. Characterizes us conduct of loyalty, trust and loyalty on the work done." ;
 $texto17="SYNERGY";
-$texto18="always work with customers and strategic partners, ensuring its success, it is our reason for being and the key to our future";
-$texto19="FAMILY";
-$texto20="We consider our staff as one big family where everyone We possess the same enthusiastic spirit of hard work, respect, growth and
-service quality.";
+$texto18="We work together with customers as strategic partners." ;
+$texto19="FAMILIA";
+$texto20="Consideramos a nuestro personal como una gran familia en donde todos poseemos el mismo esp&iacute;ritu entusiasta de trabajo, respeto, crecimiento y de calidad en el servicio." ;
 
-$texto21="WHY AMYRIS";
-$texto22="OUR VISION IS BASED ON FUNDAMENTAL PILLARS FIVE WHAT ARE THE ESSENCE OF WHO WE ARE AND ALL THAT WE REPRESENT.";
-$texto23="TEAM";
-$texto24="Our people are the main asset Amyris. All of them are recognized by their talents, their ethical behavior and
-integrity, which honors us completely";
+$texto21="Why Amyris?";
+$texto22="OUR VISION IS BASED ON 4 MAIN PILLARS THAT ARE THE ESSENCE OF WHO WE ARE AND EVERYTHING THAT WE REPRESENTS." ;
+$texto23="TEAM" ;
+$texto24="Each of the people who work at AMYRIS S.A. is a fundamental part of the process. Teamwork allows trained, gain experience, fluidity of creativity to ensure customer excellence and quality. " ; 
 $texto25="COMMITMENT";
-$texto26="We always put at the disposal of customer, giving us the maximum to to find an accurate solution without
-import the resources needed or how many times a process to be repeated. We also offer a guarantee after
-completed development"; 
-$texto27="CONVENIENCE";
-$texto28="We always raw material available with constant stock of up to one year for a manufacture without delay. Also we provide
-immediate delivery system and also We offer payment facilities.";
-$texto29="QUALITY";
-$texto30="Our goal in every development is pursue excellence. The only important is customer satisfaction,
-so we always guarantee quality absolute in each process of the project.";
-$texto31="INNOVATION";
-$texto32="Concern about exploring new solutions and the desire to excel constant for better everyday, leads us
-want to always be at the forefront to offer creative results and innovative, we believe are the Amyris engine.";
+$texto26="We are looking for alternatives, provide ideas and work together with the customer. We provide advice on whether to use a fragrance of our creation or embark for a custom development. " ;
+$texto31="CONVENIENCIA";
+$texto32="Tenemos siempre materia prima a disposici&oacute;n con stock constante de hasta un aÃ±o para una fabricaci&oacute;n sin demoras. Brindamos tambi&eacute;n un sistema de entrega inmediata y adem&aacute;s ofrecemos facilidades de pago" ;
+$texto29="QUALITY" ;
+$texto30="We guarantee our customers the quality of each of the ingredients that make up the fragrance. For this we have: " ; 
+$texto27="INNOVATION" ;
+$texto28="Concern with exploring new alternatives and the desire for constant improvement leads us to want to be always at the forefront in offering creative and innovative results. We deal with updating us and anticipate global trends to offer the customer a range of varieties.
+"; 
 $texto33="INNOVATIONS";
-$texto34="AMYRIS COVERS ALL THE DEVELOPMENT PROCESS FRAGRANCE WITH THE LATEST TECHNOLOGY, A highly qualified professionals DEPARTMENT
-EXCLUSIVE IDEAS, DEVELOPMENT AND RESEARCH";
+$texto34="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT OF FRAGRANCES WITH THE LATEST TECHNOLOGY, HIGHLY TRAINED PROFESSIONALS AND AN EXCLUSIVE DEPARTMENT OF IDEAS, RESEARCH, AND DEVELOPMENT." ;
 
+$texto35="AMYRIS IS INSPIRATION";
+$texto266="Laboratorio de muestras donde se realizan las pruebas y aplicaciones sobre
+el producto del cliente garantizando que la fragancia creada cumpla con los parÃ¡metros solicitados." ;
+$texto244="Laboratorio de control de calidad que analiza rigurosamente el producto desde el ingreso a
+nuestra empresa hasta su salida. Todo el proceso de producciÃ³n estÃ¡ controlado por los mÃ¡ximos standars de calidad" ;
+
+//fragancias
+$texto1f="THE VALUE OF TRANSMIT EMOTIONS ";
+$texto2f="linking our fragrances with the sensitivity of the consumer";
+$texto3f="Amyris Conceptual system / products";
+$texto35f="AMYRIS IS A CREATION AND INNOVATION" ;
+$texto4f="WE TRANSFORM THE FRAGRANCE IN A PERSONAL SEAL " ;
+$texto44f="Since our inception, our goal was always finding sensory solutions enabling us to develop and create unique fragrances. This led us to develop a conceptual work system:";
+$texto50f="FEEL";
+$texto51f="DISCOVER";
+$texto52f="CREATE";
+$texto53f="ENJOY";
 
 // expertise
-
-$textoe1="VALUE OF PROVIDING QUALITY";
-$textoe2="Stimulating and seduces the senses";
-$textoe3="Development and Creation / Infrastructure / Quality Control / Foreign Trade";
-$textoe4="AMYRIS IS DISCOVERING";
-$textoe5="WE ARE LOOKING FOR GENERATING UNIQUE TIES BETWEEN FRAGRANCE AND CONSUMER";
+$texto300 ="TecnologÃ­a de Ãºltima generaciÃ³n en los laboratorios y sectores productivos";
+$textoe1="THE VALUE OF PROVIDING QUALITY ";
+$textoe2="control in our products and procedures";
+$textoe3="Development and creation / Infrastructure / Quality Control / Trade";
+$textoe4="AMYRIS IS HARMONY IN THE AIR";
+$textoe5="WE SEEK TO CREATE A CONNECTION BETWEEN THE CONSUMER AND THE FRAGRANCE";
 $textoe6="DEVELOPMENT AND CREATION";
-$textoe7="When thinking every creation, we know that Fragrance is able to penetrate into the depths of the
-senses, so we want the consumer to obtain a unique identification with the product, which generates a loop
-singular therewith. We have for this with a giant repertoire of top quality raw material that
-We know in detail and that, coupled with our experience and technical help to achieve this added value sought.";
-$textoe8="Our approach is geared to the needs of each customer, with whom we work together, making
-participant in the whole process: we invite you to visit our company, the work process and explain every detail
-creation and manufacturing. We also conduct our plant product testing and pilot testing (olfactory ";
-$textoe9="CONTRIBUTE WITH A LOGISTICS EFFECTIVE DELIVERY. ALSO WE DO
-MONITORING THE PRODUCT TO BE THE MUCH OF YOUR ACCEPTANCE AND GROWTH.";
- 
-$textoe10="In Amyris, we premised ALWAYS get available customer to find the result sought and the right to market,
-therefore we make developments designed exclusively for each client. This It puts us in the challenge of being original and
-innovative at every stage of the process creation and manufacturing.";
-$textoe11="and visual) to which the customer can attend, where, if necessary, you can reformulate the product to reach the
-desired fragrance";
-$textoe12="We have an excellent team of professionals contemplates every need and analyzes every detail in all
-project stages: from design, manufacturing, controls, packaging to the same delivery. To achieve this, we work with a strict timetable that enables us Differential meet deadlines delivery.";
+$textoe7="Since our inception our goal was and remains to grow together customer offering creation, development, innovation, product upgrade, quality, and originality. ";
+$textoe8="We have an excellent team of professionals that assist in all details and in all phases of the project: from the design, manufacture, controls, packaging to delivery. We work with a strict timetable that allows us to meet your deadlines and provide effective delivery.";
+$textoe9="WE OFFER CREATION, DEVELOPMENT, INNOVATION, PRODUCT UPGRADE, QUALITY, AND ORIGINALITY.";
+$textoe10="EN AMYRIS, BUSCAMOS SIEMPRE QUE EL CONSUMIDOR OBTENGA UNA IDENTIFICACIÃ“N ÃšNICA CON EL PRODUCTO. ";
+$textoe11="Time to think each creation, we look for the consumer to identify with the product. For this purpose, we have a broad portfolio of products that are updated continuously to adapt to international developments. We also offer our products in components and special supplies, natural raw materials, and specialties.  ";
+$textoe12="We want to always be loyal to our customer and grow with them.  We continuously track products to be aware of their acceptance in the market and the same update.";
 $textoe13="INFRASTRUCTURE";
-$textoe14="Amyris is located in Munro, Province of Bs. As. Our modern administrative -offices facilities,
-commercial, laboratory, deposit control department quality- comply with all health and safety standards
-established, with municipal laws and the existing international standards.";
-$textoe15="Also, the entire manufacturing process follows a rigorous quality control certificates of analysis and leaves
-product safety. The plant is controlled"; 
-$textoe16="both internally and externally, with a security team which regularly reviews all processes, not only for
-avoid risks, if not for the safety of personnel and products.";
-$textoe17="Our position is that every employee, every customer and every provider who visit us feel comfortable, at home. By
-that, in addition to offering the best service, we make our space a comforting place at all levels.";
-$textoe18="We invite you to know our house!";
+$textoe14="Amyris is located in Munro, province of Bs. As. Our modern facilities - administrative, commercial, offices, laboratory, deposit, quality - control department comply with all the rules of safety and hygiene, municipal laws, and international standards.";
+$textoe15="In addition, throughout the manufacturing process follows a rigorous quality control with certificates of analysis and product safety data sheets. The plant is controlled both internally and externally, with a team that regularly check all processes, not only to avoid the risk, if not for the safety of staff and preservation of products. ";
+$textoe17="Nuestra postura es que cada empleado, cada cliente y cada proveedor que nos visite se sienta c&oacute;modo, como en casa. Por
+eso, adem&aacute;s de ofrecer el mejor servicio, hacemos de nuestro espacio un lugar reconfortante en todos los niveles";
+$textoe18="&iexcl;LO INVITAMOS A CONOCER NUESTRA CASA!";
+$textoe19="QUALITY CONTROL";
+$textoe20="A fundamental pillar of our company is the quality assurance of our products and our processes.  ";
+$textoe21="Estandarte de Calidad Amyris";
+$textoe22="We import each of the components to develop our fragrances. Each input which then is to be applied to the fragrance, is controlled (analyzed index density, chromatography, color, nose, olfactory and index of refraction). Each fragrance ingredient has a traceability, since everything has an identified lot to track the quality parameters.";
 
-$textoe19="QA";
-$textoe20="Since our inception, our QUALITY banner was not only our products, but
-also of our procedures. We are strict in every detail manufacturing and delivery process. This is one of the main reasons
-by which business leaders They trust us.";
-$textoe21="Amyris Quality Standard";
-$textoe22="Besides having the latest technology, We work with verified and rigorous technical standards internal that allow us to generate effective procedures. TO Each product is accurate practice CONTROLS STABILITY (chromatography, density, refractive control
-Olfactory, among others) as established standards international. We seek to avoid gaps in development, not only to care for the product but also to care for our staff and our facilities. At the end, We issue a certificate of analysis that comes together
-with the merchandise and will serve as guarantee to the customer.";
-$textoe23="Also, for the product to maintain the same quality and characteristics in different orders, batches reserved
-above for comparisons and, if the product is new, We generate a sample that lasts two years and serves comparative for future productions.";
-$textoe24="We are always available to the client, seeking to provide solutions to any adverse situation that may arise Amyris outside. For that, we follow up the and we have a product AFTER SALES SERVICE that It provides practical and quick solutions. First of all, our
-responsibility is to the benefit and customer satisfaction.";
-$textoe25="Respect for the customer is the key of our success.";
+$textoe23="At the end, we issue a certificate of analysis and a safety sheet supplied together with the product serving as a guarantee to our customers.";
+
+$textoe24="Estamos siempre a disposici&oacute;n del cliente, buscando brindar
+soluciones ante cualquier situaci&oacute;n adversa que pudiera surgir  ajena a Amyris. Para eso, hacemos el seguimiento del
+producto y contamos con un SERVICIO DE POSTVENTA que brinda soluciones pr&aacute;cticas y r&aacute;pidas. Ante todo, nuestra
+responsabilidad es el beneficio y la satisfacci&oacute;n del cliente";
+$textoe25="Respect for the customer is the key to our success.";
+$textoe255="WE ARE STRICT IN EVERY DETAIL OF THE PROCESS OF DEVELOPMENT, MANUFACTURE, AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US. ";
 $textoe26="FOREIGN TRADE";
-$textoe27="Taking based in Buenos Aires, Amyris has presence throughout Argentina and is present also in the international market, mainly with a strong impact in several countries of America America, besides being partners of leading companies category.";
-$textoe28="We're also in the process of reaching the immediate expansion through Asia a professional network of distributors";
-$textoe29="PROPER PRODUCE FRAGRANCE FOR EACH PRODUCT, LOOKING FOR IDENTIFICATION WITH CONSUMERS THROUGH A PERSONAL SEAL.";
+$textoe27="With headquarters in Buenos Aires, Amyris has presence throughout Latin America and is also present in international markets, collaborating with many of the leading companies in the industry.";
+$textoe28="Amyris is currently expanding into Asia with a professional network of distributors.";
+$textoe29="WE MANUFACTURE FRAGRANCE SUITABLE FOR EACH PRODUCT, LOOKING FOR IDENTIFICATION WITH THE CONSUMER THROUGH A PERSONAL STAMP.";
+
 
 //susten
-$textos1="THE VALUE OF TRUST";
-$textos2="WE TAKE CARE OF OUR PROCESSES AND OUR PEOPLE";
-$textos3="Values";
-$textos33=" / Sustainable Approach / ";
-$textos333=" How We Operate";
+$textos1="THE VALUE OF THE TRUST ";
+$textos2="ensuring the care of our processes";
+$textos3="Values /  ";
+$textos33=" Sustainable Approach / ";
+$textos333="How we operate";
 
 $textos4="AMYRIS IS ETHICS";
-$textos5="WE WORK WITH THE HIGHEST HEALTH AND SAFETY STANDARDS";
+$textos5="WE WORK WITH THE HIGHEST STANDARDS IN SAFETY AND HYGIENE";
 $textos6="SUSTAINABILITY";
 $textos7="VALUES";
-$textos8="In Amyris, we work with strong and so PROCESSES values. responsable. For us, care processes and our
-environment is not an option but a way of being from our beginning: we look for operational excellence. Do
-that the working environment is a safe, hygienic and pleasant is a constant concern to know
-influences the entire production chain, until the final consumer. Therefore, in addition to complying with all
-existing rules carefully control procedures and working circuits benefiting our customers receive products with the highest
-quality, without waste or alterations.";
+
+$textos8="At Amyris, we work responsibly and following written procedures. We seek to make the working environment safe, hygienic, and pleasant. Our in-house regulatory team tracks the requirements of regulatory authorities in multiple countries. ";
+
+$textos88="We use a variety of modern and sophisticated techniques to complying with all regulations as well as carefully ensuring quality control in all our products. ";
+
 $textos9="SUSTAINABLE APPROACH";
-$textos10="Our commitment is to ensure the care and reduction of environmental impact in all processes.
-We know in detail the ingredients and origin of our raw materials: we source and work";
-$textos11="FOR A POSITIVE IMPACT IN PEOPLE AND THE PLANET, WE CONTROL RESPONSIBLY ALL PROCESSES";
-$textos12="with them responsibly, thereby preventing Any contamination.";
-$textos13="We are aware of the impacts and their importance in society, it helps us to know and dialogue with
-companies involved in the work chain. having this knowledge allows us to generate an effective strategy
-sustainable and be collaborative and cooperative throughout moment. Our management policy is to seek always to do
-business sustainably.";
-$textos14="CARE, HEALTH AND WELFARE ARE OUR VISION SUSTAINABLE SHAFT.";
+$textos10="Our commitment is to ensure the care and the reduction of the environmental impact in all processes. ";
+
+$textos11="CONTROLAMOS RESPONSABLEMENTE<br>TODOS LOS PROCESOS.";
+$textos12="We know in detail the ingredients and the source of our raw materials: we cater and work with them in a responsible manner, thus preventing any possible contamination. ";
+
+$textos13="We are aware of the impact and its importance to society.  We meet and talk with our suppliers and all involved in the production chain. Having this knowledge allows us to generate an effective and sustainable strategy. ";
+
+$textos14="CARE, HEALTH, AND WELFARE ARE THE BACKBONE OF OUR SUSTAINABLE VISION.";
 $textos15="HOW WE OPERATE";
-$textos16="OUR BUSINESS MODEL IS SUSTAINABLE, TRAINING WITH CONTINUING TO MINIMIZE OR DELETE POSSIBLE IMPACTS AND PROPER WASTE MANAGEMENT
-IN PRODUCTION PLANT.";
-$textos17="WASTE";
-$textos18="strictly control our waste, which require different types of care to be extracted from the plant. Because,
-we have all the relevant certificates obtained after each waste is generated. So we avoid alterations in products, we preserve our facilities and We ensure the welfare of our people";
-$textos19="SPILL";
-$textos20="Our plant is specially designed for extract and effectively treat the spill liquid effluents and products involved in the
-processes, through a system of louvers It takes the waste to a specific place where destroys, then obtain the certificate
-corresponding roll, thus maintaining the facilities in good condition.";
-$textos21="HEALTH AND SAFETY";
-$textos22="We comply strictly with controls municipal and constantly trained to security personnel to minimize any
-risk. We deal regularly change, renew and destroy drums, cans and seals as needed, to care for our place and our staff.";
-$textos23="ENVIRONMENTAL IMPACT";
-$textos24="We do impact studies and controls environmental, with the aim of improving our standards continuously, reinforcing
-our operational performance to be more efficient with regard to energy, the tributaries, waste and obviously society.";
-$textos25="CATERING";
-$textos26="We seek to provide us with raw materials responsibly, working alone with companies that meet standards
-concerning international protection environment and processes that have transparent and reliable work. we know
-every detail of the components of our products because we care.";
-$textos27="ABOUT US";
-$textos28=" IN AMYRIS, WE WORK TO SUIT THE CLIENT ABSOLUTE EXCLUSIVE AND ADVICE ON TOTAL MANUFACTURING PRODUCT FOR THE BEST FINAL RESULT.";
+$textos16="WE TRAIN OUR STAFF TO MINIMIZE OR ELIMINATE POTENTIAL IMPACTS AND FOR A CORRECT MANAGEMENT OF WASTE WITHIN THE PRODUCTION PLANT.";
+$textos17="HEALTH AND SAFETY";
+$textos18="We comply strictly with municipal controls and constantly train staff in safety to minimize all kinds of risk.";
+$textos19="ENVIRONMENTAL IMPACT";
+$textos20="Do studies and controls of environmental impact with the aim of continually improving our standards, strengthening our operational performance to be more efficient.";
+$textos21="HEALTH AND SAFETYE";
+$textos22="We comply strictly with municipal controls and constantly train staff in safety to minimize all kinds of risk.";
+$textos23="WASTE";
+$textos24="At Amyris we strictly control waste materials.  At Amyris we recognize the importance of disposing of waste materials in a responsible manner. The necessary corresponding certificates of destruction are always obtained for waste materials. Amyris is committed to the environment as well as safe procedures in our facilities and for our employees.";
+
+$textos25="ABASTECIMIENTO";
+$textos26="Buscamos proveernos de materias primas de manera responsable, trabajando solo con empresas que cumplan con las normas internacionales en cuanto a protecci&oacute;n del medio ambiente, y que cuenten con procesos de trabajo transparentes y confiables. Conocemos cada detalle de los componentes de nuestros productos porque nos importa.";
+$textos27="WHO WE ARE";
+$textos28="EN AMYRIS, TRABAJAMOS A LA MEDIDA DEL CLIENTE CON EXCLUSIVIDAD ABSOLUTA Y UN ASESORAMIENTO TOTAL EN LA FABRICACI&Oacute;N DEL PRODUCTO, PARA EL MEJOR RESULTADO FINAL.";
+
 
 // innovaciones
 
-$textoin1="THE VALUE OF IDEAS";
-$textoin2="We are creating innovate more beauty and sensations";
-$textoin3=" We learn to Innovate / Department of Ideas, Development and Innovation";
+$textoin1="ETHE VALUE OF THE IDEAS ";
+$textoin2="innovation and originality";
+$textoin3="We learn to innovate / Department of Ideas, development, and innovation";
 $textoin4="AMYRIS IS FUTURE";
-$textoin5="WE PROVIDE ORIGINAL SOLUTIONS, Anticipating THE LATEST TRENDS";
+$textoin5="WE PROVIDE ORIGINAL SOLUTIONS, ANTICIPATING TRENDS";
 $textoin6="INNOVATIONS";
-$textoin7="LEARN TO INNOVATE";
-$textoin8="To offer creative solutions, we know everything that happens in the world fragrances, and we know what future trends will be. This we allows ahead and always be at the forefront of ideas and proposals. And we have the knowledge not only because we constantly train, but because we are also passionate about the category and what we do. By that investigated: travel to be up to date, we note with an eye retail, talk with world leaders, we attend congresses international, we know that will be the new, how will trends, and
-as a result, we can offer new alternatives to the customer.";
-$textoin9="OUR PASSION FOR INNOVATION";
-$textoin10="It is an identity that characterizes us";
-$textoin11="IDEAS DEPARTMENT, DEVELOPMENT AND INNOVATION";
-$textoin12="In Amyris, the consumer is the source of inspiration. Therefore, focusing on their behavior and possible wishes,
-we have a Department of R & D + I, composed of professionals from different specializations working
-investigating tirelessly to offer new sensations and proposals, where processes are constantly evaluated and
-apply to new technologies, tools and trends that achieve generate a differential, unique product for the customer.";
-$textoin13="DEPARTMENT I + D + I ALLOWS US TO OFFER A FULL COMMERCIAL SERVICE AND EFFICIENT";
-$textoin14="TO GENERATE NEW PRODUCTS AND / OR reformulating or optimize existing ones, ALWAYS SUPPORTED BY OUR BUSINESS TECHNICAL AREAS";
-$textoin15="INTERNATIONAL CONFERENCES";
-$textoin16="We attended annually to more major world events (such as Cosmoprof Worldwide Bologna, Italy, where they meet perfumers,
-vendors, manufacturers and suppliers ingredients, among others) learn, find out and observe the new trends appearing in
-Europe and the United States, and provide so, innovative and creative ideas our clients.";
-$textoin17="RESEARCH AND TRAINING";
-$textoin18="We continually invest in the training of our staff, not only to study the impact of our products in the consumer, if not
-to also generate products durable and outstanding. Always We inquire about the profile of users and the universe of fragrances. This
-allows us to anticipate what the customer wants, creating new opportunities during the process.";
-$textoin19="IDEAS AND<br>INNOVATIONS";
-$textoin20="We think and work as a team. So much our perfumers, like our vendors and developers, provide ideas to the R & D & I for testing or experimentations that can generate new and creative products. Our staff is a big family where everyone
-contribute possible approaches or solutions, coupled with our expertise and knowledge enables us innovate solutions fragrances.";
-$textoin21="&iquest;DO NEED ANY QUESTIONS OR COMMENTS? WRITE TO US SO WE CAN HELP.";
+$textoin7="WE LEARN TO INNOVATE";
+$textoin8="To provide creative solutions, we stay in touch with the latest fragrance trends. We continuously train our staff, which allows us to understand the latest innovations and to always be at the forefront of ideas and proposals for our clients";
 
+$textoin9="WE SEEK TO INNOVATE AND  ";
+$textoin10="GIVE ORIGINALITY TO FRAGRANCES.";
+$textoin11="DEPARTMENT OF IDEAS, DEVELOPMENT, AND INNOVATION";
+$textoin12="Amyris, the consumer is the source of inspiration. Our goal is that the desired fragrance can be obtained with the highest quality and originality. We have a Department of IDEAS, product development and innovation professionals of different specializations who work researching new proposals, where processes are constantly evaluated and applied to new technologies, tools and trends that will generate a differentiated product.";
+$textoin13="EOUR DEVELOPMENT DEPARTMENT OFFERS A COMPLETE AND EFFICIENT COMMERCIAL SERVICE ";
+$textoin14="TO GENERATE NEW PRODUCTS AND THE REDESIGN OR OPTIMIZATION OF EXISTING ONES, ALWAYS SUPPORTED BY OUR TECHNICAL AND COMMERCIAL DEPARTMENTS";
+$textoin15="INTERNATIONAL CONGRESSES";
+$textoin16="Annually attend the most important global events where perfumers, sellers, manufacturers, and suppliers of ingredients, gather to observe trends in the world of fragrances and, provide innovative and creative ideas to our customers.";
+
+$textoin17="RESEARCH AND TRAINING";
+$textoin18="Invest continuously in training our staff to study the impact of our products for the consumer.  We investigated the products on the market and the world of fragrances to give originality to the fragrance. This allows us to anticipate what the customer wants, creating new opportunities during the process.";
+$textoin19="IDEAS AND INNOVATIONS";
+$textoin20="We think and work as a team. Both our perfumers, vendors, and developers, contribute ideas to the r & d to generate new and creative products. Our goal is to generate lasting and outstanding products.";
+$textoin21="NEED TO MAKE ANY CONSULTATION OR COMMENTARY? WRITE TO US SO THAT WE CAN HELP YOU.";
 
 //contacto
-$textoc1="VALUE TO BE REPORTED";
-$textoc2="Generate durable and reliable links";
-$textoc3=" &iquest;Where we are? / Make us your inquiry";
-$textoc4="In Amyris, we want to know the needs and opinions of each client.We want to be involved in every detail of
-creation and manufacturing process,<br>so that we can thus meet any suggestions.";
-$textoc5="WHERE WE ARE";
-$textoc6="Plant Production and Sales Office";
-$textoc7="LET US YOUR INQUIRY";
+$textoc1="THE VALUE OF BEING PRESS ";
+$textoc2="releases generating reliable and durable links";
+$textoc3="Where are we? / Ask us your question";
+$textoc4="In Amyris, we want to know the needs of each of our clients.<br>
+We want to involve you in every detail of the process from creation to production,<br>
+para que podamos as&iacute;, atender a cualquier sugerencia.";
+$textoc5="WHERE ARE WE";
+$textoc6="Plant production and sales office";
+$textoc7="ASK US YOUR QUESTION";
 $textoc8="NAME AND SURNAME";
 $textoc9="EMAIL";
-$textoc10="TELEPHONE";
-$textoc11="BUSINESS";
+$textoc10="PHONE";
+$textoc11="COMPANY";
 $textoc12="MESSAGE";
 $textoc13="SEND";
-$textoc14="QA";
-$textoc15="IN AMYRIS, WE ARE STRICT IN EVERY DETAIL MANUFACTURING PROCESS AND DELIVERY. THIS IS ONE OF THE
-MAIN REASONS FOR WHICH COMPANIES LEADERS TRUST US.";
-$textoc16="Thank you for your question";
-$textoc17="We will contact you shortly";
-$holamundo="Hello World!";
-$cambiarIdioma="Change Language";
-$inicio="Home";
-$spanish="Spanish";
-$english="English";
-$french="French";
+$textoc14="QUALITY CONTROL";
+$textoc15="IN AMYRIS, ARE STRICT IN EVERY DETAIL OF THE PROCESS OF MANUFACTURE AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US.";
+$textoc16="Message has been sent.";
+$textoc17="Thank you!.";
+
+$holamundo="Hola Mundo!";
+$cambiarIdioma="Cambiar Idioma";
+$inicio="Inicio";
+$spanish="EspaÃ±ol";
+$english="InglÃ©s";
+$french="FrancÃ©s";
