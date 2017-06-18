@@ -1728,13 +1728,30 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
+    #porqueamir .por1 {
+        margin-top: 4em;
+    }
+
+    .por-que-box img,
+    #tituloabajo img {
+        margin-top: 3em;
+    }
+
+    .cuadrado_inno_id3 h4 {
+        margin-top: 3em;
+    }
+
+    #porqueamir {
+        margin-bottom: 5em;
+    }
+
     .por-que-box p,
     #tituloabajo p {
         margin: 0.5em;
         width: auto;
         text-align: center;
         font-size: 18px;
-        line-height: 1.2em;
+        line-height: 30px;
     }
 
 
@@ -2400,6 +2417,14 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+    .cuadrado_inno_id3 h4 {
+        margin-top: 1em;
+    }
+
+    #porqueamir {
+        margin-bottom: 5em;
+    }
+
     #formulariocontacto .mensaje,
     .input-container,
     #formulariocontacto input {
@@ -2864,7 +2889,7 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         width: auto;
         margin: 0.5em;
         font-size: 18px;
-        line-height: 1.2em;
+        line-height: 1.5em;
         font-family: Futura;
     }
 
@@ -2872,7 +2897,7 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         margin: 0.5em;
         text-align: center;
         font-size: 18px;
-        line-height: 1.2em;
+        line-height: 1.5em;
     }
 
     #susten {
