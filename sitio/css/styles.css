@@ -1804,6 +1804,10 @@ and (orientation : portrait) {
 and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
+    #columnacontrol4 p {
+        text-align: center;
+    }
+
     .dummy-cruz-row,
     #botonesarriba {
         display: none;
@@ -2592,6 +2596,10 @@ and (max-device-width : 1023px)  { /* STYLES GO HERE */
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
+
+    p#textoe1 {
+        margin-top: -1em;
+    }
 
     #menu-desplegable .nav-bar-title {
         font-size: 2em;

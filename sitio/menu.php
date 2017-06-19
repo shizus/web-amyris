@@ -80,13 +80,17 @@
                         <label>* Datos Obligatorios</label>
                         <button type="submit" class="btn btn-default float-right">Enviar</button>
                     </div>
-                    <div class="form-group" id="mensaje-enviado-modal" style="display: none">
-                        <label>El mensaje ha sido enviado.
-                            ¡Muchas Gracias!
-                            En breve nos pondremos en contacto.</label>
+                    <div class="form-group" id="mensaje-error" style="display: none">
+                        <label class="alert alert-danger"></label>
                     </div>
 
                 </form>
+                <div class="mensaje-exito-mail" style="display: none;">
+                    <h1>El mensaje ha sido enviado.</h1>
+                    <h1>¡Muchas gracias!</h1>
+                    <br>
+                    <h1>En breve nos pondremos en contacto.</h1>
+                </div>
             </div>
 
         </div><!-- modal-content -->

@@ -28,7 +28,7 @@ if($_POST)
         die($output);
     }
     if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
-        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!' . $user_email));
         die($output);
     }
     if(strlen($company)<1){ // If length is less than 1 it will output JSON error.

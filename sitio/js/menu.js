@@ -12,10 +12,12 @@ function scrolleando(){
 	      if ($(window).scrollTop() >= 10) {
             $('nav').addClass("floating");
             $('body').css("margin-top", "65px");
+            $('#video-slide video').css("top", "65px");
             $('nav').removeClass("navbar-normal");
           } else {
               $('nav').addClass("navbar-normal");
               $('body').css("margin-top", "0");
+              $('#video-slide video').css("top", "0");
               $('nav').removeClass("floating");
         }
 }

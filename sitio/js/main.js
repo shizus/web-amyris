@@ -145,5 +145,49 @@ wow.init();
 
 function togglPanel(event, element) {
 	var panel = $(element).parents('.panel');
-	console.log(panel);
 }
+
+
+$("#modal-mail").submit(function( event ) {
+    event.preventDefault();
+    var proceed = true;
+    $('#mensaje-error').hide();
+    //simple validation at client's end
+    //loop through each field and we simply change border color to red for invalid fields
+    $("#modal-mail input[required=true], #formulariocontacto textarea[required=true]").each(function(){
+        $(this).css('border-color','');
+        if(!$.trim($(this).val())){ //if this field is empty
+            $(this).css('border-color','red'); //change border color to red
+            proceed = false; //set do not proceed flag
+        }
+        //check invalid email
+        var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
+            $(this).css('border-color','red'); //change border color to red
+            proceed = false; //set do not proceed flag
+        }
+    });
+
+    if(proceed) //everything looks good! proceed...
+    {
+        //get input field values data to be sent to server
+        post_data = {
+            'name'      : $('#modal-mail input[name=nombre]').val(),
+            'mail'      : $('#modal-mail input[name=email]').val(),
+            'company'   : $('#modal-mail input[name=empresa]').val(),
+            'phone'     : $('#modal-mail input[name=telefono]').val(),
+            'msg'       : $('#modal-mail textarea[name=mensaje]').val()
+        };
+        //Ajax post data to server
+        $.post('send-mail.php', post_data, function(response){
+            if(response.type == 'error'){ //load json data from server and output message
+                $('#mensaje-error').show();
+                $('#mensaje-error label').html(response.text);
+            }else{
+                $('#modal-mail').hide();
+                $('.modal-header').hide();
+                $('.mensaje-exito-mail').show();
+            }
+        }, 'json');
+    }
+});

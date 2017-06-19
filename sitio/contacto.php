@@ -37,18 +37,16 @@ require 'header.php';
             //get input field values data to be sent to server
             post_data = {
                 'name'      : $('#campos #name').val(),
-                'mail'      : $('#campos #mail').val(),
+                'mail'      : $('#campos input[name=mail]').val(),
                 'company'   : $('#campos #company').val(),
                 'phone'     : $('#campos #phone').val(),
                 'msg'       : $('#campos #msg').val()
             };
-            
             //Ajax post data to server
             $.post('send-mail.php', post_data, function(response){
                 if(response.type == 'error'){ //load json data from server and output message
                     output = '<div class="alert alert-danger" role="alert">'+response.text+'</div>';
                 }else{
-                    console.log("else");
                     output = '<div class="success">'+response.text+'</div>';
                     //reset values in all input fields
                     $("#formulariocontacto  input[required=true], #formulariocontacto textarea[required=true]").val('');
@@ -58,9 +56,6 @@ require 'header.php';
                 $("#contactResult").hide().html(output).slideDown();
             }, 'json');
         }
-        //$("#formulariocontacto").hide();
-        //$("#mailEnviado").show();
-
     });
   });
 </script><!-- start-smoth-scrolling -->

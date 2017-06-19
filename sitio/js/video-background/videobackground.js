@@ -15,7 +15,7 @@
         //append a video tag to the target element
         that.append($('<video>')
             .attr({'autoplay': settings.autoplay, 'muted': settings.muted, 'loop': settings.loop, 'src': settings.src})
-            .css({'height': '100%', 'width': '100%', 'object-fit': settings.fit, 'overflow': 'hidden', 'position': 'absolute'}));
+            .css({'height': '100%', 'width': '100%', 'object-fit': settings.fit, 'overflow': 'hidden', 'position': 'absolute', 'top' : '0px'}));
 
         //sets the initial video size
         resizeVideo(that);
