@@ -44,16 +44,16 @@ src: local('Futura'), url('futurastd.woff') format('woff');
 </script><!-- start-smoth-scrolling -->
 <?php require_once 'portada.php';
 
-insertar_portada('portada-innovaciones', $textoin1, $textoin2);
+insertar_portada('portada-innovaciones', $valor_ideas, $otorgando_innovacion);
 ;?>
 
 <?php require_once 'breadcrumbs.php';
-insertar_breadcrumbs($textoin3);
+insertar_breadcrumbs($aprendemos_innovar_departamento);
 
 ?>
 <?php
 require_once "servicio.php";
-insertar_servicio($textoin4, $textoin5);
+insertar_servicio($amyris_futuro, $brindamos_soluciones_originales);
 ?>
 
 <div id="frasco" class="row">
@@ -63,16 +63,16 @@ insertar_servicio($textoin4, $textoin5);
 </div>
 <div class="row">
     <div id="aprendemos-innovar" class="col-md-6 col-md-offset-5 col-sm-10 col-sm-offset-1">
-        <h2><?php echo $textoin7 ?></h2>
-        <p><?php echo $textoin8 ?></p>
+        <h2><?php echo $aprendemos_innovar ?></h2>
+        <p><?php echo $ofrecer_soluciones_creativas ?></p>
     </div>
 </div>
 
 
 <div id="telescopio" class="row">
     <div class="col-md-10 col-md-offset-1 cuadrado_inno wow animated fadeInDown">
-            <p> <?php echo $textoin9 ?></p>
-            <h4><?php echo $textoin10 ?></h4>
+            <p> <?php echo $buscamos_innovar_y ?></p>
+            <h4><?php echo $dar_originalidad ?></h4>
     </div>
     <div class="col-md-12" id="cuain1">
         <div id="ideas" class="cuadrado_inno_id">
@@ -83,8 +83,8 @@ insertar_servicio($textoin4, $textoin5);
 
 <div class="row">
     <div class="col-md-10 col-md-offset-1 cuadrado_inno_id2" id="cuain2" >
-            <h4><?php echo $textoin11 ?> </h4>
-            <p> <?php echo $textoin12 ?></p>
+            <h4><?php echo $departamento_ideas ?> </h4>
+            <p> <?php echo $consumidor_fuente_inspiracion ?></p>
     </div>
 </div>
 
@@ -92,8 +92,8 @@ insertar_servicio($textoin4, $textoin5);
 <div class="row">
         <div class="col-md-10 col-md-offset-1 cuadrado_inno_id3">
 
-            <h4 > <?php echo $textoin13 ?></h4>
-            <p><?php echo $textoin14 ?> </p>
+            <h4 > <?php echo $idi_nos_permite ?></h4>
+            <p><?php echo $generar_nuevos_productos ?> </p>
         </div>
 </div>
 
@@ -114,20 +114,20 @@ insertar_servicio($textoin4, $textoin5);
             </div>
             <div class="col-md-4 columna1" >
                 <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/innovaciones-congresosint.png">
-                <h2> <?php echo $textoin15 ?></h2>
-                <p ><?php echo $textoin16 ?> </p>
+                <h2> <?php echo $congresos_internacionales ?></h2>
+                <p ><?php echo $asistimos_anualmente ?> </p>
             </div>
 
             <div class="col-md-4 columna2" >
                 <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/innovaciones-investigaciones.png">
 
-                <h2> <?php echo $textoin17 ?></h2>
-                <p> <?php echo $textoin18 ?></p>
+                <h2> <?php echo $investigaciones_capacitaciones ?></h2>
+                <p> <?php echo $invertimos_continuamente ?></p>
             </div>
             <div class="col-md-4 columna3" >
                 <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/innovaciones-ideaseinnov.png">
-                <h2 > <?php echo $textoin19 ?></h2>
-                <p > <?php echo $textoin20 ?></p>
+                <h2 > <?php echo $ideas_e_innovaciones ?></h2>
+                <p > <?php echo $pensamos_trabjamos_equipo ?></p>
             </div>
         </div>
     </div>
@@ -148,7 +148,7 @@ insertar_servicio($textoin4, $textoin5);
     </div>
 </div>
   <?php  require 'footer.php';
-  footer("su2", "inn7", $contacto2, $textoin21, "./contacto");
+  footer("su2", "inn7", $contacto, $necesita_consulta_comentario, "./contacto");
   
   ?>
 

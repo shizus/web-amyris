@@ -70,10 +70,10 @@ require 'header.php';
 
 <?php require_once 'portada.php';
 
-insertar_portada('portada-contacto', $textoc1, $textoc2);
+insertar_portada('portada-contacto', $valor_comunicados, $generamos_vinculos);
 ;?>
 <?php require_once 'breadcrumbs.php';
-insertar_breadcrumbs($textoc3);
+insertar_breadcrumbs($donde_estamos);
 
 ?>
 
@@ -91,7 +91,7 @@ insertar_breadcrumbs($textoc3);
     <div  class="col-md-12 col-sm-12 col-xs-12">
 
         <div id="botonrojo2_fragancias">
-            <h4><?php echo $textoc4 ?> </h4>
+            <h4><?php echo $conocer_necesidades ?> </h4>
 
         </div>
     </div>
@@ -101,7 +101,7 @@ insertar_breadcrumbs($textoc3);
     <div  class="col-md-12 col-sm-12 col-xs-12" id="columna12_conta" >
 
         <div id="info" >
-            <h1> <?php echo $textoc5 ?></h1><br><br>
+            <h1> <?php echo $donde_estamos_consulta ?></h1><br><br>
         </div>
 
     </div>
@@ -114,7 +114,7 @@ insertar_breadcrumbs($textoc3);
 <div  class="col-md-12 col-sm-12 col-xs-12 imagen-contacto-fondo">
   <div class="primero_cuadrado_contacto " >
       <div class="segundo_cuadrado_contacto"  >
-          <h2 ><?php echo $textoc6 ?> </h2>
+          <h2 ><?php echo $planta_produccion ?> </h2>
           <p >Cajaraville 2902 y/o Curapaligue 6510,<br> Munro (1605) Pcia. de Bs. As<br> 54 11 5197-1918<br> ventas@amyris.com.ar</p>
       </div>
   </div>
@@ -132,16 +132,16 @@ insertar_breadcrumbs($textoc3);
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12" id="formulariocontacto" >
                 <form id="mail" action="formulario.php">
-                    <h1 ><?php echo $textoc7 ?>  </h1><br>
+                    <h1 ><?php echo $haganos_consulta ?>  </h1><br>
                     <div id="campos" >
-                        <input type="text" id="name" required placeholder='<?php echo $textoc8 ?> '>
-                        <input type="text" name="mail" required placeholder='<?php echo $textoc9 ?> '>
-                        <input type="text" id="phone" required placeholder='<?php echo $textoc10 ?>'>
-                        <input type="text" id="company" required placeholder='<?php echo $textoc11 ?> '>
-                        <input type="text" id="msg" required placeholder='<?php echo $textoc12 ?> ' class="mensaje" >
+                        <input type="text" id="name" required placeholder='<?php echo $nombre_apellido ?> '>
+                        <input type="text" name="mail" required placeholder='<?php echo $email_label ?> '>
+                        <input type="text" id="phone" required placeholder='<?php echo $telefono_label ?>'>
+                        <input type="text" id="company" required placeholder='<?php echo $empresa_label ?> '>
+                        <input type="text" id="msg" required placeholder='<?php echo $mensaje_label ?> ' class="mensaje" >
                         <br>
                         <div class="input-container">
-                            <input type="submit" class="submit" value='<?php echo $textoc13 ?> '>
+                            <input type="submit" class="submit" value='<?php echo $enviar ?> '>
                         </div>
                         <label id="mensaje-enviado-label" style="display: none;">El mensaje ha sido enviado.
 
@@ -156,8 +156,8 @@ insertar_breadcrumbs($textoc3);
                 <div id="contactResult"></div>
             </div>
             <div class="col-md-6 col-sm-12" id="mailEnviado">
-                <h1 ><?php echo $textoc16 ?></h1>
-                <h3 ><?php echo $textoc17 ?></h3>
+                <h1 ><?php echo $gracias_por_consulta ?></h1>
+                <h3 ><?php echo $nos_comunicaremos ?></h3>
             </div>
         </div>
     </div>
@@ -166,7 +166,7 @@ insertar_breadcrumbs($textoc3);
     <div class="col-md-12"></div>
 </div>
 <?php  require 'footer.php';
-footer("su2_cont", "prefooter_cont", $textoc14, $textoc15, "./expertise#control-calidad");
+footer("su2_cont", "prefooter_cont", $control_calidad, $amyris_estrictos_detalle, "./expertise#control-calidad");
 
 ?>
 

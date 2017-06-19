@@ -36,7 +36,7 @@ End Fixed Navigation
 
     <?php
         require_once "servicio.php";
-        insertar_servicio($amyrises, $ofrecemosexcelencia, false);
+        insertar_servicio($amyris_es_armonia, $ofrecemos_excelencia, false);
     ?>
 
     <br>
@@ -54,7 +54,7 @@ End Fixed Navigation
                                         <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-fragancias-finas">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
-                                                        <a class="dorado" href="fragancias#productos"><?php echo $fraganciasfinas2 ?></a>
+                                                        <a class="dorado" href="fragancias#productos"><?php echo $fragancias_finas_titulo ?></a>
                                                     </span></h4>
                                                 <p>Buscamos ofrecerle al cliente la más alta calidad de la fragancia
                                                     creada.</p>
@@ -66,7 +66,7 @@ End Fixed Navigation
                                         <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-cuidado-personal">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
-                                                        <a class="dorado" href="fragancias#productos"><?php echo $cuidadopersonal2 ?></a>
+                                                        <a class="dorado" href="fragancias#productos"><?php echo $cuidado_personal_titulo ?></a>
                                                 </span></h4>
                                                 <p>Asumimos el compromiso de ofrecerle al consumidor productos que al momento
                                                     de percibir los aromas, pueda disfrutar.</p>
@@ -135,7 +135,7 @@ End Fixed Navigation
                 <div class="col-md-12 col-sm-12 col-xs-12 text-center " id="cuadrado1">
                     <section id="cuadrado">
                         <div class="primero_cuadrado ">
-                            <h4><?php echo $segundo_cuadrado1 ?><br><span
+                            <h4><?php echo $amyris_proceso_desarrollo ?><br><span
                                         style="color: #DA504B;"><?php echo $segundo_cuadrado2 ?></span></h4>
                         </div>
                     </section>
@@ -155,7 +155,7 @@ End Fixed Navigation
                         <div class="row destacado-contenido">
                             <div class="col-md-9 destacado-texto-container">
                                 <div class="destacado-texto">
-                                    <p><?php echo $expertise_texto ?></p>
+                                    <p><?php echo $nuestro_estandarte ?></p>
                                 </div>
                                 <div class="nube-contenedor">
                                     <a href="./expertise">
@@ -174,7 +174,7 @@ End Fixed Navigation
                         <div class="row destacado-contenido">
                             <div class="col-md-9 destacado-texto-container">
                                 <div class="destacado-texto">
-                                    <p><?php echo $idi_texto ?></p>
+                                    <p><?php echo $nuestro_departamento ?></p>
                                 </div>
                                 <div class="nube-contenedor">
                                     <a href="./innovaciones">
@@ -202,7 +202,7 @@ End Fixed Navigation
                 </div>
                 <div class="destacado-responsive-padding"></div>
                 <div class="destacado-texto">
-                    <p><?php echo $expertise_texto ?></p>
+                    <p><?php echo $nuestro_estandarte ?></p>
                 </div>
             </div>
             <div class="col-sm-12 destacado-derecha">
@@ -211,7 +211,7 @@ End Fixed Navigation
                 </div>
                 <div class="destacado-responsive-padding"></div>
                 <div class="destacado-texto">
-                    <p><?php echo $idi_texto ?></p>
+                    <p><?php echo $nuestro_departamento ?></p>
                 </div>
             </div>
         </div>

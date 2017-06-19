@@ -4,7 +4,7 @@ require_once 'requirelanguage.php';
 
 function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $interno=true) {
     
-    global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto2;
+    global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto;
     $interno = $interno ? "interno": "";
     ?>
     
@@ -40,7 +40,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 		<ul>
 			<li><a href='sustentabilidad'><?php echo $sustentabilidad ?></a></li>
 			<li><a href='innovaciones'><?php echo $innovaciones ?></a></li>
-			<li><a href='contacto'><?php echo $contacto2 ?></a></li>
+			<li><a href='contacto'><?php echo $contacto ?></a></li>
 		</ul>
 	</div>
 </div>
@@ -85,7 +85,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 				<li><a href='expertise'><?php echo $expertise ?></a></li>
 				<li><a href='sustentabilidad'><?php echo $sustentabilidad ?></a></li>
 				<li><a href='innovaciones'><?php echo $innovaciones ?></a></li>
-				<li><a href='contacto'><?php echo $contacto2 ?></a></li>
+				<li><a href='contacto'><?php echo $contacto ?></a></li>
 			</ul>
 		</div>
 

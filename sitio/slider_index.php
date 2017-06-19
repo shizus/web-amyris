@@ -13,10 +13,10 @@
                         <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo2"><?php echo $amyris ?></h2>
                         <div class="row">
                             <div class="col-md-4 col-md-offset-2 col-xs-12 col-xs-offset-0">
-                                <h2 class="wow fadeInDown animated segundo slider-size slogan" id="titulo3"><?php echo $creamos1 ?></h2>
+                                <h2 class="wow fadeInDown animated segundo slider-size slogan" id="titulo3"><?php echo $creamos_fragancias ?></h2>
                             </div>
                             <div class="col-md-4 col-xs-12 col-xs-offset-0">
-                                <h2 class="wow fadeInDown animated tercero slider-size slogan" id="titulo4" ><?php echo $creamos2 ?></h2>
+                                <h2 class="wow fadeInDown animated tercero slider-size slogan" id="titulo4" ><?php echo $creamos_sensaciones ?></h2>
                             </div>
 
                         </div>

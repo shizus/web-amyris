@@ -9,7 +9,7 @@
 
                 <div class="slide-caption">
                     <div class="caption-content">
-                        <h2 class="wow slideInDown animated tercero" id="titulo4" ><?php echo $creamos2 ?></h2>
+                        <h2 class="wow slideInDown animated tercero" id="titulo4" ><?php echo $creamos_sensaciones ?></h2>
                     </div>
                 </div>
 

@@ -45,17 +45,17 @@ require 'header.php';
 
 <?php require_once 'portada.php';
 
-insertar_portada('portada-expertise', $textoe1, $textoe2);
+insertar_portada('portada-expertise', $valor_brindar_calidad, $controlando_nuestros_productos);
 ;?>
 
 
 <?php require_once 'breadcrumbs.php';
-insertar_breadcrumbs($textoe3);
+insertar_breadcrumbs($desarrollo_creacion_infraestructura);
 
 ?>
 <?php
 require_once "servicio.php";
-insertar_servicio($textoe4, $textoe5);
+insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
 ?>
 
 <div class="row expertise-container">
@@ -67,19 +67,19 @@ insertar_servicio($textoe4, $textoe5);
 <div id="columnas" class="row">
 
     <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0" id="desarrollo-creacion">
-        <p class="hidden-lg hidden-md visible-sm visible-xs destacado-box-responsive"><?php echo $textoe10 ?></p><br>
-    <h1 ><?php echo $textoe6 ?></h1><br>
-      <p id="textoe1"><?php echo $textoe7 ?></p><br>
+        <p class="hidden-lg hidden-md visible-sm visible-xs destacado-box-responsive"><?php echo $buscamos_identificacion ?></p><br>
+    <h1 ><?php echo $desarrollo_creacion ?></h1><br>
+      <p id="textoe1"><?php echo $nuestros_origines ?></p><br>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>
-    <p id="textoe2"><?php echo $textoe9 ?>
+    <p id="textoe2"><?php echo $ofrecemos_creacion_desarrollo ?>
         <div class="linea-roja-50 float-right"></div>
     </p>
     </div>
 
     <div class="col-md-5 col-sm-12" id="columnaseis2" >
-      <p id="textoe3" class="visible-lg visible-md hidden-sm hidden-xs"><?php echo $textoe10 ?></p><br><br><br>
-        <p id="textoe4"><?php echo $textoe11 ?></p><br>
-        <p id="textoe5" ><?php echo $textoe12 ?></p>
+      <p id="textoe3" class="visible-lg visible-md hidden-sm hidden-xs"><?php echo $buscamos_identificacion ?></p><br><br><br>
+        <p id="textoe4"><?php echo $momento_pensar_creacion ?></p><br>
+        <p id="textoe5" ><?php echo $conservar_cliente_crecer ?></p>
 
     </div>
 
@@ -95,8 +95,8 @@ insertar_servicio($textoe4, $textoe5);
         </div>
     </div>
     <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0" id="textotrama1">
-    <p ><?php echo $textoe14?></p>
-    <p ><?php echo $textoe15?></p>
+    <p ><?php echo $amyris_se_encuentra?></p>
+    <p ><?php echo $asimismo_proceso?></p>
     </div>
     <div class="col-md-12 ancho-100">
         <div class="row">
@@ -151,16 +151,16 @@ insertar_servicio($textoe4, $textoe5);
     
 </div>
 
-   <h1  id="control-calidad" class="titulo-dorado text-center"><?php echo $textoe19 ?></h1>
+   <h1  id="control-calidad" class="titulo-dorado text-center"><?php echo $control_calidad ?></h1>
 
    <img src="images/47.jpg" class="control-calidad-img">
 
 
 <div class="row">
     <div class="col-md-4 col-md-offset-1" id="columnacontrol4" >
-        <p><?php echo $textoe20 ?></p><br>
+        <p><?php echo $debemos_destacar ?></p><br>
 
-        <h1 ><?php echo $textoe21 ?></h1>
+        <h1 ><?php echo $estandarte_de_calidad ?></h1>
 
        	<ul>
        		<li><img src="images/icono-estandarte1.png">En la <b>Creación</b></li>
@@ -174,19 +174,19 @@ insertar_servicio($textoe4, $textoe5);
     </div>
 
     <div class="col-md-5" id="columnacontrol5" >
-        <p  class="p0" ><?php echo $textoe255 ?></p><br>
-        <p  class="p1" ><?php echo $textoe22 ?></p><br>
-        <p   class="p2" ><?php echo $textoe23 ?></p><br>
-        <p   class="p0 parrafo-destacado" ><?php echo $textoe25 ?></p>
+        <p  class="p0" ><?php echo $somos_estrictos ?></p><br>
+        <p  class="p1" ><?php echo $importamos_cada_componente ?></p><br>
+        <p   class="p2" ><?php echo $emitimos_certificado ?></p><br>
+        <p   class="p0 parrafo-destacado" ><?php echo $respeto_por_cliente ?></p>
     </div>
 
 </div>
 
 <div id="mapa" class="row">
     <div class="col-md-12"  id="comercio-exterior">
-        <h1 ><?php echo $textoe26 ?></h1><br>
-        <p class="textop1" ><?php echo $textoe27 ?></p><br>
-        <p class="textop2"><?php echo $textoe28 ?></p>
+        <h1 ><?php echo $comercio_exterior ?></h1><br>
+        <p class="textop1" ><?php echo $base_buenos_aires ?></p><br>
+        <p class="textop2"><?php echo $proces_expansion ?></p>
     </div>
     <div class="col-md-4 col-md-offset-4">
         <img class="imagen2" src="images/mapa.png" >
@@ -195,7 +195,7 @@ insertar_servicio($textoe4, $textoe5);
 
 
 <?php  require 'footer.php';
-footer("fotofinal", "contenedorfloresamarillas", $fragancias, $textoe29, "./fragancias");
+footer("fotofinal", "contenedorfloresamarillas", $fragancias, $fabricamos_fragancia_apropiada, "./fragancias");
 
 ?>
 
