@@ -113,25 +113,33 @@ $(document).ready(function(){
 
     $('.isla-producto').click(function (event) {
         var marginTop = $(event.currentTarget).children('div').css('margin-top');
-        if (marginTop != 0) {
-            $(event.currentTarget).children('div').setAttribute('margen', marginTop);
-            $(event.currentTarget).children('div').css('margin-top',0);
+        if (marginTop != "0px") {
+            $(event.currentTarget).children('div').attr('margen', marginTop);
+            $(event.currentTarget).children('div').css('margin-top', 0);
         } else {
-            marginTop = $(event.currentTarget).children('div').getAttribute('margen');
-            $(event.currentTarget).children('div').css('margin-top',marginTop);
+            marginTop = $(event.currentTarget).children('div').attr('margen');
+            $(event.currentTarget).children('div').css('margin-top', marginTop);
         }
+    });
+
+    $('.isla-producto div').click(function (event) {
+        $(event.currentTarget).parent().click();
     });
 
     $('.destacado-contenido').click(function (event) {
         // console.log($(event.target).children('div'));
         var marginLeft = $(event.currentTarget).children('.destacado-texto-container').css('margin-left');
-        if (marginLeft != 0) {
-            $(event.currentTarget).children('.destacado-texto-container').setAttribute('margen', marginLeft);
+        if (marginLeft != "0px") {
+            $(event.currentTarget).children('.destacado-texto-container').attr('margen', marginLeft);
             $(event.currentTarget).children('.destacado-texto-container').css('margin-left',0);
         } else {
-            marginLeft = $(event.currentTarget).children('.destacado-texto-container').getAttribute('margen');
+            marginLeft = $(event.currentTarget).children('.destacado-texto-container').attr('margen');
             $(event.currentTarget).children('.destacado-texto-container').css('margin-left',marginLeft);
         }
+    });
+
+    $('.destacado-item .destacado-texto-container').click(function (event) {
+        $(event.currentTarget).parent().click();
     });
 
 });

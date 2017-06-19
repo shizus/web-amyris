@@ -2421,6 +2421,14 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+    #service {
+        margin-top: -9em;
+    }
+
+    #service .container {
+        padding-top: 17em;
+    }
+
     .cuadrado_inno_id3 h4 {
         margin-top: 1em;
     }
