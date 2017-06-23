@@ -1,5 +1,7 @@
 
-<?php require 'menu-desplegable.php'; ?>
+<?php require 'menu-desplegable.php';
+require_once 'requirelanguage.php'; ?>
+
 
 <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 <div id="botonesarriba">
@@ -55,30 +57,30 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
             <div class="modal-header">
-                <h4 class="modal-title">¿Querés conocernos?</h4>
-                <h4 class="modal-title">Dejanos tus datos</h4>
+                <h4 class="modal-title"><?php echo $formulario_conocernos ?></h4>
+                <h4 class="modal-title"><?php echo $formulario_tusdatos ?></h4>
             </div>
 
             <div class="modal-body">
                 <form id="modal-mail">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="nombre" placeholder="Nombre*">
+                        <input type="text" class="form-control" name="nombre" placeholder=<?php echo $formulario_camponombre ?>>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email*">
+                        <input type="email" class="form-control" name="email" placeholder=<?php echo $formulario_campoemail ?>>
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-control" name="telefono" placeholder="Teléfono*">
+                        <input type="tel" class="form-control" name="telefono" placeholder=<?php echo $formulario_campotelefono ?>>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="empresa" placeholder="Empresa*">
+                        <input type="text" class="form-control" name="empresa" placeholder=<?php echo $formulario_campoempresa ?>>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="3" name="mensaje" placeholder="Mensaje*"></textarea>
+                        <textarea class="form-control" rows="3" name="mensaje" placeholder=<?php echo $formulario_campomensaje ?>></textarea>
                     </div>
                     <div class="form-group">
-                        <label>* Datos Obligatorios</label>
-                        <button type="submit" class="btn btn-default float-right">Enviar</button>
+                        <label><?php echo $formulario_datosobligatorios ?></label>
+                        <button type="submit" class="btn btn-default float-right"><?php echo  $formulario_botonenviar ?></button>
                     </div>
                     <div class="form-group" id="mensaje-error" style="display: none">
                         <label class="alert alert-danger"></label>
@@ -86,10 +88,10 @@
 
                 </form>
                 <div class="mensaje-exito-mail" style="display: none;">
-                    <h1>El mensaje ha sido enviado.</h1>
-                    <h1>¡Muchas gracias!</h1>
+                    <h1><?php echo $formulario_mensajeenviado ?></h1>
+                    <h1><?php echo $formulario_mensajegracias ?></h1>
                     <br>
-                    <h1>En breve nos pondremos en contacto.</h1>
+                    <h1><?php echo $formulario_mensajecontacto ?></h1>
                 </div>
             </div>
 
@@ -104,21 +106,20 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
             <div class="modal-header">
-                <h4 class="modal-title">Queremos escucharte</h4>
+                <h4 class="modal-title"><?php echo $formulario_telefonoescucharte ?></h4>
             </div>
 
             <div class="modal-body">
-                <p>¿Tenés una consulta?</p>
-                <p>¿Tenés una sugerencia?</p>
-                <p>¿Querés contarnos acerca de tu idea?</p>
+                <p><?php echo $formulario_telefonoconsulta ?></p>
+                <p><?php echo $formulario_telefonosugerencia ?></p>
+                <p><?php echo $formulario_telefonocontarnos ?></p>
                 <br>
-                <p>
-                    Nos interesa conocer las necesidades y la opinión de cada cliente, por eso siempre estamos acompañando
-                    cada proyecto, ayudándolos a crecer día a día.
+                <p><?php echo $formulario_telefononecesidades ?>
+                    
                 </p>
                 <br>
-                <p>
-                    ¡Llamanos!
+                <p><?php echo $formulario_telefonollamanos ?>
+                   
                 </p>
                 <br>
                 <a href="tel:(5411)5197-1918">(54 11) 5197-1918</a><br>
@@ -138,12 +139,11 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
             <div class="modal-header">
-                <h4 class="modal-title">¿Dónde estamos?</h4>
+                <h4 class="modal-title"><?php echo $formulariomapa_donde ?></h4>
             </div>
 
             <div class="modal-body">
-                <p>Nuestra Planta de Producción y Oficina de Ventas se encuentra en Cajaraville 2902 y/o
-                    Curapaligüe 6510, Munro (1605, Provincia de Buenos Aires)
+                <p><?php echo $formulariomapa_ubicacion ?>
                 </p>
                 <br>
                 <div class="map-container">

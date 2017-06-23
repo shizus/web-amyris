@@ -20,6 +20,53 @@ $sustentabilidad="SUSTAINABILITY";
 
 //menu5
 
+
+
+// subtitulos menu desplegable
+//----------------------------
+
+
+$subtitulomenu1_quienes="ABOUT US";
+$subtitulomenu1_valores="VALUES";
+$subtitulomenu1_porque="&iquest;WHY AMYRIS?";
+
+//menu2
+
+$subtitulomenu2_fragancias="FRAGRANCES";
+$subtitulomenu2_sistemaconceptual="CONCEPTUAL SYSTEM";
+$subtitulomenu2_productos="PRODUCTS";
+
+
+// menu3
+
+
+$subtitulomenu3_expertise="EXPERTISE";
+$subtitulomenu3_desarrollo="DEVELOPMENT AND CREATION";
+$subtitulomenu3_infraestructura="INFRASTRUCTURE";
+$subtitulomenu3_control="QA";
+$subtitulomenu3_comercio="FOREIGN TRADE";
+
+
+//menu4
+
+$subtitulomenu4_sustentabilidad="SUSTAINABILITY";
+$subtitulomenu4_enfoque="ENFOQUE SUSTENTABLE";
+$subtitulomenu4_operamos="&iquest;HOW WE OPERATE?";
+$subtitulomenu4_valoresm="VALUES";
+
+
+
+//menu5
+
+$subtitulomenu5_innovaciones="INNOVATIONS";
+$subtitulomenu5_departamento="DEPARTMENT OF IDEAS ,DEVELOPMENT AND INNOVATION";
+$subtitulomenu5_aprendeosinnovar="LEARN TO INNOVATE";
+
+
+$botoncontacto="CONTACT";
+
+
+
 //index
 
 $bienvenidos="WELCOME TO AMYRIS";
@@ -43,20 +90,24 @@ $isla_descubrir_texto="CREATING A FRAGRANCE REQUIRES A SUBTLE BALANCE OF CREATIV
 
 $amyris_es_armonia="AMYRIS IS HARMONY IN THE AIR";
 $ofrecemos_excelencia="WE OFFER EXCELLENCE IN THE CREATION AND DEVELOPMENT OF FRAGRANCES" ;
-$contacto="Contact";
+$contacto="CONTACT";
 
 $fragancias_finas_titulo="Fine fragrances";
-$cuidado_personal_titulo="Personal care and toiletries products";
+$fragancias_finas_detalle="traducir...";
 
+$cuidado_personal_titulo="Personal care and toiletries products";
+$cuidado_personal_detalle="traducir...";
 $amyris_proceso_desarrollo="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT WITH THE LATEST TECHNOLOGY, HIGHLY TRAINED PROFESSIONALS AND AN " ;
 $segundo_cuadrado2="EXCLUSIVE RESEARCH AND DEVELOPMENT DEPARTMENT";
 $sustentabilidad2="OUR PREMISE IS TO GUARANTEE THE CARE AND THE REDUCTION OF ENVIRONMENTAL IMPACT IN ALL PROCESSES INVOLVED IN THE CREATION AND DEVELOPMENT OF OUR FRAGRANCES";
 
 $cuidadohogar="Taking care of the household and environmental" ;
-
+$cuidadohogardetalle="traducir...";
 $limpieza="Cleaning" ;
+$limpiezadetalle="traducir...";
 
 $cosmetica="Cosmetic automotive";
+$cosmeticadetalle="traducir...";
 // quienes somos
 
 $el_valor_conectar_sentidos="THE VALUE OF CONNECTING SENSES ";
@@ -121,7 +172,7 @@ $desarrollo_creacion="DEVELOPMENT AND CREATION";
 $nuestros_origines="Since our inception our goal was and remains to grow together customer offering creation, development, innovation, product upgrade, quality, and originality. ";
 $textoe8="We have an excellent team of professionals that assist in all details and in all phases of the project: from the design, manufacture, controls, packaging to delivery. We work with a strict timetable that allows us to meet your deadlines and provide effective delivery.";
 $ofrecemos_creacion_desarrollo="WE OFFER CREATION, DEVELOPMENT, INNOVATION, PRODUCT UPGRADE, QUALITY, AND ORIGINALITY.";
-$buscamos_identificacion="EN AMYRIS, BUSCAMOS SIEMPRE QUE EL CONSUMIDOR OBTENGA UNA IDENTIFICACIÓN ÚNICA CON EL PRODUCTO. ";
+$buscamos_identificacion="IN AMYRIS, WE ALWAYS LOOK FOR THE CONSUMER TO OBTAIN A SOLE IDENTIFICATION WITH THE PRODUCT. ";
 $momento_pensar_creacion="Time to think each creation, we look for the consumer to identify with the product. For this purpose, we have a broad portfolio of products that are updated continuously to adapt to international developments. We also offer our products in components and special supplies, natural raw materials, and specialties.  ";
 $conservar_cliente_crecer="We want to always be loyal to our customer and grow with them.  We continuously track products to be aware of their acceptance in the market and the same update.";
 $amyris_se_encuentra="Amyris is located in Munro, province of Bs. As. Our modern facilities - administrative, commercial, offices, laboratory, deposit, quality - control department comply with all the rules of safety and hygiene, municipal laws, and international standards.";
@@ -145,7 +196,7 @@ $fabricamos_fragancia_apropiada="WE MANUFACTURE FRAGRANCE SUITABLE FOR EACH PROD
 $valor_confianza="THE VALUE OF THE TRUST ";
 $valores_barra="Values /  ";
 $enfoque_sustentable=" Sustainable Approach / ";
-$como_operamos="How we operate";
+$como_operamos=" How we operate";
 
 $amyris_etica="AMYRIS IS ETHICS";
 $trabajamos_mas_altos="WE WORK WITH THE HIGHEST STANDARDS IN SAFETY AND HYGIENE";
@@ -154,10 +205,10 @@ $trabajamos_responsable="At Amyris, we work responsibly and following written pr
 
 $cumplir_todas_normas="We use a variety of modern and sophisticated techniques to complying with all regulations as well as carefully ensuring quality control in all our products. ";
 
-$enfoque_sustentable="SUSTAINABLE APPROACH";
+$enfoque_sustentable="SUSTAINABLE APPROACH /";
 $nuestro_compromiso="Our commitment is to ensure the care and the reduction of the environmental impact in all processes. ";
 
-$controlamos_responsablemente="CONTROLAMOS RESPONSABLEMENTE<br>TODOS LOS PROCESOS.";
+$controlamos_responsablemente="WE RESPONSIBLY CONTROL ALL PROCESSES.";
 $conocemos_detalle="We know in detail the ingredients and the source of our raw materials: we cater and work with them in a responsible manner, thus preventing any possible contamination. ";
 
 $somos_conscientes="We are aware of the impact and its importance to society.  We meet and talk with our suppliers and all involved in the production chain. Having this knowledge allows us to generate an effective and sustainable strategy. ";
@@ -173,7 +224,7 @@ $desechos="WASTE";
 $controlamos_residuos="At Amyris we strictly control waste materials.  At Amyris we recognize the importance of disposing of waste materials in a responsible manner. The necessary corresponding certificates of destruction are always obtained for waste materials. Amyris is committed to the environment as well as safe procedures in our facilities and for our employees.";
 
 $quienes_somos="WHO WE ARE";
-$exclusividad_asesoramiento="EN AMYRIS, TRABAJAMOS A LA MEDIDA DEL CLIENTE CON EXCLUSIVIDAD ABSOLUTA Y UN ASESORAMIENTO TOTAL EN LA FABRICACI&Oacute;N DEL PRODUCTO, PARA EL MEJOR RESULTADO FINAL.";
+$exclusividad_asesoramiento="IN AMYRIS, WE WORK TO THE CUSTOMER'S MEASURE WITH ABSOLUTE EXCLUSIVITY AND A TOTAL ADVICE ON THE MANUFACTURE OF THE PRODUCT, FOR THE BEST FINAL RESULT.";
 
 
 // innovaciones
@@ -190,8 +241,16 @@ $buscamos_innovar_y="WE SEEK TO INNOVATE AND  ";
 $dar_originalidad="GIVE ORIGINALITY TO FRAGRANCES.";
 $departamento_ideas="DEPARTMENT OF IDEAS, DEVELOPMENT, AND INNOVATION";
 $consumidor_fuente_inspiracion="Amyris, the consumer is the source of inspiration. Our goal is that the desired fragrance can be obtained with the highest quality and originality. We have a Department of IDEAS, product development and innovation professionals of different specializations who work researching new proposals, where processes are constantly evaluated and applied to new technologies, tools and trends that will generate a differentiated product.";
+
+
 $idi_nos_permite="EOUR DEVELOPMENT DEPARTMENT OFFERS A COMPLETE AND EFFICIENT COMMERCIAL SERVICE ";
+
+
 $generar_nuevos_productos="TO GENERATE NEW PRODUCTS AND THE REDESIGN OR OPTIMIZATION OF EXISTING ONES, ALWAYS SUPPORTED BY OUR TECHNICAL AND COMMERCIAL DEPARTMENTS";
+
+$inno_como_trabaja="¿HOW DOES OUR I+D+I DEPARTMENT WORK?";
+
+
 $congresos_internacionales="INTERNATIONAL CONGRESSES";
 $asistimos_anualmente="Annually attend the most important global events where perfumers, sellers, manufacturers, and suppliers of ingredients, gather to observe trends in the world of fragrances and, provide innovative and creative ideas to our customers.";
 
@@ -217,12 +276,52 @@ $telefono_label="PHONE";
 $empresa_label="COMPANY";
 $mensaje_label="MESSAGE";
 $enviar="SEND";
+
+$donde_estamos_consulta="Production Plant and Sales Office";
+
+
 $amyris_estrictos_detalle="IN AMYRIS, ARE STRICT IN EVERY DETAIL OF THE PROCESS OF MANUFACTURE AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US.";
 $gracias_por_consulta="Message has been sent.";
 $nos_comunicaremos="Thank you!.";
 
+
+$donde_estamos_consulta="";
 $cambiarIdioma="Cambiar Idioma";
 $inicio="Inicio";
 $spanish="Español";
 $english="Inglés";
 $french="Francés";
+
+// footer
+
+
+$derechos_reservados="All rights reserved ";
+
+// formulario desplegable
+
+$formulario_conocernos="traducir...";
+$formulario_tusdatos="traducir...";
+$formulario_datosobligatorios="traducir...";
+$formulario_mensajeenviado="traducir...";
+$formulario_mensajegracias="traducir...";
+$formulario_mensajecontacto="traducir...";
+$formulario_botonenviar="traducir...";
+
+$formulario_camponombre="Name*";
+$formulario_campoemail="Email*";
+$formulario_campotelefono="Phone*";
+$formulario_campoempresa="Business*";
+$formulario_campomensaje="Message*";
+
+$formulario_telefonoescucharte="traducir...";
+$formulario_telefonoconsulta="traducir...";
+$formulario_telefonosugerencia="traducir...";
+$formulario_telefonocontarnos="traducir...";
+$formulario_telefononecesidades="traducir...";
+$formulario_telefonollamanos="traducir...";
+
+//formulario mapa
+
+$formulariomapa_donde="¿Where we are?";
+$formulariomapa_ubicacion="Our Production Plant and Sales Office is located in Cajaraville 2902 y/o
+                    Curapaligüe 6510, Munro (1605, Buenos Aires state)";

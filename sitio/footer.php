@@ -4,7 +4,7 @@ require_once 'requirelanguage.php';
 
 function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $interno=true) {
     
-    global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto;
+    global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto,$derechos_reservados;
     $interno = $interno ? "interno": "";
     ?>
     
@@ -72,7 +72,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 			</div>
 			<div class='row copyright'>
 					<div class='col-md-12'>
-						<h6>2017 - Todos los derechos reservados //
+						<h6>2017 <?php echo $derechos_reservados ?>//
 						<a href='odmbranding.com' target='_blank' class='footer-link'>Web Design ODM Branding</a></h6>
 					</div>
 				</div>

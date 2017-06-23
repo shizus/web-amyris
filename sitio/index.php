@@ -56,8 +56,7 @@ End Fixed Navigation
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                         <a class="dorado" href="fragancias#productos"><?php echo $fragancias_finas_titulo ?></a>
                                                     </span></h4>
-                                                <p>Buscamos ofrecerle al cliente la más alta calidad de la fragancia
-                                                    creada.</p>
+                                                <p><?php echo $fragancias_finas_detalle ?></p>
                                                 <div>
                                                     <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
@@ -68,8 +67,7 @@ End Fixed Navigation
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                         <a class="dorado" href="fragancias#productos"><?php echo $cuidado_personal_titulo ?></a>
                                                 </span></h4>
-                                                <p>Asumimos el compromiso de ofrecerle al consumidor productos que al momento
-                                                    de percibir los aromas, pueda disfrutar.</p>
+                                                <p><?php echo $cuidado_personal_detalle ?></p>
                                                 <div>
                                                     <a href="fragancias#productos">
                                                         <img src="images/42.png" class="nube-link"></a>
@@ -85,8 +83,7 @@ End Fixed Navigation
                                                         <a class="dorado" href="fragancias#productos"><?php echo $cuidadohogar ?></a>
                                                     </span>
                                                 </h4>
-                                                <p>Ofrecemos productos que están relacionados con la sensación de seguridad,
-                                                    confort, pertenencia y calma.</p>
+                                                <p> <?php echo $cuidadohogardetalle ?></p>
                                                 <div>
                                                     <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
@@ -99,8 +96,7 @@ End Fixed Navigation
                                                        </a>
                                                          </span>
                                                 </h4>
-                                                <p>Buscamos que el bienestar generado remita a la tranquilidad de percibir un
-                                                    hogar limpio.</p>
+                                                <p> <?php echo $limpiezadetalle ?></p>
                                                 <div>
                                                     <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>
@@ -111,8 +107,7 @@ End Fixed Navigation
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                         <a class="dorado" href="fragancias#productos"><?php echo $cosmetica ?></a>
                                                 </span></h4>
-                                                <p>Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
-                                                con un auto nuevo.</p>
+                                                <p> <?php echo $cosmeticadetalle ?></p>
                                                 <div>
                                                     <a href="fragancias#productos"> <img src="images/42.png" class="nube-link"></a>
                                                 </div>

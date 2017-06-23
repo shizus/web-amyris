@@ -28,6 +28,52 @@ $sustentabilidad="SUSTENTABILIDAD";
 
 //menu5
 
+// subtitulos menu desplegable
+//----------------------------
+
+
+$subtitulomenu1_quienes="&iquest;QUI&Eacute;NES SOMOS?";
+$subtitulomenu1_valores="VALORES";
+$subtitulomenu1_porque="&iquest;POR QU&Eacute; AMYRIS?";
+
+//menu2
+
+$subtitulomenu2_fragancias="FRAGANCIAS";
+$subtitulomenu2_sistemaconceptual="SISTEMA CONCEPTUAL";
+$subtitulomenu2_productos="PRODUCTOS";
+
+
+// menu3
+
+
+$subtitulomenu3_expertise="EXPERTISE";
+$subtitulomenu3_desarrollo="DESARROLLO Y CREACI&Oacute;N";
+$subtitulomenu3_infraestructura="INFRAESTRUCTURA";
+$subtitulomenu3_control="CONTROL DE CALIDAD";
+$subtitulomenu3_comercio="COMERCIO EXTERIOR";
+
+
+//menu4
+
+$subtitulomenu4_sustentabilidad="SUSTENTABILIDAD";
+$subtitulomenu4_enfoque="ENFOQUE SUSTENTABLE";
+$subtitulomenu4_operamos="&iquest;COMO OPERAMOS?";
+$subtitulomenu4_valoresm="VALORES";
+
+
+
+//menu5
+
+$subtitulomenu5_innovaciones="INNOVACIONES";
+$subtitulomenu5_departamento="DEPARTAMENTO DE IDEAS,DESARROLLO E INNOVACI&Oacute;N";
+$subtitulomenu5_aprendeosinnovar="APRENDEMOS PARA INNOVAR";
+
+
+$botoncontacto="CONTACTO";
+
+
+
+
 //index
 
 $bienvenidos="BIENVENIDOS A";
@@ -53,17 +99,31 @@ $ofrecemos_excelencia="OFRECEMOS EXCELENCIA EN LA CREACI&Oacute;N Y ELABORACI&Oa
 $contacto="CONTACTO";
 
 $fragancias_finas_titulo="Fragancias Finas";
+$fragancias_finas_detalle="Buscamos ofrecerle al cliente la más alta calidad de la fragancia
+                                                    creada.";
+
+
 $cuidado_personal_titulo="Cuidado Personal y <br>Productos de Tocador";
+$cuidado_personal_detalle="Asumimos el compromiso de ofrecerle al consumidor productos que al momento
+                                                    de percibir los aromas, pueda disfrutar.";
+
 
 $amyris_proceso_desarrollo="AMYRIS CUBRE TODO EL PROCESO DE DESARROLLO CON LA ÚLTIMA TECNOLOG&Iacute;A, PROFESIONALES ALTAMENTE CAPACITADOS Y UN " ;
 $segundo_cuadrado2="DEPARTAMENTO EXCLUSIVO DE IDEAS, DESARROLLO E INVESTIGACI&Oacute;N";
 $sustentabilidad2="NUESTRA PREMISA ES GARANTIZAR EL CUIDADO Y LA REDUCCI&Oacute;N DEL IMPACTO AMBIENTAL EN TODOS LOS PROCESOS INVOLUCRADOS EN LA CREACI&Oacute;N Y EL DESARROLLO DE NUESTRAS FRAGANCIAS.  ";
 
 $cuidadohogar="Cuidado del Hogar <br>y Ambientales" ;
+$cuidadohogardetalle="Ofrecemos productos que están relacionados con la sensación de seguridad,
+                                                    confort, pertenencia y calma.";
 
 $limpieza="Limpieza" ;
+$limpiezadetalle="Buscamos que el bienestar generado remita a la tranquilidad de percibir un
+                                                    hogar limpio." ;
 
 $cosmetica="Cosm&eacute;tica Automotor";
+$cosmeticadetalle="Ofrecemos fragancias que recuerden ese momento de alegría que se obtiene
+                                                con un auto nuevo.";
+
 // quienes somos
 
 $el_valor_conectar_sentidos="EL VALOR DE CONECTAR SENTIDOS";
@@ -292,6 +352,10 @@ se aplican a nuevas tecnologías, herramientas y tendencias que logren generar u
 $idi_nos_permite="EL DEPARTAMENTO I+D+I NOS PERMITE OFRECER UN SERVICIO COMERCIAL COMPLETO Y EFICIENTE";
 $generar_nuevos_productos="AL GENERAR NUEVOS PRODUCTOS Y/O AL REFORMULAR U OPTIMIZAR LOS YA EXISTENTES, SIEMPRE APOYADO POR NUESTRAS &Aacute;REAS T&Eacute;CNICO-COMERCIALES";
 $congresos_internacionales="CONGRESOS INTERNACIONALES";
+
+$inno_como_trabaja="¿CÓMO TRABAJA NUESTRO DEPARTAMENTO I+D+I?";
+
+
 $asistimos_anualmente="Asistimos anualmente a los más
 importantes eventos mundiales
 donde se reúnen perfumistas,
@@ -337,6 +401,10 @@ $telefono_label="TEL&Eacute;FONO";
 $empresa_label="EMPRESA";
 $mensaje_label="MENSAJE";
 $enviar="ENVIAR";
+
+$donde_estamos_consulta="Planta de Producci&oacute;n y Oficina de Ventas";
+
+
 $amyris_estrictos_detalle="EN AMYRIS, SOMOS ESTRICTOS EN CADA DETALLE DEL PROCESO DE FABRICACI&oacute;N Y ENTREGA. ESTA ES UNA DE LAS
 PRINCIPALES RAZONES POR LA CUAL EMPRESAS L&iacute;DERES CONFÍAN EN NOSOTROS.";
 $gracias_por_consulta="Gracias por su consulta";
@@ -347,3 +415,38 @@ $inicio="Inicio";
 $spanish="Español";
 $english="Inglés";
 $french="Francés";
+
+
+// footer
+
+$derechos_reservados="Todos los derechos reservados ";
+
+// formulario desplegable
+
+$formulario_conocernos="¿Querés conocernos?";
+$formulario_tusdatos="Dejanos tus datos";
+$formulario_datosobligatorios="* Datos Obligatorios";
+$formulario_mensajeenviado="El mensaje ha sido enviado.";
+$formulario_mensajegracias="¡Muchas gracias!";
+$formulario_mensajecontacto="En breve nos pondremos en contacto.";
+$formulario_botonenviar="Enviar";
+
+$formulario_camponombre="Nombre*";
+$formulario_campoemail="Email*";
+$formulario_campotelefono="Teléfono*";
+$formulario_campoempresa="Empresa*";
+$formulario_campomensaje="Mensaje*";
+
+$formulario_telefonoescucharte="Queremos escucharte";
+$formulario_telefonoconsulta="¿Tenés una consulta?";
+$formulario_telefonosugerencia="¿Tenés una sugerencia?";
+$formulario_telefonocontarnos="¿Querés contarnos acerca de tu idea?";
+$formulario_telefononecesidades="Nos interesa conocer las necesidades y la opinión de cada cliente, por eso siempre estamos acompañando cada proyecto, ayudándolos a crecer día a día.";
+$formulario_telefonollamanos="¡Llamanos!";
+
+
+//formulario mapa
+
+$formulariomapa_donde="¿Dónde estamos?";
+$formulariomapa_ubicacion="Nuestra Planta de Producción y Oficina de Ventas se encuentra en Cajaraville 2902 y/o
+                    Curapaligüe 6510, Munro (1605, Provincia de Buenos Aires)";

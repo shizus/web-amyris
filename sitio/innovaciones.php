@@ -106,7 +106,7 @@ insertar_servicio($amyris_futuro, $brindamos_soluciones_originales);
         <div class="row" id="desarrollo">
 
             <div class="col-md-12 columna12">
-                <h3>¿CÓMO TRABAJA NUESTRO DEPARTAMENTO I+D+I?</h3>
+                <h3>  <?php echo $inno_como_trabaja ?></h3>
             </div>
 
             <div class="col-md-12 columna12">
