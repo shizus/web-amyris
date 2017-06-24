@@ -179,6 +179,7 @@ $laboratorio_control_calidad="Laboratorio de control de calidad que analiza rigu
 nuestra empresa hasta su salida. Todo el proceso de producción está controlado por los máximos standars de calidad" ;
 
 //fragancias
+$fragancias_titulo="SISTEMA CONCEPTUAL AMYRIS";
 $valor_transmitir_emociones="EL VALOR DE TRANSMITIR EMOCIONES";
 $vinculando_nuestras_fragancias="vinculando nuestras fragancias con la sensibilidad del consumidor";
 $sistema_conceptual_amyris="Sistema Conceptual Amyris / Productos";
@@ -186,6 +187,48 @@ $amyris_creacion_innovacion="AMYRIS ES CREACIÓN E INNOVACIÓN" ;
 $transformamos_fragancia="TRANSFORMAMOS LA FRAGANCIA  EN UN SELLO PERSONAL " ;
 $desde_nuestros_inicios="Desde nuestros inicios, nuestro objetivo siempre fue la búsqueda de soluciones sensoriales que nos permita
 desarrollar y crear fragancias únicas. Esto nos llevó a desarrollar un sistema conceptual de trabajo:";
+$sentir_descripcion="LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.";
+
+
+$descubrir_descripcion="SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.";
+
+$oler_descripcion="NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.";
+
+
+ $disfrutar_descripcion="LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.";
+
+
+$contamos_personal="Contamos con personal de desarrollo y marketing en constante capacitación e investigación para estar siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosmética, fragancias finas, higiene personal, productos para el hogar y productos de limpieza" ;
+
+$consideramos_personal="En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad. Trabajamos con un preciso cronograma de tiempos.";
+
+$caja_productos_titulo="FRAGANCIAS FINAS";
+$caja_cuidado_personal_titulo="CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR";
+$caja_cuidado_hogar_titulo="CUIDADO DEL HOGAR Y AMBIENTALES";
+$caja_limpieza_titulo="LIMPIEZA";
+$caja_cosmetica_titulo="COSMÉTICA AUTOMOTOR";
+
+
+$caja_productos_texto_debajo1="En AMYRIS buscamos ofrecerle al cliente la más alta calidad de la fragancia creada, incentivándolo a innovar, brindándole actualización sobre las tendencias a nivel mundial.";
+$caja_productos_texto_debajo2="Podemos ofrecer Eau de Perfum, Eau de Toillete, Colonias, fragancias femeninas, masculinas, para adolecentes, niños y bebés.";
+
+$caja_cuidado_personal_texto_debajo1="Asumimos el compromiso de ofrecerle al consumidor productos que al momento de percibir los aromas pueda disfrutar.";
+$caja_cuidado_personal_texto_debajo2="En esta categoría ofrecemos fragancias para jabones líquidos, productos de tocador, exfoliantes, shampoo, faciales, espumas, sales de baño, cremas, talcos y tinturas.";
+
+$caja_cuidado_hogar_texto_debajo1="El hogar está estrechamente relacionado con una sensación de seguridad, confort, pertenencia y calma.";
+$caja_cuidado_hogar_texto_debajo2="Ofrecemos productos para desodorantes ambientales, desodorantes textiles, velas aromáticas, ambientadores y difusores.";
+
+$caja_limpieza_texto_debajo1="Buscamos que el bienestar generado por este tipo de fragancias remita a la pureza, a esa tranquilidad que se genera al percibir estar en un hogar limpio.";
+$caja_limpieza_texto_debajo2="Esta clase de fragancias aplican a productos tales como limpiadores para piso, limpiadores en crema, lavandinas, detergentes, suavizantes, productos quita mancha y apresto.";
+
+$caja_cosmetica_texto_debajo1="Momentos como la compra de tu primer auto o cambiarlo por otro más grande generan alegría
+			y felicidad. ";
+$caja_cosmetica_texto_debajo2="Ofrecemos fragancias que le recuerden ese momento. Lo asesoramos sobre la fragancia adecuada dejando un aroma de alta persistencia.";
+
+$titulo_footer_expertise="CONTAMOS CON TECNOLOGÍA DE ÚLTIMA GENERACIÓN Y TRABAJAMOS CON TÉCNICAS VERIFICADAS Y RIGUROSAS NORMAS INTERNAS
+     QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES.";
+
+
 $sentir="SENTIR";
 $descubrir="DESCUBRIR";
 $crear="CREAR";
