@@ -336,6 +336,6 @@ $output_compania_invalida="Enter only digits in phone number";
 $output_sujeto_requerido="Subject is required";
 $output_mensaje_corto="Too short message! Please enter something.";
 $output_mensaje_error="Could not send mail! Please check your PHP mail configuration.";
-$output_mensaje_exito="Thank you for your email';
+$output_mensaje_exito="Thank you for your email";
 
 

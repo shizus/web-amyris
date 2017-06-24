@@ -97,6 +97,7 @@
 		 <?php echo $contamos_personal ?></p>
 		<p>
 		<?php echo $consideramos_personal ?>
+        </p>
 		</div>
 	</div>
 </div>
