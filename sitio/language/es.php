@@ -278,6 +278,27 @@ fundamental de nuestra empresa, LA
 CALIDAD de nuestros productos y
 nuestros procedimientos.  ";
 $estandarte_de_calidad="Estandarte de Calidad Amyris";
+
+
+$articulo1="En la "; 
+$articulo2="En los ";
+$articulo3="En el "; 
+$articulo4="En ";
+
+$estandarte_de_calidad_creacion="Creación";
+$estandarte_de_calidad_procesos="Procesos de Fabricación";
+$estandarte_de_calidad_cronograma="Cronograma y los Plazos";
+$estandarte_de_calidad_control="Control de Calidad";
+$estandarte_de_calidad_certificado="Certificado de Análisis";
+$estandarte_de_calidad_servicio="Servicio de Postventa";
+
+
+
+
+
+
+
+
 $importamos_cada_componente="Importamos cada uno de los componentes e insumos para
 elaborar las fragancias. Cada insumo que luego se va a
 aplicar en la fragancia, está previamente controlado
@@ -444,6 +465,8 @@ $telefono_label="TEL&Eacute;FONO";
 $empresa_label="EMPRESA";
 $mensaje_label="MENSAJE";
 $enviar="ENVIAR";
+$mensaje_enviado="El mensaje ha sido enviado.¡Muchas Gracias! En breve nos pondremos en contacto.";
+
 
 $donde_estamos_consulta="Planta de Producci&oacute;n y Oficina de Ventas";
 
@@ -458,6 +481,18 @@ $inicio="Inicio";
 $spanish="Español";
 $english="Inglés";
 $french="Francés";
+
+
+// send-mail
+
+$output_nombre_corto="Nombre vacio o demasiado corto!";
+$output_email_invalido="Igrese un email valido!";
+$output_solonumeros="Compañia vacia o demasiado corta";
+$output_compania_invalida="Ingrese solo numeros";
+$output_sujeto_requerido="Sujeto requerido";
+$output_mensaje_corto="Mensaje demasiado corto!";
+$output_mensaje_error="No e udo mandar el mensaje.Compruebe su  configuracion.";
+$output_mensaje_exito="Gracias por su mensaje";
 
 
 // footer

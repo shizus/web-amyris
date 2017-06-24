@@ -143,13 +143,7 @@ insertar_breadcrumbs($donde_estamos);
                         <div class="input-container">
                             <input type="submit" class="submit" value='<?php echo $enviar ?> '>
                         </div>
-                        <label id="mensaje-enviado-label" style="display: none;">El mensaje ha sido enviado.
-
-                            ¡Muchas Gracias!
-
-                            En breve nos pondremos
-
-                            en contacto.</label>
+                        <label id="mensaje-enviado-label" style="display: none;"> <?php echo $mensaje_enviado ?></label>
                     </div>
                 </form>
                 <br>

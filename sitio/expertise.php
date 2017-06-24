@@ -163,12 +163,12 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
         <h1 ><?php echo $estandarte_de_calidad ?></h1>
 
        	<ul>
-       		<li><img src="images/icono-estandarte1.png">En la <b>Creación</b></li>
-       		<li><img src="images/icono-estandarte2.png">En los <b>Procesos de Fabricación</b></li>
-       		<li><img src="images/icono-estandarte3.png">En el <b>Cronograma y los Plazos</b></li>
-       		<li><img src="images/icono-estandarte4.png">En el <b>Control de Calidad</b></li>
-       		<li><img src="images/icono-estandarte5.png">En <b>Certificado de Análisis</b></li>
-       		<li><img src="images/icono-estandarte6.png">En el <b>Servicio de Postventa</b></li>
+       		<li><img src="images/icono-estandarte1.png"><?php echo $articulo1 ?><b><?php echo $estandarte_de_calidad_creacion ?></b></li>
+       		<li><img src="images/icono-estandarte2.png"><?php echo $articulo2 ?><b><?php echo $estandarte_de_calidad_procesos ?></b></li>
+       		<li><img src="images/icono-estandarte3.png"><?php echo $articulo3 ?><b><?php echo $estandarte_de_calidad_cronograma ?></b></li>
+       		<li><img src="images/icono-estandarte4.png"><?php echo $articulo3 ?> <b><?php echo $estandarte_de_calidad_control ?></b></li>
+       		<li><img src="images/icono-estandarte5.png"><?php echo $articulo4 ?> <b><?php echo $estandarte_de_calidad_certificado ?></b></li>
+       		<li><img src="images/icono-estandarte6.png"><?php echo $articulo3 ?> <b><?php echo $estandarte_de_calidad_servicio ?></b></li>
        	</ul>
 
     </div>

@@ -127,7 +127,7 @@
     <div class="row contacto-row" style="background-color: #D1BE87">
       <div class="col-sm-12 col-xs-12">
           <div class="menu-option-container">
-              <a href="contacto"><?php echo $amyris ?>Contacto</a>
+              <a href="contacto"><?php echo $botoncontacto ?></a>
           </div>
       </div>
     </div>

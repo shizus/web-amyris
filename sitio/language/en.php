@@ -325,3 +325,17 @@ $formulario_telefonollamanos="traducir...";
 $formulariomapa_donde="¿Where we are?";
 $formulariomapa_ubicacion="Our Production Plant and Sales Office is located in Cajaraville 2902 y/o
                     Curapaligüe 6510, Munro (1605, Buenos Aires state)";
+
+// send-mail
+
+
+ $output_nombre_corto="Name is too short or empty!";
+$output_email_invalido="Please enter a valid email!";
+$output_solonumeros="Company is too short or empty!";
+$output_compania_invalida="Enter only digits in phone number";
+$output_sujeto_requerido="Subject is required";
+$output_mensaje_corto="Too short message! Please enter something.";
+$output_mensaje_error="Could not send mail! Please check your PHP mail configuration.";
+$output_mensaje_exito="Thank you for your email';
+
+
