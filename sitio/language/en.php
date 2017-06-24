@@ -1,4 +1,4 @@
-﻿<?php
+﻿﻿<?php
 // menu 1
 $amyris="AMYRIS";
 $valores="OUR VALUES";
@@ -131,7 +131,7 @@ $calidad="QUALITY" ;
 $garantizamos_calidad="We guarantee our customers the quality of each of the ingredients that make up the fragrance. For this we have: " ;
 $innovacion="INNOVATION" ;
 $inquietud_explorar="Concern with exploring new alternatives and the desire for constant improvement leads us to want to be always at the forefront in offering creative and innovative results. We deal with updating us and anticipate global trends to offer the customer a range of varieties.
-"; 
+";
 
 $innovaciones="INNOVATIONS";
 $proceso_desarrollo="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT OF FRAGRANCES WITH THE LATEST TECHNOLOGY, HIGHLY TRAINED PROFESSIONALS AND AN EXCLUSIVE DEPARTMENT OF IDEAS, RESEARCH, AND DEVELOPMENT." ;
@@ -196,6 +196,7 @@ $crear="CREATE";
 $disfrutar="ENJOY";
 
 // expertise
+$ultima_generacion ="Tecnología de última generación en los laboratorios y sectores productivos";
 $valor_brindar_calidad="THE VALUE OF PROVIDING QUALITY ";
 $controlando_nuestros_productos="control in our products and procedures";
 $desarrollo_creacion_infraestructura="Development and creation / Infrastructure / Quality Control / Trade";
@@ -216,6 +217,37 @@ $estandarte_de_calidad="Estandarte de Calidad Amyris";
 $importamos_cada_componente="We import each of the components to develop our fragrances. Each input which then is to be applied to the fragrance, is controlled (analyzed index density, chromatography, color, nose, olfactory and index of refraction). Each fragrance ingredient has a traceability, since everything has an identified lot to track the quality parameters.";
 
 $emitimos_certificado="At the end, we issue a certificate of analysis and a safety sheet supplied together with the product serving as a guarantee to our customers.";
+
+$articulo1="En la ";
+$articulo2="En los ";
+$articulo3="En el ";
+$articulo4="En ";
+
+$estandarte_de_calidad_creacion="Creación";
+$estandarte_de_calidad_procesos="Procesos de Fabricación";
+$estandarte_de_calidad_cronograma="Cronograma y los Plazos";
+$estandarte_de_calidad_control="Control de Calidad";
+$estandarte_de_calidad_certificado="Certificado de Análisis";
+$estandarte_de_calidad_servicio="Servicio de Postventa";
+
+
+
+
+
+
+
+
+$importamos_cada_componente="Importamos cada uno de los componentes e insumos para
+elaborar las fragancias. Cada insumo que luego se va a
+aplicar en la fragancia, está previamente controlado
+(analizado olfativamente, índice de densidad, cromatografía,
+color, olfativo e índices de refracción). Cada ingrediente de la
+fragancia tiene una trazabilidad, ya que todo tiene un lote
+identificado para cumplir siempre los parámetros de calidad.";
+
+$emitimos_certificado="Al finalizar, emitimos un CERTIFICADO DE ANÁLISIS y HOJA DE
+SEGURIDAD que se entrega junto con la mercadería y que
+servirá como garantía al cliente.";
 
 $respeto_por_cliente="Respect for the customer is the key to our success.";
 $somos_estrictos="WE ARE STRICT IN EVERY DETAIL OF THE PROCESS OF DEVELOPMENT, MANUFACTURE, AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US. ";
@@ -308,6 +340,7 @@ $telefono_label="PHONE";
 $empresa_label="COMPANY";
 $mensaje_label="MESSAGE";
 $enviar="SEND";
+$mensaje_enviado="El mensaje ha sido enviado.¡Muchas Gracias! En breve nos pondremos en contacto.";
 
 $donde_estamos_consulta="Production Plant and Sales Office";
 
@@ -323,6 +356,19 @@ $inicio="Inicio";
 $spanish="Español";
 $english="Inglés";
 $french="Francés";
+
+
+// send-mail
+
+$output_nombre_corto="Nombre vacio o demasiado corto!";
+$output_email_invalido="Igrese un email valido!";
+$output_solonumeros="Compañia vacia o demasiado corta";
+$output_compania_invalida="Ingrese solo numeros";
+$output_sujeto_requerido="Sujeto requerido";
+$output_mensaje_corto="Mensaje demasiado corto!";
+$output_mensaje_error="No e udo mandar el mensaje.Compruebe su  configuracion.";
+$output_mensaje_exito="Gracias por su mensaje";
+
 
 // footer
 
