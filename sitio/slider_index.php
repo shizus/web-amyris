@@ -9,14 +9,14 @@
 
                 <div class="slide-caption">
                     <div class="caption-content">
-                        <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo1" ><?php echo htmlentities($bienvenidos, ENT_QUOTES, "UFT-8", false) ?></h2>
-                        <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo2"><?php echo htmlentities($amyris , ENT_QUOTES, "UFT-8", false) ?></h2>
+                        <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo1" ><?php echo $bienvenidos ?></h2>
+                        <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo2"><?php echo $amyris ?></h2>
                         <div class="row">
                             <div class="col-md-4 col-md-offset-2 col-xs-12 col-xs-offset-0">
-                                <h2 class="wow fadeInDown animated segundo slider-size slogan" id="titulo3"><?php echo htmlentities($creamos_fragancias , ENT_QUOTES, "UFT-8", false) ?></h2>
+                                <h2 class="wow fadeInDown animated segundo slider-size slogan" id="titulo3"><?php echo $creamos_fragancias ?></h2>
                             </div>
                             <div class="col-md-4 col-xs-12 col-xs-offset-0">
-                                <h2 class="wow fadeInDown animated tercero slider-size slogan" id="titulo4" ><?php echo htmlentities($creamos_sensaciones , ENT_QUOTES, "UFT-8", false) ?></h2>
+                                <h2 class="wow fadeInDown animated tercero slider-size slogan" id="titulo4" ><?php echo $creamos_sensaciones ?></h2>
                             </div>
 
                         </div>
@@ -30,7 +30,7 @@
                 <div class="bg-img bg-img-2"></div>
                 <div class="slide-caption">
                     <div class="caption-content">
-                        <h2 class="wow fadeInDown animated primero slide-titulo"><?php echo htmlentities($fabricamos , ENT_QUOTES, "UFT-8", false) ?></h2>
+                        <h2 class="wow fadeInDown animated primero slide-titulo"><?php echo $fabricamos ?></h2>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@
                 <div class="bg-img bg-img-3"></div>
                 <div class="slide-caption">
                     <div class="caption-content">
-                        <h2 class="wow fadeInDown animated primero slide-titulo"><?php echo htmlentities($logramos , ENT_QUOTES, "UFT-8", false) ?></h2>
+                        <h2 class="wow fadeInDown animated primero slide-titulo"><?php echo $logramos ?></h2>
 
                     </div>
                 </div>

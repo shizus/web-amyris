@@ -69,6 +69,8 @@ $subtitulomenu5_departamento="DEPARTAMENTO DE IDEAS,DESARROLLO E INNOVACI&Oacute
 $subtitulomenu5_aprendeosinnovar="APRENDEMOS PARA INNOVAR";
 
 
+$botoncontacto="CONTACTO";
+
 
 
 
