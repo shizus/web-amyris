@@ -398,7 +398,7 @@ $formulario_telefonollamanos="traducir...";
 
 //formulario mapa
 
-$formulariomapa_donde="¿Where we are?";
+$formulariomapa_donde="Where we are?";
 $formulariomapa_ubicacion="Our plant production and sales office is located in Cajaraville 2902 or Curapaligue 6510, Munro (1605), province of Buenos Aires.";
 
 // send-mail
