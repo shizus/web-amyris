@@ -148,7 +148,7 @@ $proceso_desarrollo="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT OF FRAGRANC
 
 $amyris_inspiracion="AMYRIS IS INSPIRATION";
 $laboratorio_muestras="Laboratory of samples where are tests and applications on the customer's product ensuring that the fragrance created meets the requested parameters." ;
-
+$laboratorio_muestras = htmlentities($laboratorio_muestras, ENT_QUOTES, "UTF-8", false); // No tocar
 $laboratorio_control_calidad="Our quality control procedures rigorously analyze the product from inception to shipment to customer. The highest standards of quality control the entire production process." ;
 
 $ultima_generacion ="Latest technology in laboratories and industries.";
@@ -298,6 +298,9 @@ $controlamos_residuos="At Amyris we strictly control waste materials.  At Amyris
 
 $quienes_somos="WHO WE ARE";
 $exclusividad_asesoramiento="IN AMYRIS, WE WORK TO THE CUSTOMER'S MEASURE WITH ABSOLUTE EXCLUSIVITY AND A TOTAL ADVICE ON THE MANUFACTURE OF THE PRODUCT, FOR THE BEST FINAL RESULT.";
+
+
+$exclusividad_asesoramiento = htmlentities($exclusividad_asesoramiento, ENT_QUOTES, "UTF-8", false); // No tocar
 
 
 // innovaciones
