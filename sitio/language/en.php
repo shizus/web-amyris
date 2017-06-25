@@ -52,7 +52,6 @@ $subtitulomenu5_departamento="DEPARTMENT OF DEVELOPMENT AND INNOVATION IDEAS";
 $subtitulomenu5_aprendeosinnovar="WE LEARN TO INNOVATE";
 
 
-$botoncontacto="CONTACT";
 
 
 

@@ -15,7 +15,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 				<div class='row'>
 					<div id='footer-text-container' class='col-md-6 intro-pic wow animated fadeInDown <?php echo $interno ?>'>
 						<h1 class='animation animated-item-1'><?php echo $titulo ?></h1>
-						<p><?php echo $texto ?></p>
+						<p><?php echo htmlentities($texto, ENT_QUOTES, false) ?></p>
 						<p class="hidden-sm hidden-xs visible-lg visible-md"><img alt='Nube Amyris' class='footer-nube' src='images/42.png'></p>
 					</div>
 				</div>

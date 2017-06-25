@@ -105,7 +105,7 @@ require 'header.php';
     
     <div class="row">
         <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box por-que-izquierda-box">
-            <p><?php echo $laboratorio_muestras ?></p>
+            <p><?php echo htmlentities($laboratorio_muestras, ENT_QUOTES, false) ?></p>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
             <img class="pilares" src="images/pilares2.png">

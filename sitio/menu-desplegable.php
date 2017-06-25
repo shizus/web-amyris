@@ -11,7 +11,7 @@
           <a href="quienes-somos">Amyris</a>
       </h1>
         <div class="linea-blanca-menu"></div>
-      <div class="link-container"><a href="quienes-somos#quienes-somos"><?php echo $subtitulomenu1_quienes ?></a></div>
+      <div class="link-container"><a href="quienes-somos#quienes-somos"><?php echo htmlentities($subtitulomenu1_quienes , ENT_QUOTES, "UFT-8", false) ?></a></div>
       <div class="link-container"><a href="quienes-somos#valores"><?php echo $subtitulomenu1_valores ?></a></div>
       <div class="link-container"><a href="quienes-somos#porqueamir"><?php echo $subtitulomenu1_porque ?></a></div>
     </div>
@@ -55,7 +55,7 @@
       <div class="link-container"><a href="innovaciones#ideas"><?php echo $subtitulomenu5_aprendeosinnovar ?></a></div>
     </div>
     <div class="boton-contacto">
-      <div class="link-container"><a href="contacto"><?php echo $botoncontacto ?></a></div>
+      <div class="link-container"><a href="contacto"><?php echo $contacto ?></a></div>
     </div>
   </div>
   <div class="container-fluid visible-sm visible-xs hidden-lg hidden-md">
@@ -127,7 +127,7 @@
     <div class="row contacto-row" style="background-color: #D1BE87">
       <div class="col-sm-12 col-xs-12">
           <div class="menu-option-container">
-              <a href="contacto"><?php echo $botoncontacto ?></a>
+              <a href="contacto"><?php echo $contacto ?></a>
           </div>
       </div>
     </div>
