@@ -60,7 +60,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 								<li><i class='fa-li fa fa-map-marker fa-lg'></i>
 								Cajaraville 2902 y/o Curapaligue 6510, Munro (1605), Pcia de Bs. As.</li>
 								<li><i class='fa-li fa fa-envelope fa-lg'></i>
-								<a href='mailto:ventas@amyris.com.ar' class='letra-negra'>ventas@amyris.com.ar</a></li>
+								<a href='mailto:ventas@amyris.com.ar' class='letra-negra' target="_blank">ventas@amyris.com.ar</a></li>
 								<li><i class='fa-li fa fa-phone fa-lg'></i>
 								54 11 5197-1918</li>
 							</ul>
@@ -73,7 +73,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 			<div class='row copyright'>
 					<div class='col-md-12'>
 						<h6>2017 <?php echo $derechos_reservados ?>//
-						<a href='odmbranding.com' target='_blank' class='footer-link'>Web Design ODM Branding</a></h6>
+						<a href='//odmbranding.com' target='_blank' class='footer-link'>Web Design ODM Branding</a></h6>
 					</div>
 				</div>
 		</div>
