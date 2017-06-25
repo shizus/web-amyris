@@ -28,7 +28,7 @@ $sustentabilidad="SUSTAINABILITY";
 
 $subtitulomenu1_quienes="ABOUT US";
 $subtitulomenu1_valores="VALUES";
-$subtitulomenu1_porque="&iquest;WHY AMYRIS?";
+$subtitulomenu1_porque="WHY AMYRIS?";
 
 //menu2
 
@@ -43,15 +43,15 @@ $subtitulomenu2_productos="PRODUCTS";
 $subtitulomenu3_expertise="EXPERTISE";
 $subtitulomenu3_desarrollo="DEVELOPMENT AND CREATION";
 $subtitulomenu3_infraestructura="INFRASTRUCTURE";
-$subtitulomenu3_control="QA";
+$subtitulomenu3_control="QUALITY CONTROL";
 $subtitulomenu3_comercio="FOREIGN TRADE";
 
 
 //menu4
 
 $subtitulomenu4_sustentabilidad="SUSTAINABILITY";
-$subtitulomenu4_enfoque="ENFOQUE SUSTENTABLE";
-$subtitulomenu4_operamos="&iquest;HOW WE OPERATE?";
+$subtitulomenu4_enfoque="SUSTAINABLE APPROACH";
+$subtitulomenu4_operamos="OUR PROCESS";
 $subtitulomenu4_valoresm="VALUES";
 
 
@@ -59,8 +59,8 @@ $subtitulomenu4_valoresm="VALUES";
 //menu5
 
 $subtitulomenu5_innovaciones="INNOVATIONS";
-$subtitulomenu5_departamento="DEPARTMENT OF IDEAS ,DEVELOPMENT AND INNOVATION";
-$subtitulomenu5_aprendeosinnovar="LEARN TO INNOVATE";
+$subtitulomenu5_departamento="DEPARTMENT OF DEVELOPMENT AND INNOVATION IDEAS";
+$subtitulomenu5_aprendeosinnovar="WE LEARN TO INNOVATE";
 
 
 $botoncontacto="CONTACT";
@@ -93,21 +93,24 @@ $ofrecemos_excelencia="WE OFFER EXCELLENCE IN THE CREATION AND DEVELOPMENT OF FR
 $contacto="CONTACT";
 
 $fragancias_finas_titulo="Fine fragrances";
-$fragancias_finas_detalle="traducir...";
+$fragancias_finas_detalle="We offer the customer the highest quality of created fragrance.";
 
 $cuidado_personal_titulo="Personal care and toiletries products";
-$cuidado_personal_detalle="traducir...";
+$cuidado_personal_detalle="We are committed to offer consumer products that at the time to perceive the aromas can enjoy.";
+
 $amyris_proceso_desarrollo="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT WITH THE LATEST TECHNOLOGY, HIGHLY TRAINED PROFESSIONALS AND AN " ;
 $segundo_cuadrado2="EXCLUSIVE RESEARCH AND DEVELOPMENT DEPARTMENT";
 $sustentabilidad2="OUR PREMISE IS TO GUARANTEE THE CARE AND THE REDUCTION OF ENVIRONMENTAL IMPACT IN ALL PROCESSES INVOLVED IN THE CREATION AND DEVELOPMENT OF OUR FRAGRANCES";
 
 $cuidadohogar="Taking care of the household and environmental" ;
-$cuidadohogardetalle="traducir...";
+$cuidadohogardetalle="We offer products that generate a feeling of safety, comfort, belonging, and calm.";
 $limpieza="Cleaning" ;
-$limpiezadetalle="traducir...";
+$limpiezadetalle="We seek the feeling you get from the feeling of a clean home.";
 
 $cosmetica="Cosmetic automotive";
-$cosmeticadetalle="traducir...";
+$cosmeticadetalle="We offer fragrances that make you remember the joy you get with a new car.";
+
+
 // quienes somos
 
 $el_valor_conectar_sentidos="THE VALUE OF CONNECTING SENSES ";
@@ -138,31 +141,70 @@ $buscamos_alternativas="We are looking for alternatives, provide ideas and work 
 $calidad="QUALITY" ;
 $garantizamos_calidad="We guarantee our customers the quality of each of the ingredients that make up the fragrance. For this we have: " ;
 $innovacion="INNOVATION" ;
-$inquietud_explorar="Concern with exploring new alternatives and the desire for constant improvement leads us to want to be always at the forefront in offering creative and innovative results. We deal with updating us and anticipate global trends to offer the customer a range of varieties.
-"; 
+$inquietud_explorar="Concern with exploring new alternatives and the desire for constant improvement leads us to want to be always at the forefront in offering creative and innovative results. We deal with updating us and anticipate global trends to offer the customer a range of varieties.";
+
 $innovaciones="INNOVATIONS";
 $proceso_desarrollo="AMYRIS COVERS THE ENTIRE PROCESS OF DEVELOPMENT OF FRAGRANCES WITH THE LATEST TECHNOLOGY, HIGHLY TRAINED PROFESSIONALS AND AN EXCLUSIVE DEPARTMENT OF IDEAS, RESEARCH, AND DEVELOPMENT." ;
 
 $amyris_inspiracion="AMYRIS IS INSPIRATION";
-$laboratorio_muestras="Laboratorio de muestras donde se realizan las pruebas y aplicaciones sobre
-el producto del cliente garantizando que la fragancia creada cumpla con los parÃ¡metros solicitados." ;
-$laboratorio_control_calidad="Laboratorio de control de calidad que analiza rigurosamente el producto desde el ingreso a
-nuestra empresa hasta su salida. Todo el proceso de producciÃ³n estÃ¡ controlado por los mÃ¡ximos standars de calidad" ;
+$laboratorio_muestras="Laboratory of samples where are tests and applications on the customer's product ensuring that the fragrance created meets the requested parameters." ;
+
+$laboratorio_control_calidad="Our quality control procedures rigorously analyze the product from inception to shipment to customer. The highest standards of quality control the entire production process." ;
+
+$ultima_generacion ="Latest technology in laboratories and industries.";
 
 //fragancias
 $valor_transmitir_emociones="THE VALUE OF TRANSMIT EMOTIONS ";
 $vinculando_nuestras_fragancias="linking our fragrances with the sensitivity of the consumer";
-$sistema_conceptual_amyris="Amyris Conceptual system / products";
+$sistema_conceptual_amyris="Amyris Conceptual system / Products";
 $amyris_creacion_innovacion="AMYRIS IS A CREATION AND INNOVATION" ;
 $transformamos_fragancia="WE TRANSFORM THE FRAGRANCE IN A PERSONAL SEAL " ;
 $desde_nuestros_inicios="Since our inception, our goal was always finding sensory solutions enabling us to develop and create unique fragrances. This led us to develop a conceptual work system:";
+$sentir_descripcion="AROMAS REMIND US OF A SPECIAL MOMENT IN OUR LIFE AND THEIR SMELL CAN GENERATE LAUGHTER, JOY, NOSTALGIA, OR SADNESS. OUR MAIN GOAL IS TO INTERPRET THOSE FEELINGS IN A FRAGRANCE.";
+
+
+$descubrir_descripcion="WE ARE A TEAM PREPARED TO INTERPRET THE OLFACTORY IMAGINATION OF THE CLIENT, CONNECT WITH SENSITIVITY, AND UNDERSTANDING OF THE SENSES AND EMOTIONS.";
+
+$oler_descripcion="OUR FRAGRANCES ARE TAILORED TO THE CLIENT, DESIGNED, AND DEVELOPED EXCLUSIVELY PROVIDING EXCELLENCE AND QUALITY. WE ALLOW OUR CUSTOMERS TO PARTICIPATE IN THE PROCESS OF CREATION OF THE DESIGN AND ADVISE ON THE BEST OPTION.";
+
+
+$disfrutar_descripcion="FIND THE RIGHT FRAGRANCE GENERATES JOY AND EXCITEMENT. AT AMYRIS WE INVITE YOU TO ENJOY THE TIME WITH THE HIGHEST QUALITY PRODUCTS.";
+
+
+$contamos_personal="We have development staff and marketing in constant training and research to be always be at the forefront of the world-wide trend of the market of cosmetics, fine fragrances, toiletries, household products and cleaning products." ;
+
+$consideramos_personal="At Amyris we consider to each development, each fragrance specially created as a unique challenge. We provide quality, traceability, and stability controls. We work with a precise time schedule.";
+
+$caja_productos_titulo="FINE FRAGRANCES";
+$caja_cuidado_personal_titulo="PERSONAL CARE AND BATHROOM PRODUCTS";
+$caja_cuidado_hogar_titulo="HOME CARE AND ENVIRONMENTAL";
+$caja_limpieza_titulo="CLEANING";
+$caja_cosmetica_titulo="AUTOMOTIVE CARE";
+
+
+$caja_productos_texto_debajo1="At AMYRIS we aim to offer the customer the highest quality fragrance created, encouraging it to innovate, providing update on trends around the world.";
+$caja_productos_texto_debajo2="We can offer Eau de perfume, Eau de toilette, colonies, female, male fragrances, for teens, children, and babies.";
+
+$caja_cuidado_personal_texto_debajo1="We are committed to offer consumers products that at the time to perceive the aromas can enjoy.";
+$caja_cuidado_personal_texto_debajo2="In this category, we offer fragrances for soaps, toilet products, exfoliating shampoo, facial, foams, bath salts, creams, powders, and tinctures.";
+
+$caja_cuidado_hogar_texto_debajo1="The home is closely related to a sense of security, comfort, belonging, and calm.";
+$caja_cuidado_hogar_texto_debajo2="We offer products for environmental deodorants, textiles deodorants, scented candles, air fresheners and diffusers.";
+
+$caja_limpieza_texto_debajo1="We seek the welfare generated by this type of fragrances to refer to purity, to the tranquility that is generated to the be in a clean home.";
+$caja_limpieza_texto_debajo2="This kind of fragrances applied to products such as floor cleaners, in cream, lavandinas, detergents, fabric softeners, products removes stain and both sizing.";
+
+$caja_cosmetica_texto_debajo1="Moments like the purchase of your first car or the smell of a new car.  We offer fragrances that remind you that time. ";
+$caja_cosmetica_texto_debajo2="We will advise you on suitable fragrance leaving a scent of high persistence.";
+
+$titulo_footer_expertise="WE HAVE INNOVATIVE TECHNOLOGY AND WE WORK WITH TECHNIQUES VERIFIED AND RIGOROUS INTERNAL RULES THAT WE CAN GENERATE EFFECTIVE PROCEDURES.";
 $sentir="FEEL";
 $descubrir="DISCOVER";
 $crear="CREATE";
 $disfrutar="ENJOY";
 
 // expertise
-$ultima_generacion ="Tecnología de Última generación en los laboratorios y sectores productivos";
+$ultima_generacion ="Tecnología de última generación en los laboratorios y sectores productivos";
 $valor_brindar_calidad="THE VALUE OF PROVIDING QUALITY ";
 $controlando_nuestros_productos="control in our products and procedures";
 $desarrollo_creacion_infraestructura="Development and creation / Infrastructure / Quality Control / Trade";
@@ -184,6 +226,37 @@ $importamos_cada_componente="We import each of the components to develop our fra
 
 $emitimos_certificado="At the end, we issue a certificate of analysis and a safety sheet supplied together with the product serving as a guarantee to our customers.";
 
+$articulo1="In the ";
+$articulo2="In ";
+$articulo3="In the ";
+$articulo4="In ";
+
+$estandarte_de_calidad_creacion="Creation";
+$estandarte_de_calidad_procesos="Manufacturing Processes";
+$estandarte_de_calidad_cronograma="Timeline and Deadlines";
+$estandarte_de_calidad_control="Quality Control";
+$estandarte_de_calidad_certificado="Certificate of Analysis";
+$estandarte_de_calidad_servicio="Customer Service";
+
+
+
+
+
+
+
+
+$importamos_cada_componente="Importamos cada uno de los componentes e insumos para
+elaborar las fragancias. Cada insumo que luego se va a
+aplicar en la fragancia, está previamente controlado
+(analizado olfativamente, índice de densidad, cromatografía,
+color, olfativo e índices de refracción). Cada ingrediente de la
+fragancia tiene una trazabilidad, ya que todo tiene un lote
+identificado para cumplir siempre los parámetros de calidad.";
+
+$emitimos_certificado="Al finalizar, emitimos un CERTIFICADO DE ANÁLISIS y HOJA DE
+SEGURIDAD que se entrega junto con la mercadería y que
+servirá como garantía al cliente.";
+
 $respeto_por_cliente="Respect for the customer is the key to our success.";
 $somos_estrictos="WE ARE STRICT IN EVERY DETAIL OF THE PROCESS OF DEVELOPMENT, MANUFACTURE, AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US. ";
 $comercio_exterior="FOREIGN TRADE";
@@ -194,9 +267,9 @@ $fabricamos_fragancia_apropiada="WE MANUFACTURE FRAGRANCE SUITABLE FOR EACH PROD
 
 //susten
 $valor_confianza="THE VALUE OF THE TRUST ";
-$valores_barra="Values /  ";
-$enfoque_sustentable=" Sustainable Approach / ";
-$como_operamos=" How we operate";
+$valores_barra="Values / Sustainable Approach / How we operate ";
+$enfoque_sustentable="  ";
+$como_operamos=" ";
 
 $amyris_etica="AMYRIS IS ETHICS";
 $trabajamos_mas_altos="WE WORK WITH THE HIGHEST STANDARDS IN SAFETY AND HYGIENE";
@@ -265,8 +338,7 @@ $valor_comunicados="THE VALUE OF BEING PRESS ";
 $generamos_vinculos="releases generating reliable and durable links";
 $donde_estamos="Where are we? / Ask us your question";
 $conocer_necesidades="In Amyris, we want to know the needs of each of our clients.<br>
-We want to involve you in every detail of the process from creation to production,<br>
-para que podamos as&iacute;, atender a cualquier sugerencia.";
+We want to involve you in every detail of the process from creation to production.";
 $donde_estamos="WHERE ARE WE";
 $planta_produccion="Plant production and sales office";
 $haganos_consulta="ASK US YOUR QUESTION";
@@ -276,6 +348,7 @@ $telefono_label="PHONE";
 $empresa_label="COMPANY";
 $mensaje_label="MESSAGE";
 $enviar="SEND";
+$mensaje_enviado="Message has been sent. Thank you!";
 
 $donde_estamos_consulta="Production Plant and Sales Office";
 
@@ -292,6 +365,19 @@ $spanish="Español";
 $english="Inglés";
 $french="Francés";
 
+
+// send-mail
+
+$output_nombre_corto="Name is too short or empty!";
+$output_email_invalido="Please enter a valid email!";
+$output_solonumeros="Company is too short or empty";
+$output_compania_invalida="Enter only digits in phone number";
+$output_sujeto_requerido="Subject is required";
+$output_mensaje_corto="Too short message! Please enter something.";
+$output_mensaje_error="Could not send mail! Please check your PHP mail configuration.";
+$output_mensaje_exito="Thank you for your email.";
+
+
 // footer
 
 
@@ -299,18 +385,18 @@ $derechos_reservados="All rights reserved ";
 
 // formulario desplegable
 
-$formulario_conocernos="traducir...";
-$formulario_tusdatos="traducir...";
-$formulario_datosobligatorios="traducir...";
-$formulario_mensajeenviado="traducir...";
-$formulario_mensajegracias="traducir...";
-$formulario_mensajecontacto="traducir...";
-$formulario_botonenviar="traducir...";
+$formulario_conocernos="GETTING STARTED";
+$formulario_tusdatos="";
+$formulario_datosobligatorios="Required data";
+$formulario_mensajeenviado="Message has been sent";
+$formulario_mensajegracias="Thank you!";
+$formulario_mensajecontacto="";
+$formulario_botonenviar="Send";
 
 $formulario_camponombre="Name*";
 $formulario_campoemail="Email*";
 $formulario_campotelefono="Phone*";
-$formulario_campoempresa="Business*";
+$formulario_campoempresa="Company*";
 $formulario_campomensaje="Message*";
 
 $formulario_telefonoescucharte="traducir...";
@@ -322,9 +408,8 @@ $formulario_telefonollamanos="traducir...";
 
 //formulario mapa
 
-$formulariomapa_donde="¿Where we are?";
-$formulariomapa_ubicacion="Our Production Plant and Sales Office is located in Cajaraville 2902 y/o
-                    Curapaligüe 6510, Munro (1605, Buenos Aires state)";
+$formulariomapa_donde="Where we are?";
+$formulariomapa_ubicacion="Our plant production and sales office is located in Cajaraville 2902 or Curapaligue 6510, Munro (1605), province of Buenos Aires.";
 
 // send-mail
 
