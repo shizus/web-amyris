@@ -69,11 +69,10 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
     <div class="col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0" id="desarrollo-creacion">
         <p class="hidden-lg hidden-md visible-sm visible-xs destacado-box-responsive"><?php echo $buscamos_identificacion ?></p><br>
     <h1 ><?php echo $desarrollo_creacion ?></h1><br>
-      <p id="textoe1"><?php echo $nuestros_origines ?></p><br>
+      <p id="textoe1"><?php echo $nuestros_origines ?></p>
     <p id="textoe11" ><?php echo $textoe8 ?></p><br>
-    <p id="textoe2"><?php echo $ofrecemos_creacion_desarrollo ?>
-        <div class="linea-roja-50 float-right"></div>
-    </p>
+    <p id="textoe2"><?php echo $ofrecemos_creacion_desarrollo ?></p>
+    <div class="linea-roja-50 float-right"></div>
     </div>
 
     <div class="col-md-5 col-sm-12" id="columnaseis2" >
@@ -122,8 +121,6 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
 
                 </div>
                 <div class="row">
-
-
                     <div class="col-md-4 c4-jpg">
                         <a href="images/c4.jpg" data-lightbox="portfolio" >
                             <img src="images/plus.jpg" class="plus">
@@ -141,8 +138,6 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
                             <img src="images/plus.jpg" class="plus">
                         </a>
                     </div>
-
-
                 </div>
             </div>
         </div>
