@@ -22,7 +22,7 @@ $(function() {
                 // amount (%) to translate both slices - adjust as necessary
                 translateFactor : 230,
                 autoplay : true,
-                interval: 4000,
+                interval: 9000,
                 // maximum possible angle
                 maxAngle : 0,
                 // maximum possible scale

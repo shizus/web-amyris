@@ -1,4 +1,4 @@
-<div  id="video-slide"></div>
+<div id="video-slide"></div>
 
 <section id="home-slider">
     <div id="slider" class="sl-slider-wrapper">
