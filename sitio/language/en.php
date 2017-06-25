@@ -150,46 +150,44 @@ $sistema_conceptual_amyris="Amyris Conceptual system / Products";
 $amyris_creacion_innovacion="AMYRIS IS A CREATION AND INNOVATION" ;
 $transformamos_fragancia="WE TRANSFORM THE FRAGRANCE IN A PERSONAL SEAL " ;
 $desde_nuestros_inicios="Since our inception, our goal was always finding sensory solutions enabling us to develop and create unique fragrances. This led us to develop a conceptual work system:";
-$sentir_descripcion="LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.";
+$sentir_descripcion="AROMAS REMIND US OF A SPECIAL MOMENT IN OUR LIFE AND THEIR SMELL CAN GENERATE LAUGHTER, JOY, NOSTALGIA, OR SADNESS. OUR MAIN GOAL IS TO INTERPRET THOSE FEELINGS IN A FRAGRANCE.";
 
 
-$descubrir_descripcion="SOMOS UN EQUIPO DE TRABAJO PREPARADO PARA INTERPRETAR LA IMAGINACIÓN OLFATIVA DEL CLIENTE, CONECTAR CON LA SENSIBILIDAD Y COMPRENDER LOS SENTIDOS Y EMOCIONES.";
+$descubrir_descripcion="WE ARE A TEAM PREPARED TO INTERPRET THE OLFACTORY IMAGINATION OF THE CLIENT, CONNECT WITH SENSITIVITY, AND UNDERSTANDING OF THE SENSES AND EMOTIONS.";
 
-$oler_descripcion="NUESTRAS FRAGANCIAS SON A MEDIDA DEL CLIENTE, DISEÑADAS Y DESARROLLADAS EN FORMA EXCLUSIVA BRINDANDO EXCELENCIA Y CALIDAD. PERMITIMOS QUE NUESTROS CLIENTES PARTICIPEN EN EL PROCESO DE CREACIÓN DEL DISEÑO Y ASESORAMOS SOBRE LA MEJOR OPCIÓN.";
-
-
-$disfrutar_descripcion="LOS AROMAS NOS RECUERDAN UN MOMENTO ESPECIAL DE NUESTRA VIDA Y AL SENTIRLOS PUEDE GENERARNOS RISA, REGOCIJO, ALEGRÍA, NOSTALGIA O TRISTEZA. NUESTRO PRINCIPAL OBJETIVO ES INTERPRETAR ESAS SENSACIONES EN UNA FRAGANCIA.";
+$oler_descripcion="OUR FRAGRANCES ARE TAILORED TO THE CLIENT, DESIGNED, AND DEVELOPED EXCLUSIVELY PROVIDING EXCELLENCE AND QUALITY. WE ALLOW OUR CUSTOMERS TO PARTICIPATE IN THE PROCESS OF CREATION OF THE DESIGN AND ADVISE ON THE BEST OPTION.";
 
 
-$contamos_personal="Contamos con personal de desarrollo y marketing en constante capacitación e investigación para estar siempre estar a la vanguardia de las tendenciales mundiales del mercado de cosmética, fragancias finas, higiene personal, productos para el hogar y productos de limpieza" ;
-
-$consideramos_personal="En Amyris consideramos a cada desarrollo, a cada fragancia especialmente creada como un desafío único. Realizamos controles de calidad, trazabilidad y estabilidad. Trabajamos con un preciso cronograma de tiempos.";
-
-$caja_productos_titulo="FRAGANCIAS FINAS";
-$caja_cuidado_personal_titulo="CUIDADO PERSONAL Y PRODUCTOS DE TOCADOR";
-$caja_cuidado_hogar_titulo="CUIDADO DEL HOGAR Y AMBIENTALES";
-$caja_limpieza_titulo="LIMPIEZA";
-$caja_cosmetica_titulo="COSMÉTICA AUTOMOTOR";
+$disfrutar_descripcion="FIND THE RIGHT FRAGRANCE GENERATES JOY AND EXCITEMENT. AT AMYRIS WE INVITE YOU TO ENJOY THE TIME WITH THE HIGHEST QUALITY PRODUCTS.";
 
 
-$caja_productos_texto_debajo1="En AMYRIS buscamos ofrecerle al cliente la más alta calidad de la fragancia creada, incentivándolo a innovar, brindándole actualización sobre las tendencias a nivel mundial.";
-$caja_productos_texto_debajo2="Podemos ofrecer Eau de Perfum, Eau de Toillete, Colonias, fragancias femeninas, masculinas, para adolecentes, niños y bebés.";
+$contamos_personal="We have development staff and marketing in constant training and research to be always be at the forefront of the world-wide trend of the market of cosmetics, fine fragrances, toiletries, household products and cleaning products." ;
 
-$caja_cuidado_personal_texto_debajo1="Asumimos el compromiso de ofrecerle al consumidor productos que al momento de percibir los aromas pueda disfrutar.";
-$caja_cuidado_personal_texto_debajo2="En esta categoría ofrecemos fragancias para jabones líquidos, productos de tocador, exfoliantes, shampoo, faciales, espumas, sales de baño, cremas, talcos y tinturas.";
+$consideramos_personal="At Amyris we consider to each development, each fragrance specially created as a unique challenge. We provide quality, traceability, and stability controls. We work with a precise time schedule.";
 
-$caja_cuidado_hogar_texto_debajo1="El hogar está estrechamente relacionado con una sensación de seguridad, confort, pertenencia y calma.";
-$caja_cuidado_hogar_texto_debajo2="Ofrecemos productos para desodorantes ambientales, desodorantes textiles, velas aromáticas, ambientadores y difusores.";
+$caja_productos_titulo="FINE FRAGRANCES";
+$caja_cuidado_personal_titulo="PERSONAL CARE AND BATHROOM PRODUCTS";
+$caja_cuidado_hogar_titulo="HOME CARE AND ENVIRONMENTAL";
+$caja_limpieza_titulo="CLEANING";
+$caja_cosmetica_titulo="AUTOMOTIVE CARE";
 
-$caja_limpieza_texto_debajo1="Buscamos que el bienestar generado por este tipo de fragancias remita a la pureza, a esa tranquilidad que se genera al percibir estar en un hogar limpio.";
-$caja_limpieza_texto_debajo2="Esta clase de fragancias aplican a productos tales como limpiadores para piso, limpiadores en crema, lavandinas, detergentes, suavizantes, productos quita mancha y apresto.";
 
-$caja_cosmetica_texto_debajo1="Momentos como la compra de tu primer auto o cambiarlo por otro más grande generan alegría
-			y felicidad. ";
-$caja_cosmetica_texto_debajo2="Ofrecemos fragancias que le recuerden ese momento. Lo asesoramos sobre la fragancia adecuada dejando un aroma de alta persistencia.";
+$caja_productos_texto_debajo1="At AMYRIS we aim to offer the customer the highest quality fragrance created, encouraging it to innovate, providing update on trends around the world.";
+$caja_productos_texto_debajo2="We can offer Eau de perfume, Eau de toilette, colonies, female, male fragrances, for teens, children, and babies.";
 
-$titulo_footer_expertise="CONTAMOS CON TECNOLOGÍA DE ÚLTIMA GENERACIÓN Y TRABAJAMOS CON TÉCNICAS VERIFICADAS Y RIGUROSAS NORMAS INTERNAS
-     QUE NOS PERMITEN GENERAR PROCEDIMIENTOS EFICACES.";
+$caja_cuidado_personal_texto_debajo1="We are committed to offer consumers products that at the time to perceive the aromas can enjoy.";
+$caja_cuidado_personal_texto_debajo2="In this category, we offer fragrances for soaps, toilet products, exfoliating shampoo, facial, foams, bath salts, creams, powders, and tinctures.";
+
+$caja_cuidado_hogar_texto_debajo1="The home is closely related to a sense of security, comfort, belonging, and calm.";
+$caja_cuidado_hogar_texto_debajo2="We offer products for environmental deodorants, textiles deodorants, scented candles, air fresheners and diffusers.";
+
+$caja_limpieza_texto_debajo1="We seek the welfare generated by this type of fragrances to refer to purity, to the tranquility that is generated to the be in a clean home.";
+$caja_limpieza_texto_debajo2="This kind of fragrances applied to products such as floor cleaners, in cream, lavandinas, detergents, fabric softeners, products removes stain and both sizing.";
+
+$caja_cosmetica_texto_debajo1="Moments like the purchase of your first car or the smell of a new car.  We offer fragrances that remind you that time. ";
+$caja_cosmetica_texto_debajo2="We will advise you on suitable fragrance leaving a scent of high persistence.";
+
+$titulo_footer_expertise="WE HAVE INNOVATIVE TECHNOLOGY AND WE WORK WITH TECHNIQUES VERIFIED AND RIGOROUS INTERNAL RULES THAT WE CAN GENERATE EFFECTIVE PROCEDURES.";
 $sentir="FEEL";
 $descubrir="DISCOVER";
 $crear="CREATE";
@@ -218,17 +216,17 @@ $importamos_cada_componente="We import each of the components to develop our fra
 
 $emitimos_certificado="At the end, we issue a certificate of analysis and a safety sheet supplied together with the product serving as a guarantee to our customers.";
 
-$articulo1="En la ";
-$articulo2="En los ";
-$articulo3="En el ";
-$articulo4="En ";
+$articulo1="In the ";
+$articulo2="In ";
+$articulo3="In the ";
+$articulo4="In ";
 
-$estandarte_de_calidad_creacion="Creación";
-$estandarte_de_calidad_procesos="Procesos de Fabricación";
-$estandarte_de_calidad_cronograma="Cronograma y los Plazos";
-$estandarte_de_calidad_control="Control de Calidad";
-$estandarte_de_calidad_certificado="Certificado de Análisis";
-$estandarte_de_calidad_servicio="Servicio de Postventa";
+$estandarte_de_calidad_creacion="Creation";
+$estandarte_de_calidad_procesos="Manufacturing Processes";
+$estandarte_de_calidad_cronograma="Timeline and Deadlines";
+$estandarte_de_calidad_control="Quality Control";
+$estandarte_de_calidad_certificado="Certificate of Analysis";
+$estandarte_de_calidad_servicio="Customer Service";
 
 
 
@@ -259,9 +257,9 @@ $fabricamos_fragancia_apropiada="WE MANUFACTURE FRAGRANCE SUITABLE FOR EACH PROD
 
 //susten
 $valor_confianza="THE VALUE OF THE TRUST ";
-$valores_barra="Values /  ";
-$enfoque_sustentable=" Sustainable Approach / ";
-$como_operamos=" How we operate";
+$valores_barra="Values / Sustainable Approach / How we operate ";
+$enfoque_sustentable="  ";
+$como_operamos=" ";
 
 $amyris_etica="AMYRIS IS ETHICS";
 $trabajamos_mas_altos="WE WORK WITH THE HIGHEST STANDARDS IN SAFETY AND HYGIENE";
@@ -330,7 +328,7 @@ $valor_comunicados="THE VALUE OF BEING PRESS ";
 $generamos_vinculos="releases generating reliable and durable links";
 $donde_estamos="Where are we? / Ask us your question";
 $conocer_necesidades="In Amyris, we want to know the needs of each of our clients.<br>
-We want to involve you in every detail of the process from creation to production,<br>.";
+We want to involve you in every detail of the process from creation to production.";
 $donde_estamos="WHERE ARE WE";
 $planta_produccion="Plant production and sales office";
 $haganos_consulta="ASK US YOUR QUESTION";
@@ -340,7 +338,7 @@ $telefono_label="PHONE";
 $empresa_label="COMPANY";
 $mensaje_label="MESSAGE";
 $enviar="SEND";
-$mensaje_enviado="El mensaje ha sido enviado.¡Muchas Gracias! En breve nos pondremos en contacto.";
+$mensaje_enviado="Message has been sent. Thank you!";
 
 $donde_estamos_consulta="Production Plant and Sales Office";
 
@@ -360,14 +358,14 @@ $french="Francés";
 
 // send-mail
 
-$output_nombre_corto="Nombre vacio o demasiado corto!";
-$output_email_invalido="Igrese un email valido!";
-$output_solonumeros="Compañia vacia o demasiado corta";
-$output_compania_invalida="Ingrese solo numeros";
-$output_sujeto_requerido="Sujeto requerido";
-$output_mensaje_corto="Mensaje demasiado corto!";
-$output_mensaje_error="No e udo mandar el mensaje.Compruebe su  configuracion.";
-$output_mensaje_exito="Gracias por su mensaje";
+$output_nombre_corto="Name is too short or empty!";
+$output_email_invalido="Please enter a valid email!";
+$output_solonumeros="Company is too short or empty";
+$output_compania_invalida="Enter only digits in phone number";
+$output_sujeto_requerido="Subject is required";
+$output_mensaje_corto="Too short message! Please enter something.";
+$output_mensaje_error="Could not send mail! Please check your PHP mail configuration.";
+$output_mensaje_exito="Thank you for your email.";
 
 
 // footer
