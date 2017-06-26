@@ -435,3 +435,9 @@ visibility: visible; animation-name: zoomIn;
 #prefooter{
     margin-top: 10% ;
 }
+
+    @media (min-width: 992px) {
+        .margen-extra {
+            margin-top: 3em;
+        }
+    }

@@ -77,7 +77,7 @@ require 'header.php';
 </div>
     
     <div class="row">
-        <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box por-que-izquierda-box">
+        <div class="col-md-3 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 por-que-box por-que-izquierda-box margen-extra">
             <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-compromiso.png">
             <h1><?php echo $compromiso ?></h1>
             <p><?php echo $buscamos_alternativas ?></p>
@@ -86,7 +86,7 @@ require 'header.php';
         <div class="col-md-4 col-sm-12 col-xs-12 pilares-box">
             <img class="pilares" src="images/pilares.png">
         </div>
-        <div class="col-md-3 col-xs-12 por-que-box por-que-derecha-box">
+        <div class="col-md-3 col-xs-12 por-que-box por-que-derecha-box margen-extra">
             <img class="hidden-lg hidden-md visible-sm visible-xs icono-responsive" src="images/quienessomos-equipo.png">
             <h1><?php echo $equipo ?></h1>
             <p><?php echo $personas_trabajan_amyris ?></p>
