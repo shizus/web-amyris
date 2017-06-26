@@ -26,7 +26,7 @@ require 'header.php';
       <div class="row">
           <div class="col-md-8 col-md-offset-3 col-sm-12 col-sm-offset-0" id="quienes-somos">
               <div class="primero_cuadrado_quienes">
-                  <h4><img src="img/t-quienes-somos.png"></h4>
+                  <h4><img src="<?php echo titulo_imagen("img/t-quienes-somos.png") ?>"></h4>
               </div>
           </div>
       </div>
@@ -48,7 +48,7 @@ require 'header.php';
 
 <div id="valores" class="row valores-background">
     <div class="segundo_cuadrado_quienes " >
-        <img src="img/t-valores.png">
+        <img src="<?php echo titulo_imagen("img/t-valores.png") ?>">
     </div>
 </div>
 

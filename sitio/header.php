@@ -62,3 +62,17 @@
 
     </head>
 <body>
+
+
+<?php
+
+function titulo_imagen($string) {
+    global $idioma_ext;
+    
+    if ($idioma_ext == "") {
+        return $string;
+    } else {
+        list($carpeta, $archivo) = explode("/", $string);
+        return "images/en-" . $archivo;
+    }
+}
