@@ -397,12 +397,12 @@ $formulario_campotelefono="Phone*";
 $formulario_campoempresa="Company*";
 $formulario_campomensaje="Message*";
 
-$formulario_telefonoescucharte="traducir...";
-$formulario_telefonoconsulta="traducir...";
-$formulario_telefonosugerencia="traducir...";
-$formulario_telefonocontarnos="traducir...";
-$formulario_telefononecesidades="traducir...";
-$formulario_telefonollamanos="traducir...";
+$formulario_telefonoescucharte="We would like to know about you";
+$formulario_telefonoconsulta="Do you have any question?";
+$formulario_telefonosugerencia="Do you have any suggestion?";
+$formulario_telefonocontarnos="Do you want to tell us about your idea?";
+$formulario_telefononecesidades="We want to know about any idea of every client, that is why we are always with our clients in every process";
+$formulario_telefonollamanos="Call us!";
 
 //formulario mapa
 
