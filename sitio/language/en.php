@@ -385,7 +385,7 @@ $derechos_reservados="All rights reserved ";
 
 $formulario_conocernos="GETTING STARTED";
 $formulario_tusdatos="";
-$formulario_datosobligatorios="Required data";
+$formulario_datosobligatorios="* Required data";
 $formulario_mensajeenviado="Message has been sent";
 $formulario_mensajegracias="Thank you!";
 $formulario_mensajecontacto="";

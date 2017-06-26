@@ -492,7 +492,7 @@ $output_solonumeros="Compañia vacia o demasiado corta";
 $output_compania_invalida="Ingrese solo numeros";
 $output_sujeto_requerido="Sujeto requerido";
 $output_mensaje_corto="Mensaje demasiado corto!";
-$output_mensaje_error="No e udo mandar el mensaje.Compruebe su  configuracion.";
+$output_mensaje_error="No pudo mandar el mensaje. Compruebe su configuracion.";
 $output_mensaje_exito="Gracias por su mensaje";
 
 

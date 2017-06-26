@@ -193,7 +193,7 @@ $("#modal-mail").submit(function( event ) {
                 $('#mensaje-error label').html(response.text);
             }else{
                 $('#modal-mail').hide();
-                $('.modal-header').hide();
+                $('.modal-header .modal-title').hide();
                 $('.mensaje-exito-mail').show();
             }
         }, 'json');

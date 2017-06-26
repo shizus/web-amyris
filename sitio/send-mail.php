@@ -1,7 +1,9 @@
 <?php
+include_once "requirelanguage.php";
+
 if($_POST)
 {
-    $to_email       = "hola@latorregabriel.com"; //Recipient email, Replace with own email here
+    $to_email       = "hola@latorregabriel.com, fernando@odmbranding.com"; //Recipient email, Replace with own email here
     $from_email     = 'noreply@latorregabriel.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
     
     //check if its an ajax request, exit if not
@@ -18,7 +20,7 @@ if($_POST)
     $subject        = "Contact from Form";
     $user_name      = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
     $user_email     = filter_var($_POST["mail"], FILTER_SANITIZE_EMAIL);
-    $phone_number   = filter_var($_POST["phone"], FILTER_SANITIZE_NUMBER_INT);
+    $phone_number   = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
     $company        = filter_var($_POST["company"], FILTER_SANITIZE_STRING);
     $message        = filter_var($_POST["msg"], FILTER_SANITIZE_STRING);
     
@@ -35,7 +37,7 @@ if($_POST)
         $output = json_encode(array('type'=>'error', 'text' => $output_solonumeros));
         die($output);
     }
-    if(!filter_var($phone_number, FILTER_SANITIZE_NUMBER_FLOAT)){ //check for valid numbers in phone number field
+    if(strlen($phone_number)<1){ //check for valid numbers in phone number field
         $output = json_encode(array('type'=>'error', 'text' => $output_compania_invalida));
         die($output);
     }
