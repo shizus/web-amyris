@@ -222,7 +222,7 @@ $amyris_se_encuentra="Amyris is located in Munro, province of Bs. As. Our modern
 $asimismo_proceso="In addition, throughout the manufacturing process follows a rigorous quality control with certificates of analysis and product safety data sheets. The plant is controlled both internally and externally, with a team that regularly check all processes, not only to avoid the risk, if not for the safety of staff and preservation of products. ";
 $control_calidad="QUALITY CONTROL";
 $debemos_destacar="A fundamental pillar of our company is the quality assurance of our products and our processes.  ";
-$estandarte_de_calidad="Estandarte de Calidad Amyris";
+$estandarte_de_calidad="Standard of quality Amyris";
 $importamos_cada_componente="We import each of the components to develop our fragrances. Each input which then is to be applied to the fragrance, is controlled (analyzed index density, chromatography, color, nose, olfactory and index of refraction). Each fragrance ingredient has a traceability, since everything has an identified lot to track the quality parameters.";
 
 $emitimos_certificado="At the end, we issue a certificate of analysis and a safety sheet supplied together with the product serving as a guarantee to our customers.";
@@ -239,17 +239,9 @@ $estandarte_de_calidad_control="Quality Control";
 $estandarte_de_calidad_certificado="Certificate of Analysis";
 $estandarte_de_calidad_servicio="Customer Service";
 
-$importamos_cada_componente="Importamos cada uno de los componentes e insumos para
-elaborar las fragancias. Cada insumo que luego se va a
-aplicar en la fragancia, está previamente controlado
-(analizado olfativamente, índice de densidad, cromatografía,
-color, olfativo e índices de refracción). Cada ingrediente de la
-fragancia tiene una trazabilidad, ya que todo tiene un lote
-identificado para cumplir siempre los parámetros de calidad.";
+$importamos_cada_componente="We import each of the components to develop our fragrances. Each input which then is to be applied to the fragrance, is controlled (analyzed index density, chromatography, color, nose, olfactory and index of refraction). Each fragrance ingredient has a traceability, since everything has an identified lot to track the quality parameters.";
 
-$emitimos_certificado="Al finalizar, emitimos un CERTIFICADO DE ANÁLISIS y HOJA DE
-SEGURIDAD que se entrega junto con la mercadería y que
-servirá como garantía al cliente.";
+$emitimos_certificado="At the end, we issue a certificate of analysis and a safety sheet supplied together with the product serving as a guarantee to our customers.";
 
 $respeto_por_cliente="Respect for the customer is the key to our success.";
 $somos_estrictos="WE ARE STRICT IN EVERY DETAIL OF THE PROCESS OF DEVELOPMENT, MANUFACTURE, AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US. ";
@@ -409,7 +401,7 @@ $formulario_telefonollamanos="Call us!";
 $formulariomapa_donde="Where we are?";
 $formulariomapa_ubicacion="Our plant production and sales office is located in Cajaraville 2902 or Curapaligue 6510, Munro (1605), province of Buenos Aires.";
 $footer_ubicacion="Cajaraville 2902 or Curapaligue 6510, Munro (1605), province of Buenos Aires.";
-$ubicacion = "Cajaraville 2902 and/or Curapaligue 6510,<br> Munro (1605) Pcia. de Bs. As";
+$ubicacion = "Cajaraville 2902 and/or Curapaligue 6510,<br> Munro (1605) province of Buenos Aires.";
 // send-mail
 
 

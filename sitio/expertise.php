@@ -90,7 +90,7 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
 <div id="tramaexpertise" class="row">
     <div id="infraestructura" class="col-md-12">
         <div class="titulo-imagen-container margen-top-4em">
-            <img class="titulo-imagen text-center" src="img/t-infraestructura.png">
+            <img class="titulo-imagen text-center" src="<?php echo titulo_imagen("img/t-infraestructura.png") ?>">
         </div>
     </div>
     <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0" id="textotrama1">
