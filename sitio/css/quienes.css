@@ -285,7 +285,7 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
     font-family:'Museo 500 Regular';font-weight:normal;font-size:28px;text-align: center;color:#DA504B;;
 }
 
-#tituloarriba p{
+#tituloarriba p {
     font-family: 'Futura';
     text-align: left;
     color: #818181;
@@ -296,6 +296,12 @@ font-family: 'Futura';    font-size: 19px;    font-weight: 500;    line-height: 
     margin-left: auto;
     margin-right: auto;
 }
+
+.por-que-box p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
 #titulocostadoizquierdo{
  position: relative;
  margin-top: -24%;margin-left: -1%;
