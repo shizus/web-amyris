@@ -113,16 +113,39 @@
     background-image: url(../images/concep-crear.png);
     background-size: contain;
 }
+
+.en-isla-crear-titulo {
+    background-image: url(../images/en-concep-crear.png);
+    background-size: contain;
+}
+
 .isla-descubrir-titulo {
     background-image: url(../images/concep-descubrir.png);
     background-size: contain;
 }
+
+.en-isla-descubrir-titulo {
+    background-image: url(../images/en-concep-descubrir.png);
+    background-size: contain;
+}
+
 .isla-disfrutar-titulo {
     background-image: url(../images/concep-disfrutar.png);
     background-size: contain;
 }
+
+.en-isla-disfrutar-titulo {
+    background-image: url(../images/en-concep-disfrutar.png);
+    background-size: contain;
+}
+
 .isla-sentir-titulo {
     background-image: url(../images/concep-sentir.png);
+    background-size: contain;
+}
+
+.en-isla-sentir-titulo {
+    background-image: url(../images/en-concep-sentir.png);
     background-size: contain;
 }
 

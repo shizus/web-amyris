@@ -9,7 +9,7 @@
                             <span><?php echo $isla_sentir_texto ?></span>
                         </div>
                     </div>
-                    <div class="concepto-titulo-container isla-sentir-titulo">
+                    <div class="concepto-titulo-container <?php echo $idioma_ext?>isla-sentir-titulo">
 <!--                        <h4 class="concepto-titulo">-->
 <!--                                --><?php //echo $isla_sentir_titulo ?>
 <!--                        </h4>-->
@@ -23,7 +23,7 @@
                             <span><?php echo $isla_descubrir_texto ?></span>
                         </div>
                     </div>
-                    <div class="concepto-titulo-container isla-descubrir-titulo">
+                    <div class="concepto-titulo-container <?php echo $idioma_ext?>isla-descubrir-titulo">
 <!--                        <h4 class="concepto-titulo">-->
 <!--                                --><?php //echo $isla_descubrir_titulo ?>
 <!--                        </h4>-->

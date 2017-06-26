@@ -238,13 +238,6 @@ $estandarte_de_calidad_control="Quality Control";
 $estandarte_de_calidad_certificado="Certificate of Analysis";
 $estandarte_de_calidad_servicio="Customer Service";
 
-
-
-
-
-
-
-
 $importamos_cada_componente="Importamos cada uno de los componentes e insumos para
 elaborar las fragancias. Cada insumo que luego se va a
 aplicar en la fragancia, está previamente controlado
@@ -428,3 +421,6 @@ $output_mensaje_error="Could not send mail! Please check your PHP mail configura
 $output_mensaje_exito="Thank you for your email";
 
 
+// No tocar
+
+$idioma_ext="en-";

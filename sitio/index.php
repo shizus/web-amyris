@@ -51,7 +51,7 @@ End Fixed Navigation
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-fragancias-finas">
+                                        <div class="col-md-6 col-sm-12 isla-producto producto-arriba <?php echo $idioma_ext?>producto-fragancias-finas producto-fragancias-finas">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                         <a class="dorado" href="fragancias#productos"><?php echo $fragancias_finas_titulo ?></a>
@@ -62,7 +62,7 @@ End Fixed Navigation
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-sm-12 isla-producto producto-arriba producto-cuidado-personal">
+                                        <div class="col-md-6 col-sm-12 isla-producto producto-arriba <?php echo $idioma_ext?>producto-cuidado-personal producto-cuidado-personal">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                         <a class="dorado" href="fragancias#productos"><?php echo $cuidado_personal_titulo ?></a>
@@ -76,7 +76,7 @@ End Fixed Navigation
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cuidado-hogar">
+                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo <?php echo $idioma_ext?>producto-cuidado-hogar producto-cuidado-hogar">
                                             <div>
                                                 <h4>
                                                     <span class="visible-sm visible-xs hidden-lg hidden-md">
@@ -89,7 +89,7 @@ End Fixed Navigation
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-limpieza">
+                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo <?php echo $idioma_ext?>producto-limpieza producto-limpieza">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                     <a class="dorado" href="fragancias#productos"><?php echo $limpieza ?>
@@ -102,7 +102,7 @@ End Fixed Navigation
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo producto-cosmetica">
+                                        <div class="col-md-4 col-sm-12 isla-producto producto-abajo <?php echo $idioma_ext?>producto-cosmetica producto-cosmetica">
                                             <div>
                                                 <h4> <span class="visible-sm visible-xs hidden-lg hidden-md">
                                                         <a class="dorado" href="fragancias#productos"><?php echo $cosmetica ?></a>

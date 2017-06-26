@@ -463,6 +463,32 @@ Producto /
     background-image: url(../img/transp-automotor.png);
     background-size: cover;
 }
+
+.en-producto-limpieza > div {
+    background-image: url(../images/en-transp-limpieza.png);
+    background-size: cover;
+}
+
+.en-producto-cuidado-hogar > div {
+    background-image: url(../images/en-transp-hogar.png);
+    background-size: cover;
+}
+
+.en-producto-cuidado-personal > div {
+    background-image: url(../images/en-transp-tocador.png);
+    background-size: cover;
+}
+
+.en-producto-fragancias-finas > div {
+    background-image: url(../images/en-transp-fragancias.png);
+    background-size: cover;
+}
+
+.en-producto-cosmetica > div {
+    background-image: url(../images/en-transp-automotor.png);
+    background-size: cover;
+}
+
 .isla-producto p {
     height: 5.4em;
     font-size: 1.4em;
