@@ -10,5 +10,5 @@ if (isset($idioma)) {
 }
 //var_dump($idioma);
 //var_dump($_SESSION["language"]);
-header("Location: http://amyris.com.ar/newamyris");
+header("Location: " . $_SERVER['HTTP_REFERER']);
 die();

@@ -31,7 +31,6 @@ if (!($iPad || $iPhone || $iPod)) {
               }
 
               ?>
-              ?>
                 <div class="slide-caption">
                     <div class="caption-content">
                         <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo1" ><?php echo $bienvenidos ?></h2>

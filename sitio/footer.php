@@ -4,7 +4,7 @@ require_once 'requirelanguage.php';
 
 function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $interno=true) {
     
-    global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto,$derechos_reservados;
+    global $amyris, $fragancias, $expertise, $sustentabilidad, $innovaciones, $contacto,$derechos_reservados, $footer_ubicacion;
     $interno = $interno ? "interno": "";
     ?>
     
@@ -58,7 +58,7 @@ function footer($containerId, $fotoContainerId, $titulo, $texto, $link="#", $int
 							<h2>AMYRIS S.A.</h2>
 							<ul class='fa-ul'>
 								<li><i class='fa-li fa fa-map-marker fa-lg'></i>
-								Cajaraville 2902 y/o Curapaligue 6510, Munro (1605), Pcia de Bs. As.</li>
+								<?php echo $footer_ubicacion; ?></li>
 								<li><i class='fa-li fa fa-envelope fa-lg'></i>
 								<a href='mailto:ventas@amyris.com.ar' class='letra-negra' target="_blank">ventas@amyris.com.ar</a></li>
 								<li><i class='fa-li fa fa-phone fa-lg'></i>
