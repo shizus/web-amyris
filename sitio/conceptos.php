@@ -37,7 +37,7 @@
                             <span><?php echo $isla_crear_texto ?></span>
                         </div>
                     </div>
-                    <div class="concepto-titulo-container isla-crear-titulo">
+                    <div class="concepto-titulo-container <?php echo $idioma_ext?>isla-crear-titulo">
 <!--                        <h4 class="concepto-titulo">-->
 <!--                                --><?php //echo $isla_crear_titulo ?>
 <!--                        </h4>-->
@@ -50,7 +50,7 @@
                             <span><?php echo $isla_disfrutar_texto ?></span>
                         </div>
                     </div>
-                    <div class="concepto-titulo-container isla-disfrutar-titulo">
+                    <div class="concepto-titulo-container <?php echo $idioma_ext?>isla-disfrutar-titulo">
 <!--                        <h4 class="concepto-titulo">-->
 <!--                                --><?php //echo $isla_disfrutar_titulo ?>
 <!--                        </h4>-->
