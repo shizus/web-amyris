@@ -300,7 +300,7 @@ $exclusividad_asesoramiento = htmlentities($exclusividad_asesoramiento, ENT_QUOT
 
 // innovaciones
 
-$valor_ideas="ETHE VALUE OF THE IDEAS ";
+$valor_ideas="THE VALUE OF IDEAS ";
 $otorgando_innovacion="innovation and originality";
 $aprendemos_innovar_departamento="We learn to innovate / Department of Ideas, development, and innovation";
 $amyris_futuro="AMYRIS IS FUTURE";
@@ -409,7 +409,7 @@ $formulario_telefonollamanos="traducir...";
 $formulariomapa_donde="Where we are?";
 $formulariomapa_ubicacion="Our plant production and sales office is located in Cajaraville 2902 or Curapaligue 6510, Munro (1605), province of Buenos Aires.";
 $footer_ubicacion="Cajaraville 2902 or Curapaligue 6510, Munro (1605), province of Buenos Aires.";
-
+$ubicacion = "Cajaraville 2902 and/or Curapaligue 6510,<br> Munro (1605) Pcia. de Bs. As";
 // send-mail
 
 

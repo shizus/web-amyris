@@ -58,7 +58,7 @@ insertar_servicio($amyris_futuro, $brindamos_soluciones_originales);
 
 <div id="frasco" class="row">
     <div class="primero_cuadrado_inno col-md-8 col-md-offset-2" >
-        <img class="titulo-imagen" src="img/t-innovaciones.png">
+        <img class="titulo-imagen" src="<?php echo titulo_imagen("img/t-innovaciones.png") ?>">
     </div>
 </div>
 <div class="row">

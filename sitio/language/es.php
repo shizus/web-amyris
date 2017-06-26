@@ -529,5 +529,8 @@ $formulario_telefonollamanos="¡Llamanos!";
 $formulariomapa_donde="¿Dónde estamos?";
 $formulariomapa_ubicacion="Nuestra Planta de Producción y Oficina de Ventas se encuentra en Cajaraville 2902 y/o Curapaligüe 6510, Munro (1605, Provincia de Buenos Aires)";
 $footer_ubicacion="Cajaraville 2902 y/o Curapaligüe 6510, Munro (1605, Provincia de Buenos Aires)";
+$ubicacion = "Cajaraville 2902 y/o Curapaligue 6510,<br> Munro (1605) Pcia. de Bs. As";
 
+
+// No tocar
 $idioma_ext="";

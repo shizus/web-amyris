@@ -115,7 +115,7 @@ insertar_breadcrumbs($donde_estamos);
   <div class="primero_cuadrado_contacto " >
       <div class="segundo_cuadrado_contacto"  >
           <h2 ><?php echo $planta_produccion ?> </h2>
-          <p >Cajaraville 2902 y/o Curapaligue 6510,<br> Munro (1605) Pcia. de Bs. As<br> 54 11 5197-1918<br> ventas@amyris.com.ar</p>
+          <p ><?php echo $ubicacion ?><br> 54 11 5197-1918<br> ventas@amyris.com.ar</p>
       </div>
   </div>
 </div>
