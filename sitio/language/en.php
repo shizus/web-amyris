@@ -261,8 +261,9 @@ $fabricamos_fragancia_apropiada="WE MANUFACTURE FRAGRANCE SUITABLE FOR EACH PROD
 
 //susten
 $valor_confianza="THE VALUE OF THE TRUST ";
+$garantizando_cuidado = "We guarantee transparency in our processes";
 $valores_barra="Values / Sustainable Approach / How we operate ";
-$enfoque_sustentable="  ";
+$enfoque_sustentable_breadcrumbs="  ";
 $como_operamos=" ";
 
 $amyris_etica="AMYRIS IS ETHICS";

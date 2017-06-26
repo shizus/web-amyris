@@ -42,11 +42,11 @@ require 'header.php';
 </script><!-- start-smoth-scrolling -->
 <?php require_once 'portada.php';
 
-insertar_portada('portada-sustentabilidad', $valor_confianza, $textos2);
+insertar_portada('portada-sustentabilidad', $valor_confianza, $garantizando_cuidado);
 ;?>
 <?php
 require_once 'breadcrumbs.php';
-insertar_breadcrumbs($valores_barra . $enfoque_sustentable . $como_operamos);
+insertar_breadcrumbs($valores_barra . $enfoque_sustentable_breadcrumbs . $como_operamos);
 ?>
 <?php
 require_once "servicio.php";
@@ -55,7 +55,7 @@ insertar_servicio($amyris_etica, $trabajamos_mas_altos);
 
 <div id="sustentabilidad" class="row" >
     <div class="primero_cuadrado_sus col-md-9 col-md-offset-1 col-sm-12 col-sm-offset-0" >
-        <img src="img/t-sustentabilidad.png" class="titulo-imagen">
+        <img src="<?php echo titulo_imagen("img/t-sustentabilidad.png") ?>" class="titulo-imagen">
     </div>
 </div>
 
@@ -85,7 +85,7 @@ insertar_servicio($amyris_etica, $trabajamos_mas_altos);
 
     <div class="cuarto row" >
         <div id="como-operamos" class="segundo_cuadrado_sus col-md-12 text-center">
-            <img class="titulo-imagen" src="img/t-como-operamos.png">
+            <img class="titulo-imagen" src="<?php echo titulo_imagen("img/t-como-operamos.png") ?>">
         </div>
     </div>
     

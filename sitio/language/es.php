@@ -326,8 +326,9 @@ CON EL CONSUMIDOR A TRAVÉS DE UN SELLO PERSONAL.";
 
 //susten
 $valor_confianza="EL VALOR DE LA CONFIANZA";
+$garantizando_cuidado = "garantizando el cuidado de nuestros procesos";
 $valores_barra="Valores / ";
-$enfoque_sustentable=" Enfoque Sustentable /";
+$enfoque_sustentable_breadcrumbs=" Enfoque Sustentable /";
 $como_operamos=" C&oacute;mo Operamos";
 
 $amyris_etica="AMYRIS ES &Eacute;TICA";
