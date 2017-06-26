@@ -20,7 +20,7 @@
 <div class="container">
 	<div class="row fragan"> 
 	<div class="col-md-6 col-md-offset-3">
-      <img src="img/t-fragancias.png" width="100%">
+      <img src="<?php echo titulo_imagen("img/t-fragancias.png") ?>" width="100%">
       </div> 
 	      
 	</div>

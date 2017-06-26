@@ -154,6 +154,7 @@ $laboratorio_control_calidad="Our quality control procedures rigorously analyze 
 $ultima_generacion ="Latest technology in laboratories and industries.";
 
 //fragancias
+$fragancias_titulo="AMYRIS CONCEPTUAL SYSTEM";
 $valor_transmitir_emociones="THE VALUE OF TRANSMIT EMOTIONS ";
 $vinculando_nuestras_fragancias="linking our fragrances with the sensitivity of the consumer";
 $sistema_conceptual_amyris="Amyris Conceptual system / Products";

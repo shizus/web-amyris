@@ -60,7 +60,7 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
 
 <div class="row expertise-container">
     <div class="col-md-12">
-        <img src="img/t-expertise.png" class="titulo-imagen">
+        <img src="<?php echo titulo_imagen("img/t-expertise.png") ?>" class="titulo-imagen">
     </div>
 </div>
 
