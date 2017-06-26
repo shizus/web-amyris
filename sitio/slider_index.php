@@ -1,4 +1,20 @@
-<div id="video-slide"></div>
+<?php
+$iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+$iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+$iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+
+if (!($iPad || $iPhone || $iPod)) {
+    ?>
+    <div id="video-slide"></div>
+<?php
+
+} else {
+
+}
+
+?>
+
+
 
 <section id="home-slider">
     <div id="slider" class="sl-slider-wrapper">
@@ -6,7 +22,16 @@
         <div class="sl-slider hide-until-dom-ready">
 
             <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+              <?php
+              if (($iPad || $iPhone || $iPod)) {
+                ?>
+                  <div class="bg-img bg-img-1"></div>
+                <?php
+  
+              }
 
+              ?>
+              ?>
                 <div class="slide-caption">
                     <div class="caption-content">
                         <h2 class="wow fadeInDown animated primero centered slider-size" id="titulo1" ><?php echo $bienvenidos ?></h2>
