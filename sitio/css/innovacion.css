@@ -303,6 +303,7 @@ h3.textoinno1  {
     background-image: url(../images/inn-6.jpg);
     background-size: cover;
     height: 25em;
+    background-position-x: right;
 }
 .trama33 {
     background-image: url(../images/trama-inn.jpg);

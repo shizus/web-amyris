@@ -283,6 +283,7 @@ img.portfolio {
                     rgba(162, 148, 107, 0.8)
             ),
             url(../images/c1.jpg);
+    background-size: cover;
 }
 .c2-jpg:hover {
     background:
