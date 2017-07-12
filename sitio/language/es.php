@@ -457,7 +457,7 @@ $donde_estamos="&iquest;D&oacute;nde estamos? / H&aacute;ganos su consulta";
 $conocer_necesidades="En Amyris, nos interesa conocer las necesidades y la opini&oacute;n de cada cliente.<br>
 Queremos que se involucre en cada detalle del proceso de creaci&oacute;n y fabricaci&oacute;n,<br>
 para que podamos as&iacute;, atender a cualquier sugerencia.";
-$planta_produccion="DONDE ESTAMOS";
+$planta_produccion="Planta de Producci&oacute;n y Oficina de Ventas";
 $haganos_consulta="H&Aacute;GANOS SU CONSULTA";
 $nombre_apellido="NOMBRE Y APELLIDO";
 $email_label="EMAIL";
@@ -468,7 +468,7 @@ $enviar="ENVIAR";
 $mensaje_enviado="El mensaje ha sido enviado.¡Muchas Gracias! En breve nos pondremos en contacto.";
 
 
-$donde_estamos_consulta="Planta de Producci&oacute;n y Oficina de Ventas";
+$donde_estamos_consulta="DONDE ESTAMOS";
 
 
 $amyris_estrictos_detalle="EN AMYRIS, SOMOS ESTRICTOS EN CADA DETALLE DEL PROCESO DE FABRICACI&oacute;N Y ENTREGA. ESTA ES UNA DE LAS
