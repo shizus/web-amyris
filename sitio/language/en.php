@@ -69,7 +69,7 @@ $botoncontacto="CONTACT";
 
 //index
 
-$bienvenidos="WELCOME TO AMYRIS";
+$bienvenidos="WELCOME TO";
 $creamos_fragancias="WE CREATE FRAGRANCES";
 $creamos_sensaciones="WE CREATE SENSATIONS";
 
@@ -205,7 +205,7 @@ $crear="CREATE";
 $disfrutar="ENJOY";
 
 // expertise
-$ultima_generacion ="Tecnología de última generación en los laboratorios y sectores productivos";
+$ultima_generacion ="Latest technology in laboratories and industries.";
 $valor_brindar_calidad="THE VALUE OF PROVIDING QUALITY ";
 $controlando_nuestros_productos="control in our products and procedures";
 $desarrollo_creacion_infraestructura="Development and creation / Infrastructure / Quality Control / Trade";
@@ -306,7 +306,7 @@ $departamento_ideas="DEPARTMENT OF IDEAS, DEVELOPMENT, AND INNOVATION";
 $consumidor_fuente_inspiracion="Amyris, the consumer is the source of inspiration. Our goal is that the desired fragrance can be obtained with the highest quality and originality. We have a Department of IDEAS, product development and innovation professionals of different specializations who work researching new proposals, where processes are constantly evaluated and applied to new technologies, tools and trends that will generate a differentiated product.";
 
 
-$idi_nos_permite="EOUR DEVELOPMENT DEPARTMENT OFFERS A COMPLETE AND EFFICIENT COMMERCIAL SERVICE ";
+$idi_nos_permite="OUR DEVELOPMENT DEPARTMENT OFFERS A COMPLETE AND EFFICIENT COMMERCIAL SERVICE ";
 
 
 $generar_nuevos_productos="TO GENERATE NEW PRODUCTS AND THE REDESIGN OR OPTIMIZATION OF EXISTING ONES, ALWAYS SUPPORTED BY OUR TECHNICAL AND COMMERCIAL DEPARTMENTS";
@@ -329,7 +329,6 @@ $generamos_vinculos="releases generating reliable and durable links";
 $donde_estamos="Where are we? / Ask us your question";
 $conocer_necesidades="In Amyris, we want to know the needs of each of our clients.<br>
 We want to involve you in every detail of the process from creation to production.";
-$donde_estamos="WHERE ARE WE";
 $planta_produccion="Plant production and sales office";
 $haganos_consulta="ASK US YOUR QUESTION";
 $nombre_apellido="NAME AND SURNAME";
@@ -340,7 +339,7 @@ $mensaje_label="MESSAGE";
 $enviar="SEND";
 $mensaje_enviado="Message has been sent. Thank you!";
 
-$donde_estamos_consulta="Production Plant and Sales Office";
+$donde_estamos_consulta="WHERE ARE WE";
 
 
 $amyris_estrictos_detalle="IN AMYRIS, ARE STRICT IN EVERY DETAIL OF THE PROCESS OF MANUFACTURE AND DELIVERY. THIS IS ONE OF THE MAIN REASONS WHY LEADING COMPANIES TRUST US.";
@@ -348,7 +347,6 @@ $gracias_por_consulta="Message has been sent.";
 $nos_comunicaremos="Thank you!.";
 
 
-$donde_estamos_consulta="";
 $cambiarIdioma="Cambiar Idioma";
 $inicio="Inicio";
 $spanish="Español";

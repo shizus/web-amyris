@@ -92,10 +92,11 @@ insertar_servicio($amyris_etica, $trabajamos_mas_altos);
     <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center wow animated fadeInDown" id="columnadocesusten" >
             <h1 ><?php echo $capacitamos_personal ?> </h1>
+        </div>
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center wow animated fadeInDown">
             <img id="corchete" class="pilares" src="images/corchete.png" >
         </div>
     </div>
-    <img class="hidden-lg hidden-md visible-sm visible-xs corchete-responsive" src="images/corchete.png" >
 
     
     <div class="row seguridad-higiene">

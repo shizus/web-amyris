@@ -1464,7 +1464,11 @@ img.footer-nube {
 }
 #conteinersustenta{
     margin-top: 10%;
+}
 
+
+#susten {
+    margin-top: 3em;
 }
 
 ultimafoto{
@@ -1915,9 +1919,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin-left: 1em;
         margin-right: 1em;
     }
-    .pilares {
-        display: none;
-    }
+
 
     .titulo-dorado {
         font-size: 2.5em;
@@ -2528,7 +2530,7 @@ and (orientation : landscape) { /* STYLES GO HERE */
     }
 
     img#corchete {
-        margin-top: 4em;
+        margin-top: 3em;
     }
 
     .col-md-4-5 {
@@ -3205,4 +3207,20 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
 
+}
+
+/* pantalla grande */
+@media only screen
+and (min-device-width : 1920px) {
+    .isla-producto {
+        height: 29em;
+    }
+
+    .isla-producto p {
+        margin: 4.5em 1.7em;
+    }
+
+    img.nube-link {
+        margin-top: -1em;
+    }
 }
