@@ -439,55 +439,58 @@ Producto /
     height: 100%;
 }
 
+
+
 .producto-limpieza > div {
-    background-image: url(../img/transp-limpieza.png);
+    background-image: url(../images/tit-limpieza.png);
     background-size: cover;
 }
 
 .producto-cuidado-hogar > div {
-    background-image: url(../img/transp-hogar.png);
+    background-image: url(../images/tit-cuidado-hogar.png);
     background-size: cover;
 }
 
 .producto-cuidado-personal > div {
-    background-image: url(../img/transp-tocador.png);
+    background-image: url(../images/tit-cuidado-personal.png);
     background-size: cover;
 }
 
 .producto-fragancias-finas > div {
-    background-image: url(../img/transp-fragancias.png);
+    background-image: url(../images/tit-fragancias-finas.png);
     background-size: cover;
 }
 
 .producto-cosmetica > div {
-    background-image: url(../img/transp-automotor.png);
+    background-image: url(../images/tit-cosmetica-automotor.png);
     background-size: cover;
 }
 
 .en-producto-limpieza > div {
-    background-image: url(../images/en-transp-limpieza.png);
+    background-image: url(../images/e-tit-limpieza.png);
     background-size: cover;
 }
 
 .en-producto-cuidado-hogar > div {
-    background-image: url(../images/en-transp-hogar.png);
+    background-image: url(../images/e-tit-cuidado-hogar.png);
     background-size: cover;
 }
 
 .en-producto-cuidado-personal > div {
-    background-image: url(../images/en-transp-tocador.png);
+    background-image: url(../images/e-tit-cuidado-personal.png);
     background-size: cover;
 }
 
 .en-producto-fragancias-finas > div {
-    background-image: url(../images/en-transp-fragancias.png);
+    background-image: url(../images/e-tit-fragancias-finas.png);
     background-size: cover;
 }
 
 .en-producto-cosmetica > div {
-    background-image: url(../images/en-transp-automotor.png);
+    background-image: url(../images/e-tit-cosmetica-automotor.png);
     background-size: cover;
 }
+
 
 .isla-producto p {
     height: 5.4em;

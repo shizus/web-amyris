@@ -2423,6 +2423,59 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */
 
+
+
+    .producto-limpieza > div {
+        background-image: url(../img/transp-limpieza.png);
+        background-size: cover;
+    }
+
+    .producto-cuidado-hogar > div {
+        background-image: url(../img/transp-hogar.png);
+        background-size: cover;
+    }
+
+    .producto-cuidado-personal > div {
+        background-image: url(../img/transp-tocador.png);
+        background-size: cover;
+    }
+
+    .producto-fragancias-finas > div {
+        background-image: url(../img/transp-fragancias.png);
+        background-size: cover;
+    }
+
+    .producto-cosmetica > div {
+        background-image: url(../img/transp-automotor.png);
+        background-size: cover;
+    }
+
+    .en-producto-limpieza > div {
+        background-image: url(../images/en-transp-limpieza.png);
+        background-size: cover;
+    }
+
+    .en-producto-cuidado-hogar > div {
+        background-image: url(../images/en-transp-hogar.png);
+        background-size: cover;
+    }
+
+    .en-producto-cuidado-personal > div {
+        background-image: url(../images/en-transp-tocador.png);
+        background-size: cover;
+    }
+
+    .en-producto-fragancias-finas > div {
+        background-image: url(../images/en-transp-fragancias.png);
+        background-size: cover;
+    }
+
+    .en-producto-cosmetica > div {
+        background-image: url(../images/en-transp-automotor.png);
+        background-size: cover;
+    }
+
+
     .pilares-box {
         margin-top: 3em;
     }
