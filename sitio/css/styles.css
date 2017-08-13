@@ -1972,6 +1972,25 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin-right: auto !important;
     }
 
+    #porque img.icono-responsive {
+        margin-top: 2em;
+        margin-bottom: -1em;
+    }
+
+    #porque #sustencolumna4 img.icono-responsive {
+        margin-top: 3em;
+    }
+
+    #porque .pilares {
+        display: none;
+    }
+
+
+    #desarrollo img.icono-responsive {
+        margin-top: 2em;
+        margin-bottom: -1em;
+    }
+
     .amyris-nav-container {
         background-image: url(../images/responsive-001.jpg);
         background-size: cover;
@@ -2240,6 +2259,10 @@ and (orientation : portrait) { /* STYLES GO HERE */
         width: 100%;
     }
 
+    .columna12 img.pilares {
+        display: none;
+    }
+
     #desarrollo {
         height: auto;
         padding-bottom: 1em;
@@ -2414,6 +2437,10 @@ and (orientation : portrait) { /* STYLES GO HERE */
         font-size: 2em;
         text-transform: uppercase;
         text-align: center;
+    }
+
+    #desarrollo h2, #desarrollo .columna2 h2{
+        font-size: 1.5em;
     }
 
 }
@@ -3047,11 +3074,14 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     .primero_cuadrado_sus {
         height: 20em;
+        float: none;
+        margin: 0 auto;
     }
 
     .titulo-imagen,
     #sustentabilidad .titulo-imagen {
-        width: 15em;
+        width: 21em;
+        margin-left: 1em;
     }
 
     .boton {
@@ -3059,7 +3089,12 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
     #como-operamos .titulo-imagen {
-        width: 15em;
+        width: 20em;
+        margin-left: 0;
+    }
+
+    .seguridad-higiene #sustencolumna3 {
+        display: none;
     }
 
     #columnadocesusten {
