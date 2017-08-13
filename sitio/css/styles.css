@@ -1812,6 +1812,10 @@ and (orientation : portrait) { /* STYLES GO HERE */
         text-align: center;
     }
 
+    .lb-nav a.lb-prev, .lb-nav a.lb-next {
+        background-size: 3em;
+    }
+
     .dummy-cruz-row,
     #botonesarriba {
         display: none;
@@ -1909,7 +1913,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
         margin-left: 0;
     }
 
-    #columnacontrol4 {
+    #columnacontrol4, #columnacontrol6 {
         margin-top: 0;
     }
 
@@ -2372,22 +2376,57 @@ and (orientation : portrait) { /* STYLES GO HERE */
     #columnacontrol5 .p0,
     #columnacontrol5 .p1,
     #columnacontrol5 .p2,
-    #columnacontrol4 h1{
+    #columnacontrol4 h1,
+    #columnacontrol6 h1{
         margin-left: 1em;
         margin-right: 1em;
         text-align: center;
+    }
+
+    #columnacontrol6 h1{
+        font-family: 'Futura';
+        font-weight: normal;
+        font-size: 33px;
+        color: #D1BE87;
+    }
+
+    #columnacontrol4 h1, #columnacontrol4 h1, #columnacontrol4 li{
+        display: none;
+    }
+
+    #columnacontrol6 {
+        display: block;
+        padding-bottom: 3em;
+        margin-top: -2em;
+    }
+
+    #columnacontrol6 li {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     #columnacontrol5 {
         margin-left: 0;
     }
 
-    #columnacontrol4 ul {
+    #columnacontrol4 ul, #columnacontrol6 ul {
         padding-left: 1em;
         padding-right: 0.5em;
         width: 21em;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #columnacontrol6 li img {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    #columnacontrol6 ul {
+        font-family: 'Futura';
+        font-size: 14pt;
+        font-weight: 100;
+        list-style-type: none;
     }
 
     #mapa .imagen2 {
@@ -3082,6 +3121,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #sustentabilidad .titulo-imagen {
         width: 21em;
         margin-left: 1em;
+    }
+
+    #tramaexpertise .titulo-imagen {
+        margin-left: 0em;
+        width: 23em;
     }
 
     .boton {

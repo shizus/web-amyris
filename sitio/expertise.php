@@ -175,6 +175,19 @@ insertar_servicio($amyris_armonia_aire, $buscamos_generar_conexion);
         <p   class="p0 parrafo-destacado" ><?php echo $respeto_por_cliente ?></p>
     </div>
 
+    <div class="col-md-4 col-md-offset-1" id="columnacontrol6" >
+        <h1 ><?php echo $estandarte_de_calidad ?></h1>
+        <ul>
+            <li><img src="images/icono-estandarte1.png"><?php echo $articulo1 ?><b><?php echo $estandarte_de_calidad_creacion ?></b></li>
+            <li><img src="images/icono-estandarte2.png"><?php echo $articulo2 ?><b><?php echo $estandarte_de_calidad_procesos ?></b></li>
+            <li><img src="images/icono-estandarte3.png"><?php echo $articulo3 ?><b><?php echo $estandarte_de_calidad_cronograma ?></b></li>
+            <li><img src="images/icono-estandarte4.png"><?php echo $articulo3 ?> <b><?php echo $estandarte_de_calidad_control ?></b></li>
+            <li><img src="images/icono-estandarte5.png"><?php echo $articulo4 ?> <b><?php echo $estandarte_de_calidad_certificado ?></b></li>
+            <li><img src="images/icono-estandarte6.png"><?php echo $articulo3 ?> <b><?php echo $estandarte_de_calidad_servicio ?></b></li>
+        </ul>
+
+    </div>
+
 </div>
 
 <div id="mapa" class="row">

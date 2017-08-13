@@ -9,6 +9,10 @@
     width: 800px;
   }
 
+#columnacontrol6 {
+    display: none;
+}
+
  #textoquienes h3 {
     font-size: 25px;
     color: #DA504B;
