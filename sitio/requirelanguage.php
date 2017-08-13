@@ -1,6 +1,9 @@
 <?php
 
-session_start();
+if(!isset($_SESSION)) 
+{ 
+	session_start(); 
+}
 //var_dump($_SESSION["language"]);
 if (empty($_SESSION["language"])) {
 
