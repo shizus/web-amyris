@@ -2150,9 +2150,14 @@ and (orientation : portrait) { /* STYLES GO HERE */
         text-align: center;
     }
 
+    #titulo1 {
+        font-size: 2.5em;
+        margin-top: 1.5em;
+    }
+
     #titulo3,
     #titulo4 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .conceptos .row {
@@ -2890,6 +2895,11 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         margin-left: -1em;
     }
 
+    .fondo-blanco img{
+        height: 6em;
+        max-width: inherit;
+    }
+
     #titulo1,
     #titulo2,
     #titulo3,
@@ -2958,8 +2968,12 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
     .navbar-brand img {
-        margin-top: 0em;
-        height: 2em;
+        margin-top: -0.7em;
+        height: 3em;
+    }
+
+    footer h2 {
+        font-size: 1.3em;
     }
 
     .conceptos-row {
