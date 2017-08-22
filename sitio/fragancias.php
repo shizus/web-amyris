@@ -58,7 +58,7 @@
 
     <div class="row hidden-md hidden-lg visible-xs visible-sm">
         <div class="col-md-12">
-            <div class="row">
+            <div class="row conceptos">
                 <div class="col-md-12 texto-centrado"><?php echo $sentir ?></div>
                 <div class="col-md-12 dorado">
                   <?php echo $sentir_descripcion ?>
