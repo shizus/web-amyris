@@ -48,6 +48,18 @@ label {
     text-align: center;
 }
 
+.conceptos .texto-centrado {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: -0.75em;
+}
+
+.quintos-descripciones h3 {
+    color: #DA504B;
+    font-size: 24px;
+    margin-top: 80px;
+}
+
 .titulo-dorado {
     font-family: 'Museo 500 Regular';
     font-weight: normal;
@@ -1736,6 +1748,10 @@ and (orientation : portrait) {
         margin-top: 4em;
     }
 
+    .pilares, .pilares-box > img {
+        display: none;
+    }
+
     .por-que-box img,
     #tituloabajo img {
         margin-top: 3em;
@@ -1757,7 +1773,6 @@ and (orientation : portrait) {
         font-size: 18px;
         line-height: 30px;
     }
-
 
     #automotor {
         background-position-y: -226px !important;
@@ -1826,14 +1841,26 @@ and (orientation : portrait) { /* STYLES GO HERE */
         text-align: center;
     }
 
+    .por-que-izquierda-box h1, #tituloarriba h1{
+        margin-top: 5px;
+    }
+
     .por-que-derecha-box h1,
     .por-que-derecha-box {
         text-align: center;
     }
 
+    .por-que-derecha-box h1 {
+        margin-top: 5px;
+    }
+
     #titulocostadoizquierdo h1, #titulocostadoderecho h1, #tituloabajo h1 {
         margin-top: 20px;
         margin-bottom: 10px;
+    }
+
+    #tituloabajo h1 {
+        margin-top: 5px;
     }
 
     #titulocostadoderecho p {
@@ -3014,7 +3041,7 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     }
 
     .segundo_cuadrado_quienes img {
-        width: 10em;
+        width: 15em;
     }
 
     .tramado-background {
@@ -3039,11 +3066,23 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
         font-family: Futura;
     }
 
+    #tituloarriba p {
+        margin: 0.5em 0.5em 2em 0.5em;
+    }
+
+    .pilares, .pilares-box > img {
+        display: none;
+    }
+
     .por-que-box p {
         margin: 0.5em;
         text-align: center;
         font-size: 18px;
         line-height: 1.5em;
+    }
+
+    .por-que-box p {
+        margin: 0.5em 0.5em 2em 0.5em;
     }
 
     #susten {
@@ -3121,6 +3160,17 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
     #sustentabilidad .titulo-imagen {
         width: 21em;
         margin-left: 1em;
+    }
+
+    #frasco .titulo-imagen {
+        width: 21em;
+        margin-left: 0em;
+    }
+
+    .columna12 h3 {
+        color: #D1BE87;
+        margin-top: 1.5em;
+        padding: 0 0.25em;
     }
 
     #tramaexpertise .titulo-imagen {
