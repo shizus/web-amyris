@@ -56,8 +56,8 @@ require_once "servicio.php";
 insertar_servicio($amyris_futuro, $brindamos_soluciones_originales);
 ?>
 
-<div id="frasco" class="row primero_cuadrado_inno">
-    <div class="col-md-12" id="cuain1">
+<div id="frasco" class="row">
+    <div class="primero_cuadrado_inno col-md-8 col-md-offset-2" >  
         <img class="titulo-imagen" src="<?php echo titulo_imagen("img/t-innovaciones.png") ?>">
     </div>
 </div>

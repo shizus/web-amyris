@@ -3178,7 +3178,7 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
     #frasco .titulo-imagen {
         width: 21em;
-        margin-left: 0em;
+        margin-left: -3em;
     }
 
     .columna12 h3 {
