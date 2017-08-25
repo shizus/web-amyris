@@ -1875,6 +1875,10 @@ and (orientation : portrait) { /* STYLES GO HERE */
         font-size: 2em;
     }
 
+    .close {
+        opacity: 1;
+    }
+
     #porqueamir {
         margin-top: 14em;
     }
