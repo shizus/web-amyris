@@ -2,8 +2,9 @@
 $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
 $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+$Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
 
-if (!($iPad || $iPhone || $iPod)) {
+if (!($iPad || $iPhone || $iPod || $Android)) {
     ?>
     <div id="video-slide"></div>
 <?php
@@ -23,7 +24,7 @@ if (!($iPad || $iPhone || $iPod)) {
 
             <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
               <?php
-              if (($iPad || $iPhone || $iPod)) {
+              if (($iPad || $iPhone || $iPod || $Android)) {
                 ?>
                   <div class="bg-img bg-img-1"></div>
                 <?php
